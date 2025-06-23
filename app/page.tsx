@@ -716,7 +716,7 @@ Associate Professor – Kantipur Engineering College
             <span className="wavy-letter">r</span>
             <span className="wavy-letter">o</span>
             <span className="wavy-letter">j</span>
-            <span className="wavy-letter"> </span>
+            &nbsp;
             <span className="wavy-letter text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 dark:from-cyan-400 dark:to-purple-500">
               D
             </span>
