@@ -592,7 +592,7 @@ Associate Professor – Kantipur Engineering College
               <span className="wavy-letter">r</span>
               <span className="wavy-letter">o</span>
               <span className="wavy-letter">j</span>
-              <span className="wavy-letter"> </span>
+              &nbsp;
               <span className="wavy-letter">/</span>
               <span className="wavy-letter">{">"}</span>
             </div>
@@ -807,7 +807,7 @@ Associate Professor – Kantipur Engineering College
               <span className="wavy-letter">o</span>
               <span className="wavy-letter">u</span>
               <span className="wavy-letter">t</span>
-              <span className="wavy-letter"> </span>
+              &nbsp;
               <span className="wavy-letter">M</span>
               <span className="wavy-letter">e</span>
             </h2>
@@ -901,9 +901,9 @@ Associate Professor – Kantipur Engineering College
               <span className="wavy-letter">l</span>
               <span className="wavy-letter">l</span>
               <span className="wavy-letter">s</span>
-              <span className="wavy-letter"> </span>
+              &nbsp;
               <span className="wavy-letter">&</span>
-              <span className="wavy-letter"> </span>
+              &nbsp;
               <span className="wavy-letter">T</span>
               <span className="wavy-letter">e</span>
               <span className="wavy-letter">c</span>
@@ -962,7 +962,7 @@ Associate Professor – Kantipur Engineering College
               <span className="wavy-letter">r</span>
               <span className="wavy-letter">e</span>
               <span className="wavy-letter">d</span>
-              <span className="wavy-letter"> </span>
+              &nbsp;
               <span className="wavy-letter">P</span>
               <span className="wavy-letter">r</span>
               <span className="wavy-letter">o</span>
@@ -1111,10 +1111,10 @@ Associate Professor – Kantipur Engineering College
                   <span className="wavy-letter">o</span>
                   <span className="wavy-letter">a</span>
                   <span className="wavy-letter">d</span>
-                  <span className="wavy-letter"> </span>
+                  &nbsp;
                   <span className="wavy-letter">M</span>
                   <span className="wavy-letter">y</span>
-                  <span className="wavy-letter"> </span>
+                  &nbsp;
                   <span className="wavy-letter">R</span>
                   <span className="wavy-letter">e</span>
                   <span className="wavy-letter">s</span>
@@ -1166,10 +1166,10 @@ Associate Professor – Kantipur Engineering College
               <span className="wavy-letter">G</span>
               <span className="wavy-letter">e</span>
               <span className="wavy-letter">t</span>
-              <span className="wavy-letter"> </span>
+              &nbsp;
               <span className="wavy-letter">I</span>
               <span className="wavy-letter">n</span>
-              <span className="wavy-letter"> </span>
+              &nbsp;
               <span className="wavy-letter">T</span>
               <span className="wavy-letter">o</span>
               <span className="wavy-letter">u</span>
