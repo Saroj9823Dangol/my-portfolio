@@ -826,10 +826,10 @@ Associate Professor – Kantipur Engineering College
                 responsive interfaces.
               </p>
               <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed font-light">
-                Graduate of Computer Engineering from Tribhuvan University with
-                semester scholarships. AWS Academy Cloud Foundations certified.
-                Adept at collaborating across teams, optimizing codebases, and
-                implementing modern web technologies.
+                Graduate of Computer Engineering from Tribhuvan University. AWS
+                Academy Cloud Foundations certified. Adept at collaborating
+                across teams, optimizing codebases, and implementing modern web
+                technologies.
               </p>
               <div className="flex flex-wrap gap-4">
                 <div className="flex items-center gap-2 text-blue-600 dark:text-cyan-400 interactive-hover">
