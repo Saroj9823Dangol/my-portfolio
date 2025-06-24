@@ -157,6 +157,33 @@ export default function Portfolio() {
 
   const projects = [
     {
+      title: "Nepal Kabaddi League (NKL)",
+      description:
+        "Responsive sports platform showcasing fixtures, scores, standings with secure role-based admin panel.",
+      image: "/images/nepalkabaddi.png",
+      tech: ["Next.js", "Tailwind CSS", "Firebase", "MongoDB"],
+      github: "https://github.com/Saroj9823Dangol",
+      live: "#",
+    },
+    {
+      title: "Sajilo Ride Sharing",
+      description:
+        "Google Maps-based ride sharing platform with fare calculations, live location tracking, and real-time ride requests.",
+      image: "/images/sajilosaathi.png",
+      tech: ["React", "Node.js", "Google Maps API", "MongoDB"],
+      github: "https://github.com/Saroj9823Dangol",
+      live: "#",
+    },
+    {
+      title: "LAURE",
+      description:
+        "Official website of celebrity singer and rapper LAURE, featuring music releases, tour dates, merchandise, and exclusive content.",
+      image: "/images/laure.png",
+      tech: ["Laravel", "Node.js", "Mysql", "Tailwind CSS"],
+      github: "https://github.com/Saroj9823Dangol",
+      live: "#",
+    },
+    {
       title: "Hamro Blood Bank (HBB)",
       description:
         "A real-time blood donation platform with donor notifications, location-based search, and mobile app integration.",
@@ -165,6 +192,27 @@ export default function Portfolio() {
       github: "https://github.com/Saroj9823Dangol",
       live: "https://hamrobloodbank.com",
     },
+
+    {
+      title: "Miami Saloon",
+      description:
+        "A sleek salon and barbershop booking platform offering real-time appointment scheduling, service catalog, stylist profiles, and customer reviews.",
+      image: "/images/miami-saloon.png",
+      tech: ["Inertia JS", "Laravel", "Tailwind CSS"],
+      github: "https://github.com/Saroj9823Dangol",
+      live: "#",
+    },
+
+    {
+      title: "Citygarms",
+      description:
+        "A modern e-commerce platform offering trendy fashion and accessories with seamless shopping experiences, secure payments, and user-friendly navigation.",
+      image: "/images/citygarms.png",
+      tech: ["React", "Tailwind CSS", "Vite"],
+      github: "https://github.com/Saroj9823Dangol",
+      live: "#",
+    },
+
     {
       title: "Shivalaya Holidays",
       description:
@@ -183,29 +231,12 @@ export default function Portfolio() {
       github: "https://github.com/Saroj9823Dangol",
       live: "#",
     },
+
     {
-      title: "Sajilo Ride Sharing",
+      title: "Social Work Institute",
       description:
-        "Google Maps-based ride sharing platform with fare calculations, live location tracking, and real-time ride requests.",
-      image: "/images/sajilosaathi.png",
-      tech: ["React", "Node.js", "Google Maps API", "MongoDB"],
-      github: "https://github.com/Saroj9823Dangol",
-      live: "#",
-    },
-    {
-      title: "Nepal Kabaddi League (NKL)",
-      description:
-        "Responsive sports platform showcasing fixtures, scores, standings with secure role-based admin panel.",
-      image: "/images/nepalkabaddi.png",
-      tech: ["Next.js", "Tailwind CSS", "Firebase", "MongoDB"],
-      github: "https://github.com/Saroj9823Dangol",
-      live: "#",
-    },
-    {
-      title: "Fiscal Website",
-      description:
-        "Business accounting and taxation management platform with modern UI and comprehensive financial tools.",
-      image: "/images/fiscal.png",
+        "A platform empowering youth through skill development training, community engagement programs, and resources for social work initiatives.",
+      image: "/images/swi.png",
       tech: ["React", "Tailwind CSS", "Vite"],
       github: "https://github.com/Saroj9823Dangol",
       live: "#",
@@ -1038,7 +1069,7 @@ export default function Portfolio() {
                   Computer Engineering graduate with AWS certification.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <a href="/Saroj_Dangol_CV.pdf" download>
+                  <a target="__blank" href="/Saroj_Dangol_CV.pdf">
                     <Button className="bg-gradient-to-r from-blue-600 to-purple-600 dark:from-cyan-500 dark:to-purple-500 hover:from-blue-700 hover:to-purple-700 dark:hover:from-cyan-600 dark:hover:to-purple-600 text-white px-6 sm:px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-blue-500/25 dark:hover:shadow-cyan-500/25 button-hover font-medium">
                       <Download className="w-5 h-5 mr-2" />
                       Download Resume
