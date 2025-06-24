@@ -251,96 +251,6 @@ export default function Portfolio() {
     setMobileMenuOpen(false);
   };
 
-  // Function to download the CV as text (fallback since PDF failed)
-  const downloadCV = () => {
-    const cvContent = `SAROJ DANGOL
-Full Stack Developer
-Lalitpur, Bagmati 44700 | +977 9863485599 | saroj9823dangol@gmail.com
-GitHub: https://github.com/Saroj9823Dangol | LinkedIn: https://www.linkedin.com/in/er-saroj-dangol-9492bb216
-
-PROFESSIONAL SUMMARY
-Versatile and performance-driven Full Stack Developer with 3+ years of hands-on experience building scalable web and mobile applications. Proven track record of improving performance, integrating complex APIs, and delivering pixel-perfect, responsive interfaces. Adept at collaborating across teams, optimizing codebases, and implementing modern web technologies. Seeking to bring strong technical and problem-solving skills to a dynamic engineering team.
-
-TECHNICAL SKILLS
-Frontend: React.js, Next.js, Tailwind CSS, HTML5, CSS3
-Backend: Node.js, NestJS, Express.js, RESTful APIs
-Mobile: React Native (Android/iOS)
-Database: MySQL, MongoDB, PostgreSQL
-Other: API Integration, Redux, State Management, Git, Docker, AWS Foundations
-
-WORK EXPERIENCE
-
-Full Stack Developer | Marichitech AI — Kathmandu (Remote) | Nov 2024 – Present
-- Developed dynamic web applications with scalable backends and modern UI components
-- Integrated third-party APIs to expand product features and improve user experience
-- Improved page load speeds by optimizing frontend assets and lazy-loading images
-- Led performance tuning of React apps and API endpoints, reducing latency by 35%
-
-Full Stack Web Developer | Apptechnologies — Lalitpur | Oct 2023 – Present
-- Designed and implemented responsive user interfaces using React.js and Tailwind
-- Built secure APIs and improved backend logic with NestJS and Node.js
-- Increased application performance by optimizing server responses and client-side rendering
-- Applied mobile-first design principles, ensuring full compatibility across devices
-
-Backend Developer | Apptechnologies — Lalitpur | Jan 2022 – Oct 2023
-- Developed REST APIs for scalable web apps using Node.js and SQL
-- Integrated third-party services (e.g., SMS, payment gateways) to enhance user journeys
-- Wrote optimized SQL queries for complex data operations
-- Handled deployments and continuous integration with Git workflows
-
-React Intern | Apptechnologies — Lalitpur | Sep 2021 – Dec 2021
-- Contributed to multiple frontend projects, gaining real-world experience in React
-- Collaborated with the senior team on code reviews and feature releases
-- Built reusable UI components to speed up development cycles
-
-EDUCATION
-B.Sc. in Computer Engineering | Tribhuvan University – Kathmandu (Kantipur Engineering College) | Graduated: August 2023
-Honors: Semester Scholarships: II, IV, V, VI
-
-CERTIFICATIONS
-AWS Academy Cloud Foundations – AWS Academy Graduate | August 2022
-
-KEY PROJECTS
-1. Sajilo Ride Sharing Platform (Web & CMS)
-   - Developed Google Maps-based fare calculations and live location tracking
-   - Built REST APIs for real-time ride requests and user authentication
-   - Enhanced UI with responsive design for CMS and user dashboard
-
-2. Hamro Blood Bank (Web & Mobile)
-   Website: https://hamrobloodbank.com
-   - Engineered a real-time blood donation platform using React, Next.js, and React Native
-   - Integrated donor notifications, location-based blood search, and real-time updates
-   - Used Redux for scalable state management
-
-3. Nepal Kabaddi League (NKL)
-   - Developed a responsive sports platform to showcase fixtures, scores, and standings
-   - Built secure role-based admin panel for content and match management
-
-4. Shivalaya Holidays (Frontend)
-   Website: https://shivalayaholidays.com
-   - Delivered a clean and functional frontend for travel bookings using React and Laravel-Inertia
-   - Integrated tour details, booking modals, and dynamic content management
-
-LANGUAGES
-English: Full Professional Proficiency
-Hindi: Professional Working Proficiency
-
-REFERENCE
-Pralhad Chapagain
-Associate Professor – Kantipur Engineering College
-+977 9849867329 | pralhadchapagain@kec.edu.np`;
-
-    const blob = new Blob([cvContent], { type: "text/plain;charset=utf-8" });
-    const url = window.URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = "Saroj_Dangol_Resume.txt";
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-    window.URL.revokeObjectURL(url);
-  };
-
   if (!mounted) {
     return null;
   }
@@ -1128,13 +1038,12 @@ Associate Professor – Kantipur Engineering College
                   Computer Engineering graduate with AWS certification.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button
-                    onClick={downloadCV}
-                    className="bg-gradient-to-r from-blue-600 to-purple-600 dark:from-cyan-500 dark:to-purple-500 hover:from-blue-700 hover:to-purple-700 dark:hover:from-cyan-600 dark:hover:to-purple-600 text-white px-6 sm:px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-blue-500/25 dark:hover:shadow-cyan-500/25 button-hover font-medium"
-                  >
-                    <Download className="w-5 h-5 mr-2" />
-                    Download Resume
-                  </Button>
+                  <a href="/Saroj_Dangol_CV.pdf" download>
+                    <Button className="bg-gradient-to-r from-blue-600 to-purple-600 dark:from-cyan-500 dark:to-purple-500 hover:from-blue-700 hover:to-purple-700 dark:hover:from-cyan-600 dark:hover:to-purple-600 text-white px-6 sm:px-8 py-4 rounded-full transition-all duration-300 shadow-lg hover:shadow-blue-500/25 dark:hover:shadow-cyan-500/25 button-hover font-medium">
+                      <Download className="w-5 h-5 mr-2" />
+                      Download Resume
+                    </Button>
+                  </a>
                   <Button
                     variant="outline"
                     className="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white dark:border-cyan-400 dark:text-cyan-400 dark:hover:bg-cyan-400 dark:hover:text-slate-900 px-6 sm:px-8 py-4 rounded-full transition-all duration-300 button-hover font-medium"
