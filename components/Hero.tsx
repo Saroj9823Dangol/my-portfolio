@@ -19,7 +19,7 @@ const Hero = () => {
               <Image
                 loading="lazy"
                 priority
-                src="/images/profile.png"
+                src="/images/profile.webp"
                 alt="Saroj Dangol Profile"
                 width={120}
                 height={120}

@@ -182,7 +182,7 @@ export const siteConfig: SiteConfig = {
       url: "https://sarojdev.vercel.app",
       siteName: "Saroj Dangol Portfolio",
       images: {
-        url: "https://sarojdev.vercel.app/images/profile.png",
+        url: "https://sarojdev.vercel.app/images/profile.webp",
         width: 1200,
         height: 630,
         alt: "Saroj Dangol - Full Stack Developer",
