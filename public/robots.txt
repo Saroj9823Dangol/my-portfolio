@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://sarojdev.vercel.app
+
+# Sitemaps
+Sitemap: https://sarojdev.vercel.app/sitemap.xml
