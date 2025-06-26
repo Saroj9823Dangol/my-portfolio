@@ -20,40 +20,54 @@ const Projects = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">
           {projects.map((project) => (
-            <a
-              referrerPolicy="no-referrer"
-              target="__blank"
-              href={project.live}
+            <div
               key={project.title}
-              className="bg-white/80 block dark:bg-white/5 border border-gray-200 dark:border-white/10 backdrop-blur-sm overflow-hidden rounded-xl shadow-md transition-all duration-300"
+              className="bg-white/80 dark:bg-white/5 border border-gray-200 dark:border-white/10 backdrop-blur-sm overflow-hidden rounded-xl shadow-md transition-all duration-300 hover:shadow-lg"
             >
-              <div className="relative overflow-hidden">
-                <Image
-                  priority
-                  src={project.image || "/placeholder.svg"}
-                  alt={project.title}
-                  width={400}
-                  height={250}
-                  className="w-full h-48 object-cover"
-                />
-              </div>
+              {/* Project Image with Link */}
+              <Link
+                href={project.live}
+                target="_blank"
+                rel="noopener noreferrer nofollow"
+                className="block"
+              >
+                <div className="relative overflow-hidden h-48">
+                  <Image
+                    src={project.image || "/placeholder.svg"}
+                    alt={`${project.title} screenshot`}
+                    width={400}
+                    height={250}
+                    className="w-full h-full object-cover"
+                    loading="lazy"
+                  />
+                </div>
+              </Link>
+
+              {/* Project Content */}
               <div className="p-4 sm:p-6">
                 <div className="flex items-center justify-between mb-2">
                   <h3 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white">
                     {project.title}
                   </h3>
                   <div className="flex gap-2">
+                    {/* GitHub Link */}
                     <Link
                       href={project.github}
                       target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      aria-label={`View ${project.title} on GitHub`}
                       className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition"
                     >
                       <Github className="w-4 h-4" />
                     </Link>
+
+                    {/* Live Demo Link (conditionally rendered) */}
                     {project.live !== "#" && (
                       <Link
                         href={project.live}
                         target="_blank"
+                        rel="noopener noreferrer nofollow"
+                        aria-label={`Visit ${project.title} live demo`}
                         className="text-gray-600 dark:text-gray-300 hover:text-black dark:hover:text-white transition"
                       >
                         <ExternalLink className="w-4 h-4" />
@@ -61,9 +75,13 @@ const Projects = () => {
                     )}
                   </div>
                 </div>
+
+                {/* Project Description */}
                 <p className="text-gray-600 dark:text-gray-300 mb-4 text-sm sm:text-base font-light">
                   {project.description}
                 </p>
+
+                {/* Tech Stack Tags */}
                 <div className="flex flex-wrap gap-2">
                   {project.tech.map((tech, index) => (
                     <span
@@ -75,7 +93,7 @@ const Projects = () => {
                   ))}
                 </div>
               </div>
-            </a>
+            </div>
           ))}
         </div>
       </div>

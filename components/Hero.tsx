@@ -17,6 +17,7 @@ const Hero = () => {
           <div className="w-32 h-32 sm:w-40 sm:h-40 mx-auto mb-6 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 dark:from-cyan-400 dark:to-purple-500 p-1 relative z-10">
             <div className="w-full h-full rounded-full bg-white dark:bg-slate-900 flex items-center justify-center">
               <Image
+                loading="lazy"
                 priority
                 src="/images/profile.png"
                 alt="Saroj Dangol Profile"
