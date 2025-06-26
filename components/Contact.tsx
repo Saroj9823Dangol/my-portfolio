@@ -39,7 +39,9 @@ const Contact = () => {
                     saroj9823dangol@gmail.com
                   </span>
                 </Link>
-                <Link
+                <a
+                  referrerPolicy="no-referrer"
+                  target="__blank"
                   href="tel:+9779863485599"
                   className="flex items-center gap-3 text-blue-600 dark:text-cyan-400 hover:text-blue-700 dark:hover:text-cyan-300 transition-colors"
                 >
@@ -47,23 +49,25 @@ const Contact = () => {
                   <span className="text-sm sm:text-base font-medium">
                     +977 9863485599
                   </span>
-                </Link>
+                </a>
               </div>
               <div className="flex justify-center space-x-6">
-                <Link
+                <a
+                  referrerPolicy="no-referrer"
+                  target="__blank"
                   href="https://github.com/Saroj9823Dangol"
-                  target="_blank"
                   className="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-cyan-400 transition-colors duration-200"
                 >
                   <Github className="w-6 h-6 sm:w-8 sm:h-8" />
-                </Link>
-                <Link
+                </a>
+                <a
+                  referrerPolicy="no-referrer"
                   href="https://www.linkedin.com/in/er-saroj-dangol-9492bb216"
                   target="_blank"
                   className="text-gray-500 dark:text-gray-400 hover:text-blue-600 dark:hover:text-cyan-400 transition-colors duration-200"
                 >
                   <Linkedin className="w-6 h-6 sm:w-8 sm:h-8" />
-                </Link>
+                </a>
               </div>
             </div>
             <a

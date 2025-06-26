@@ -90,6 +90,7 @@ export function Navigation() {
               </button>
             ))}
             <Button
+              name="theme"
               variant="ghost"
               size="icon"
               onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
