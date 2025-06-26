@@ -6,7 +6,7 @@ export const projects = [
     image: "/images/nepalkabaddi.png",
     tech: ["Next.js", "Tailwind CSS", "Firebase", "MongoDB"],
     github: "https://github.com/Saroj9823Dangol",
-    live: "#",
+    live: "https://nepalkabaddileague.com/",
   },
   {
     title: "Sajilo Ride Sharing",
@@ -15,7 +15,7 @@ export const projects = [
     image: "/images/sajilosaathi.png",
     tech: ["React", "Node.js", "Google Maps API", "MongoDB"],
     github: "https://github.com/Saroj9823Dangol",
-    live: "#",
+    live: "https://sajilosathi.com/",
   },
   {
     title: "LAURE",
@@ -24,7 +24,7 @@ export const projects = [
     image: "/images/laure.png",
     tech: ["Laravel", "Node.js", "Mysql", "Tailwind CSS"],
     github: "https://github.com/Saroj9823Dangol",
-    live: "#",
+    live: "https://akalaure.com/",
   },
   {
     title: "Hamro Blood Bank (HBB)",
@@ -43,7 +43,7 @@ export const projects = [
     image: "/images/miami-saloon.png",
     tech: ["Inertia JS", "Laravel", "Tailwind CSS"],
     github: "https://github.com/Saroj9823Dangol",
-    live: "#",
+    live: "https://saloon.apptechnologies.co/",
   },
 
   {
@@ -53,7 +53,7 @@ export const projects = [
     image: "/images/citygarms.png",
     tech: ["React", "Tailwind CSS", "Vite"],
     github: "https://github.com/Saroj9823Dangol",
-    live: "#",
+    live: "https://citygarms.com/",
   },
 
   {
@@ -72,7 +72,7 @@ export const projects = [
     image: "/images/petsnepal.png",
     tech: ["React", "NestJS", "MySQL", "TypeORM"],
     github: "https://github.com/Saroj9823Dangol",
-    live: "#",
+    live: "https://petsnepal.com.np/",
   },
 
   {
@@ -82,6 +82,6 @@ export const projects = [
     image: "/images/swi.png",
     tech: ["React", "Tailwind CSS", "Vite"],
     github: "https://github.com/Saroj9823Dangol",
-    live: "#",
+    live: "https://www.swi-nepal.org/",
   },
 ];

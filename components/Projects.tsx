@@ -20,9 +20,12 @@ const Projects = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 sm:gap-8">
           {projects.map((project) => (
-            <div
+            <a
+              referrerPolicy="no-referrer"
+              target="__blank"
+              href={project.live}
               key={project.title}
-              className="bg-white/80 dark:bg-white/5 border border-gray-200 dark:border-white/10 backdrop-blur-sm overflow-hidden rounded-xl shadow-md transition-all duration-300"
+              className="bg-white/80 block dark:bg-white/5 border border-gray-200 dark:border-white/10 backdrop-blur-sm overflow-hidden rounded-xl shadow-md transition-all duration-300"
             >
               <div className="relative overflow-hidden">
                 <Image
@@ -72,7 +75,7 @@ const Projects = () => {
                   ))}
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
