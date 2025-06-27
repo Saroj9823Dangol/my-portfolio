@@ -34,19 +34,6 @@ const withPWA = require("next-pwa")({
 });
 
 module.exports = withPWA({
-  async headers() {
-    return [
-      {
-        source: "/sitemap.xml",
-        headers: [
-          {
-            key: "Content-Type",
-            value: "application/xml",
-          },
-        ],
-      },
-    ];
-  },
   // Your existing Next.js config
   reactStrictMode: true,
   swcMinify: true,
