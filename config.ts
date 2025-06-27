@@ -109,9 +109,31 @@ interface SiteConfig {
     worksFor: {
       type: string;
       name: string;
+      url: string;
     };
     description: string;
     skills: string[];
+    hasOccupation?: {
+      "@type": string;
+      name: string;
+      estimatedSalary: {
+        "@type": string;
+        currency: string;
+        value: {
+          "@type": string;
+          minValue: number;
+          maxValue: number;
+          unitText: string;
+        };
+      };
+      experienceRequirements: string;
+    };
+    knowsAbout?: string[];
+    alumniOf?: {
+      "@type": string;
+      name: string;
+      url: string;
+    };
   };
 }
 
@@ -139,6 +161,10 @@ export const siteConfig: SiteConfig = {
       default:
         "Saroj Dangol | Expert Full Stack Developer (MERN, React Native, AWS)",
       template: "%s | Saroj Dangol - Top-Rated Web & Mobile Developer",
+    },
+    author: {
+      name: "Saroj Dangol",
+      url: "https://sarojdev.vercel.app",
     },
     description:
       "Saroj Dangol is an award-winning Full Stack Developer specializing in MERN stack, React Native, and cloud solutions. 5+ years experience building scalable web & mobile apps with cutting-edge technologies.",
@@ -299,8 +325,6 @@ export const siteConfig: SiteConfig = {
     },
     verification: {
       google: "ZehS4kI2H4bUfWwPGCGl23h8rxEEp4KPxCiBdykJ-v4",
-      yandex: "yandex-verification-code",
-      bing: "BingVerificationCode",
     },
     other: {
       "msapplication-TileColor": "#2b5797",
