@@ -60,7 +60,7 @@ export const projects = [
     title: "Shivalaya Holidays",
     description:
       "Clean and functional travel booking frontend with tour details, booking modals, and dynamic content management.",
-    image: "/images/shivalaya.jpeg",
+    image: "/images/shivalaya.webp",
     tech: ["React", "Laravel", "Inertia.js", "Tailwind CSS"],
     github: "https://github.com/Saroj9823Dangol",
     live: "https://shivalayaholidays.com",
