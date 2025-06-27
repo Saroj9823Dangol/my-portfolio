@@ -8,35 +8,47 @@ import { Navigation } from "@/components/Navigation";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 
+import Background from "@/components/Background";
+import LazyLoadSection from "@/components/LazyLoadSection";
 import "../styles/portfolio.css";
 
 export default function Portfolio() {
   return (
-    <>
-      {/* <PushNotificationManager />
-      <InstallPrompt /> */}
+    <div className="min-h-screen bg-gradient-to-br from-peach-200 via-magenta-300 to-cyan-300 dark:from-teal-900 dark:via-blue-900 dark:to-emerald-900 transition-colors duration-300">
+      <Background />
+      <Navigation />
 
-      <div className="min-h-screen bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-100 dark:from-slate-900 dark:via-purple-900 dark:to-slate-900 transition-colors duration-300 cursor-none">
-        {/* Animated Background */}
-        <div className="fixed inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-500 dark:bg-purple-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse"></div>
-          <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-indigo-500 dark:bg-cyan-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse animation-delay-200"></div>
-          <div className="absolute top-40 left-40 w-80 h-80 bg-purple-500 dark:bg-pink-500 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-pulse animation-delay-400"></div>
-        </div>
-
-        {/* Navigation */}
-        <Navigation />
-
-        {/* Sections */}
+      <LazyLoadSection>
         <Hero />
+      </LazyLoadSection>
+
+      <LazyLoadSection>
         <About />
+      </LazyLoadSection>
+
+      <LazyLoadSection>
         <Skills />
+      </LazyLoadSection>
+
+      <LazyLoadSection>
         <Projects />
+      </LazyLoadSection>
+
+      <LazyLoadSection>
         <Experience />
+      </LazyLoadSection>
+
+      <LazyLoadSection>
         <DownloadCV />
+      </LazyLoadSection>
+
+      <LazyLoadSection>
         <Contact />
+      </LazyLoadSection>
+
+      <LazyLoadSection>
         <Footer />
-      </div>
-    </>
+      </LazyLoadSection>
+    </div>
   );
 }

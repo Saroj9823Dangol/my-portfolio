@@ -22,7 +22,7 @@ const Projects = () => {
           {projects.map((project) => (
             <div
               key={project.title}
-              className="bg-white/80 dark:bg-white/5 border border-gray-200 dark:border-white/10 backdrop-blur-sm overflow-hidden rounded-xl shadow-md transition-all duration-300 hover:shadow-lg"
+              className="bg-transparent dark:bg-white/5 dark:border-white/10 backdrop-blur-sm overflow-hidden rounded-xl shadow-md transition-all duration-300 hover:shadow-lg"
             >
               {/* Project Image with Link */}
               <Link

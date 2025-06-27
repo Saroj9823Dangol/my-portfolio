@@ -23,7 +23,7 @@ const Skills = () => {
             return (
               <div
                 key={skill.name}
-                className="bg-white/80 dark:bg-white/5 border border-gray-200 dark:border-white/10 backdrop-blur-sm rounded-lg p-4 sm:p-6 text-center shadow transition-all duration-300"
+                className="bg-transparent dark:bg-white/5 dark:border-white/10 backdrop-blur-sm rounded-lg p-4 sm:p-6 text-center shadow transition-all duration-300"
               >
                 <div className="mb-4">
                   <Icon className="w-8 h-8 sm:w-12 sm:h-12 mx-auto text-blue-600 dark:text-cyan-400" />

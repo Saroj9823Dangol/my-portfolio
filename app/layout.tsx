@@ -1,4 +1,3 @@
-import { CustomCursor } from "@/components/CustomCursor";
 import { ThemeProvider } from "@/components/theme-provider";
 import { siteConfig } from "@/config";
 import type { Metadata } from "next";
@@ -105,7 +104,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           enableSystem={siteConfig.theme.enableSystem}
           disableTransitionOnChange={siteConfig.theme.disableTransitionOnChange}
         >
-          <CustomCursor />
+          {/* <CustomCursor /> */}
           {children}
         </ThemeProvider>
 

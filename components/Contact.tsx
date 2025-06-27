@@ -22,7 +22,7 @@ const Contact = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-cyan-400 dark:to-purple-500 mx-auto"></div>
         </div>
         <div className="max-w-2xl mx-auto">
-          <div className="bg-white/80 dark:bg-white/5 border border-gray-200 dark:border-white/10 backdrop-blur-sm p-6 sm:p-8 rounded-lg shadow-lg">
+          <div className="bg-transparent dark:bg-white/5 dark:border-white/10 backdrop-blur-sm p-6 sm:p-8 rounded-lg shadow-lg">
             <div className="text-center mb-8">
               <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-6 font-light">
                 I'm always interested in new opportunities and exciting
