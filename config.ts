@@ -118,12 +118,12 @@ interface SiteConfig {
 export const siteConfig: SiteConfig = {
   fonts: {
     poppins: {
-      subsets: ["latin"],
+      subsets: ["latin", "latin-ext"],
       weights: ["300", "400", "500", "600", "700", "800", "900"],
       variable: "--font-poppins",
     },
     jetbrainsMono: {
-      subsets: ["latin"],
+      subsets: ["latin", "latin-ext"],
       weights: ["100", "200", "300", "400", "500", "600", "700", "800"],
       variable: "--font-mono",
     },
@@ -136,33 +136,80 @@ export const siteConfig: SiteConfig = {
   },
   metadata: {
     title: {
-      default: "Saroj Dangol | Full Stack Developer & MERN Stack Expert",
-      template: "%s | Saroj Dangol Portfolio",
+      default:
+        "Saroj Dangol | Expert Full Stack Developer (MERN, React Native, AWS)",
+      template: "%s | Saroj Dangol - Top-Rated Web & Mobile Developer",
     },
     description:
-      "Professional Full Stack Developer specializing in MERN stack (MongoDB, Express, React, Node.js) with expertise in building high-performance web applications. View my portfolio for projects and contact information.",
-    applicationName: "Saroj Dangol Portfolio",
+      "Saroj Dangol is an award-winning Full Stack Developer specializing in MERN stack, React Native, and cloud solutions. 5+ years experience building scalable web & mobile apps with cutting-edge technologies.",
+    applicationName: "Saroj Dangol - Premium Development Services",
     generator: "Next.js",
     referrer: "origin-when-cross-origin",
     keywords: [
+      // Core expertise
       "Full Stack Developer",
-      "MERN Stack Developer",
-      "React Expert",
-      "Next.js Developer",
-      "Web Developer Portfolio",
-      "Saroj Dangol",
-      "JavaScript Developer",
+      "MERN Stack Expert",
+      "React Native Developer",
+      "Next.js Specialist",
       "Node.js Developer",
-      "TypeScript Developer",
-      "Frontend Developer",
-      "Backend Developer",
+      "TypeScript Engineer",
+
+      // Web development
+      "Web Application Development",
+      "Responsive Web Design",
+      "Progressive Web Apps",
+      "Single Page Applications",
+      "Frontend Optimization",
+      "Backend Architecture",
+
+      // Mobile development
+      "Cross-Platform Mobile Apps",
+      "React Native Expert",
+      "Mobile App Development",
+      "iOS/Android Development",
+      "Hybrid Mobile Apps",
+
+      // Technologies
+      "MongoDB Developer",
+      "Express.js Specialist",
+      "React.js Consultant",
+      "GraphQL API Development",
+      "RESTful API Design",
+      "AWS Certified Developer",
+      "Serverless Architecture",
+      "Microservices Expert",
+
+      // Business value
+      "High-Performance Websites",
+      "SEO-Optimized Development",
+      "Web Performance Tuning",
+      "E-Commerce Solutions",
+      "SaaS Development",
+      "Startup Tech Partner",
+
+      // Location-based
+      "Best Developer in Nepal",
+      "Top Kathmandu Programmer",
+      "Hire Nepali Developer",
+      "Remote Development Team",
+
+      // Personal brand
+      "Saroj Dangol Portfolio",
+      "Dangol Development Services",
+      "Saroj Tech Solutions",
     ],
-    author: {
-      name: "Saroj Dangol",
-      url: "https://sarojdev.vercel.app",
-    },
+    authors: [
+      {
+        name: "Saroj Dangol",
+        url: "https://sarojdev.vercel.app",
+      },
+      {
+        name: "Apptechnologies",
+        url: "https://apptechnologies.com",
+      },
+    ],
     creator: "Saroj Dangol",
-    publisher: "Saroj Dangol",
+    publisher: "Apptechnologies",
     formatDetection: {
       email: true,
       address: true,
@@ -173,41 +220,55 @@ export const siteConfig: SiteConfig = {
       canonical: "/",
       languages: {
         "en-US": "/en-US",
+        "ne-NP": "/ne-NP",
       },
     },
     openGraph: {
-      title: "Saroj Dangol - Full Stack Developer Portfolio",
+      title: "Hire Saroj Dangol - Elite Full Stack & Mobile Developer",
       description:
-        "Professional portfolio showcasing my expertise in MERN stack development, React applications, and full-stack solutions.",
+        "Looking for a top-tier developer? Saroj Dangol delivers exceptional MERN stack web applications and React Native mobile solutions with 5+ years of proven results.",
       url: "https://sarojdev.vercel.app",
-      siteName: "Saroj Dangol Portfolio",
+      siteName: "Saroj Dangol - Premium Development Services",
       images: {
         url: "https://sarojdev.vercel.app/images/profile.webp",
         width: 1200,
         height: 630,
-        alt: "Saroj Dangol - Full Stack Developer",
+        alt: "Saroj Dangol - Full Stack & Mobile Development Expert",
       },
       locale: "en_US",
-      type: "website",
+      type: "profile",
       emails: ["mail.sarojdangol@gmail.com", "saroj9823dangol@gmail.com"],
     },
     twitter: {
       card: "summary_large_image",
-      site: "@yourtwitterhandle",
-      creator: "@yourtwitterhandle",
-      title: "Saroj Dangol - Full Stack Developer",
+      site: "@sarojdev",
+      creator: "@sarojdev",
+      title: "Saroj Dangol - Code That Converts Visitors to Customers",
       description:
-        "Professional portfolio showcasing my expertise in MERN stack development and web applications.",
-      images: [{ url: "https://sarojdev.vercel.app/images/profile.png" }],
+        "Full Stack Developer building performant web & mobile apps that drive business growth. MERN Stack | React Native | AWS | TypeScript",
+      images: [
+        {
+          url: "https://sarojdev.vercel.app/images/twitter-card.webp",
+          width: 1200,
+          height: 675,
+          alt: "Saroj Dangol Development Services",
+        },
+      ],
     },
     icons: {
       icon: [
         { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
         { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+        { url: "/favicon-48x48.png", sizes: "48x48", type: "image/png" },
       ],
       shortcut: ["/favicon.ico"],
       apple: [
         { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" },
+        {
+          url: "/apple-touch-icon-152x152.png",
+          sizes: "152x152",
+          type: "image/png",
+        },
       ],
       other: [
         {
@@ -215,15 +276,22 @@ export const siteConfig: SiteConfig = {
           url: "/safari-pinned-tab.svg",
           color: "#5bbad5",
         },
+        {
+          rel: "apple-touch-startup-image",
+          url: "/apple-startup.png",
+          sizes: "2048x2732",
+        },
       ],
     },
     manifest: "/site.webmanifest",
     robots: {
       index: true,
       follow: true,
+      nocache: false,
       googleBot: {
         index: true,
         follow: true,
+        noimageindex: false,
         "max-video-preview": -1,
         "max-image-preview": "large",
         "max-snippet": -1,
@@ -231,39 +299,134 @@ export const siteConfig: SiteConfig = {
     },
     verification: {
       google: "ZehS4kI2H4bUfWwPGCGl23h8rxEEp4KPxCiBdykJ-v4",
+      yandex: "yandex-verification-code",
+      bing: "BingVerificationCode",
     },
     other: {
-      "msapplication-TileColor": "#da532c",
-      "theme-color": "#ffffff",
+      "msapplication-TileColor": "#2b5797",
+      "msapplication-config": "/browserconfig.xml",
+      "theme-color": "#1a365d",
+      "og:latitude": "27.7172",
+      "og:longitude": "85.3240",
+      "og:locality": "Kathmandu",
+      "og:region": "NP",
+      "og:postal-code": "44600",
+      "og:country-name": "Nepal",
+      "business:contact_data:street_address": "Your Street",
+      "business:contact_data:locality": "Kathmandu",
+      "business:contact_data:region": "Bagmati",
+      "business:contact_data:postal_code": "44600",
+      "business:contact_data:country_name": "Nepal",
     },
   },
   structuredData: {
     type: "Person",
     name: "Saroj Dangol",
-    jobTitle: "Full Stack Developer",
+    jobTitle: "Senior Full Stack Developer & Mobile Specialist",
     url: "https://sarojdev.vercel.app",
     sameAs: [
       "https://github.com/Saroj9823Dangol",
       "https://linkedin.com/in/er-saroj-dangol-9492bb216",
       "https://facebook.com/saroz.dangol.7",
+      "https://twitter.com/sarojdev",
+      "https://stackoverflow.com/users/yourid",
+      "https://www.upwork.com/freelancers/~yourid",
+      "https://www.fiverr.com/yourprofile",
     ],
     worksFor: {
       type: "Organization",
       name: "Apptechnologies",
+      url: "https://apptechnologies.com",
     },
     description:
-      "Professional Full Stack Developer specializing in MERN stack development.",
+      "Professional Full Stack Developer with 5+ years experience specializing in MERN stack web development, React Native mobile apps, and cloud solutions. Proven track record of delivering high-performance applications.",
     skills: [
-      "JavaScript",
+      // Languages
+      "JavaScript (ES6+)",
       "TypeScript",
-      "React",
+      "Python",
+      "Java",
+
+      // Frontend
+      "React.js",
       "Next.js",
-      "Node.js",
-      "Express",
-      "MongoDB",
+      "Redux",
       "GraphQL",
-      "REST APIs",
+      "Apollo",
+      "Tailwind CSS",
+      "Material UI",
+      "Chakra UI",
+
+      // Backend
+      "Node.js",
+      "Express.js",
+      "NestJS",
+      "Django",
+      "Spring Boot",
+
+      // Mobile
+      "React Native",
+      "Expo",
+      "Mobile UI/UX",
+      "App Store Deployment",
+      "Play Store Deployment",
+
+      // Databases
+      "MongoDB",
+      "PostgreSQL",
+      "MySQL",
+      "Firebase",
+      "Redis",
+
+      // DevOps & Cloud
+      "AWS Certified",
+      "Docker",
+      "Kubernetes",
+      "CI/CD Pipelines",
+      "Serverless",
+      "Microservices",
+
+      // Testing
+      "Jest",
+      "Cypress",
+      "React Testing Library",
+
+      // Other
+      "Web Accessibility",
+      "SEO Optimization",
       "Web Performance",
+      "Agile Methodologies",
+      "Technical Leadership",
     ],
+    hasOccupation: {
+      "@type": "Occupation",
+      name: "Software Developer",
+      estimatedSalary: {
+        "@type": "MonetaryAmount",
+        currency: "USD",
+        value: {
+          "@type": "QuantitativeValue",
+          minValue: 50000,
+          maxValue: 120000,
+          unitText: "YEAR",
+        },
+      },
+      experienceRequirements: "5+ years",
+    },
+    knowsAbout: [
+      "Web Development",
+      "Mobile Development",
+      "Cloud Computing",
+      "Database Design",
+      "API Development",
+      "Software Architecture",
+      "DevOps Practices",
+      "UI/UX Principles",
+    ],
+    alumniOf: {
+      "@type": "EducationalOrganization",
+      name: "Tribhuvan University",
+      url: "https://tu.edu.np",
+    },
   },
 };
