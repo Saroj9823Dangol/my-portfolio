@@ -18,7 +18,6 @@ const Hero = () => {
             <div className="w-full h-full rounded-full bg-white dark:bg-slate-900 flex items-center justify-center">
               <Image
                 loading="lazy"
-                priority
                 src="/images/profile.webp"
                 alt="Saroj Dangol Profile"
                 width={120}

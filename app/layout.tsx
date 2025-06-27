@@ -82,6 +82,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           name="google-site-verification"
           content="ZehS4kI2H4bUfWwPGCGl23h8rxEEp4KPxCiBdykJ-v4"
         />
+
+        <meta name="application-name" content="Push Demo" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta name="theme-color" content="#ffffff" />
+        <link rel="manifest" href="/manifest.ts" />
+
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
