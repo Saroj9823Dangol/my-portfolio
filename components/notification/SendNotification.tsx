@@ -36,7 +36,6 @@ export function SendNotification() {
         throw new Error("Failed to send notification");
       }
     } catch (error) {
-      console.error("Error sending notification:", error);
       alert("Failed to send notification");
     } finally {
       setIsSending(false);

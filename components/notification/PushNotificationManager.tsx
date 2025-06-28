@@ -22,7 +22,6 @@ export async function sendNotification(message: string) {
 
     return await response.json();
   } catch (error) {
-    console.error("Notification error:", error);
     return { success: false, error: "Notification failed" };
   }
 }

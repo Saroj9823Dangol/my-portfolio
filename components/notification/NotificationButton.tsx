@@ -47,7 +47,6 @@ export function NotificationButton() {
         throw new Error("Subscription failed");
       }
     } catch (error) {
-      console.error("Subscription error:", error);
       alert("Failed to subscribe to notifications");
     } finally {
       setIsLoading(false);
