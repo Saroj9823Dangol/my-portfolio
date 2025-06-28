@@ -252,7 +252,7 @@ export const siteConfig: SiteConfig = {
     openGraph: {
       title: "Hire Saroj Dangol - Elite Full Stack & Mobile Developer",
       description:
-        "Looking for a top-tier developer? Saroj Dangol delivers exceptional MERN stack web applications and React Native mobile solutions with 5+ years of proven results.",
+        "Looking for a top-tier developer? Saroj Dangol delivers exceptional MERN stack web applications and React Native mobile solutions with 3+ years of proven results.",
       url: "https://sarojdev.vercel.app",
       siteName: "Saroj Dangol - Premium Development Services",
       images: {
