@@ -10,12 +10,14 @@ import Skills from "@/components/Skills";
 
 import Background from "@/components/Background";
 import LazyLoadSection from "@/components/LazyLoadSection";
+import SparkleEffect from "@/components/SparkleEffect";
 import "../styles/portfolio.css";
 
 export default function Portfolio() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-peach-200 via-magenta-300 to-cyan-300 dark:from-teal-900 dark:via-blue-900 dark:to-emerald-900 transition-colors duration-300">
       <Background />
+      <SparkleEffect />
       <Navigation />
 
       <main className="pl-0 sm:pl-24">
