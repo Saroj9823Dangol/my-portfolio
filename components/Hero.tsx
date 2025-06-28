@@ -9,7 +9,7 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative py-10"
+      className="min-h-screen flex items-center justify-center relative"
     >
       <div className="text-center z-10 px-4">
         {/* Profile Image */}
