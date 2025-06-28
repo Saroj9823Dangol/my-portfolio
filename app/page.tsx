@@ -18,37 +18,39 @@ export default function Portfolio() {
       <Background />
       <Navigation />
 
-      <LazyLoadSection>
-        <Hero />
-      </LazyLoadSection>
+      <main className="pl-0 sm:pl-24">
+        <LazyLoadSection>
+          <Hero />
+        </LazyLoadSection>
 
-      <LazyLoadSection>
-        <About />
-      </LazyLoadSection>
+        <LazyLoadSection>
+          <About />
+        </LazyLoadSection>
 
-      <LazyLoadSection>
-        <Skills />
-      </LazyLoadSection>
+        <LazyLoadSection>
+          <Skills />
+        </LazyLoadSection>
 
-      <LazyLoadSection>
-        <Projects />
-      </LazyLoadSection>
+        <LazyLoadSection>
+          <Projects />
+        </LazyLoadSection>
 
-      <LazyLoadSection>
-        <Experience />
-      </LazyLoadSection>
+        <LazyLoadSection>
+          <Experience />
+        </LazyLoadSection>
 
-      <LazyLoadSection>
-        <DownloadCV />
-      </LazyLoadSection>
+        <LazyLoadSection>
+          <DownloadCV />
+        </LazyLoadSection>
 
-      <LazyLoadSection>
-        <Contact />
-      </LazyLoadSection>
+        <LazyLoadSection>
+          <Contact />
+        </LazyLoadSection>
 
-      <LazyLoadSection>
-        <Footer />
-      </LazyLoadSection>
+        <LazyLoadSection>
+          <Footer />
+        </LazyLoadSection>
+      </main>
     </div>
   );
 }
