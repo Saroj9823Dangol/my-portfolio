@@ -130,7 +130,7 @@ export function Navigation() {
 
   return (
     <>
-      <nav className="fixed left-0 top-0 h-screen w-24 z-50 flex-col items-start py-8 pl-6 hidden sm:flex">
+      <nav className="fixed left-0 top-0 h-screen overflow-y-auto w-fit z-50 flex-col items-start py-8 pl-6 hidden sm:flex">
         <div className="relative flex flex-col items-start space-y-8 h-full">
           {/* Logo */}
           <div className="text-xl font-bold text-gray-900 dark:text-white mb-8 relative z-10">
@@ -164,7 +164,7 @@ export function Navigation() {
           ))}
 
           {/* Theme Toggle */}
-          <div className="absolute bottom-8 left-6">
+          <div className="">
             <Button
               name="theme"
               variant="ghost"
