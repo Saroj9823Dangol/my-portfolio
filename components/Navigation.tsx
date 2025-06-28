@@ -228,12 +228,10 @@ export function Navigation() {
                 key={item.name}
                 custom={index}
                 onClick={() => scrollToSection(item.name)}
-                className={`w-full py-3 px-4 text-base font-medium capitalize ${
+                className={`w-full py-3 text-base font-medium capitalize ${
                   item.color
-                } rounded-lg transition-colors duration-300 text-left ${
-                  activeSection === item.name
-                    ? "font-bold bg-gradient-to-r from-blue-500/20 to-cyan-400/20 dark:from-cyan-600/20 dark:to-blue-600/20"
-                    : ""
+                } transition-all duration-300 text-left ${
+                  activeSection === item.name ? "font-bold pl-7" : ""
                 }`}
                 variants={mobileItemVariants}
                 initial="hidden"
