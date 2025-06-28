@@ -148,12 +148,10 @@ export function Navigation() {
             >
               <motion.button
                 onClick={() => scrollToSection(item.name)}
-                className={`relative z-10 py-2 pl-4 pr-2 text-sm font-medium capitalize ${
+                className={`relative z-10 py-2 text-sm font-medium capitalize ${
                   item.color
-                } rounded-lg transition-colors duration-300 ${
-                  activeSection === item.name
-                    ? "font-bold bg-gray-200/30 dark:bg-white/10"
-                    : ""
+                } duration-300 transition-all ${
+                  activeSection === item.name ? "font-bold pl-7" : ""
                 }`}
                 variants={itemVariants}
                 animate={activeSection === item.name ? "active" : "inactive"}
