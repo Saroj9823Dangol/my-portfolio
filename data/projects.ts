@@ -1,87 +1,118 @@
 export const projects = [
   {
+    id: 1,
     title: "Nepal Kabaddi League (NKL)",
+    subtitle: "Official Platform for Nepal's Premier Kabaddi League",
     description:
       "Responsive sports platform showcasing fixtures, scores, standings with secure role-based admin panel.",
     image: "/images/nepalkabaddi.webp",
-    tech: ["Next.js", "Tailwind CSS", "Firebase", "MongoDB"],
+    technologies: ["Next.js", "Tailwind CSS", "Firebase", "MongoDB"],
     github: "https://github.com/Saroj9823Dangol",
     live: "https://nepalkabaddileague.com/",
+    color: "from-red-600 to-yellow-500",
   },
   {
+    id: 2,
     title: "Sajilo Ride Sharing",
+    subtitle: "Smart Ride Booking with Real-Time Tracking",
     description:
       "Google Maps-based ride sharing platform with fare calculations, live location tracking, and real-time ride requests.",
     image: "/images/sajilosaathi.webp",
-    tech: ["React", "Node.js", "Google Maps API", "MongoDB"],
+    technologies: ["React", "Node.js", "Google Maps API"],
     github: "https://github.com/Saroj9823Dangol",
     live: "https://sajilosathi.com/",
+    color: "from-green-400 to-blue-600",
   },
   {
+    id: 3,
     title: "LAURE",
+    subtitle: "Official Website for Singer & Rapper LAURE",
     description:
       "Official website of celebrity singer and rapper LAURE, featuring music releases, tour dates, merchandise, and exclusive content.",
     image: "/images/laure.webp",
-    tech: ["Laravel", "Node.js", "Mysql", "Tailwind CSS"],
+    technologies: ["Laravel", "Node.js", "Mysql", "Tailwind CSS"],
     github: "https://github.com/Saroj9823Dangol",
     live: "https://akalaure.com/",
+    color: "from-purple-700 to-pink-500",
   },
+
   {
+    id: 4,
     title: "Hamro Blood Bank (HBB)",
+    subtitle: "Connecting Blood Donors and Recipients in Real-Time",
     description:
       "A real-time blood donation platform with donor notifications, location-based search, and mobile app integration.",
     image: "/images/hbb.webp",
-    tech: ["React", "Next.js", "React Native", "Firebase", "Redux", "MySQL"],
+    technologies: [
+      "React",
+      "Next.js",
+      "React Native",
+      "Firebase",
+      "Redux",
+      "MySQL",
+    ],
     github: "https://github.com/Saroj9823Dangol",
     live: "https://hamrobloodbank.com",
+    color: "from-red-500 to-pink-600",
   },
-
   {
+    id: 5,
     title: "Miami Saloon",
+    subtitle: "Modern Salon & Barbershop Booking Experience",
     description:
       "A sleek salon and barbershop booking platform offering real-time appointment scheduling, service catalog, stylist profiles, and customer reviews.",
     image: "/images/miami-saloon.webp",
-    tech: ["Inertia JS", "Laravel", "Tailwind CSS"],
+    technologies: ["Inertia JS", "Laravel", "Tailwind CSS"],
     github: "https://github.com/Saroj9823Dangol",
-    live: "https://saloon.apptechnologies.co/",
+    live: "https://saloon.apptechnologiesnologies.co/",
+    color: "from-yellow-400 to-orange-600",
   },
-
   {
+    id: 6,
     title: "Citygarms",
+    subtitle: "Trendy E-Commerce for Fashion Enthusiasts",
     description:
       "A modern e-commerce platform offering trendy fashion and accessories with seamless shopping experiences, secure payments, and user-friendly navigation.",
     image: "/images/citygarms.webp",
-    tech: ["React", "Tailwind CSS", "Vite"],
+    technologies: ["React", "Tailwind CSS", "Vite"],
     github: "https://github.com/Saroj9823Dangol",
     live: "https://citygarms.com/",
+    color: "from-pink-500 to-indigo-500",
   },
-
   {
+    id: 7,
     title: "Shivalaya Holidays",
+    subtitle: "Effortless Travel Booking and Tour Management",
     description:
       "Clean and functional travel booking frontend with tour details, booking modals, and dynamic content management.",
     image: "/images/shivalaya.webp",
-    tech: ["React", "Laravel", "Inertia.js", "Tailwind CSS"],
+    technologies: ["React", "Laravel", "Inertia.js", "Tailwind CSS"],
     github: "https://github.com/Saroj9823Dangol",
     live: "https://shivalayaholidays.com",
+    color: "from-blue-500 to-teal-400",
   },
   {
+    id: 8,
     title: "PetsNepal",
+    subtitle: "One-Stop Platform for Pet Services in Nepal",
     description:
       "Pet service platform for booking grooming, vet checkups, and sharing pet-related feeds with 100+ satisfied clients.",
     image: "/images/petsnepal.webp",
-    tech: ["React", "NestJS", "MySQL", "TypeORM"],
+    technologies: ["React", "NestJS", "MySQL", "TypeORM"],
     github: "https://github.com/Saroj9823Dangol",
     live: "https://petsnepal.com.np/",
+    color: "from-green-400 to-yellow-300",
   },
-
   {
+    id: 9,
     title: "Social Work Institute",
+    subtitle: "Empowering Youth for Social Change",
     description:
       "A platform empowering youth through skill development training, community engagement programs, and resources for social work initiatives.",
     image: "/images/swi.webp",
-    tech: ["React", "Tailwind CSS", "Vite"],
+    technologies: ["React", "Tailwind CSS", "Vite"],
     github: "https://github.com/Saroj9823Dangol",
     live: "https://www.swi-nepal.org/",
+    color: "from-blue-700 to-green-500",
   },
 ];
