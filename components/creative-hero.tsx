@@ -133,7 +133,9 @@ export default function CreativeHero() {
         style={{
           right: isMobile
             ? `${30 - deviceOrientation.gamma * 0.3}%`
-            : (window.innerWidth - mousePosition.x) * 0.03 + "px",
+            : typeof window !== "undefined"
+            ? (window.innerWidth - mousePosition.x) * 0.03 + "px"
+            : "0px",
           top: isMobile
             ? `${30 - deviceOrientation.beta * 0.2}%`
             : mousePosition.y * 0.01 + 100 + "px",
@@ -158,7 +160,9 @@ export default function CreativeHero() {
             : mousePosition.x * 0.01 + 200 + "px",
           bottom: isMobile
             ? `${20 - deviceOrientation.beta * 0.2}%`
-            : (window.innerHeight - mousePosition.y) * 0.02 + 100 + "px",
+            : typeof window !== "undefined"
+            ? (window.innerHeight - mousePosition.y) * 0.02 + 100 + "px"
+            : "0px",
           transform: `translateY(${parallaxOffset * 1.2}px) scale(${
             1 + touchIntensity * 0.3
           })`,

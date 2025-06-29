@@ -1,12 +1,6 @@
-"use client";
-
 import { Coffee, Lightbulb, Rocket, Terminal } from "lucide-react";
-import { useEffect, useRef, useState } from "react";
 
 export default function StorySection() {
-  const [visibleSteps, setVisibleSteps] = useState<number[]>([]);
-  const sectionRef = useRef<HTMLElement>(null);
-
   const storySteps = [
     {
       icon: Terminal,
@@ -42,37 +36,12 @@ export default function StorySection() {
     },
   ];
 
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const index = Number.parseInt(
-              entry.target.getAttribute("data-index") || "0"
-            );
-            setVisibleSteps((prev) => [...new Set([...prev, index])]);
-          }
-        });
-      },
-      { threshold: 0.5 }
-    );
-
-    const elements = document.querySelectorAll("[data-index]");
-    elements.forEach((el) => observer.observe(el));
-
-    return () => observer.disconnect();
-  }, []);
-
   return (
-    <section
-      id="story"
-      ref={sectionRef}
-      className="min-h-screen py-20 relative"
-    >
+    <section id="story" className="min-h-screen py-20 relative">
       <div className="max-w-7xl mx-auto px-4">
         {/* Section title */}
-        <div className="text-center mb-20">
-          <h2 className="text-6xl font-black mb-6">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-6xl font-black mb-6">
             <span className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
               MY JOURNEY
             </span>
@@ -81,34 +50,22 @@ export default function StorySection() {
         </div>
 
         {/* Story timeline - diagonal layout */}
-        <div className="relative">
+        <div className="relative space-y-32">
           {storySteps.map((step, index) => {
             const Icon = step.icon;
-            const isVisible = visibleSteps.includes(index);
             const isEven = index % 2 === 0;
 
             return (
-              <div
-                key={index}
-                data-index={index}
-                className={`relative mb-32 transition-all duration-1000 ${
-                  isVisible
-                    ? "opacity-100 translate-y-0"
-                    : "opacity-0 translate-y-20"
-                }`}
-                style={{ transitionDelay: `${index * 0.2}s` }}
-              >
+              <div key={index} className="relative">
                 <div
                   className={`flex items-center ${
                     isEven ? "justify-start" : "justify-end"
                   }`}
                 >
                   <div
-                    className={`relative max-w-md ${
+                    className={`relative ${
                       isEven ? "text-left" : "text-right"
-                    } transform ${
-                      isEven ? "rotate-2" : "-rotate-2"
-                    } hover:rotate-0 transition-transform duration-500`}
+                    }`}
                   >
                     {/* Card */}
                     <div
@@ -169,15 +126,7 @@ export default function StorySection() {
             { number: "∞", label: "Problems Solved" },
             { number: "24/7", label: "Passion Mode" },
           ].map((stat, index) => (
-            <div
-              key={index}
-              className={`text-center transform hover:scale-110 transition-all duration-500 ${
-                visibleSteps.length > 2
-                  ? "opacity-100 translate-y-0"
-                  : "opacity-0 translate-y-10"
-              }`}
-              style={{ transitionDelay: `${index * 0.1 + 1}s` }}
-            >
+            <div key={index} className="text-center">
               <div className="text-4xl md:text-6xl font-black bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent mb-2">
                 {stat.number}
               </div>

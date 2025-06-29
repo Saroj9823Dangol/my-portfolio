@@ -1,71 +1,16 @@
 "use client";
 
-import type React from "react";
-
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Rocket, Send, Sparkles, Zap } from "lucide-react";
-import { useEffect, useRef, useState } from "react";
 
 export default function ContactPortal() {
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-  const [isSubmitting, setIsSubmitting] = useState(false);
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const portalRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      if (portalRef.current) {
-        const rect = portalRef.current.getBoundingClientRect();
-        setMousePosition({
-          x: ((e.clientX - rect.left) / rect.width) * 100,
-          y: ((e.clientY - rect.top) / rect.height) * 100,
-        });
-      }
-    };
-
-    window.addEventListener("mousemove", handleMouseMove);
-    return () => window.removeEventListener("mousemove", handleMouseMove);
-  }, []);
-
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 2000));
-
-    setIsSubmitting(false);
-    setFormData({ name: "", email: "", message: "" });
-  };
-
-  const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value,
-    });
-  };
-
   return (
     <section
       id="contact"
       className="min-h-screen py-20 relative overflow-hidden"
     >
-      <div
-        ref={portalRef}
-        className="absolute inset-0 opacity-30"
-        style={{
-          background: `radial-gradient(circle at ${mousePosition.x}% ${mousePosition.y}%, rgba(6, 182, 212, 0.3) 0%, rgba(147, 51, 234, 0.2) 25%, rgba(236, 72, 153, 0.1) 50%, transparent 70%)`,
-        }}
-      ></div>
-
       <div className="max-w-4xl mx-auto px-4 relative z-10">
         <div className="text-center mb-20">
           <h2 className="text-6xl font-black mb-6">
@@ -97,7 +42,7 @@ export default function ContactPortal() {
             <div className="absolute inset-[1px] bg-gradient-to-br from-gray-900/90 to-black/90 rounded-3xl"></div>
 
             <div className="relative z-10 p-12">
-              <form onSubmit={handleSubmit} className="space-y-8">
+              <form className="space-y-8">
                 <div className="grid md:grid-cols-2 gap-8">
                   {/* Name field */}
                   <div className="relative group">
@@ -108,8 +53,6 @@ export default function ContactPortal() {
                     <Input
                       type="text"
                       name="name"
-                      value={formData.name}
-                      onChange={handleInputChange}
                       required
                       className="bg-white/5 border-white/20 text-white placeholder-gray-400 focus:border-cyan-400 focus:ring-cyan-400/50 rounded-xl h-14 text-lg transition-all duration-300 group-hover:bg-white/10"
                       placeholder="Enter your name"
@@ -125,8 +68,6 @@ export default function ContactPortal() {
                     <Input
                       type="email"
                       name="email"
-                      value={formData.email}
-                      onChange={handleInputChange}
                       required
                       className="bg-white/5 border-white/20 text-white placeholder-gray-400 focus:border-purple-400 focus:ring-purple-400/50 rounded-xl h-14 text-lg transition-all duration-300 group-hover:bg-white/10"
                       placeholder="your@email.com"
@@ -142,8 +83,6 @@ export default function ContactPortal() {
                   </label>
                   <Textarea
                     name="message"
-                    value={formData.message}
-                    onChange={handleInputChange}
                     required
                     rows={6}
                     className="bg-white/5 border-white/20 text-white placeholder-gray-400 focus:border-pink-400 focus:ring-pink-400/50 rounded-xl text-lg transition-all duration-300 group-hover:bg-white/10 resize-none"
@@ -155,24 +94,14 @@ export default function ContactPortal() {
                 <div className="text-center">
                   <Button
                     type="submit"
-                    disabled={isSubmitting}
                     className="relative px-12 py-6 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 hover:from-cyan-500 hover:via-purple-600 hover:to-pink-600 text-white font-bold text-lg rounded-full transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 overflow-hidden group"
                   >
                     {/* Button background animation */}
                     <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 opacity-0 group-hover:opacity-20 transition-opacity duration-500"></div>
 
                     <span className="relative z-10 flex items-center">
-                      {isSubmitting ? (
-                        <>
-                          <div className="animate-spin rounded-full h-6 w-6 border-b-2 border-white mr-3"></div>
-                          Sending to the void...
-                        </>
-                      ) : (
-                        <>
-                          <Send className="w-6 h-6 mr-3 group-hover:translate-x-1 transition-transform duration-300" />
-                          Launch Message
-                        </>
-                      )}
+                      <Send className="w-6 h-6 mr-3 group-hover:translate-x-1 transition-transform duration-300" />
+                      Launch Message
                     </span>
                   </Button>
                 </div>
@@ -210,7 +139,7 @@ export default function ContactPortal() {
         {/* Footer */}
         <div className="text-center mt-20 text-gray-500">
           <p>
-            © 2024 Alex Johnson • Crafted with passion and lots of coffee ☕
+            © 2025 Saroj Dangol • Crafted with passion and lots of coffee ☕
           </p>
         </div>
       </div>
