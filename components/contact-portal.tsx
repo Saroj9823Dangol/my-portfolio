@@ -41,7 +41,7 @@ export default function ContactPortal() {
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 opacity-20 animate-pulse"></div>
             <div className="absolute inset-[1px] bg-gradient-to-br from-gray-900/90 to-black/90 rounded-3xl"></div>
 
-            <div className="relative z-10 p-12">
+            <div className="relative z-10 p-5">
               <form className="space-y-8">
                 <div className="grid md:grid-cols-2 gap-8">
                   {/* Name field */}
