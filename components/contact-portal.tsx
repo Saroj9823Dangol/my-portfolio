@@ -13,7 +13,7 @@ export default function ContactPortal() {
     >
       <div className="max-w-4xl mx-auto px-4 relative z-10">
         <div className="text-center mb-20">
-          <h2 className="text-6xl font-black mb-6">
+          <h2 className="text-4xl md:text-6xl font-black mb-6">
             <span className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
               CONTACT PORTAL
             </span>
