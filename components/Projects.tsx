@@ -83,7 +83,7 @@ const Projects = () => {
 
                 {/* Tech Stack Tags */}
                 <div className="flex flex-wrap gap-2">
-                  {project.tech.map((tech, index) => (
+                  {project.technologies.map((tech, index) => (
                     <span
                       key={index}
                       className="bg-blue-500/10 text-blue-700 dark:bg-cyan-500/10 dark:text-cyan-400 border border-blue-500/20 dark:border-cyan-500/30 rounded-full px-3 py-1 text-xs font-medium"
