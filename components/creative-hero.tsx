@@ -215,7 +215,7 @@ export default function CreativeHero() {
           </h1>
           <div
             className={`font-light tracking-widest mt-4 text-gray-300 ${
-              isMobile ? "text-2xl" : "text-4xl md:text-6xl"
+              isMobile ? "text-2xl" : "text-3xl md:text-5xl"
             }`}
           >
             {["C", "O", "D", "E", "•", "A", "R", "T"].map((letter, index) => (

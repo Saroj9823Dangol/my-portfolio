@@ -57,9 +57,9 @@ export default function SkillsSection() {
           }`}
         >
           <div className="text-center mb-16">
-            <h2 className={`font-black mb-6 text-4xl md:text-6xl`}>
+            <h2 className={`font-black mb-6 text-3xl md:text-5xl`}>
               <span className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-                SKILLS & EXPERTISE
+                Skills.json
               </span>
             </h2>
             <div className="w-32 h-1 bg-gradient-to-r from-cyan-400 to-purple-500 mx-auto"></div>

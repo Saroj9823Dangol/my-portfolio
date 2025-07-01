@@ -14,29 +14,19 @@ const DownloadCV = () => {
                   <Download className="w-8 h-8 sm:w-10 sm:h-10 text-white" />
                 </div>
               </div>
-              <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 dark:text-white mb-4 wavy-text">
-                <span className="wavy-letter">D</span>
-                <span className="wavy-letter">o</span>
-                <span className="wavy-letter">w</span>
-                <span className="wavy-letter">n</span>
-                <span className="wavy-letter">l</span>
-                <span className="wavy-letter">o</span>
-                <span className="wavy-letter">a</span>
-                <span className="wavy-letter">d</span>&nbsp;
-                <span className="wavy-letter">M</span>
-                <span className="wavy-letter">y</span>&nbsp;
-                <span className="wavy-letter">R</span>
-                <span className="wavy-letter">e</span>
-                <span className="wavy-letter">s</span>
-                <span className="wavy-letter">u</span>
-                <span className="wavy-letter">m</span>
-                <span className="wavy-letter">e</span>
-              </h2>
-              <p className="text-base sm:text-lg text-gray-600 dark:text-gray-300 mb-8 max-w-2xl mx-auto font-light">
-                Get a detailed overview of my 3+ years of experience in
-                full-stack development, skills, and achievements. B.Sc. Computer
-                Engineering graduate with AWS certification.
-              </p>
+              <div className="text-center mb-20">
+                <h2 className="text-3xl md:text-5xl font-black mb-6">
+                  <span className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+                    Resume.save()
+                  </span>
+                </h2>
+                <div className="w-32 h-1 bg-gradient-to-r from-cyan-400 to-purple-500 mx-auto mb-8"></div>
+                <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+                  Get a detailed overview of my 3+ years of experience in
+                  full-stack development, skills, and achievements. B.Sc.
+                  Computer Engineering graduate with AWS certification.
+                </p>
+              </div>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="/Saroj_Dangol_CV.pdf"

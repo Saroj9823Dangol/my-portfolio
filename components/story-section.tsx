@@ -41,9 +41,9 @@ export default function StorySection() {
       <div className="max-w-7xl mx-auto px-4">
         {/* Section title */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-6xl font-black mb-6">
+          <h2 className="text-3xl md:text-5xl font-black mb-6">
             <span className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-              MY JOURNEY
+              Story.start()
             </span>
           </h2>
           <div className="w-32 h-1 bg-gradient-to-r from-cyan-400 to-purple-500 mx-auto"></div>
@@ -127,7 +127,7 @@ export default function StorySection() {
             { number: "24/7", label: "Passion Mode" },
           ].map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-4xl md:text-6xl font-black bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent mb-2">
+              <div className="text-3xl md:text-5xl font-black bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent mb-2">
                 {stat.number}
               </div>
               <div className="text-gray-400 text-sm uppercase tracking-wider">

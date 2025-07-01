@@ -5,19 +5,12 @@ const Experience = () => {
     <section id="experience" className="py-20 relative z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4 wavy-text">
-            <span className="wavy-letter">E</span>
-            <span className="wavy-letter">x</span>
-            <span className="wavy-letter">p</span>
-            <span className="wavy-letter">e</span>
-            <span className="wavy-letter">r</span>
-            <span className="wavy-letter">i</span>
-            <span className="wavy-letter">e</span>
-            <span className="wavy-letter">n</span>
-            <span className="wavy-letter">c</span>
-            <span className="wavy-letter">e</span>
+          <h2 className={`font-black mb-6 text-3xl md:text-5xl`}>
+            <span className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+              Experience.log
+            </span>
           </h2>
-          <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-cyan-400 dark:to-purple-500 mx-auto"></div>
+          <div className="w-32 h-1 bg-gradient-to-r from-cyan-400 to-purple-500 mx-auto"></div>
         </div>
         <div className="max-w-3xl mx-auto">
           {experience.map((exp, index) => (

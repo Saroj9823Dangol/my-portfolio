@@ -13,15 +13,15 @@ export default function ContactPortal() {
     >
       <div className="max-w-4xl mx-auto px-4 relative z-10">
         <div className="text-center mb-20">
-          <h2 className="text-4xl md:text-6xl font-black mb-6">
+          <h2 className="text-3xl md:text-5xl font-black mb-6">
             <span className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-              CONTACT PORTAL
+              Contact.init()
             </span>
           </h2>
           <div className="w-32 h-1 bg-gradient-to-r from-cyan-400 to-purple-500 mx-auto mb-8"></div>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Ready to build something extraordinary? Let's connect and turn your
-            vision into reality.
+            Ready to turn your ideas into reality? Let's collaborate and build
+            something extraordinary together.
           </p>
         </div>
 
