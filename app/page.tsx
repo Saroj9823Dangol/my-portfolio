@@ -1,6 +1,7 @@
 import BackgroundCanvas from "@/components/background-canvas";
 import ContactPortal from "@/components/contact-portal";
 import CreativeHero from "@/components/creative-hero";
+import DownloadCV from "@/components/DownloadCV";
 import FloatingNav from "@/components/floating-nav";
 import ProjectsMobile from "@/components/projects-mobile";
 import SkillsSection from "@/components/skills-section";
@@ -17,6 +18,7 @@ export default function Portfolio() {
       <StorySection />
       <SkillsSection />
       <ProjectsMobile />
+      <DownloadCV />
       <ContactPortal />
     </main>
   );
