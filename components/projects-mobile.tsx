@@ -25,20 +25,15 @@ export default function ProjectsMobile() {
             </p>
           </div>
 
-          <div className="relative block md:hidden">
-            <div className="mb-4 text-center text-sm text-gray-400">
-              Swipe left/right to browse projects
-            </div>
-
+          <div className="relative block sm:hidden">
             <div className="relative overflow-hidden rounded-2xl">
-              <div className="flex transition-transform duration-300 ease-out">
+              <div className="flex flex-col space-y-20 transition-transform duration-300 ease-out">
                 {projects.map((project, index) => (
-                  <div key={project.id} className="w-full flex-shrink-0">
+                  <div key={project.id} className="w-full">
                     <div
                       className={`bg-gradient-to-br ${project.color} p-1 rounded-2xl`}
                     >
                       <div className="bg-slate-900 rounded-2xl overflow-hidden">
-                        {/* Project image */}
                         <div className="relative h-48 overflow-hidden">
                           <Image
                             src={project.image || "/placeholder.svg"}
@@ -50,7 +45,6 @@ export default function ProjectsMobile() {
                           <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
                         </div>
 
-                        {/* Project content */}
                         <div className="p-6 space-y-4">
                           <div>
                             <h3 className="text-2xl font-bold text-white mb-2">
@@ -64,7 +58,6 @@ export default function ProjectsMobile() {
                             </p>
                           </div>
 
-                          {/* Technologies */}
                           <div className="flex flex-wrap gap-2">
                             {project.technologies.map((tech) => (
                               <span
@@ -76,7 +69,6 @@ export default function ProjectsMobile() {
                             ))}
                           </div>
 
-                          {/* Actions */}
                           <div className="flex space-x-3 pt-2">
                             <a
                               target="_blank"
@@ -104,7 +96,7 @@ export default function ProjectsMobile() {
             </div>
           </div>
 
-          <div className="space-y-20 hidden md:block">
+          <div className="space-y-20 hidden sm:block">
             {projects.map((project, index) => (
               <div
                 key={project.id}

@@ -32,46 +32,46 @@ export default function FloatingNav() {
   }, []);
 
   // Improved swipe navigation
-  useEffect(() => {
-    if (!isMobile || typeof window === "undefined") return;
+  // useEffect(() => {
+  //   if (!isMobile || typeof window === "undefined") return;
 
-    const handleTouchStart = (e: TouchEvent) => {
-      touchStartY.current = e.touches[0].clientY;
-      touchStartTime.current = Date.now();
-    };
+  //   const handleTouchStart = (e: TouchEvent) => {
+  //     touchStartY.current = e.touches[0].clientY;
+  //     touchStartTime.current = Date.now();
+  //   };
 
-    const handleTouchEnd = (e: TouchEvent) => {
-      const touchEndY = e.changedTouches[0].clientY;
-      const touchEndTime = Date.now();
-      const deltaY = touchStartY.current - touchEndY;
-      const deltaTime = touchEndTime - touchStartTime.current;
+  //   const handleTouchEnd = (e: TouchEvent) => {
+  //     const touchEndY = e.changedTouches[0].clientY;
+  //     const touchEndTime = Date.now();
+  //     const deltaY = touchStartY.current - touchEndY;
+  //     const deltaTime = touchEndTime - touchStartTime.current;
 
-      // Only trigger if swipe is fast enough and long enough
-      if (Math.abs(deltaY) > 80 && deltaTime < 500) {
-        const currentIndex = navItems.findIndex(
-          (item) => item.id === activeSection
-        );
+  //     // Only trigger if swipe is fast enough and long enough
+  //     if (Math.abs(deltaY) > 80 && deltaTime < 500) {
+  //       const currentIndex = navItems.findIndex(
+  //         (item) => item.id === activeSection
+  //       );
 
-        if (deltaY > 0 && currentIndex < navItems.length - 1) {
-          // Swipe up - next section
-          scrollToSection(navItems[currentIndex + 1].id);
-        } else if (deltaY < 0 && currentIndex > 0) {
-          // Swipe down - previous section
-          scrollToSection(navItems[currentIndex - 1].id);
-        }
-      }
-    };
+  //       if (deltaY > 0 && currentIndex < navItems.length - 1) {
+  //         // Swipe up - next section
+  //         scrollToSection(navItems[currentIndex + 1].id);
+  //       } else if (deltaY < 0 && currentIndex > 0) {
+  //         // Swipe down - previous section
+  //         scrollToSection(navItems[currentIndex - 1].id);
+  //       }
+  //     }
+  //   };
 
-    document.addEventListener("touchstart", handleTouchStart, {
-      passive: true,
-    });
-    document.addEventListener("touchend", handleTouchEnd, { passive: true });
+  //   document.addEventListener("touchstart", handleTouchStart, {
+  //     passive: true,
+  //   });
+  //   document.addEventListener("touchend", handleTouchEnd, { passive: true });
 
-    return () => {
-      document.removeEventListener("touchstart", handleTouchStart);
-      document.removeEventListener("touchend", handleTouchEnd);
-    };
-  }, [isMobile, activeSection]);
+  //   return () => {
+  //     document.removeEventListener("touchstart", handleTouchStart);
+  //     document.removeEventListener("touchend", handleTouchEnd);
+  //   };
+  // }, [isMobile, activeSection]);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
