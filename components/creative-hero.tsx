@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowDown, Code, Cpu, Rocket } from "lucide-react";
+import { ArrowDown, Moon, Sun } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 
 export default function CreativeHero() {
@@ -106,7 +106,7 @@ export default function CreativeHero() {
       ref={heroRef}
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* Floating elements that follow mouse/orientation */}
+      {/* Sun icon (replaces Code icon) */}
       <div
         className="absolute pointer-events-none transition-all duration-1000 ease-out"
         style={{
@@ -121,13 +121,14 @@ export default function CreativeHero() {
           })`,
         }}
       >
-        <Code
-          className={`w-8 h-8 text-cyan-400/30 ${
+        <Sun
+          className={`w-8 h-8 text-[#DC143C]/30 ${
             touchIntensity > 0 ? "animate-spin" : "animate-pulse"
           }`}
         />
       </div>
 
+      {/* Moon icon (replaces Cpu icon) */}
       <div
         className="absolute pointer-events-none transition-all duration-1000 ease-out"
         style={{
@@ -144,14 +145,15 @@ export default function CreativeHero() {
           }deg)`,
         }}
       >
-        <Cpu
-          className={`w-12 h-12 text-purple-400/20 ${
+        <Moon
+          className={`w-12 h-12 text-[#0000FF]/20 ${
             isMobile ? "animate-pulse" : "animate-spin"
           }`}
           style={{ animationDuration: "20s" }}
         />
       </div>
 
+      {/* Sun icon (replaces Rocket icon) */}
       <div
         className="absolute pointer-events-none transition-all duration-1000 ease-out"
         style={{
@@ -168,8 +170,8 @@ export default function CreativeHero() {
           })`,
         }}
       >
-        <Rocket
-          className={`w-6 h-6 text-pink-400/40 ${
+        <Sun
+          className={`w-6 h-6 text-[#DC143C]/40 ${
             touchIntensity > 1 ? "animate-spin" : "animate-bounce"
           }`}
         />
@@ -186,7 +188,7 @@ export default function CreativeHero() {
           >
             <span className="relative inline-block">
               <span
-                className={`absolute inset-0 text-cyan-400 ${
+                className={`absolute inset-0 text-[#DC143C] ${
                   touchIntensity > 0 ? "animate-pulse" : "animate-pulse"
                 }`}
                 style={{
@@ -197,7 +199,7 @@ export default function CreativeHero() {
                 SAROJ
               </span>
               <span
-                className={`absolute inset-0 text-purple-400 ${
+                className={`absolute inset-0 text-[#0000FF] ${
                   touchIntensity > 0 ? "animate-pulse" : "animate-pulse"
                 }`}
                 style={{
@@ -234,7 +236,7 @@ export default function CreativeHero() {
           </div>
         </div>
 
-        {/* Rotating text around circle - mobile optimized */}
+        {/* Rotating text around circle with sun and moon - mobile optimized */}
         <div
           className={`relative mx-auto mb-12 ${
             isMobile ? "w-48 h-48" : "w-64 h-64"
@@ -251,11 +253,9 @@ export default function CreativeHero() {
                 : "none",
             }}
           >
-            <div
-              className={`absolute -top-3 left-1/2 transform -translate-x-1/2 rounded-full bg-gradient-to-r from-cyan-400 to-purple-500 ${
-                isMobile ? "w-4 h-4" : "w-6 h-6"
-              }`}
-            ></div>
+            <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
+              <Sun className="w-6 h-6 text-[#DC143C]" />
+            </div>
           </div>
           <div
             className={`absolute rounded-full border border-white/10 ${
@@ -269,16 +269,14 @@ export default function CreativeHero() {
                 : "none",
             }}
           >
-            <div
-              className={`absolute -top-2 left-1/2 transform -translate-x-1/2 rounded-full bg-gradient-to-r from-purple-400 to-pink-500 ${
-                isMobile ? "w-3 h-3" : "w-4 h-4"
-              }`}
-            ></div>
+            <div className="absolute -top-2 left-1/2 transform -translate-x-1/2">
+              <Moon className="w-4 h-4 text-[#0000FF]" />
+            </div>
           </div>
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-center">
               <div
-                className={`font-bold bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent ${
+                className={`font-bold bg-gradient-to-r from-[#DC143C] to-[#0000FF] bg-clip-text text-transparent ${
                   isMobile ? "text-lg" : "text-2xl"
                 }`}
               >
@@ -300,10 +298,10 @@ export default function CreativeHero() {
           <p className="text-xl text-gray-300 leading-relaxed">
             I don't just write code — I{" "}
             <span className="relative inline-block">
-              <span className="bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent font-bold">
+              <span className="bg-gradient-to-r from-[#DC143C] to-[#0000FF] bg-clip-text text-transparent font-bold">
                 architect digital experiences
               </span>
-              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-cyan-400 to-purple-500 animate-pulse"></span>
+              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-[#DC143C] to-[#0000FF] animate-pulse"></span>
             </span>{" "}
             that push boundaries and challenge conventions.
           </p>
@@ -332,7 +330,7 @@ export default function CreativeHero() {
               />
             </span>
             <div
-              className={`absolute inset-0 bg-gradient-to-r from-cyan-400/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${
+              className={`absolute inset-0 bg-gradient-to-r from-[#DC143C]/20 to-[#0000FF]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${
                 touchIntensity > 0 ? "opacity-100" : ""
               }`}
             ></div>
@@ -347,11 +345,11 @@ export default function CreativeHero() {
         )}
       </div>
 
-      {/* Scroll indicator */}
+      {/* Scroll indicator with sun icon */}
       <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
         <div className="flex flex-col items-center space-y-2 animate-bounce">
+          <Sun className="w-4 h-4 text-[#DC143C]/70" />
           <div className="w-px h-12 bg-gradient-to-b from-transparent to-white/50"></div>
-          <div className="w-2 h-2 bg-white/50 rounded-full"></div>
         </div>
       </div>
     </section>
