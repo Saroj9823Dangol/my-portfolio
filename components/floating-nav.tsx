@@ -1,25 +1,24 @@
 "use client";
 
-import { Briefcase, Home, Mail, User, Zap } from "lucide-react";
-import { useEffect, useRef, useState } from "react";
+import { Briefcase, Clock, Home, Info, Mail, User, Zap } from "lucide-react";
+import { useEffect, useState } from "react";
 
 export default function FloatingNav() {
   const [activeSection, setActiveSection] = useState("hero");
   const [isExpanded, setIsExpanded] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const touchStartY = useRef(0);
-  const touchStartTime = useRef(0);
 
   const navItems = [
     { id: "hero", icon: Home, label: "Start" },
+    { id: "about", icon: Info, label: "About" },
     { id: "story", icon: User, label: "Story" },
     { id: "skills", icon: Zap, label: "Powers" },
     { id: "projects", icon: Briefcase, label: "Creations" },
+    { id: "experience", icon: Clock, label: "Journey" },
     { id: "contact", icon: Mail, label: "Portal" },
   ];
 
   useEffect(() => {
-    // Ensure window is defined before accessing it
     if (typeof window !== "undefined") {
       const checkMobile = () => {
         setIsMobile(window.innerWidth < 768);
@@ -31,53 +30,19 @@ export default function FloatingNav() {
     }
   }, []);
 
-  // Improved swipe navigation
-  // useEffect(() => {
-  //   if (!isMobile || typeof window === "undefined") return;
-
-  //   const handleTouchStart = (e: TouchEvent) => {
-  //     touchStartY.current = e.touches[0].clientY;
-  //     touchStartTime.current = Date.now();
-  //   };
-
-  //   const handleTouchEnd = (e: TouchEvent) => {
-  //     const touchEndY = e.changedTouches[0].clientY;
-  //     const touchEndTime = Date.now();
-  //     const deltaY = touchStartY.current - touchEndY;
-  //     const deltaTime = touchEndTime - touchStartTime.current;
-
-  //     // Only trigger if swipe is fast enough and long enough
-  //     if (Math.abs(deltaY) > 80 && deltaTime < 500) {
-  //       const currentIndex = navItems.findIndex(
-  //         (item) => item.id === activeSection
-  //       );
-
-  //       if (deltaY > 0 && currentIndex < navItems.length - 1) {
-  //         // Swipe up - next section
-  //         scrollToSection(navItems[currentIndex + 1].id);
-  //       } else if (deltaY < 0 && currentIndex > 0) {
-  //         // Swipe down - previous section
-  //         scrollToSection(navItems[currentIndex - 1].id);
-  //       }
-  //     }
-  //   };
-
-  //   document.addEventListener("touchstart", handleTouchStart, {
-  //     passive: true,
-  //   });
-  //   document.addEventListener("touchend", handleTouchEnd, { passive: true });
-
-  //   return () => {
-  //     document.removeEventListener("touchstart", handleTouchStart);
-  //     document.removeEventListener("touchend", handleTouchEnd);
-  //   };
-  // }, [isMobile, activeSection]);
-
   useEffect(() => {
     if (typeof window === "undefined") return;
 
     const handleScroll = () => {
-      const sections = ["hero", "story", "skills", "projects", "contact"];
+      const sections = [
+        "hero",
+        "about",
+        "story",
+        "skills",
+        "projects",
+        "experience",
+        "contact",
+      ];
       const scrollPosition = window.scrollY + window.innerHeight / 2;
 
       for (const section of sections) {
@@ -121,8 +86,8 @@ export default function FloatingNav() {
       <div
         className={`relative transition-all duration-500 ${
           isMobile
-            ? `flex space-x-2 bg-black/80 backdrop-blur-xl rounded-full p-3 border border-white/20 ${
-                isExpanded ? "px-6" : ""
+            ? `flex space-x-1 bg-black/80 backdrop-blur-xl rounded-full p-2 border border-white/20 ${
+                isExpanded ? "px-4" : ""
               }`
             : isExpanded
             ? "bg-white/10 backdrop-blur-md rounded-full p-2"
@@ -159,9 +124,9 @@ export default function FloatingNav() {
                 onClick={() => scrollToSection(item.id)}
                 className={`group relative flex items-center justify-center transition-all duration-300 ${
                   isMobile
-                    ? `w-12 h-12 rounded-full ${
+                    ? `w-10 h-10 rounded-full ${
                         isActive
-                          ? "bg-gradient-to-r from-cyan-400 to-purple-500 scale-110 shadow-lg shadow-cyan-400/25"
+                          ? "bg-gradient-to-r from-cyan-400 to-purple-500 scale-105 shadow-lg shadow-cyan-400/25"
                           : "bg-white/10 hover:bg-white/20 active:scale-95"
                       }`
                     : `w-12 h-12 rounded-full ${
@@ -172,9 +137,9 @@ export default function FloatingNav() {
                 }`}
               >
                 <Icon
-                  className={`transition-colors duration-300 w-5 h-5 ${
-                    isActive ? "text-white" : "text-gray-300"
-                  }`}
+                  className={`transition-colors duration-300 ${
+                    isMobile ? "w-4 h-4" : "w-5 h-5"
+                  } ${isActive ? "text-white" : "text-gray-300"}`}
                 />
 
                 {/* Desktop tooltip */}

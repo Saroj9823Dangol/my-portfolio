@@ -21,7 +21,7 @@ export default function ProjectsMobile() {
             <p
               className={`text-gray-400 mt-6 max-w-3xl mx-auto md:text-xl text-base`}
             >
-              A showcase of my recent work and technical expertise
+              Innovative solutions that push the boundaries of what's possible
             </p>
           </div>
 

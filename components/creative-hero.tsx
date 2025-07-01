@@ -312,7 +312,7 @@ export default function CreativeHero() {
           <button
             onClick={() =>
               document
-                .getElementById("story")
+                .getElementById("about")
                 ?.scrollIntoView({ behavior: "smooth" })
             }
             onTouchStart={() => isMobile && setTouchIntensity(1)}
