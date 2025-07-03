@@ -1,5 +1,5 @@
 module.exports = {
-  siteUrl: "https://sarojdev.vercel.app",
+  siteUrl: "https://www.sarojdangol012.com.np",
   generateRobotsTxt: true,
   sitemapSize: 7000,
 };

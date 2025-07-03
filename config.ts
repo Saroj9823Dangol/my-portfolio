@@ -164,7 +164,7 @@ export const siteConfig: SiteConfig = {
     },
     author: {
       name: "Saroj Dangol",
-      url: "https://sarojdev.vercel.app",
+      url: "https://www.sarojdangol012.com.np",
     },
     description:
       "Saroj Dangol is an award-winning Full Stack Developer specializing in MERN stack, React Native, and cloud solutions. 5+ years experience building scalable web & mobile apps with cutting-edge technologies.",
@@ -227,7 +227,7 @@ export const siteConfig: SiteConfig = {
     authors: [
       {
         name: "Saroj Dangol",
-        url: "https://sarojdev.vercel.app",
+        url: "https://www.sarojdangol012.com.np",
       },
       {
         name: "Apptechnologies",
@@ -241,7 +241,7 @@ export const siteConfig: SiteConfig = {
       address: true,
       telephone: true,
     },
-    metadataBase: new URL("https://sarojdev.vercel.app"),
+    metadataBase: new URL("https://www.sarojdangol012.com.np"),
     alternates: {
       canonical: "/",
       languages: {
@@ -253,10 +253,10 @@ export const siteConfig: SiteConfig = {
       title: "Hire Saroj Dangol - Elite Full Stack & Mobile Developer",
       description:
         "Looking for a top-tier developer? Saroj Dangol delivers exceptional MERN stack web applications and React Native mobile solutions with 3+ years of proven results.",
-      url: "https://sarojdev.vercel.app",
+      url: "https://www.sarojdangol012.com.np",
       siteName: "Saroj Dangol - Premium Development Services",
       images: {
-        url: "https://sarojdev.vercel.app/images/profile.webp",
+        url: "https://www.sarojdangol012.com.np/images/profile.webp",
         width: 1200,
         height: 630,
         alt: "Saroj Dangol - Full Stack & Mobile Development Expert",
@@ -274,7 +274,7 @@ export const siteConfig: SiteConfig = {
         "Full Stack Developer building performant web & mobile apps that drive business growth. MERN Stack | React Native | AWS | TypeScript",
       images: [
         {
-          url: "https://sarojdev.vercel.app/images/twitter-card.webp",
+          url: "https://www.sarojdangol012.com.np/images/twitter-card.webp",
           width: 1200,
           height: 675,
           alt: "Saroj Dangol Development Services",
@@ -347,7 +347,7 @@ export const siteConfig: SiteConfig = {
     type: "Person",
     name: "Saroj Dangol",
     jobTitle: "Senior Full Stack Developer & Mobile Specialist",
-    url: "https://sarojdev.vercel.app",
+    url: "https://www.sarojdangol012.com.np",
     sameAs: [
       "https://github.com/Saroj9823Dangol",
       "https://linkedin.com/in/er-saroj-dangol-9492bb216",
