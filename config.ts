@@ -167,7 +167,7 @@ export const siteConfig: SiteConfig = {
       url: "https://www.sarojdangol012.com.np",
     },
     description:
-      "Saroj Dangol is an award-winning Full Stack Developer specializing in MERN stack, React Native, and cloud solutions. 5+ years experience building scalable web & mobile apps with cutting-edge technologies.",
+      "Saroj Dangol is a versatile Full Stack Developer specializing in MERN stack, React Native, and cloud solutions. 3+ years experience building scalable web & mobile apps with cutting-edge technologies.",
     applicationName: "Saroj Dangol - Premium Development Services",
     generator: "Next.js",
     referrer: "origin-when-cross-origin",
