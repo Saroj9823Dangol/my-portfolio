@@ -26,14 +26,12 @@ export default function ProjectsMobile() {
           </div>
 
           <div className="relative block sm:hidden">
-            <div className="relative overflow-hidden rounded-2xl">
+            <div className="relative overflow-hidden">
               <div className="flex flex-col space-y-20 transition-transform duration-300 ease-out">
                 {projects.map((project, index) => (
                   <div key={project.id} className="w-full">
-                    <div
-                      className={`bg-gradient-to-br ${project.color} p-1 rounded-2xl`}
-                    >
-                      <div className="bg-slate-900 rounded-2xl overflow-hidden">
+                    <div className={`bg-gradient-to-br ${project.color} p-1`}>
+                      <div className="bg-slate-900 overflow-hidden">
                         <div className="relative h-48 overflow-hidden">
                           <Image
                             src={project.image || "/placeholder.svg"}
@@ -62,7 +60,7 @@ export default function ProjectsMobile() {
                             {project.technologies.map((tech) => (
                               <span
                                 key={tech}
-                                className="px-3 py-1 bg-slate-800 text-slate-300 rounded-full text-xs border border-slate-700"
+                                className="px-3 py-1 bg-slate-800 text-slate-300 text-xs border border-slate-700"
                               >
                                 {tech}
                               </span>
@@ -73,7 +71,7 @@ export default function ProjectsMobile() {
                             <a
                               target="_blank"
                               href={project.github}
-                              className="flex-1 flex items-center justify-center px-4 py-3 bg-slate-800 text-white rounded-lg transition-all duration-300 active:scale-95"
+                              className="flex-1 flex items-center justify-center px-4 py-3 bg-slate-800 text-white transition-all duration-300 active:scale-95"
                             >
                               <Github className="w-4 h-4 mr-2" />
                               Code
@@ -81,7 +79,7 @@ export default function ProjectsMobile() {
                             <a
                               target="_blank"
                               href={project.live}
-                              className={`flex-1 flex items-center justify-center px-4 py-3 bg-gradient-to-r ${project.color} text-white rounded-lg transition-all duration-300 active:scale-95`}
+                              className={`flex-1 flex items-center justify-center px-4 py-3 bg-gradient-to-r ${project.color} text-white transition-all duration-300 active:scale-95`}
                             >
                               <ExternalLink className="w-4 h-4 mr-2" />
                               Live
@@ -108,9 +106,9 @@ export default function ProjectsMobile() {
                 <div className={`${index % 2 === 1 ? "lg:col-start-2" : ""}`}>
                   <div className="relative group">
                     <div
-                      className={`absolute inset-0 bg-gradient-to-r ${project.color} rounded-2xl blur opacity-25 group-hover:opacity-40 transition-opacity duration-300`}
+                      className={`absolute inset-0 bg-gradient-to-r ${project.color} blur opacity-25 group-hover:opacity-40 transition-opacity duration-300`}
                     ></div>
-                    <div className="relative bg-slate-800 rounded-2xl overflow-hidden border border-slate-700 group-hover:border-slate-600 transition-all duration-300">
+                    <div className="relative bg-slate-800 overflow-hidden border border-slate-700 group-hover:border-slate-600 transition-all duration-300">
                       <Image
                         src={project.image || "/placeholder.svg"}
                         alt={project.title}
@@ -123,14 +121,14 @@ export default function ProjectsMobile() {
                           <a
                             target="_blank"
                             href={project.github}
-                            className="p-3 bg-slate-800/80 backdrop-blur-sm rounded-full hover:bg-slate-700 transition-colors duration-300"
+                            className="p-3 bg-slate-800/80 backdrop-blur-sm  hover:bg-slate-700 transition-colors duration-300"
                           >
                             <Github className="h-5 w-5 text-white" />
                           </a>
                           <a
                             target="_blank"
                             href={project.live}
-                            className="p-3 bg-blue-600/80 backdrop-blur-sm rounded-full hover:bg-blue-700 transition-colors duration-300"
+                            className="p-3 bg-blue-600/80 backdrop-blur-sm  hover:bg-blue-700 transition-colors duration-300"
                           >
                             <ExternalLink className="h-5 w-5 text-white" />
                           </a>
@@ -158,7 +156,7 @@ export default function ProjectsMobile() {
                     {project.technologies.map((tech) => (
                       <span
                         key={tech}
-                        className="px-3 py-1 bg-slate-800 text-slate-300 rounded-full text-sm border border-slate-700 hover:border-blue-500/50 transition-colors duration-300"
+                        className="px-3 py-1 bg-slate-800 text-slate-300  text-sm border border-slate-700 hover:border-blue-500/50 transition-colors duration-300"
                       >
                         {tech}
                       </span>
@@ -169,7 +167,7 @@ export default function ProjectsMobile() {
                     <a
                       target="_blank"
                       href={project.github}
-                      className="inline-flex items-center px-6 py-3 bg-slate-800 hover:bg-slate-700 text-white rounded-lg transition-all duration-300 hover:scale-105"
+                      className="inline-flex items-center px-6 py-3 bg-slate-800 hover:bg-slate-700 text-white transition-all duration-300 hover:scale-105"
                     >
                       <Github className="h-5 w-5 mr-2" />
                       Code
@@ -177,7 +175,7 @@ export default function ProjectsMobile() {
                     <a
                       target="_blank"
                       href={project.live}
-                      className={`inline-flex items-center px-6 py-3 bg-gradient-to-r ${project.color} text-white rounded-lg transition-all duration-300 hover:scale-105`}
+                      className={`inline-flex items-center px-6 py-3 bg-gradient-to-r ${project.color} text-white transition-all duration-300 hover:scale-105`}
                     >
                       <ExternalLink className="h-5 w-5 mr-2" />
                       Live Demo

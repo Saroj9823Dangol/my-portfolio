@@ -75,7 +75,7 @@ export default function SkillsSection() {
               return (
                 <div
                   key={categoryIndex}
-                  className={`group bg-slate-800/30 backdrop-blur-sm rounded-2xl border border-slate-700 hover:border-slate-600 transition-all duration-500 hover:scale-105 overflow-hidden`}
+                  className={`group bg-slate-800/30 backdrop-blur-sm border border-slate-700 hover:border-slate-600 transition-all duration-500 hover:scale-105 overflow-hidden`}
                   style={{ animationDelay: `${categoryIndex * 0.1}s` }}
                 >
                   <div className="p-8">
@@ -160,7 +160,7 @@ export default function SkillsSection() {
               ].map((tech, index) => (
                 <span
                   key={index}
-                  className={`px-4 py-2 bg-slate-800/50 text-slate-300 rounded-full border border-slate-700 hover:border-blue-500/50 transition-all duration-300 hover:scale-105 text-sm`}
+                  className={`px-4 py-2 bg-slate-800/50 text-slate-300 border border-slate-700 hover:border-blue-500/50 transition-all duration-300 hover:scale-105 text-sm`}
                   style={{
                     animationDelay: `${index * 0.05}s`,
                   }}

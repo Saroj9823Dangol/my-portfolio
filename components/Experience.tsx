@@ -17,7 +17,7 @@ const Experience = () => {
             <div key={exp.title} className="relative pl-8 pb-12 last:pb-0">
               <div className="absolute left-0 top-0 w-4 h-4 bg-gradient-to-r from-blue-600 to-purple-600 dark:from-cyan-400 dark:to-purple-500 rounded-full"></div>
               <div className="absolute left-2 top-4 w-0.5 h-full bg-gradient-to-b from-blue-600 to-purple-600 dark:from-cyan-400 dark:to-purple-500 last:hidden"></div>
-              <div className="bg-transparent dark:bg-white/5 dark:border-white/10 backdrop-blur-sm rounded-lg shadow-md p-4 sm:p-6">
+              <div className="bg-transparent dark:bg-white/5 dark:border-white/10 backdrop-blur-sm shadow-md p-4 sm:p-6">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-2">
                   <h3 className="text-lg sm:text-xl font-semibold text-gray-900 dark:text-white">
                     {exp.title}

@@ -36,10 +36,10 @@ export default function ContactPortal() {
           ></div>
 
           {/* Main form container */}
-          <div className="relative bg-gradient-to-br from-gray-900/50 to-black/50 backdrop-blur-xl rounded-3xl border border-white/10 overflow-hidden">
+          <div className="relative bg-gradient-to-br from-gray-900/50 to-black/50 backdrop-blur-xl border border-white/10 overflow-hidden">
             {/* Animated border */}
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 opacity-20 animate-pulse"></div>
-            <div className="absolute inset-[1px] bg-gradient-to-br from-gray-900/90 to-black/90 rounded-3xl"></div>
+            <div className="absolute inset-[1px] bg-gradient-to-br from-gray-900/90 to-black/90"></div>
 
             <div className="relative z-10 p-5">
               <form className="space-y-8">
@@ -54,7 +54,7 @@ export default function ContactPortal() {
                       type="text"
                       name="name"
                       required
-                      className="bg-white/5 border-white/20 text-white placeholder-gray-400 focus:border-cyan-400 focus:ring-cyan-400/50 rounded-xl h-14 text-lg transition-all duration-300 group-hover:bg-white/10"
+                      className="bg-white/5 border-white/20 text-white placeholder-gray-400 focus:border-cyan-400 focus:ring-cyan-400/50 h-14 text-lg transition-all duration-300 group-hover:bg-white/10"
                       placeholder="Enter your name"
                     />
                   </div>
@@ -69,7 +69,7 @@ export default function ContactPortal() {
                       type="email"
                       name="email"
                       required
-                      className="bg-white/5 border-white/20 text-white placeholder-gray-400 focus:border-purple-400 focus:ring-purple-400/50 rounded-xl h-14 text-lg transition-all duration-300 group-hover:bg-white/10"
+                      className="bg-white/5 border-white/20 text-white placeholder-gray-400 focus:border-purple-400 focus:ring-purple-400/50 h-14 text-lg transition-all duration-300 group-hover:bg-white/10"
                       placeholder="your@email.com"
                     />
                   </div>
@@ -85,7 +85,7 @@ export default function ContactPortal() {
                     name="message"
                     required
                     rows={6}
-                    className="bg-white/5 border-white/20 text-white placeholder-gray-400 focus:border-pink-400 focus:ring-pink-400/50 rounded-xl text-lg transition-all duration-300 group-hover:bg-white/10 resize-none"
+                    className="bg-white/5 border-white/20 text-white placeholder-gray-400 focus:border-pink-400 focus:ring-pink-400/50 text-lg transition-all duration-300 group-hover:bg-white/10 resize-none"
                     placeholder="Tell me about your project, ideas, or just say hello!"
                   />
                 </div>
@@ -94,7 +94,7 @@ export default function ContactPortal() {
                 <div className="text-center">
                   <Button
                     type="submit"
-                    className="relative px-12 py-6 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 hover:from-cyan-500 hover:via-purple-600 hover:to-pink-600 text-white font-bold text-lg rounded-full transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 overflow-hidden group"
+                    className="relative px-12 py-6 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 hover:from-cyan-500 hover:via-purple-600 hover:to-pink-600 text-white font-bold text-lg transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:scale-100 overflow-hidden group"
                   >
                     {/* Button background animation */}
                     <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 opacity-0 group-hover:opacity-20 transition-opacity duration-500"></div>

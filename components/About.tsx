@@ -38,7 +38,7 @@ export function AboutSection() {
       {/* Floating geometric shapes */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute top-20 left-10 w-32 h-32 border border-cyan-500/20 rotate-45 animate-pulse"></div>
-        <div className="absolute top-40 right-20 w-24 h-24 border border-purple-500/20 rounded-full animate-bounce"></div>
+        <div className="absolute top-40 right-20 w-24 h-24 border border-purple-500/20 animate-bounce"></div>
         <div className="absolute bottom-20 left-1/4 w-16 h-16 bg-gradient-to-r from-cyan-500/10 to-purple-500/10 rotate-12"></div>
       </div>
 
@@ -80,7 +80,7 @@ export function AboutSection() {
 
           {/* Interactive Code Block */}
           <div className="opacity-100 translate-x-0">
-            <div className="bg-gray-900 rounded-lg border border-cyan-500/30 overflow-hidden">
+            <div className="bg-gray-900 border border-cyan-500/30 overflow-hidden">
               <div className="px-4 py-2 bg-gray-800 border-b border-gray-700">
                 <div className="text-cyan-400 text-sm font-mono">saroj.js</div>
               </div>
