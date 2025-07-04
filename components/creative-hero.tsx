@@ -183,35 +183,36 @@ export default function CreativeHero() {
         <div className="relative mb-8">
           <h1
             className={`font-black tracking-tighter ${
-              isMobile ? "text-6xl" : "text-8xl md:text-9xl"
+              isMobile ? "text-6xl" : "text-6xl md:text-8xl"
             }`}
           >
-            <span className="relative inline-block">
+            {/* <span className="relative inline-block">
               <span
-                className={`absolute inset-0 text-[#DC143C] ${
-                  touchIntensity > 0 ? "animate-pulse" : "animate-pulse"
-                }`}
+                // className={`absolute inset-0 text-[#DC143C] ${
+                //   touchIntensity > 0 ? "animate-pulse" : "animate-pulse"
+                // }`}
                 style={{
                   clipPath: "polygon(0 0, 100% 0, 100% 45%, 0 45%)",
                   filter: touchIntensity > 1 ? "blur(1px)" : "none",
                 }}
               >
-                SAROJ
+                SAROJ DANGOL
               </span>
               <span
-                className={`absolute inset-0 text-[#0000FF] ${
-                  touchIntensity > 0 ? "animate-pulse" : "animate-pulse"
-                }`}
+                // className={`absolute inset-0 text-[#0000FF] ${
+                //   touchIntensity > 0 ? "animate-pulse" : "animate-pulse"
+                // }`}
                 style={{
                   clipPath: "polygon(0 55%, 100% 55%, 100% 100%, 0 100%)",
                   animationDelay: "0.1s",
                   filter: touchIntensity > 1 ? "blur(1px)" : "none",
                 }}
               >
-                SAROJ
+                SAROJ DANGOL
               </span>
-              <span className="text-white">SAROJ</span>
-            </span>
+              <span className="text-white">SAROJ DANGOL</span>
+            </span> */}
+            <span className="text-white">SAROJ DANGOL</span>
           </h1>
           <div
             className={`font-light tracking-widest mt-4 text-gray-300 ${
