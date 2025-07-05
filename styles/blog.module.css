@@ -1,0 +1,123 @@
+.prose-content {
+  color: #e5e7eb;
+  line-height: 1.8;
+}
+.prose-content .lead-paragraph {
+  font-size: 1.25rem;
+  color: #d1d5db;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  line-height: 1.7;
+  padding: 1.5rem;
+  background: linear-gradient(
+    135deg,
+    rgba(168, 85, 247, 0.1),
+    rgba(236, 72, 153, 0.1)
+  );
+  border-left: 4px solid #a855f7;
+  border-radius: 0.5rem;
+}
+.prose-content .section-header {
+  color: #ffffff;
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(to right, #a855f7, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+}
+.prose-content .section-header::before {
+  content: "";
+  position: absolute;
+  left: -1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, #a855f7, #ec4899);
+  border-radius: 2px;
+}
+.prose-content .insight-quote {
+  border-left: 4px solid #a855f7;
+  background: linear-gradient(
+    135deg,
+    rgba(168, 85, 247, 0.1),
+    rgba(236, 72, 153, 0.1)
+  );
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+  font-style: italic;
+  font-size: 1.125rem;
+  color: #d1d5db;
+  position: relative;
+}
+.prose-content .insight-quote::before {
+  content: '"';
+  position: absolute;
+  top: -0.5rem;
+  left: 1rem;
+  font-size: 3rem;
+  color: #a855f7;
+  font-family: serif;
+}
+.prose-content .code-example {
+  background: rgba(17, 24, 39, 0.8);
+  border: 1px solid rgba(107, 114, 128, 0.3);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  position: relative;
+  overflow: hidden;
+}
+.prose-content .code-example::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(to right, #a855f7, #ec4899, #06b6d4);
+}
+.prose-content .code-example h3 {
+  color: #a855f7;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.prose-content .code-example h3::before {
+  content: "⚡";
+  margin-right: 0.5rem;
+}
+.prose-content pre {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 0;
+  border: 1px solid rgba(168, 85, 247, 0.2);
+}
+.prose-content code {
+  color: #06b6d4;
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+  font-size: 0.875rem;
+}
+.prose-content p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+.prose-content a {
+  color: #a855f7;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+.prose-content a:hover {
+  border-bottom-color: #a855f7;
+}

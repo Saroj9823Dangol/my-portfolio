@@ -115,7 +115,7 @@ export default function ContactPortal() {
                       <span className="text-white font-bold">@</span>
                     </div>
                     <div className="text-gray-300">
-                      mail.sarojdangol@gmail.com
+                      hello@sarojdangol012.com.np
                     </div>
                   </div>
                   <div className="group">

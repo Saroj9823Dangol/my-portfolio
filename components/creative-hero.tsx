@@ -1,6 +1,7 @@
 "use client";
 
-import { ArrowDown, Moon, Sun } from "lucide-react";
+import { ArrowDown, ArrowRight, Moon, Sun } from "lucide-react";
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 export default function CreativeHero() {
@@ -212,7 +213,7 @@ export default function CreativeHero() {
               </span>
               <span className="text-white">SAROJ DANGOL</span>
             </span> */}
-            <span className="text-white">SAROJ DANGOL</span>
+            &lt;SAROJ/&gt;
           </h1>
           <div
             className={`font-light tracking-widest mt-4 text-gray-300 ${
@@ -309,7 +310,7 @@ export default function CreativeHero() {
         </div>
 
         {/* Interactive CTA - mobile optimized */}
-        <div className="relative">
+        <div className="relative flex items-center flex-wrap gap-5">
           <button
             onClick={() =>
               document
@@ -336,6 +337,29 @@ export default function CreativeHero() {
               }`}
             ></div>
           </button>
+
+          <Link
+            href={"/blogs"}
+            onTouchStart={() => isMobile && setTouchIntensity(1)}
+            onTouchEnd={() => isMobile && setTouchIntensity(0)}
+            className={`group relative bg-transparent border-2 border-white/30 rounded-full text-white font-semibold transition-all duration-500 hover:border-white/60 hover:scale-105 overflow-hidden ${
+              isMobile ? "px-8 py-4 text-base" : "px-12 py-6 text-lg"
+            } ${touchIntensity > 0 ? "scale-110 border-white/80" : ""}`}
+          >
+            <span className="relative z-10 flex items-center">
+              Read Blogs
+              <ArrowRight
+                className={`ml-3 group-hover:translate-x-1 transition-transform duration-300 ${
+                  isMobile ? "w-4 h-4" : "w-5 h-5"
+                } ${touchIntensity > 0 ? "animate-bounce" : ""}`}
+              />
+            </span>
+            <div
+              className={`absolute inset-0 bg-gradient-to-r from-[#DC143C]/20 to-[#0000FF]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${
+                touchIntensity > 0 ? "opacity-100" : ""
+              }`}
+            ></div>
+          </Link>
         </div>
 
         {/* Mobile-specific touch hint */}

@@ -263,7 +263,7 @@ export const siteConfig: SiteConfig = {
       },
       locale: "en_US",
       type: "profile",
-      emails: ["mail.sarojdangol@gmail.com", "saroj9823dangol@gmail.com"],
+      emails: ["hello@sarojdangol012.com.np", "saroj9823dangol@gmail.com"],
     },
     twitter: {
       card: "summary_large_image",

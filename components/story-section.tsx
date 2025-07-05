@@ -43,7 +43,7 @@ export default function StorySection() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-black mb-6">
             <span className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-              Story.start()
+              Journey.start()
             </span>
           </h2>
           <div className="w-32 h-1 bg-gradient-to-r from-cyan-400 to-purple-500 mx-auto"></div>
