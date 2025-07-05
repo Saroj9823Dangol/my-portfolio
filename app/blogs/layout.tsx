@@ -6,7 +6,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const featuredPost = posts.find((post) => post.featured);
 
   return {
-    title: "Tech Insights & Development Blogs | Saroj's Portfolio",
+    title: "Tech Insights & Development Blogs",
     description:
       "Explore in-depth articles on web development, technology trends, and coding best practices from an experienced developer.",
     keywords: [
@@ -21,7 +21,7 @@ export async function generateMetadata(): Promise<Metadata> {
       canonical: "https://sarojdangol012.com.np/blogs",
     },
     openGraph: {
-      title: "Tech Insights & Development Blogs | Saroj's Portfolio",
+      title: "Tech Insights & Development Blogs",
       description:
         "Explore in-depth articles on web development and technology trends.",
       url: "https://sarojdangol012.com.np/blogs",
@@ -47,7 +47,7 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     twitter: {
       card: "summary_large_image",
-      title: "Tech Insights & Development Blogs | Saroj's Portfolio",
+      title: "Tech Insights & Development Blogs",
       description:
         "Explore in-depth articles on web development and technology trends.",
       images: featuredPost?.image
