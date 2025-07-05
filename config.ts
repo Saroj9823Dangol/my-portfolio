@@ -158,8 +158,7 @@ export const siteConfig: SiteConfig = {
   },
   metadata: {
     title: {
-      default:
-        "Saroj Dangol | Expert Full Stack Developer (MERN, React Native, AWS)",
+      default: "Saroj Dangol | Full Stack Developer (MERN, React Native, AWS)",
       template: "%s | Saroj Dangol - Top-Rated Web & Mobile Developer",
     },
     author: {
