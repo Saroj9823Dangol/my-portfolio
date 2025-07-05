@@ -65,7 +65,7 @@ export const reactServerComponentsGuide = {
   
     return (
       <div>
-        <h2>Latest Posts</h2>
+        <span>Latest Posts</span>
         <ul>
           {posts.map(post => (
             <li key={post.id}>{post.title}</li>
@@ -163,7 +163,7 @@ export const reactServerComponentsGuide = {
   
     return (
       <div>
-        <h2>Latest Posts</h2>
+        <span>Latest Posts</span>
         <PostList initialPosts={posts} />
       </div>
     );

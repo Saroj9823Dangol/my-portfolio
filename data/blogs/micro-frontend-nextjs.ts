@@ -140,7 +140,7 @@ export const microFrontendsGuide = {
     return (
       <div>
         <Navigation />
-        <h2>Welcome to the Micro-Frontend App</h2>
+        <span>Welcome to the Micro-Frontend App</span>
       </div>
     );
   }
@@ -165,7 +165,7 @@ export const microFrontendsGuide = {
     
     return (
       <div>
-        <h2>Welcome to the Micro-Frontend App</h2>
+        <span>Welcome to the Micro-Frontend App</span>
         <nav>{navData.map(item => <a key={item.id} href={item.url}>{item.label}</a>)}</nav>
       </div>
     );
