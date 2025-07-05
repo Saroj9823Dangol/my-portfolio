@@ -96,6 +96,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+        <link
+          rel="alternate"
+          href="https://sarojdangol012.com.np"
+          hrefLang="x-default"
+        />
       </head>
       <body className="min-h-screen bg-background antialiased">
         <ThemeProvider

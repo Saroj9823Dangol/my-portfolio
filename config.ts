@@ -351,10 +351,7 @@ export const siteConfig: SiteConfig = {
       "https://github.com/Saroj9823Dangol",
       "https://linkedin.com/in/er-saroj-dangol-9492bb216",
       "https://facebook.com/saroz.dangol.7",
-      "https://twitter.com/sarojdev",
-      "https://stackoverflow.com/users/yourid",
-      "https://www.upwork.com/freelancers/~yourid",
-      "https://www.fiverr.com/yourprofile",
+      "https://www.upwork.com/freelancers/~01a78d9a0751fb1801",
     ],
     worksFor: {
       type: "Organization",
