@@ -17,8 +17,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params; // Await the params Promise
   const post = await getBlogPost(slug);
 
-  console.log(slug, "slug");
-
   if (!post) {
     return {
       title: "Blog Post Not Found",
@@ -27,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${post.title} | Neural Feed`,
+    title: `${post.title}`,
     description: post.excerpt,
     alternates: {
       canonical: `https://sarojdangol012.com.np/blogs/${slug}`,

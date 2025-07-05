@@ -1,7 +1,7 @@
 export const reactServerComponentsGuide = {
   id: "4",
   slug: "react-server-components-2025",
-  title: "Mastering React Server Components in 2025: A Comprehensive Guide",
+  title: "Dive into React Server Components in 2025 with this SEO-...",
   image: "/images/blogs/react-server-component.jpg",
   excerpt:
     "Dive into React Server Components in 2025 with this SEO-friendly guide, exploring server-side rendering, performance optimization, and practical examples for modern web applications.",

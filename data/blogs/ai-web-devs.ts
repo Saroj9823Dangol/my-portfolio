@@ -1,8 +1,7 @@
 export const aiWebDevelopmentGuide = {
   id: "7",
   slug: "how-ai-transforms-web-development-2025",
-  title:
-    "How AI is Revolutionizing Web Development in 2025: Impact on Jobs, Challenges, and Tools",
+  title: "How AI is changing web development, jobs, and tools in 2025.",
   image: "/images/blogs/how-ai-transforms-web-development-2025.png",
   excerpt:
     "Explore how AI is reshaping web development in 2025, its impact on web developer jobs, new challenges, pros and cons, and the top AI tools transforming the MERN stack workflow.",

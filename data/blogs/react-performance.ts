@@ -1,7 +1,7 @@
 export const reactPerformance = {
   id: "2",
   slug: "react-performance-optimization-2024",
-  title: "Complete React Performance Optimization Guide for 2024",
+  title: "Master React performance optimization techniques for 2024.",
   image: "/images/blogs/react-optimization.png",
   excerpt:
     "Master the latest React performance optimization techniques for 2024 with this comprehensive guide covering Concurrent Features, advanced memoization, and cutting-edge optimization strategies.",
