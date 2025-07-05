@@ -1,5 +1,7 @@
+import { aiWebDevelopmentGuide } from "@/data/blogs/ai-web-devs";
 import { jwtAuthentication } from "@/data/blogs/jwt-authentication";
 import { mernStackGuide } from "@/data/blogs/mern-stack-guide";
+import { microFrontendsGuide } from "@/data/blogs/micro-frontend-nextjs";
 import { reactPerformance } from "@/data/blogs/react-performance";
 import { reactServerComponentsGuide } from "@/data/blogs/react-server-component";
 
@@ -20,7 +22,9 @@ export type BlogPost = {
 };
 
 const blogPosts: BlogPost[] = [
+  aiWebDevelopmentGuide,
   reactServerComponentsGuide,
+  microFrontendsGuide,
   mernStackGuide,
   reactPerformance,
   jwtAuthentication,
