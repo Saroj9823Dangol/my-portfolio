@@ -242,7 +242,7 @@ export const siteConfig: SiteConfig = {
     },
     metadataBase: new URL("https://www.sarojdangol012.com.np"),
     alternates: {
-      canonical: "/",
+      canonical: "https://www.sarojdangol012.com.np/",
       // languages: {
       //   "en-US": "/en-US",
       //   "ne-NP": "/ne-NP",
