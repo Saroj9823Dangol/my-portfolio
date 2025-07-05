@@ -2,17 +2,22 @@ import BlogCard from "@/components/blogs/blog-card";
 import { ShareButton } from "@/components/blogs/share-button";
 import { Badge } from "@/components/ui/badge";
 import { getBlogPost, getRelatedBlogPosts } from "@/lib/blogs";
+import { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import styles from "../../../styles/blog.module.css";
 
+// Define Props interface compatible with Next.js PageProps
+interface Props {
+  params: Promise<{ slug: string }>;
+}
+
 // Generate metadata for SEO
-export async function generateMetadata({
-  params,
-}: {
-  params: { slug: string };
-}) {
-  const post = getBlogPost(params.slug);
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params; // Await the params Promise
+  const post = await getBlogPost(slug);
+
+  console.log(slug, "slug");
 
   if (!post) {
     return {
@@ -25,12 +30,12 @@ export async function generateMetadata({
     title: `${post.title} | Neural Feed`,
     description: post.excerpt,
     alternates: {
-      canonical: `https://sarojdangol012.com.np/blogs/${params.slug}`,
+      canonical: `https://sarojdangol012.com.np/blogs/${slug}`,
     },
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      url: `https://sarojdangol012.com.np/blogs/${params.slug}`,
+      url: `https://sarojdangol012.com.np/blogs/${slug}`,
       type: "article",
       publishedTime: post.date,
       modifiedTime: post.updatedAt || post.date,
@@ -73,13 +78,10 @@ export async function generateMetadata({
   };
 }
 
-interface Props {
-  params: { slug: string };
-}
-
 export default async function BlogPost({ params }: Props) {
-  const post = getBlogPost(params.slug);
-  const relatedPosts = getRelatedBlogPosts(params.slug);
+  const { slug } = await params; // Await the params Promise
+  const post = await getBlogPost(slug);
+  const relatedPosts = await getRelatedBlogPosts(slug);
 
   if (!post) {
     notFound();
@@ -111,7 +113,7 @@ export default async function BlogPost({ params }: Props) {
       : "https://sarojdangol012.com.np/default-blog-image.jpg",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://sarojdangol012.com.np/blogs/${params.slug}`,
+      "@id": `https://sarojdangol012.com.np/blogs/${slug}`,
     },
   };
 
@@ -179,7 +181,7 @@ export default async function BlogPost({ params }: Props) {
                 <div className="flex space-x-2">
                   <ShareButton
                     title={post.title}
-                    url={`https://sarojdangol012.com.np/blogs/${params.slug}`}
+                    url={`https://sarojdangol012.com.np/blogs/${slug}`}
                     excerpt={post.excerpt}
                   />
                 </div>
