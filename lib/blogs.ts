@@ -9,6 +9,7 @@ export type BlogPost = {
   id: string;
   slug: string;
   title: string;
+  metaTitle: string;
   excerpt: string;
   content: string;
   date: string; // ISO format

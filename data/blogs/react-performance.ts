@@ -190,8 +190,9 @@ const UserList = React.memo(({ users }) => {
     "Optimization",
     "Web Development",
   ],
+  metaTitle: "React Performance Optimization: 2024 Master Guide",
   metaDescription:
     "Comprehensive 2024 guide to React performance optimization covering Concurrent Features, advanced memoization, component optimization, and practical implementation examples.",
-  author: "Your Name",
+  author: "Saroj Dangol",
   canonicalUrl: `https://www.sarojdangol012.com.np/blogs/react-performance-optimization-2024`,
 };

@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   }
 
   return {
-    title: `${post.title} | Saroj Dangol`,
+    title: `${post.metaTitle}`,
     description: post.excerpt,
     alternates: {
       canonical: `https://sarojdangol012.com.np/blogs/${slug}`,
@@ -37,7 +37,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: "article",
       publishedTime: post.date,
       modifiedTime: post.updatedAt || post.date,
-      authors: ["Your Name"],
+      authors: ["Saroj Dangol"],
       tags: post.tags,
       images: [
         {

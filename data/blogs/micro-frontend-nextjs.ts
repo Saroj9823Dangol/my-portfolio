@@ -217,6 +217,7 @@ export const microFrontendsGuide = {
     "Performance",
     "Scalability",
   ],
+  metaTitle: "Next.js Micro-Frontends: 2025 Scalability Guide",
   metaDescription:
     "Learn how to build scalable micro-frontends with Next.js in 2025, including Module Federation setup, server-side rendering, and SEO best practices for modern web applications.",
   author: "Saroj Dangol",

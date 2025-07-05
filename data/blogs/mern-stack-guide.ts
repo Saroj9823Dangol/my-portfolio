@@ -215,8 +215,9 @@ export const mernStackGuide = {
     "Web Development",
     "JavaScript",
   ],
+  metaTitle: "MERN Stack Guide 2025: Ultimate Development Handbook",
   metaDescription:
     "Master MERN stack development in 2025 with this comprehensive guide covering MongoDB, Express.js, React, Node.js, and SEO-friendly best practices for building scalable web applications.",
-  author: "Your Name",
+  author: "Saroj Dangol",
   canonicalUrl: "https://www.example.com/blogs/mern-stack-guide-2025",
 };

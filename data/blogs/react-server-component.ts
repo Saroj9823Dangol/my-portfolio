@@ -215,6 +215,7 @@ export const reactServerComponentsGuide = {
     "SEO",
     "Performance",
   ],
+  metaTitle: "2025 React Server Components: Optimized for SEO & Speed",
   metaDescription:
     "Learn how to master React Server Components in 2025 with this comprehensive guide, covering setup, data fetching, client-server integration, and SEO-friendly best practices for modern web applications.",
   author: "Saroj Dangol",

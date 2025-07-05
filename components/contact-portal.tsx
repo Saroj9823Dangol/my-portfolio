@@ -69,14 +69,14 @@ export default function ContactPortal() {
                   <div className="relative group">
                     <label className="text-sm font-medium text-gray-300 mb-3 flex items-center">
                       <Sparkles className="w-4 h-4 mr-2 text-cyan-400" />
-                      Your Name
+                      Saroj Dangol
                     </label>
                     <Input
                       type="text"
                       name="name"
                       required
                       className="bg-white/5 border-white/20 text-white placeholder-gray-400 focus:border-cyan-400 focus:ring-cyan-400/50 h-14 text-lg transition-all duration-300 group-hover:bg-white/10"
-                      placeholder="Enter your name"
+                      placeholder="Enter Saroj Dangol"
                     />
                   </div>
 

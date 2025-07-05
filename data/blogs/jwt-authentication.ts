@@ -186,4 +186,9 @@ export const jwtAuthentication = {
   formattedDate: "October 1, 2023",
   readingTime: "12 min",
   tags: ["MERN", "Authentication", "JWT", "Node.js", "React"],
+  metaTitle: "JWT Authentication in MERN: Complete 2024 Implementation",
+  metaDescription:
+    "Step-by-step guide to implementing secure JWT authentication in MERN stack. Learn token handling, protected routes, and best practices for MongoDB, Express, React, and Node.js.",
+  author: "Saroj Dangol",
+  canonicalUrl: `https://www.sarojdangol012.com.np/blogs/mern-stack-authentication`,
 };
