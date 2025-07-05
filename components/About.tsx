@@ -59,10 +59,10 @@ export function AboutSection() {
               <p className="text-xl leading-relaxed">
                 I don't just write code—I architect digital experiences that
                 matter. My journey began with a simple question:
-                <span className="text-cyan-400 font-semibold">
+                <h1 className="text-cyan-400 font-semibold">
                   {" "}
                   "What if technology could be more human?"
-                </span>
+                </h1>
               </p>
               <p className="text-lg leading-relaxed">
                 Over 3 years, I've transformed complex business challenges into

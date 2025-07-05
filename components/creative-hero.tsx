@@ -182,39 +182,13 @@ export default function CreativeHero() {
       <div className="relative z-10 text-center max-w-6xl mx-auto px-4">
         {/* Glitch effect name - mobile optimized */}
         <div className="relative mb-8">
-          <h1
+          <span
             className={`font-black tracking-tighter ${
               isMobile ? "text-6xl" : "text-6xl md:text-8xl"
             }`}
           >
-            {/* <span className="relative inline-block">
-              <span
-                // className={`absolute inset-0 text-[#DC143C] ${
-                //   touchIntensity > 0 ? "animate-pulse" : "animate-pulse"
-                // }`}
-                style={{
-                  clipPath: "polygon(0 0, 100% 0, 100% 45%, 0 45%)",
-                  filter: touchIntensity > 1 ? "blur(1px)" : "none",
-                }}
-              >
-                SAROJ DANGOL
-              </span>
-              <span
-                // className={`absolute inset-0 text-[#0000FF] ${
-                //   touchIntensity > 0 ? "animate-pulse" : "animate-pulse"
-                // }`}
-                style={{
-                  clipPath: "polygon(0 55%, 100% 55%, 100% 100%, 0 100%)",
-                  animationDelay: "0.1s",
-                  filter: touchIntensity > 1 ? "blur(1px)" : "none",
-                }}
-              >
-                SAROJ DANGOL
-              </span>
-              <span className="text-white">SAROJ DANGOL</span>
-            </span> */}
             &lt;SAROJ/&gt;
-          </h1>
+          </span>
           <div
             className={`font-light tracking-widest mt-4 text-gray-300 ${
               isMobile ? "text-2xl" : "text-3xl md:text-5xl"
