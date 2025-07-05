@@ -271,6 +271,7 @@ export default async function BlogPost({ params }: Props) {
                 </p>
                 <div className="flex gap-4 mt-2">
                   <Link
+                    target="__blank"
                     href="https://github.com/Saroj9823Dangol"
                     className="text-cyan-400 hover:underline"
                     aria-label="Saroj's GitHub profile"
@@ -278,6 +279,7 @@ export default async function BlogPost({ params }: Props) {
                     GitHub
                   </Link>
                   <Link
+                    target="__blank"
                     href="https://linkedin.com/in/er-saroj-dangol-9492bb216"
                     className="text-cyan-400 hover:underline"
                     aria-label="Saroj's LinkedIn profile"
