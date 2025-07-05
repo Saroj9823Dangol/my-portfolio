@@ -51,13 +51,13 @@ export default function BlogsHero() {
       <div className="relative z-10 text-center max-w-6xl mx-auto px-4">
         {/* Glitch effect name - mobile optimized */}
         <div className="relative mb-8">
-          <h1
+          <span
             className={`font-black tracking-tighter ${
               isMobile ? "text-6xl" : "text-6xl md:text-8xl"
             }`}
           >
             &lt;BLOGS/&gt;
-          </h1>
+          </span>
           <div
             className={`font-light tracking-widest mt-4 text-gray-300 ${
               isMobile ? "text-2xl" : "text-3xl md:text-5xl"
