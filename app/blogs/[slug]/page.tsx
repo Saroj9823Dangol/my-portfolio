@@ -218,19 +218,13 @@ export default async function BlogPost({ params }: Props) {
           {/* Tags with semantic markup */}
           <div className="flex flex-wrap gap-3 mb-12">
             {post.tags.map((tag) => (
-              <Link
-                key={tag}
-                href={`/blogs/tags/${tag.toLowerCase()}`}
-                passHref
+              <Badge
+                variant="outline"
+                className="text-gray-400 border-gray-700 bg-gray-800/50 hover:border-purple-500/50 hover:bg-purple-500/10 transition-all duration-300 cursor-pointer px-3 py-1"
+                aria-label={`View all posts tagged ${tag}`}
               >
-                <Badge
-                  variant="outline"
-                  className="text-gray-400 border-gray-700 bg-gray-800/50 hover:border-purple-500/50 hover:bg-purple-500/10 transition-all duration-300 cursor-pointer px-3 py-1"
-                  aria-label={`View all posts tagged ${tag}`}
-                >
-                  #{tag}
-                </Badge>
-              </Link>
+                #{tag}
+              </Badge>
             ))}
           </div>
 
