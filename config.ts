@@ -158,7 +158,7 @@ export const siteConfig: SiteConfig = {
   },
   metadata: {
     title: {
-      default: "Saroj Dangol | Full Stack Developer (MERN, React Native, AWS)",
+      default: "Saroj Dangol | MERN & React Native Developer | AWS",
       template: "%s | Saroj Dangol - Top-Rated Web & Mobile Developer",
     },
     author: {
@@ -166,7 +166,7 @@ export const siteConfig: SiteConfig = {
       url: "https://www.sarojdangol012.com.np",
     },
     description:
-      "Saroj Dangol is a versatile Full Stack Developer specializing in MERN stack, React Native, and cloud solutions. 3+ years experience building scalable web & mobile apps with cutting-edge technologies.",
+      "Saroj Dangol | Full Stack Developer (MERN, React Native, AWS) | 3+ years building scalable web & mobile apps with modern cloud solutions.",
     applicationName: "Saroj Dangol - Premium Development Services",
     generator: "Next.js",
     referrer: "origin-when-cross-origin",
