@@ -15,65 +15,62 @@ interface Props {
 // Generate metadata for SEO
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params; // Await the params Promise
-  const post = await getBlogPost(slug);
+  const post = getBlogPost(slug);
 
-  if (!post) {
+  if (post) {
     return {
-      title: "Blog Post Not Found",
-      description: "The requested blog post could not be found.",
-    };
-  }
-
-  return {
-    title: `${post.metaTitle}`,
-    description: post.excerpt,
-    alternates: {
-      canonical: `https://sarojdangol012.com.np/blogs/${slug}`,
-    },
-    openGraph: {
-      title: post.title,
+      title: `${post.metaTitle}`,
       description: post.excerpt,
-      url: `https://sarojdangol012.com.np/blogs/${slug}`,
-      type: "article",
-      publishedTime: post.date,
-      modifiedTime: post.updatedAt || post.date,
-      authors: ["Saroj Dangol"],
-      tags: post.tags,
-      images: [
-        {
-          url: post.image
+      alternates: {
+        canonical: `https://sarojdangol012.com.np/blogs/${slug}`,
+      },
+      openGraph: {
+        title: post.title,
+        description: post.excerpt,
+        url: `https://sarojdangol012.com.np/blogs/${slug}`,
+        type: "article",
+        publishedTime: post.date,
+        modifiedTime: post.updatedAt || post.date,
+        authors: ["Saroj Dangol"],
+        tags: post.tags,
+        images: [
+          {
+            url: post.image
+              ? `https://sarojdangol012.com.np${post.image}`
+              : "https://sarojdangol012.com.np/default-blog-image.jpg",
+            width: 1200,
+            height: 630,
+            alt: post.imageAlt || post.title,
+          },
+        ],
+      },
+      twitter: {
+        card: "summary_large_image",
+        title: post.title,
+        description: post.excerpt,
+        images: [
+          post.image
             ? `https://sarojdangol012.com.np${post.image}`
             : "https://sarojdangol012.com.np/default-blog-image.jpg",
-          width: 1200,
-          height: 630,
-          alt: post.imageAlt || post.title,
-        },
-      ],
-    },
-    twitter: {
-      card: "summary_large_image",
-      title: post.title,
-      description: post.excerpt,
-      images: [
-        post.image
-          ? `https://sarojdangol012.com.np${post.image}`
-          : "https://sarojdangol012.com.np/default-blog-image.jpg",
-      ],
-    },
-    robots: {
-      index: true,
-      follow: true,
-      nocache: false,
-      googleBot: {
+        ],
+      },
+      robots: {
         index: true,
         follow: true,
-        noimageindex: false,
-        "max-video-preview": -1,
-        "max-image-preview": "large",
-        "max-snippet": -1,
+        nocache: false,
+        googleBot: {
+          index: true,
+          follow: true,
+          noimageindex: false,
+          "max-video-preview": -1,
+          "max-image-preview": "large",
+          "max-snippet": -1,
+        },
       },
-    },
-  };
+    };
+  } else {
+    return {};
+  }
 }
 
 export default async function BlogPost({ params }: Props) {
