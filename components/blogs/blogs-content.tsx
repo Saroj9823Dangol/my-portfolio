@@ -12,11 +12,11 @@ export default async function BlogsContent() {
     >
       <div className="max-w-7xl mx-auto relative z-10">
         <header className="text-center mb-20 opacity-100 translate-y-0">
-          <h1 className="text-3xl md:text-5xl font-black mb-6">
+          <span className="text-3xl md:text-5xl font-black mb-6">
             <span className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
               Blogs.read()
             </span>
-          </h1>
+          </span>
           <div
             className="w-32 h-1 bg-gradient-to-r from-cyan-400 to-purple-500 mx-auto mb-8"
             aria-hidden="true"
