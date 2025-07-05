@@ -1,8 +1,7 @@
 import BlogCard from "@/components/blogs/blog-card";
+import { ShareButton } from "@/components/blogs/share-button";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { getBlogPost, getRelatedBlogPosts } from "@/lib/blogs";
-import { Share2 } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import styles from "../../../styles/blog.module.css";
@@ -178,15 +177,11 @@ export default async function BlogPost({ params }: Props) {
             <div className="flex flex-col lg:flex-row lg:items-center justify-between mb-12 space-y-6 lg:space-y-0">
               <div className="flex items-center space-x-4">
                 <div className="flex space-x-2">
-                  <Button
-                    variant="outline"
-                    size="sm"
-                    className="border-purple-500/30 text-purple-300 hover:bg-purple-500/10"
-                    aria-label="Share this article"
-                  >
-                    <Share2 className="w-4 h-4 mr-2" />
-                    Share
-                  </Button>
+                  <ShareButton
+                    title={post.title}
+                    url={`https://sarojdangol012.com.np/blogs/${params.slug}`}
+                    excerpt={post.excerpt}
+                  />
                 </div>
               </div>
 
