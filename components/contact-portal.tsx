@@ -4,8 +4,29 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Rocket, Send, Sparkles, Zap } from "lucide-react";
+import { useRef } from "react";
 
 export default function ContactPortal() {
+  const formRef = useRef<HTMLFormElement>(null);
+
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    if (formRef.current) {
+      const formData = new FormData(formRef.current);
+      const name = formData.get("name") as string;
+      const email = formData.get("email") as string;
+      const message = formData.get("message") as string;
+
+      const subject = `Message from ${name}`;
+      const body = `Hi Saroj,%0D%0A%0D%0A${message}%0D%0A%0D%0ABest regards,%0D%0A${name}%0D%0A${email}`;
+
+      window.location.href = `mailto:hello@sarojdangol012.com.np?subject=${encodeURIComponent(
+        subject
+      )}&body=${body}`;
+    }
+  };
+
   return (
     <section
       id="contact"
@@ -42,7 +63,7 @@ export default function ContactPortal() {
             <div className="absolute inset-[1px] bg-gradient-to-br from-gray-900/90 to-black/90"></div>
 
             <div className="relative z-10 p-5">
-              <form className="space-y-8">
+              <form ref={formRef} onSubmit={handleSubmit} className="space-y-8">
                 <div className="grid md:grid-cols-2 gap-8">
                   {/* Name field */}
                   <div className="relative group">
