@@ -126,7 +126,7 @@ export default async function BlogPost({ params }: Props) {
       />
 
       <article className="pt-20 pb-16 px-4 sm:px-6 lg:px-8">
-        <div className="w-[65%] mx-auto">
+        <div className="w-[100%] md:w-[65%] mx-auto">
           {/* Breadcrumb navigation */}
           <nav aria-label="Breadcrumb" className="mb-12">
             <ol className="flex items-center space-x-2 text-sm text-gray-400">
