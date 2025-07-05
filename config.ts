@@ -243,10 +243,10 @@ export const siteConfig: SiteConfig = {
     metadataBase: new URL("https://www.sarojdangol012.com.np"),
     alternates: {
       canonical: "/",
-      languages: {
-        "en-US": "/en-US",
-        "ne-NP": "/ne-NP",
-      },
+      // languages: {
+      //   "en-US": "/en-US",
+      //   "ne-NP": "/ne-NP",
+      // },
     },
     openGraph: {
       title: "Hire Saroj Dangol - Elite Full Stack & Mobile Developer",
