@@ -228,11 +228,7 @@ export default function CreativeHero() {
                 ? `rotate(${deviceOrientation.alpha * 0.1}deg)`
                 : "none",
             }}
-          >
-            <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-              <Sun className="w-6 h-6 text-[#DC143C]" />
-            </div>
-          </div>
+          ></div>
           <div
             className={`absolute rounded-full border border-white/10 ${
               isMobile && touchIntensity > 0 ? "animate-spin" : "animate-spin"
@@ -244,15 +240,11 @@ export default function CreativeHero() {
                 ? `rotate(${-deviceOrientation.alpha * 0.05}deg)`
                 : "none",
             }}
-          >
-            <div className="absolute -top-2 left-1/2 transform -translate-x-1/2">
-              <Moon className="w-4 h-4 text-[#0000FF]" />
-            </div>
-          </div>
+          ></div>
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-center">
               <div
-                className={`font-bold bg-gradient-to-r from-[#DC143C] to-[#0000FF] bg-clip-text text-transparent ${
+                className={`font-bold text-white ${
                   isMobile ? "text-lg" : "text-2xl"
                 }`}
               >
@@ -272,14 +264,8 @@ export default function CreativeHero() {
         {/* Morphing description */}
         <div className="max-w-2xl mx-auto mb-12">
           <p className="text-xl text-gray-300 leading-relaxed">
-            I don't just write code — I{" "}
-            <span className="relative inline-block">
-              <span className="bg-gradient-to-r from-[#DC143C] to-[#0000FF] bg-clip-text text-transparent font-bold">
-                architect digital experiences
-              </span>
-              <span className="absolute bottom-0 left-0 w-full h-0.5 bg-gradient-to-r from-[#DC143C] to-[#0000FF] animate-pulse"></span>
-            </span>{" "}
-            that push boundaries and challenge conventions.
+            I don't just write code — I architect digital experiences that push
+            boundaries and challenge conventions.
           </p>
         </div>
 
