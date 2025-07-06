@@ -156,7 +156,7 @@ export default function ContactPortal() {
         </div>
 
         {/* Footer */}
-        <div className="text-center mt-20 text-gray-500">
+        <div className="text-center mt-20 text-white">
           <p>
             © 2025 Saroj Dangol • Crafted with passion and lots of coffee ☕
           </p>

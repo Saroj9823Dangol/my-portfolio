@@ -80,7 +80,7 @@ export function AboutSection() {
 
           {/* Interactive Code Block */}
           <div className="opacity-100 translate-x-0">
-            <div className="bg-gray-900 border border-cyan-500/30 overflow-hidden">
+            <div className="bg-transparent blur-sm border border-cyan-500/30 overflow-hidden">
               <div className="px-4 py-2 bg-gray-800 border-b border-gray-700">
                 <div className="text-cyan-400 text-sm font-mono">saroj.js</div>
               </div>

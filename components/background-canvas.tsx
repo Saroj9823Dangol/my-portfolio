@@ -187,98 +187,37 @@ export default function BackgroundCanvas() {
 
     // Developer-themed content
     const codeSnippets = [
-      "function()",
       "const",
       "let",
-      "var",
       "=>",
       "async",
-      "await",
       "return",
+      "function",
+      "React",
+      "useState",
+      "TypeScript",
+      "API",
       "import",
       "export",
       "class",
-      "extends",
-      "if",
-      "else",
-      "for",
-      "while",
-      "try",
-      "catch",
-      "finally",
+      "git",
+      "npm",
+      "build",
+      "deploy",
       "{}",
       "[]",
       "()",
       "===",
-      "!==",
       "&&",
       "||",
-      "React",
-      "useState",
-      "useEffect",
-      "TypeScript",
-      "JavaScript",
-      "Node.js",
-      "HTML",
-      "CSS",
-      "JSON",
-      "API",
-      "HTTP",
-      "REST",
-      "GraphQL",
-      "MongoDB",
       "console.log",
-      "localStorage",
-      "fetch",
-      "Promise",
-      "setTimeout",
+      "if",
+      "else",
+      "for",
+      "while",
       "map",
       "filter",
       "reduce",
-      "forEach",
-      "splice",
-      "push",
-      "pop",
-      "shift",
-      "unshift",
-      "git",
-      "commit",
-      "push",
-      "pull",
-      "merge",
-      "branch",
-      "clone",
-      "fork",
-      "npm",
-      "yarn",
-      "package.json",
-      "webpack",
-      "vite",
-      "babel",
-      "prettier",
-      "ESLint",
-      "Jest",
-      "Cypress",
-      "Docker",
-      "Kubernetes",
-      "CI/CD",
-      "DevOps",
-    ];
-
-    const typingPhrases = [
-      "Building the future...",
-      "Compiling dreams...",
-      "Debugging reality...",
-      "git commit -m 'life'",
-      "npm run build",
-      "Hello, World!",
-      "Code is poetry",
-      "Think different",
-      "Just ship it",
-      "Move fast, break things",
-      "Stay hungry, stay foolish",
-      "Code never lies",
-      "In code we trust",
     ];
 
     // Floating code particles
@@ -291,240 +230,264 @@ export default function BackgroundCanvas() {
       size: number;
       opacity: number;
       color: string;
-      rotation: number;
-      rotationSpeed: number;
+      baseOpacity: number;
     }> = [];
 
     // Matrix rain effect
-    const matrixColumns = Math.floor(canvas.width / 20);
+    const matrixColumns = Math.floor(canvas.width / 30);
     const matrixDrops: Array<{
       x: number;
       y: number;
       speed: number;
-      chars: string[];
+      char: string;
       opacity: number;
     }> = [];
 
-    // Initialize code particles
-    const particleCount = isMobile ? 15 : 30;
+    // Floating dots/nodes
+    const floatingDots: Array<{
+      x: number;
+      y: number;
+      vx: number;
+      vy: number;
+      radius: number;
+      opacity: number;
+      baseOpacity: number;
+    }> = [];
+
+    // Grid lines
+    const gridLines: Array<{
+      x1: number;
+      y1: number;
+      x2: number;
+      y2: number;
+      opacity: number;
+      isVertical: boolean;
+    }> = [];
+
+    // Initialize code particles - more than before
+    const particleCount = isMobile ? 18 : 30;
     for (let i = 0; i < particleCount; i++) {
+      const baseOpacity = Math.random() * 0.15 + 0.08;
       codeParticles.push({
         x: Math.random() * canvas.width,
         y: Math.random() * canvas.height,
-        vx: (Math.random() - 0.5) * (isMobile ? 0.2 : 0.3),
-        vy: (Math.random() - 0.5) * (isMobile ? 0.2 : 0.3),
+        vx: (Math.random() - 0.5) * 0.3,
+        vy: (Math.random() - 0.5) * 0.3,
         text: codeSnippets[Math.floor(Math.random() * codeSnippets.length)],
-        size: Math.random() * (isMobile ? 8 : 12) + 8,
-        opacity: Math.random() * 0.3 + 0.1,
-        color: `hsl(${Math.random() * 60 + 120}, 70%, 60%)`, // Green/cyan spectrum
-        rotation: Math.random() * Math.PI * 2,
-        rotationSpeed: (Math.random() - 0.5) * 0.02,
+        size: Math.random() * 6 + 9,
+        opacity: baseOpacity,
+        baseOpacity: baseOpacity,
+        color: `rgba(0, 255, 128, ${baseOpacity})`,
       });
     }
 
     // Initialize matrix drops
     for (let i = 0; i < matrixColumns; i++) {
       matrixDrops.push({
-        x: i * 20,
+        x: i * 30,
         y: Math.random() * canvas.height,
-        speed: Math.random() * 2 + 1,
-        chars: Array.from(
-          { length: Math.floor(Math.random() * 10) + 5 },
-          () =>
-            codeSnippets[Math.floor(Math.random() * codeSnippets.length)][0] ||
-            "0"
-        ),
-        opacity: Math.random() * 0.3 + 0.1,
+        speed: Math.random() * 1.5 + 0.8,
+        char:
+          codeSnippets[Math.floor(Math.random() * codeSnippets.length)][0] ||
+          "0",
+        opacity: Math.random() * 0.12 + 0.06,
       });
     }
 
-    // Typing effect
-    let currentPhrase = 0;
-    let currentChar = 0;
-    let typingDirection = 1;
-    let typingTimer = 0;
-    let currentTypedText = "";
+    // Initialize floating dots
+    const dotCount = isMobile ? 8 : 15;
+    for (let i = 0; i < dotCount; i++) {
+      const baseOpacity = Math.random() * 0.1 + 0.05;
+      floatingDots.push({
+        x: Math.random() * canvas.width,
+        y: Math.random() * canvas.height,
+        vx: (Math.random() - 0.5) * 0.2,
+        vy: (Math.random() - 0.5) * 0.2,
+        radius: Math.random() * 2 + 1,
+        opacity: baseOpacity,
+        baseOpacity: baseOpacity,
+      });
+    }
+
+    // Initialize subtle grid lines
+    const gridCount = isMobile ? 3 : 5;
+    for (let i = 0; i < gridCount; i++) {
+      // Vertical lines
+      gridLines.push({
+        x1: (canvas.width / (gridCount + 1)) * (i + 1),
+        y1: 0,
+        x2: (canvas.width / (gridCount + 1)) * (i + 1),
+        y2: canvas.height,
+        opacity: Math.random() * 0.03 + 0.01,
+        isVertical: true,
+      });
+
+      // Horizontal lines
+      gridLines.push({
+        x1: 0,
+        y1: (canvas.height / (gridCount + 1)) * (i + 1),
+        x2: canvas.width,
+        y2: (canvas.height / (gridCount + 1)) * (i + 1),
+        opacity: Math.random() * 0.03 + 0.01,
+        isVertical: false,
+      });
+    }
 
     let mouseX = canvas.width / 2;
     let mouseY = canvas.height / 2;
-    let touchX = canvas.width / 2;
-    let touchY = canvas.height / 2;
-
-    // Enhanced touch handling
-    const handleTouch = (e: TouchEvent) => {
-      e.preventDefault();
-      if (e.touches.length > 0) {
-        touchX = e.touches[0].clientX;
-        touchY = e.touches[0].clientY;
-
-        // Create ripple effect on touch - change code snippets
-        codeParticles.forEach((particle) => {
-          const dx = touchX - particle.x;
-          const dy = touchY - particle.y;
-          const distance = Math.sqrt(dx * dx + dy * dy);
-
-          if (distance < 150) {
-            particle.vx += dx * 0.0001;
-            particle.vy += dy * 0.0001;
-            particle.text =
-              codeSnippets[Math.floor(Math.random() * codeSnippets.length)];
-            particle.color = `hsl(${Math.random() * 60 + 120}, 70%, 60%)`;
-          }
-        });
-      }
-    };
 
     const handleMouseMove = (e: MouseEvent) => {
       mouseX = e.clientX;
       mouseY = e.clientY;
     };
 
-    // Add touch event listeners
-    canvas.addEventListener("touchstart", handleTouch, { passive: false });
-    canvas.addEventListener("touchmove", handleTouch, { passive: false });
     window.addEventListener("mousemove", handleMouseMove);
 
     const animate = () => {
-      // Clear canvas with dark background
+      // Clear canvas with subtle fade
       ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-      const currentX = isMobile ? touchX : mouseX;
-      const currentY = isMobile ? touchY : mouseY;
-
-      // Update typing effect
-      typingTimer++;
-      if (typingTimer > 60) {
-        // ~1 second at 60fps
-        typingTimer = 0;
-        if (typingDirection === 1) {
-          if (currentChar < typingPhrases[currentPhrase].length) {
-            currentChar++;
-            currentTypedText = typingPhrases[currentPhrase].substring(
-              0,
-              currentChar
-            );
-          } else {
-            setTimeout(() => {
-              typingDirection = -1;
-            }, 2000);
-          }
-        } else {
-          if (currentChar > 0) {
-            currentChar--;
-            currentTypedText = typingPhrases[currentPhrase].substring(
-              0,
-              currentChar
-            );
-          } else {
-            typingDirection = 1;
-            currentPhrase = (currentPhrase + 1) % typingPhrases.length;
-          }
-        }
-      }
-
-      // Draw typing effect
-      ctx.save();
-      ctx.font = `${
-        isMobile ? "16" : "24"
-      }px 'JetBrains Mono', 'Fira Code', monospace`;
-      ctx.fillStyle = "rgba(0, 255, 128, 0.8)";
-      ctx.textAlign = "center";
-      ctx.fillText(
-        currentTypedText + (typingDirection === 1 ? "|" : ""),
-        canvas.width / 2,
-        50
-      );
-      ctx.restore();
+      // Draw subtle grid lines
+      gridLines.forEach((line) => {
+        ctx.save();
+        ctx.globalAlpha = line.opacity;
+        ctx.strokeStyle = "rgba(0, 255, 128, 0.1)";
+        ctx.lineWidth = 0.5;
+        ctx.beginPath();
+        ctx.moveTo(line.x1, line.y1);
+        ctx.lineTo(line.x2, line.y2);
+        ctx.stroke();
+        ctx.restore();
+      });
 
       // Update and draw matrix rain
       matrixDrops.forEach((drop) => {
         drop.y += drop.speed;
         if (drop.y > canvas.height) {
-          drop.y = -100;
-          drop.x = Math.random() * canvas.width;
+          drop.y = -20;
+          drop.char =
+            codeSnippets[Math.floor(Math.random() * codeSnippets.length)][0] ||
+            "0";
         }
 
         ctx.save();
-        ctx.font = `${isMobile ? "10" : "12"}px 'JetBrains Mono', monospace`;
+        ctx.font = `${isMobile ? "9" : "11"}px 'JetBrains Mono', monospace`;
         ctx.fillStyle = `rgba(0, 255, 128, ${drop.opacity})`;
+        ctx.fillText(drop.char, drop.x, drop.y);
+        ctx.restore();
+      });
 
-        drop.chars.forEach((char, index) => {
-          const charY = drop.y + index * 15;
-          if (charY > 0 && charY < canvas.height) {
-            ctx.fillText(char, drop.x, charY);
-          }
-        });
+      // Update and draw floating dots
+      floatingDots.forEach((dot) => {
+        // Mouse interaction
+        const dx = mouseX - dot.x;
+        const dy = mouseY - dot.y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+
+        if (distance < 100) {
+          dot.vx += dx * 0.00002;
+          dot.vy += dy * 0.00002;
+          dot.opacity = Math.min(dot.opacity + 0.005, 0.3);
+        } else {
+          dot.opacity = Math.max(dot.opacity - 0.002, dot.baseOpacity);
+        }
+
+        dot.x += dot.vx;
+        dot.y += dot.vy;
+
+        // Boundary check with wrapping
+        if (dot.x < -10) dot.x = canvas.width + 10;
+        if (dot.x > canvas.width + 10) dot.x = -10;
+        if (dot.y < -10) dot.y = canvas.height + 10;
+        if (dot.y > canvas.height + 10) dot.y = -10;
+
+        // Draw dot
+        ctx.save();
+        ctx.globalAlpha = dot.opacity;
+        ctx.fillStyle = "rgba(0, 255, 128, 0.4)";
+        ctx.beginPath();
+        ctx.arc(dot.x, dot.y, dot.radius, 0, Math.PI * 2);
+        ctx.fill();
         ctx.restore();
       });
 
       // Update and draw code particles
-      codeParticles.forEach((particle) => {
-        // Mouse/touch interaction
-        const dx = currentX - particle.x;
-        const dy = currentY - particle.y;
+      codeParticles.forEach((particle, index) => {
+        // Mouse interaction
+        const dx = mouseX - particle.x;
+        const dy = mouseY - particle.y;
         const distance = Math.sqrt(dx * dx + dy * dy);
 
-        if (distance < (isMobile ? 120 : 100)) {
-          particle.vx += dx * (isMobile ? 0.00008 : 0.00005);
-          particle.vy += dy * (isMobile ? 0.00008 : 0.00005);
-          particle.opacity = Math.min(particle.opacity + 0.01, 0.7);
+        if (distance < 120) {
+          particle.vx += dx * 0.00003;
+          particle.vy += dy * 0.00003;
+          particle.opacity = Math.min(particle.opacity + 0.008, 0.4);
         } else {
-          particle.opacity = Math.max(particle.opacity - 0.005, 0.1);
+          particle.opacity = Math.max(
+            particle.opacity - 0.003,
+            particle.baseOpacity
+          );
         }
 
         particle.x += particle.vx;
         particle.y += particle.vy;
-        particle.rotation += particle.rotationSpeed;
 
         // Boundary check with wrapping
-        if (particle.x < -50) particle.x = canvas.width + 50;
-        if (particle.x > canvas.width + 50) particle.x = -50;
-        if (particle.y < -50) particle.y = canvas.height + 50;
-        if (particle.y > canvas.height + 50) particle.y = -50;
+        if (particle.x < -30) particle.x = canvas.width + 30;
+        if (particle.x > canvas.width + 30) particle.x = -30;
+        if (particle.y < -30) particle.y = canvas.height + 30;
+        if (particle.y > canvas.height + 30) particle.y = -30;
 
         // Draw particle
         ctx.save();
         ctx.globalAlpha = particle.opacity;
         ctx.fillStyle = particle.color;
-        ctx.font = `${particle.size}px 'JetBrains Mono', 'Fira Code', monospace`;
+        ctx.font = `${particle.size}px 'JetBrains Mono', monospace`;
         ctx.textAlign = "center";
-        ctx.translate(particle.x, particle.y);
-        ctx.rotate(particle.rotation);
-        ctx.fillText(particle.text, 0, 0);
+        ctx.fillText(particle.text, particle.x, particle.y);
         ctx.restore();
 
-        // Add glow effect for nearby particles
-        if (distance < 50) {
-          ctx.save();
-          ctx.globalAlpha = 0.1;
-          ctx.fillStyle = particle.color;
-          ctx.beginPath();
-          ctx.arc(particle.x, particle.y, 30, 0, Math.PI * 2);
-          ctx.fill();
-          ctx.restore();
+        // Draw connections between particles and dots
+        if (index % 4 === 0) {
+          // Connect to nearby particles
+          codeParticles.slice(index + 1).forEach((otherParticle) => {
+            const dx = particle.x - otherParticle.x;
+            const dy = particle.y - otherParticle.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+
+            if (distance < 70) {
+              ctx.save();
+              ctx.globalAlpha = (1 - distance / 70) * 0.06;
+              ctx.strokeStyle = "rgba(0, 255, 128, 0.2)";
+              ctx.lineWidth = 0.5;
+              ctx.beginPath();
+              ctx.moveTo(particle.x, particle.y);
+              ctx.lineTo(otherParticle.x, otherParticle.y);
+              ctx.stroke();
+              ctx.restore();
+            }
+          });
+
+          // Connect to nearby dots
+          floatingDots.forEach((dot) => {
+            const dx = particle.x - dot.x;
+            const dy = particle.y - dot.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
+
+            if (distance < 80) {
+              ctx.save();
+              ctx.globalAlpha = (1 - distance / 80) * 0.04;
+              ctx.strokeStyle = "rgba(0, 255, 128, 0.15)";
+              ctx.lineWidth = 0.3;
+              ctx.beginPath();
+              ctx.moveTo(particle.x, particle.y);
+              ctx.lineTo(dot.x, dot.y);
+              ctx.stroke();
+              ctx.restore();
+            }
+          });
         }
-      });
-
-      // Draw connecting lines between nearby particles
-      codeParticles.forEach((particle, index) => {
-        codeParticles.slice(index + 1).forEach((otherParticle) => {
-          const dx = particle.x - otherParticle.x;
-          const dy = particle.y - otherParticle.y;
-          const distance = Math.sqrt(dx * dx + dy * dy);
-
-          if (distance < (isMobile ? 80 : 120)) {
-            ctx.save();
-            ctx.globalAlpha = (1 - distance / 120) * 0.1;
-            ctx.strokeStyle = "rgba(0, 255, 128, 0.3)";
-            ctx.lineWidth = 1;
-            ctx.beginPath();
-            ctx.moveTo(particle.x, particle.y);
-            ctx.lineTo(otherParticle.x, otherParticle.y);
-            ctx.stroke();
-            ctx.restore();
-          }
-        });
       });
 
       requestAnimationFrame(animate);
@@ -535,8 +498,6 @@ export default function BackgroundCanvas() {
     return () => {
       window.removeEventListener("resize", resizeCanvas);
       window.removeEventListener("mousemove", handleMouseMove);
-      canvas.removeEventListener("touchstart", handleTouch);
-      canvas.removeEventListener("touchmove", handleTouch);
     };
   }, []);
 
