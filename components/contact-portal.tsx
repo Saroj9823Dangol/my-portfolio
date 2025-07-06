@@ -62,14 +62,14 @@ export default function ContactPortal() {
             <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 opacity-20 animate-pulse"></div>
             <div className="absolute inset-[1px] bg-gradient-to-br from-gray-900/90 to-black/90"></div>
 
-            <div className="relative z-10 p-5">
+            <div className="relative z-10 p-5 bg-transparent">
               <form ref={formRef} onSubmit={handleSubmit} className="space-y-8">
                 <div className="grid md:grid-cols-2 gap-8">
                   {/* Name field */}
                   <div className="relative group">
                     <label className="text-sm font-medium text-gray-300 mb-3 flex items-center">
                       <Sparkles className="w-4 h-4 mr-2 text-cyan-400" />
-                      Saroj Dangol
+                      Your Name
                     </label>
                     <Input
                       type="text"
