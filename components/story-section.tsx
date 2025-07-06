@@ -69,7 +69,7 @@ export default function StorySection() {
                   >
                     {/* Card */}
                     <div
-                      className={`relative p-8 bg-gradient-to-br ${step.color}  shadow-2xl overflow-hidden group hover:scale-105 transition-all duration-500`}
+                      className={`relative p-8 backdrop-blur-sm bg-gradient-to-br ${step.color}  shadow-2xl overflow-hidden group hover:scale-105 transition-all duration-500`}
                     >
                       {/* Background pattern */}
                       <div className="absolute inset-0 opacity-10">

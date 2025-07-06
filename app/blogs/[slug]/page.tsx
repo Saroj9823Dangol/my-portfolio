@@ -1,4 +1,3 @@
-import BackgroundCanvas from "@/components/background-canvas";
 import BlogCard from "@/components/blogs/blog-card";
 import { ShareButton } from "@/components/blogs/share-button";
 import { Badge } from "@/components/ui/badge";
@@ -115,7 +114,6 @@ export default async function BlogPost({ params }: Props) {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      <BackgroundCanvas />
       {/* Add structured data */}
       <script
         type="application/ld+json"
