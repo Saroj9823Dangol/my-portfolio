@@ -59,8 +59,6 @@ export default function ContactPortal() {
           {/* Main form container */}
           <div className="relative bg-gradient-to-br from-gray-900/50 to-black/50 backdrop-blur-xl border border-white/10 overflow-hidden">
             {/* Animated border */}
-            <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 opacity-20 animate-pulse"></div>
-            <div className="absolute inset-[1px] bg-transparent"></div>
 
             <div className="relative z-10 p-5 bg-transparent">
               <form ref={formRef} onSubmit={handleSubmit} className="space-y-8">
