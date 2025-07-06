@@ -187,7 +187,7 @@ export default function CreativeHero() {
               isMobile ? "text-6xl" : "text-6xl md:text-8xl"
             }`}
           >
-            &lt;SAROJ/&gt;
+            &lt;SAROJ /&gt;
           </span>
           <div
             className={`font-light tracking-widest mt-4 text-gray-300 ${
