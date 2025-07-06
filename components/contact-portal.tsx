@@ -30,7 +30,7 @@ export default function ContactPortal() {
   return (
     <section
       id="contact"
-      className="min-h-screen py-20 relative overflow-hidden"
+      className="min-h-screen py-20 relative overflow-hidden bg-transparent"
     >
       <div className="max-w-4xl mx-auto px-4 relative z-10">
         <div className="text-center mb-20">
