@@ -11,22 +11,14 @@ export default async function BlogsContent() {
       aria-label="Blog content"
     >
       <div className="max-w-7xl mx-auto relative z-10">
-        <header className="text-center mb-20 opacity-100 translate-y-0">
-          <span className="text-3xl md:text-5xl font-black mb-6">
-            <h1 className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+        <div className="text-center mb-20 opacity-100 translate-y-0">
+          <h2 className="text-3xl md:text-5xl font-black mb-6">
+            <span className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
               Blogs.read()
-            </h1>
-          </span>
-          <div
-            className="w-32 h-1 bg-gradient-to-r from-cyan-400 to-purple-500 mx-auto mb-8"
-            aria-hidden="true"
-          ></div>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Sharing knowledge and insights from {blogPosts.length}+ articles on
-            web development, architecture, and cutting-edge technologies.
-          </p>
-        </header>
-
+            </span>
+          </h2>
+          <div className="w-32 h-1 bg-gradient-to-r from-cyan-400 to-purple-500 mx-auto mb-8"></div>
+        </div>
         <section aria-labelledby="blog-posts-heading">
           <h2
             id="blog-posts-heading"
