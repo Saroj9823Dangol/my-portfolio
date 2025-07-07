@@ -123,7 +123,7 @@ export default async function BlogPost({ params }: Props) {
       <article className="pt-20 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="w-[100%] md:w-[65%] mx-auto">
           {/* Breadcrumb navigation */}
-          <div aria-label="Breadcrumb" className="mb-12">
+          <nav aria-label="Breadcrumb" className="mb-12">
             <ol className="flex items-center space-x-2 text-sm text-gray-400">
               <li>
                 <Link
@@ -147,10 +147,10 @@ export default async function BlogPost({ params }: Props) {
                 {post.title}
               </li>
             </ol>
-          </div>
+          </nav>
 
           {/* Article Header */}
-          <div className="mb-12">
+          <header className="mb-12">
             {/* Publication date (machine-readable) */}
             <time
               dateTime={post.date}
@@ -159,11 +159,11 @@ export default async function BlogPost({ params }: Props) {
               Published: {post.formattedDate}
             </time>
 
-            <p className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-8 leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-8 leading-tight">
               <span className="bg-gradient-to-r from-white via-purple-200 to-white bg-clip-text text-transparent">
                 {post.title}
               </span>
-            </p>
+            </h1>
 
             {/* Excerpt */}
             <p className="text-xl sm:text-2xl text-gray-300 mb-12 leading-relaxed">
@@ -199,7 +199,7 @@ export default async function BlogPost({ params }: Props) {
                 />
               </div>
             )}
-          </div>
+          </header>
 
           {/* Article Content */}
           <div
