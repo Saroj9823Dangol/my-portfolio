@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowDown, ArrowRight, Moon, Sun } from "lucide-react";
+import { ArrowDown, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
@@ -107,77 +107,6 @@ export default function CreativeHero() {
       ref={heroRef}
       className="relative min-h-screen flex items-center justify-center overflow-hidden"
     >
-      {/* Sun icon (replaces Code icon) */}
-      <div
-        className="absolute pointer-events-none transition-all duration-1000 ease-out"
-        style={{
-          left: isMobile
-            ? `${50 + deviceOrientation.gamma * 0.5}%`
-            : mousePosition.x * 0.02 + "px",
-          top: isMobile
-            ? `${50 + deviceOrientation.beta * 0.3}%`
-            : mousePosition.y * 0.02 + "px",
-          transform: `translateY(${parallaxOffset}px) scale(${
-            1 + touchIntensity * 0.2
-          })`,
-        }}
-      >
-        <Sun
-          className={`w-8 h-8 text-[#DC143C]/30 ${
-            touchIntensity > 0 ? "animate-spin" : "animate-pulse"
-          }`}
-        />
-      </div>
-
-      {/* Moon icon (replaces Cpu icon) */}
-      <div
-        className="absolute pointer-events-none transition-all duration-1000 ease-out"
-        style={{
-          right: isMobile
-            ? `${30 - deviceOrientation.gamma * 0.3}%`
-            : typeof window !== "undefined"
-            ? (window.innerWidth - mousePosition.x) * 0.03 + "px"
-            : "0px",
-          top: isMobile
-            ? `${30 - deviceOrientation.beta * 0.2}%`
-            : mousePosition.y * 0.01 + 100 + "px",
-          transform: `translateY(${parallaxOffset * 0.8}px) rotate(${
-            deviceOrientation.alpha * 0.1
-          }deg)`,
-        }}
-      >
-        <Moon
-          className={`w-12 h-12 text-[#0000FF]/20 ${
-            isMobile ? "animate-pulse" : "animate-spin"
-          }`}
-          style={{ animationDuration: "20s" }}
-        />
-      </div>
-
-      {/* Sun icon (replaces Rocket icon) */}
-      <div
-        className="absolute pointer-events-none transition-all duration-1000 ease-out"
-        style={{
-          left: isMobile
-            ? `${70 + deviceOrientation.gamma * 0.4}%`
-            : mousePosition.x * 0.01 + 200 + "px",
-          bottom: isMobile
-            ? `${20 - deviceOrientation.beta * 0.2}%`
-            : typeof window !== "undefined"
-            ? (window.innerHeight - mousePosition.y) * 0.02 + 100 + "px"
-            : "0px",
-          transform: `translateY(${parallaxOffset * 1.2}px) scale(${
-            1 + touchIntensity * 0.3
-          })`,
-        }}
-      >
-        <Sun
-          className={`w-6 h-6 text-[#DC143C]/40 ${
-            touchIntensity > 1 ? "animate-spin" : "animate-bounce"
-          }`}
-        />
-      </div>
-
       {/* Main content */}
       <div className="relative z-10 text-center max-w-6xl mx-auto px-4">
         {/* Glitch effect name - mobile optimized */}
@@ -328,14 +257,6 @@ export default function CreativeHero() {
             Tilt your device • Touch to interact
           </div>
         )}
-      </div>
-
-      {/* Scroll indicator with sun icon */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-        <div className="flex flex-col items-center space-y-2 animate-bounce">
-          <Sun className="w-4 h-4 text-[#DC143C]/70" />
-          <div className="w-px h-12 bg-gradient-to-b from-transparent to-white/50"></div>
-        </div>
       </div>
     </section>
   );

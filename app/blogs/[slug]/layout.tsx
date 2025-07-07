@@ -5,7 +5,7 @@ const BlogDetailLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <BackgroundCanvas />
-      <main className="bg-gray-950 min-h-screen z-50">{children}</main>
+      <main className="min-h-screen z-50">{children}</main>
     </>
   );
 };
