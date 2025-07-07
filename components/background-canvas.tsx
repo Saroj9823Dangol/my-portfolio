@@ -181,157 +181,157 @@ export default function BackgroundCanvas() {
 
     window.addEventListener("mousemove", handleMouseMove);
 
-    // const animate = () => {
-    //   // Clear canvas with subtle fade
-    //   ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
-    //   ctx.fillRect(0, 0, canvas.width, canvas.height);
+    const animate = () => {
+      // Clear canvas with subtle fade
+      ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+      ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-    //   // Draw subtle grid lines
-    //   gridLines.forEach((line) => {
-    //     ctx.save();
-    //     ctx.globalAlpha = line.opacity;
-    //     ctx.strokeStyle = "rgba(0, 255, 128, 0.1)";
-    //     ctx.lineWidth = 0.5;
-    //     ctx.beginPath();
-    //     ctx.moveTo(line.x1, line.y1);
-    //     ctx.lineTo(line.x2, line.y2);
-    //     ctx.stroke();
-    //     ctx.restore();
-    //   });
+      // Draw subtle grid lines
+      gridLines.forEach((line) => {
+        ctx.save();
+        ctx.globalAlpha = line.opacity;
+        ctx.strokeStyle = "rgba(0, 255, 128, 0.1)";
+        ctx.lineWidth = 0.5;
+        ctx.beginPath();
+        ctx.moveTo(line.x1, line.y1);
+        ctx.lineTo(line.x2, line.y2);
+        ctx.stroke();
+        ctx.restore();
+      });
 
-    //   // Update and draw matrix rain
-    //   matrixDrops.forEach((drop) => {
-    //     drop.y += drop.speed;
-    //     if (drop.y > canvas.height) {
-    //       drop.y = -20;
-    //       drop.char =
-    //         codeSnippets[Math.floor(Math.random() * codeSnippets.length)][0] ||
-    //         "0";
-    //     }
+      // Update and draw matrix rain
+      matrixDrops.forEach((drop) => {
+        drop.y += drop.speed;
+        if (drop.y > canvas.height) {
+          drop.y = -20;
+          drop.char =
+            codeSnippets[Math.floor(Math.random() * codeSnippets.length)][0] ||
+            "0";
+        }
 
-    //     ctx.save();
-    //     ctx.font = `${isMobile ? "9" : "11"}px 'JetBrains Mono', monospace`;
-    //     ctx.fillStyle = `rgba(0, 255, 128, ${drop.opacity})`;
-    //     ctx.fillText(drop.char, drop.x, drop.y);
-    //     ctx.restore();
-    //   });
+        ctx.save();
+        ctx.font = `${isMobile ? "9" : "11"}px 'JetBrains Mono', monospace`;
+        ctx.fillStyle = `rgba(0, 255, 128, ${drop.opacity})`;
+        ctx.fillText(drop.char, drop.x, drop.y);
+        ctx.restore();
+      });
 
-    //   // Update and draw floating dots
-    //   floatingDots.forEach((dot) => {
-    //     // Mouse interaction
-    //     const dx = mouseX - dot.x;
-    //     const dy = mouseY - dot.y;
-    //     const distance = Math.sqrt(dx * dx + dy * dy);
+      // Update and draw floating dots
+      floatingDots.forEach((dot) => {
+        // Mouse interaction
+        const dx = mouseX - dot.x;
+        const dy = mouseY - dot.y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
 
-    //     if (distance < 100) {
-    //       dot.vx += dx * 0.00002;
-    //       dot.vy += dy * 0.00002;
-    //       dot.opacity = Math.min(dot.opacity + 0.005, 0.3);
-    //     } else {
-    //       dot.opacity = Math.max(dot.opacity - 0.002, dot.baseOpacity);
-    //     }
+        if (distance < 100) {
+          dot.vx += dx * 0.00002;
+          dot.vy += dy * 0.00002;
+          dot.opacity = Math.min(dot.opacity + 0.005, 0.3);
+        } else {
+          dot.opacity = Math.max(dot.opacity - 0.002, dot.baseOpacity);
+        }
 
-    //     dot.x += dot.vx;
-    //     dot.y += dot.vy;
+        dot.x += dot.vx;
+        dot.y += dot.vy;
 
-    //     // Boundary check with wrapping
-    //     if (dot.x < -10) dot.x = canvas.width + 10;
-    //     if (dot.x > canvas.width + 10) dot.x = -10;
-    //     if (dot.y < -10) dot.y = canvas.height + 10;
-    //     if (dot.y > canvas.height + 10) dot.y = -10;
+        // Boundary check with wrapping
+        if (dot.x < -10) dot.x = canvas.width + 10;
+        if (dot.x > canvas.width + 10) dot.x = -10;
+        if (dot.y < -10) dot.y = canvas.height + 10;
+        if (dot.y > canvas.height + 10) dot.y = -10;
 
-    //     // Draw dot
-    //     ctx.save();
-    //     ctx.globalAlpha = dot.opacity;
-    //     ctx.fillStyle = "rgba(0, 255, 128, 0.4)";
-    //     ctx.beginPath();
-    //     ctx.arc(dot.x, dot.y, dot.radius, 0, Math.PI * 2);
-    //     ctx.fill();
-    //     ctx.restore();
-    //   });
+        // Draw dot
+        ctx.save();
+        ctx.globalAlpha = dot.opacity;
+        ctx.fillStyle = "rgba(0, 255, 128, 0.4)";
+        ctx.beginPath();
+        ctx.arc(dot.x, dot.y, dot.radius, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.restore();
+      });
 
-    //   // Update and draw code particles
-    //   codeParticles.forEach((particle, index) => {
-    //     // Mouse interaction
-    //     const dx = mouseX - particle.x;
-    //     const dy = mouseY - particle.y;
-    //     const distance = Math.sqrt(dx * dx + dy * dy);
+      // Update and draw code particles
+      codeParticles.forEach((particle, index) => {
+        // Mouse interaction
+        const dx = mouseX - particle.x;
+        const dy = mouseY - particle.y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
 
-    //     if (distance < 120) {
-    //       particle.vx += dx * 0.00003;
-    //       particle.vy += dy * 0.00003;
-    //       particle.opacity = Math.min(particle.opacity + 0.008, 0.4);
-    //     } else {
-    //       particle.opacity = Math.max(
-    //         particle.opacity - 0.003,
-    //         particle.baseOpacity
-    //       );
-    //     }
+        if (distance < 120) {
+          particle.vx += dx * 0.00003;
+          particle.vy += dy * 0.00003;
+          particle.opacity = Math.min(particle.opacity + 0.008, 0.4);
+        } else {
+          particle.opacity = Math.max(
+            particle.opacity - 0.003,
+            particle.baseOpacity
+          );
+        }
 
-    //     particle.x += particle.vx;
-    //     particle.y += particle.vy;
+        particle.x += particle.vx;
+        particle.y += particle.vy;
 
-    //     // Boundary check with wrapping
-    //     if (particle.x < -30) particle.x = canvas.width + 30;
-    //     if (particle.x > canvas.width + 30) particle.x = -30;
-    //     if (particle.y < -30) particle.y = canvas.height + 30;
-    //     if (particle.y > canvas.height + 30) particle.y = -30;
+        // Boundary check with wrapping
+        if (particle.x < -30) particle.x = canvas.width + 30;
+        if (particle.x > canvas.width + 30) particle.x = -30;
+        if (particle.y < -30) particle.y = canvas.height + 30;
+        if (particle.y > canvas.height + 30) particle.y = -30;
 
-    //     // Draw particle
-    //     ctx.save();
-    //     ctx.globalAlpha = particle.opacity;
-    //     ctx.fillStyle = particle.color;
-    //     ctx.font = `${particle.size}px 'JetBrains Mono', monospace`;
-    //     ctx.textAlign = "center";
-    //     ctx.fillText(particle.text, particle.x, particle.y);
-    //     ctx.restore();
+        // Draw particle
+        ctx.save();
+        ctx.globalAlpha = particle.opacity;
+        ctx.fillStyle = particle.color;
+        ctx.font = `${particle.size}px 'JetBrains Mono', monospace`;
+        ctx.textAlign = "center";
+        ctx.fillText(particle.text, particle.x, particle.y);
+        ctx.restore();
 
-    //     // Draw connections between particles and dots
-    //     if (index % 4 === 0) {
-    //       // Connect to nearby particles
-    //       codeParticles.slice(index + 1).forEach((otherParticle) => {
-    //         const dx = particle.x - otherParticle.x;
-    //         const dy = particle.y - otherParticle.y;
-    //         const distance = Math.sqrt(dx * dx + dy * dy);
+        // Draw connections between particles and dots
+        if (index % 4 === 0) {
+          // Connect to nearby particles
+          codeParticles.slice(index + 1).forEach((otherParticle) => {
+            const dx = particle.x - otherParticle.x;
+            const dy = particle.y - otherParticle.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
 
-    //         if (distance < 70) {
-    //           ctx.save();
-    //           ctx.globalAlpha = (1 - distance / 70) * 0.06;
-    //           ctx.strokeStyle = "rgba(0, 255, 128, 0.2)";
-    //           ctx.lineWidth = 0.5;
-    //           ctx.beginPath();
-    //           ctx.moveTo(particle.x, particle.y);
-    //           ctx.lineTo(otherParticle.x, otherParticle.y);
-    //           ctx.stroke();
-    //           ctx.restore();
-    //         }
-    //       });
+            if (distance < 70) {
+              ctx.save();
+              ctx.globalAlpha = (1 - distance / 70) * 0.06;
+              ctx.strokeStyle = "rgba(0, 255, 128, 0.2)";
+              ctx.lineWidth = 0.5;
+              ctx.beginPath();
+              ctx.moveTo(particle.x, particle.y);
+              ctx.lineTo(otherParticle.x, otherParticle.y);
+              ctx.stroke();
+              ctx.restore();
+            }
+          });
 
-    //       // Connect to nearby dots
-    //       floatingDots.forEach((dot) => {
-    //         const dx = particle.x - dot.x;
-    //         const dy = particle.y - dot.y;
-    //         const distance = Math.sqrt(dx * dx + dy * dy);
+          // Connect to nearby dots
+          floatingDots.forEach((dot) => {
+            const dx = particle.x - dot.x;
+            const dy = particle.y - dot.y;
+            const distance = Math.sqrt(dx * dx + dy * dy);
 
-    //         if (distance < 80) {
-    //           ctx.save();
-    //           ctx.globalAlpha = (1 - distance / 80) * 0.04;
-    //           ctx.strokeStyle = "rgba(0, 255, 128, 0.15)";
-    //           ctx.lineWidth = 0.3;
-    //           ctx.beginPath();
-    //           ctx.moveTo(particle.x, particle.y);
-    //           ctx.lineTo(dot.x, dot.y);
-    //           ctx.stroke();
-    //           ctx.restore();
-    //         }
-    //       });
-    //     }
-    //   });
+            if (distance < 80) {
+              ctx.save();
+              ctx.globalAlpha = (1 - distance / 80) * 0.04;
+              ctx.strokeStyle = "rgba(0, 255, 128, 0.15)";
+              ctx.lineWidth = 0.3;
+              ctx.beginPath();
+              ctx.moveTo(particle.x, particle.y);
+              ctx.lineTo(dot.x, dot.y);
+              ctx.stroke();
+              ctx.restore();
+            }
+          });
+        }
+      });
 
-    //   requestAnimationFrame(animate);
-    // };
+      requestAnimationFrame(animate);
+    };
 
-    // animate();
+    animate();
 
     return () => {
       window.removeEventListener("resize", resizeCanvas);
