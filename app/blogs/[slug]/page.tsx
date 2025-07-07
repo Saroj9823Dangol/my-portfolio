@@ -159,11 +159,11 @@ export default async function BlogPost({ params }: Props) {
               Published: {post.formattedDate}
             </time>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-8 leading-tight">
+            <p className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-8 leading-tight">
               <span className="bg-gradient-to-r from-white via-purple-200 to-white bg-clip-text text-transparent">
                 {post.title}
               </span>
-            </h1>
+            </p>
 
             {/* Excerpt */}
             <p className="text-xl sm:text-2xl text-gray-300 mb-12 leading-relaxed">
