@@ -51,7 +51,7 @@ export async function generateMetadata(): Promise<Metadata> {
       description:
         "Explore in-depth articles on web development and technology trends.",
       images: featuredPost?.image
-        ? `https://sarojdangol012.com.np${featuredPost.image}`
+        ? `https://sarojdangol012.com.np/${featuredPost.image}`
         : "https://sarojdangol012.com.np/images/blog-og-image.jpg",
       creator: "@yourtwitterhandle",
     },
@@ -97,11 +97,13 @@ async function BlogStructuredData() {
     url: "https://sarojdangol012.com.np/blogs",
     author: {
       "@type": "Person",
-      name: "Saroj",
-      url: "https://sarojdangol012.com.np/about",
+      name: "Saroj Dangol",
+      url: "https://sarojdangol012.com.np/#about",
       sameAs: [
-        "https://github.com/yourusername",
-        "https://linkedin.com/in/yourprofile",
+        "https://github.com/Saroj9823Dangol",
+        "https://linkedin.com/in/er-saroj-dangol-9492bb216",
+        "https://facebook.com/saroz.dangol.7",
+        "https://www.upwork.com/freelancers/~01a78d9a0751fb1801",
       ],
     },
     publisher: {
