@@ -1,5 +1,8 @@
 import { aiWebDevelopmentGuide } from "@/data/blogs/ai-web-devs";
+import { fullStackDeveloperGuide } from "@/data/blogs/how-to-become-fullstack";
 import { jwtAuthentication } from "@/data/blogs/jwt-authentication";
+import { mernStackFolderStructureGuide } from "@/data/blogs/mern-folder-structure";
+import { mernStackDominanceGuide } from "@/data/blogs/mern-stack-dominates";
 import { mernStackGuide } from "@/data/blogs/mern-stack-guide";
 import { microFrontendsGuide } from "@/data/blogs/micro-frontend-nextjs";
 import { reactPerformance } from "@/data/blogs/react-performance";
@@ -23,6 +26,9 @@ export type BlogPost = {
 };
 
 const blogPosts: BlogPost[] = [
+  mernStackFolderStructureGuide,
+  mernStackDominanceGuide,
+  fullStackDeveloperGuide,
   aiWebDevelopmentGuide,
   reactServerComponentsGuide,
   microFrontendsGuide,
