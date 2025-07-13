@@ -107,6 +107,7 @@ async function BlogStructuredData() {
       ],
     },
     publisher: {
+    
       "@type": "Organization",
       name: "Saroj's Portfolio",
       logo: {
