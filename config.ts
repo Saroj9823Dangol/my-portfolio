@@ -346,7 +346,7 @@ export const siteConfig: SiteConfig = {
     type: "Person",
     name: "Saroj Dangol",
     jobTitle: "Senior Full Stack Developer & Mobile Specialist",
-    url: "https://www.sarojdangol012.com.np",
+    url: "https://www.sarojdangol012.com.np/images/profile.webp",
     sameAs: [
       "https://github.com/Saroj9823Dangol",
       "https://linkedin.com/in/er-saroj-dangol-9492bb216",
@@ -359,7 +359,7 @@ export const siteConfig: SiteConfig = {
       url: "https://apptechnologies.com",
     },
     description:
-      "Professional Full Stack Developer with 5+ years experience specializing in MERN stack web development, React Native mobile apps, and cloud solutions. Proven track record of delivering high-performance applications.",
+      "Professional Full Stack Developer with 3+ years experience specializing in MERN stack web development, React Native mobile apps, and cloud solutions. Proven track record of delivering high-performance applications.",
     skills: [
       // Languages
       "JavaScript (ES6+)",
