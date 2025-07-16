@@ -22,12 +22,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       title: `${post.metaTitle}`,
       description: post.excerpt,
       alternates: {
-        canonical: `https://sarojdangol012.com.np/blogs/${slug}`,
+        canonical: `https://www.sarojdangol012.com.np/blogs/${slug}`,
       },
       openGraph: {
         title: post.title,
         description: post.excerpt,
-        url: `https://sarojdangol012.com.np/blogs/${slug}`,
+        url: `https://www.sarojdangol012.com.np/blogs/${slug}`,
         type: "article",
         publishedTime: post.date,
         modifiedTime: post.updatedAt || post.date,
@@ -108,7 +108,7 @@ export default async function BlogPost({ params }: Props) {
       : "https://sarojdangol012.com.np/default-blog-image.jpg",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://sarojdangol012.com.np/blogs/${slug}`,
+      "@id": `https://www.sarojdangol012.com.np/blogs/${slug}`,
     },
   };
 
@@ -176,7 +176,7 @@ export default async function BlogPost({ params }: Props) {
                 <div className="flex space-x-2">
                   <ShareButton
                     title={post.title}
-                    url={`https://sarojdangol012.com.np/blogs/${slug}`}
+                    url={`https://www.sarojdangol012.com.np/blogs/${slug}`}
                     excerpt={post.excerpt}
                   />
                 </div>

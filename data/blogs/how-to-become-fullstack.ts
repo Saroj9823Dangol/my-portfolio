@@ -474,5 +474,5 @@ export const fullStackDeveloperGuide = {
     "A 2025 roadmap to becoming a full-stack developer, covering MERN stack, AI tools like GitHub Copilot and xAI's Grok, DevOps, and real-world projects to build a rewarding career.",
   author: "Saroj Dangol",
   canonicalUrl:
-    "https://sarojdangol012.com.np/blogs/how-to-become-full-stack-developer-2025",
+    "https://www.sarojdangol012.com.np/blogs/how-to-become-full-stack-developer-2025",
 };

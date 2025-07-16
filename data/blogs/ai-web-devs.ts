@@ -276,5 +276,5 @@ export const aiWebDevelopmentGuide = {
     "Discover how AI is revolutionizing web development in 2025, its impact on web developer jobs, new challenges, pros and cons, and top AI tools like GitHub Copilot and xAI's Grok for MERN stack developers.",
   author: "Saroj Dangol",
   canonicalUrl:
-    "https://sarojdangol012.com.np/blogs/how-ai-transforms-web-development-2025",
+    "https://www.sarojdangol012.com.np/blogs/how-ai-transforms-web-development-2025",
 };

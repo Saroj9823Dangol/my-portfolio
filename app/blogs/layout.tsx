@@ -18,13 +18,13 @@ export async function generateMetadata(): Promise<Metadata> {
       "tech articles",
     ],
     alternates: {
-      canonical: "https://sarojdangol012.com.np/blogs",
+      canonical: "https://www.sarojdangol012.com.np/blogs",
     },
     openGraph: {
       title: "Tech Insights & Development Blogs",
       description:
         "Explore in-depth articles on web development and technology trends.",
-      url: "https://sarojdangol012.com.np/blogs",
+      url: "https://www.sarojdangol012.com.np/blogs",
       type: "website",
       images: featuredPost?.image
         ? [
@@ -94,7 +94,7 @@ async function BlogStructuredData() {
     headline: "Tech Insights & Development Blogs",
     description:
       "Explore in-depth articles on web development, technology trends, and coding best practices.",
-    url: "https://sarojdangol012.com.np/blogs",
+    url: "https://www.sarojdangol012.com.np/blogs",
     author: {
       "@type": "Person",
       name: "Saroj Dangol",
@@ -107,7 +107,6 @@ async function BlogStructuredData() {
       ],
     },
     publisher: {
-    
       "@type": "Organization",
       name: "Saroj's Portfolio",
       logo: {
@@ -119,13 +118,13 @@ async function BlogStructuredData() {
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": "https://sarojdangol012.com.np/blogs",
+      "@id": "https://www.sarojdangol012.com.np/blogs",
     },
     blogPost: posts.map((post) => ({
       "@type": "BlogPosting",
       headline: post.title,
       description: post.excerpt,
-      url: `https://sarojdangol012.com.np/blogs/${post.slug}`,
+      url: `https://www.sarojdangol012.com.np/blogs/${post.slug}`,
       datePublished: post.date,
       dateModified: post.updatedAt || post.date,
       author: {

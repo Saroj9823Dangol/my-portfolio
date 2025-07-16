@@ -219,5 +219,6 @@ export const reactServerComponentsGuide = {
   metaDescription:
     "Learn how to master React Server Components in 2025 with this comprehensive guide, covering setup, data fetching, client-server integration, and SEO-friendly best practices for modern web applications.",
   author: "Saroj Dangol",
-  canonicalUrl: "https://www.example.com/blogs/react-server-components-2025",
+  canonicalUrl:
+    "https://www.sarojdangol012.com.np/blogs/react-server-components-2025",
 };

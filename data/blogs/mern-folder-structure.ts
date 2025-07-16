@@ -396,5 +396,5 @@ my-mern-app/
     "Discover best practices for organizing a MERN stack project folder structure in 2025, ensuring scalability, maintainability, and developer efficiency with React, Node.js, and MongoDB.",
   author: "Saroj Dangol",
   canonicalUrl:
-    "https://sarojdangol012.com.np/blogs/mern-stack-folder-structure-best-practices-2025",
+    "https://www.sarojdangol012.com.np/blogs/mern-stack-folder-structure-best-practices-2025",
 };

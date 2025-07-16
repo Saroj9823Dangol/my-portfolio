@@ -222,5 +222,5 @@ export const microFrontendsGuide = {
     "Learn how to build scalable micro-frontends with Next.js in 2025, including Module Federation setup, server-side rendering, and SEO best practices for modern web applications.",
   author: "Saroj Dangol",
   canonicalUrl:
-    "https://sarojdangol012.com.np/blogs/building-scalable-micro-frontends-nextjs-2025",
+    "https://www.sarojdangol012.com.np/blogs/building-scalable-micro-frontends-nextjs-2025",
 };

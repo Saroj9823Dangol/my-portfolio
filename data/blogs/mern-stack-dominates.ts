@@ -337,5 +337,5 @@ export const mernStackDominanceGuide = {
     "Explore why the MERN stack remains a top choice in 2025, with trends like AI integration, serverless architecture, and a full JavaScript ecosystem attracting developers.",
   author: "Saroj Dangol",
   canonicalUrl:
-    "https://sarojdangol012.com.np/blogs/why-mern-stack-dominates-2025",
+    "https://www.sarojdangol012.com.np/blogs/why-mern-stack-dominates-2025",
 };
