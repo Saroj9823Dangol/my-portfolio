@@ -78,6 +78,21 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning className={`${poppins.variable}`}>
       <head>
+        {/* Google Analytics Script */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-BEFFK6D05L"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-BEFFK6D05L');
+            `,
+          }}
+        />
         <meta
           name="google-site-verification"
           content="ZehS4kI2H4bUfWwPGCGl23h8rxEEp4KPxCiBdykJ-v4"
