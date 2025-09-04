@@ -7,6 +7,9 @@ import { mernStackGuide } from "@/data/blogs/mern-stack-guide";
 import { microFrontendsGuide } from "@/data/blogs/micro-frontend-nextjs";
 import { reactPerformance } from "@/data/blogs/react-performance";
 import { reactServerComponentsGuide } from "@/data/blogs/react-server-component";
+import { serverComponentsGuide } from "@/data/blogs/server-components";
+import { ssrVsCsrGuide } from "@/data/blogs/ssrvscsr";
+import { webAssemblyGuide } from "@/data/blogs/web-assembly";
 
 export type BlogPost = {
   id: string;
@@ -26,6 +29,9 @@ export type BlogPost = {
 };
 
 const blogPosts: BlogPost[] = [
+  webAssemblyGuide,
+  ssrVsCsrGuide,
+  serverComponentsGuide,
   mernStackFolderStructureGuide,
   mernStackDominanceGuide,
   fullStackDeveloperGuide,
