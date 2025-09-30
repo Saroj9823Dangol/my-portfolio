@@ -1,6 +1,6 @@
 {
-  "/api/notify/route": "app/api/notify/route.js",
   "/api/push/route": "app/api/push/route.js",
+  "/api/notify/route": "app/api/notify/route.js",
   "/api/subscription/route": "app/api/subscription/route.js",
   "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
   "/_not-found/page": "app/_not-found/page.js",
