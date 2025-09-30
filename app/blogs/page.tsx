@@ -6,19 +6,22 @@ import BlogsHero from "@/components/blogs/blogs-hero";
 import ContactPortal from "@/components/contact-portal";
 import DownloadCV from "@/components/DownloadCV";
 
+// Define props with correct searchParams type
 interface BlogPageProps {
-  searchParams: { page?: string };
+  searchParams: Promise<{ page?: string }>; // searchParams is a Promise
 }
 
 const BlogPage = async ({ searchParams }: BlogPageProps) => {
-  const page = parseInt(searchParams.page || "1", 10);
+  // Await searchParams to resolve the Promise
+  const resolvedSearchParams = await searchParams;
+  const page = parseInt(resolvedSearchParams.page || "1", 10);
   const limit = 10;
   const skip = (page - 1) * limit;
 
   // Fetch products with caching
   const productsResponse = await fetch(
     `https://dummyjson.com/products?limit=${limit}&skip=${skip}`,
-    { cache: "force-cache" } // Cache the response
+    { cache: "force-cache" } // Cache to reduce API calls
   );
 
   if (!productsResponse.ok) {
@@ -27,7 +30,7 @@ const BlogPage = async ({ searchParams }: BlogPageProps) => {
 
   const data = await productsResponse.json();
   const products = data.products;
-  const totalProducts = data.total; // DummyJSON provides total in the response
+  const totalProducts = data.total;
   const totalPages = Math.ceil(totalProducts / limit);
 
   return (

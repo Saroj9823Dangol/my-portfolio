@@ -1,0 +1,11 @@
+{
+  "/api/notify/route": "/api/notify",
+  "/api/push/route": "/api/push",
+  "/api/subscription/route": "/api/subscription",
+  "/manifest.webmanifest/route": "/manifest.webmanifest",
+  "/_not-found/page": "/_not-found",
+  "/page": "/",
+  "/notifications/page": "/notifications",
+  "/blogs/page": "/blogs",
+  "/blogs/[slug]/page": "/blogs/[slug]"
+}
