@@ -1,12 +1,5 @@
 {
   "pages": {
-    "/api/push/route": [
-      "static/chunks/webpack-2ac48d3e49e0d72b.js",
-      "static/chunks/3a447df6-aa51a3aa1ef9d2b6.js",
-      "static/chunks/74-595ce57d11ec65a3.js",
-      "static/chunks/main-app-8e9ea4fbb7a7b017.js",
-      "static/chunks/app/api/push/route-3717d8e033faf090.js"
-    ],
     "/api/notify/route": [
       "static/chunks/webpack-2ac48d3e49e0d72b.js",
       "static/chunks/3a447df6-aa51a3aa1ef9d2b6.js",
@@ -20,6 +13,13 @@
       "static/chunks/74-595ce57d11ec65a3.js",
       "static/chunks/main-app-8e9ea4fbb7a7b017.js",
       "static/chunks/app/api/subscription/route-da428148e119bf98.js"
+    ],
+    "/api/push/route": [
+      "static/chunks/webpack-2ac48d3e49e0d72b.js",
+      "static/chunks/3a447df6-aa51a3aa1ef9d2b6.js",
+      "static/chunks/74-595ce57d11ec65a3.js",
+      "static/chunks/main-app-8e9ea4fbb7a7b017.js",
+      "static/chunks/app/api/push/route-3717d8e033faf090.js"
     ],
     "/manifest.webmanifest/route": [
       "static/chunks/webpack-2ac48d3e49e0d72b.js",
@@ -52,13 +52,6 @@
       "static/css/47ed43d34dc45484.css",
       "static/chunks/app/layout-2d0e65925688640d.js"
     ],
-    "/notifications/page": [
-      "static/chunks/webpack-2ac48d3e49e0d72b.js",
-      "static/chunks/3a447df6-aa51a3aa1ef9d2b6.js",
-      "static/chunks/74-595ce57d11ec65a3.js",
-      "static/chunks/main-app-8e9ea4fbb7a7b017.js",
-      "static/chunks/app/notifications/page-db499aed48557736.js"
-    ],
     "/page": [
       "static/chunks/webpack-2ac48d3e49e0d72b.js",
       "static/chunks/3a447df6-aa51a3aa1ef9d2b6.js",
@@ -70,6 +63,13 @@
       "static/chunks/63-df3706fbab5c2139.js",
       "static/chunks/688-8e2c3607025165e8.js",
       "static/chunks/app/page-e387913ce4b23ac9.js"
+    ],
+    "/notifications/page": [
+      "static/chunks/webpack-2ac48d3e49e0d72b.js",
+      "static/chunks/3a447df6-aa51a3aa1ef9d2b6.js",
+      "static/chunks/74-595ce57d11ec65a3.js",
+      "static/chunks/main-app-8e9ea4fbb7a7b017.js",
+      "static/chunks/app/notifications/page-db499aed48557736.js"
     ],
     "/blogs/layout": [
       "static/chunks/webpack-2ac48d3e49e0d72b.js",

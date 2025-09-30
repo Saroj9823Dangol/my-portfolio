@@ -1,11 +1,11 @@
 {
-  "/api/push/route": "/api/push",
   "/api/notify/route": "/api/notify",
   "/api/subscription/route": "/api/subscription",
+  "/api/push/route": "/api/push",
   "/manifest.webmanifest/route": "/manifest.webmanifest",
   "/_not-found/page": "/_not-found",
-  "/notifications/page": "/notifications",
   "/page": "/",
+  "/notifications/page": "/notifications",
   "/blogs/page": "/blogs",
   "/blogs/[slug]/page": "/blogs/[slug]"
 }
