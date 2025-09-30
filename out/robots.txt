@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sarojdev.vercel.app/sitemap.xml
