@@ -27,7 +27,6 @@ export default function Projects() {
               Innovative solutions that push the boundaries of what's possible
             </p>
           </div>
-
           <div className="space-y-20">
             {projects.map((project, index) => (
               <ProjectCard
