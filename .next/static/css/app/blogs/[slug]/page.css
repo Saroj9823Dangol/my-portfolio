@@ -1,0 +1,127 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/.pnpm/next@15.2.4_@babel+core@7.27.7_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/.pnpm/next@15.2.4_@babel+core@7.27.7_react-dom@19.1.0_react@19.1.0__react@19.1.0/node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./styles/blog.module.css ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.blog_prose-content__2GRaR {
+  color: #e5e7eb;
+  line-height: 1.8;
+}
+.blog_prose-content__2GRaR .blog_lead-paragraph__G5w_r {
+  font-size: 1.25rem;
+  color: #d1d5db;
+  margin-bottom: 2rem;
+  font-weight: 400;
+  line-height: 1.7;
+  padding: 1.5rem;
+  background: linear-gradient(
+    135deg,
+    rgba(168, 85, 247, 0.1),
+    rgba(236, 72, 153, 0.1)
+  );
+  border-left: 4px solid #a855f7;
+  border-radius: 0.5rem;
+}
+.blog_prose-content__2GRaR .blog_section-header__HFSWB {
+  color: #ffffff;
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  background: linear-gradient(to right, #a855f7, #ec4899);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+}
+.blog_prose-content__2GRaR .blog_section-header__HFSWB::before {
+  content: "";
+  position: absolute;
+  left: -1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(to bottom, #a855f7, #ec4899);
+  border-radius: 2px;
+}
+.blog_prose-content__2GRaR .blog_insight-quote__QpMc_ {
+  border-left: 4px solid #a855f7;
+  background: linear-gradient(
+    135deg,
+    rgba(168, 85, 247, 0.1),
+    rgba(236, 72, 153, 0.1)
+  );
+  padding: 1.5rem;
+  margin: 2rem 0;
+  border-radius: 0.5rem;
+  font-style: italic;
+  font-size: 1.125rem;
+  color: #d1d5db;
+  position: relative;
+}
+.blog_prose-content__2GRaR .blog_insight-quote__QpMc_::before {
+  content: '"';
+  position: absolute;
+  top: -0.5rem;
+  left: 1rem;
+  font-size: 3rem;
+  color: #a855f7;
+  font-family: serif;
+}
+.blog_prose-content__2GRaR .blog_code-example__CewE9 {
+  background: rgba(17, 24, 39, 0.8);
+  border: 1px solid rgba(107, 114, 128, 0.3);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  position: relative;
+  overflow: hidden;
+}
+.blog_prose-content__2GRaR .blog_code-example__CewE9::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(to right, #a855f7, #ec4899, #06b6d4);
+}
+.blog_prose-content__2GRaR .blog_code-example__CewE9 h3 {
+  color: #a855f7;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+}
+.blog_prose-content__2GRaR .blog_code-example__CewE9 h3::before {
+  content: "⚡";
+  margin-right: 0.5rem;
+}
+.blog_prose-content__2GRaR pre {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  overflow-x: auto;
+  margin: 0;
+  border: 1px solid rgba(168, 85, 247, 0.2);
+}
+.blog_prose-content__2GRaR code {
+  color: #06b6d4;
+  font-family: "JetBrains Mono", "Fira Code", monospace;
+  font-size: 0.875rem;
+}
+.blog_prose-content__2GRaR p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+.blog_prose-content__2GRaR a {
+  color: #a855f7;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+.blog_prose-content__2GRaR a:hover {
+  border-bottom-color: #a855f7;
+}
+
