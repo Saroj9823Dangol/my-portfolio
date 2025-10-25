@@ -74,7 +74,7 @@ export default function ContactPortal() {
                       name="name"
                       required
                       className="bg-white/5 border-white/20 text-white placeholder-gray-400 focus:border-cyan-400 focus:ring-cyan-400/50 h-14 text-lg transition-all duration-300 group-hover:bg-white/10"
-                      placeholder="Enter Saroj Dangol"
+                      placeholder="Enter Your Name"
                     />
                   </div>
 

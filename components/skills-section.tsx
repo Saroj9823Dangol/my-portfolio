@@ -7,10 +7,10 @@ export default function SkillsSection() {
       title: "Frontend",
       color: "from-blue-500 to-cyan-500",
       skills: [
-        { name: "React", level: 95 },
-        { name: "Next.js", level: 92 },
-        { name: "TypeScript", level: 90 },
-        { name: "Tailwind CSS", level: 88 },
+        { name: "React", level: 85 },
+        { name: "Next.js", level: 80 },
+        { name: "TypeScript", level: 80 },
+        { name: "Tailwind CSS", level: 75 },
       ],
     },
     {
@@ -18,10 +18,8 @@ export default function SkillsSection() {
       title: "Backend",
       color: "from-green-500 to-emerald-500",
       skills: [
-        { name: "Node.js", level: 88 },
-        { name: "Python", level: 85 },
-        { name: "GraphQL", level: 78 },
-        { name: "REST APIs", level: 90 },
+        { name: "Node.js", level: 75 },
+        { name: "REST APIs", level: 75 },
       ],
     },
     {
@@ -29,10 +27,10 @@ export default function SkillsSection() {
       title: "DevOps & Cloud",
       color: "from-purple-500 to-pink-500",
       skills: [
-        { name: "AWS", level: 82 },
-        { name: "Docker", level: 80 },
+        { name: "AWS", level: 70 },
+        { name: "Docker", level: 75 },
         { name: "Kubernetes", level: 70 },
-        { name: "CI/CD", level: 85 },
+        { name: "CI/CD", level: 65 },
       ],
     },
     {
@@ -40,10 +38,9 @@ export default function SkillsSection() {
       title: "Database",
       color: "from-orange-500 to-red-500",
       skills: [
-        { name: "PostgreSQL", level: 85 },
-        { name: "MongoDB", level: 80 },
-        { name: "Redis", level: 75 },
-        { name: "Prisma", level: 82 },
+        { name: "PostgreSQL", level: 70 },
+        { name: "MongoDB", level: 75 },
+        { name: "Prisma", level: 75 },
       ],
     },
   ];
@@ -131,7 +128,6 @@ export default function SkillsSection() {
               );
             })}
           </div>
-
           {/* Additional skills tags */}
           <div className="mt-16 text-center">
             <h3 className={`font-bold text-white mb-8 text-xl`}>
@@ -140,23 +136,13 @@ export default function SkillsSection() {
             <div className="flex flex-wrap justify-center gap-3">
               {[
                 "Vue.js",
-                "Angular",
-                "Svelte",
-                "Go",
-                "Rust",
-                "Java",
-                "PHP",
+                "Laravel",
                 "Firebase",
-                "Supabase",
                 "Vercel",
                 "Netlify",
                 "GitHub Actions",
-                "Jest",
-                "Cypress",
-                "Webpack",
                 "Vite",
-                "Figma",
-                "Adobe XD",
+                "AI",
               ].map((tech, index) => (
                 <span
                   key={index}
