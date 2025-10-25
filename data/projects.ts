@@ -64,7 +64,7 @@ export const projects = [
     image: "/images/miami-saloon.webp",
     technologies: ["Inertia JS", "Laravel", "Tailwind CSS"],
     github: "https://github.com/Saroj9823Dangol",
-    live: "https://saloon.apptechnologiesnologies.co/",
+    live: "https://miamisalongroup.com/",
     color: "from-yellow-400 to-orange-600",
   },
   {
