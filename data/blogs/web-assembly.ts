@@ -2,7 +2,8 @@ export const webAssemblyGuide = {
   id: "10",
   slug: "webassembly-mern-stack-2025",
   title: "WebAssembly in 2025: Supercharging MERN Stack Performance",
-  image: "/images/blogs/webassembly-mern-stack-2025.png",
+  image:
+    "/images/blogs/WebAssembly in 2025: Supercharging MERN Stack Performance.webp",
   excerpt:
     "Discover how WebAssembly (Wasm) enhances MERN stack performance in 2025, enabling high-performance computing for tasks like image processing and AI in React and Node.js apps.",
   content: `<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
@@ -141,5 +142,5 @@ export const webAssemblyGuide = {
     "Learn how WebAssembly supercharges MERN stack apps in 2025, enabling high-performance computing with React and Node.js for tasks like AI and image processing.",
   author: "Saroj Dangol",
   canonicalUrl:
-    "https://www.sarojdangol012.com.np/blogs/webassembly-mern-stack-2025",
+    "https://www.sarojdangol012.com.np/blogs/WebAssembly in 2025: Supercharging MERN Stack Performance",
 };
