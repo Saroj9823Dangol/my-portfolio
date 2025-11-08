@@ -3,7 +3,7 @@ export const serverComponentsGuide = {
   slug: "server-components-nextjs-15-mern-2025",
   title:
     "Server Components in Next.js 15: Revolutionizing MERN Stack Performance",
-  image: "/images/blogs/server-components-nextjs-15-mern-2025.png",
+  image: "/images/blogs/server-components-nextjs.jpg",
   excerpt:
     "Learn how Next.js 15’s server components enhance MERN stack performance in 2025, reducing client-side JavaScript and improving SEO with practical MongoDB integration.",
   content: `<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
@@ -151,5 +151,5 @@ export const serverComponentsGuide = {
     "Explore how Next.js 15’s server components revolutionize MERN stack performance in 2025, with MongoDB integration for reduced JavaScript and improved SEO.",
   author: "Saroj Dangol",
   canonicalUrl:
-    "https://www.sarojdangol012.com.np/blogs/server-components-nextjs-15-mern-2025",
+    "https://www.sarojdangol012.com.np/blogs/server-components-nextjs",
 };
