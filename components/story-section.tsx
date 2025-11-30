@@ -1,6 +1,16 @@
+"use client";
+
 import { Coffee, Lightbulb, Rocket, Terminal } from "lucide-react";
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default function StorySection() {
+  const sectionRef = useRef<HTMLElement>(null);
+  const titleRef = useRef<HTMLDivElement>(null);
+  const cardsRef = useRef<HTMLDivElement>(null);
+  const statsRef = useRef<HTMLDivElement>(null);
+
   const storySteps = [
     {
       icon: Terminal,
@@ -36,11 +46,63 @@ export default function StorySection() {
     },
   ];
 
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    const ctx = gsap.context(() => {
+      // Title animation
+      gsap.from(titleRef.current, {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        scrollTrigger: {
+          trigger: titleRef.current,
+          start: "top 80%",
+          toggleActions: "play none none reverse",
+        },
+      });
+
+      // Timeline cards stagger animation
+      gsap.from(cardsRef.current?.children || [], {
+        opacity: 0,
+        y: 100,
+        stagger: 0.2,
+        duration: 1,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: cardsRef.current,
+          start: "top 75%",
+          toggleActions: "play none none reverse",
+        },
+      });
+
+      // Stats counter animation
+      gsap.from(statsRef.current?.children || [], {
+        opacity: 0,
+        scale: 0.5,
+        stagger: 0.1,
+        duration: 0.8,
+        ease: "back.out(1.7)",
+        scrollTrigger: {
+          trigger: statsRef.current,
+          start: "top 85%",
+          toggleActions: "play none none reverse",
+        },
+      });
+    }, sectionRef);
+
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <section id="story" className="min-h-screen py-20 relative">
+    <section
+      id="story"
+      ref={sectionRef}
+      className="min-h-screen py-20 relative"
+    >
       <div className="max-w-7xl mx-auto px-4">
         {/* Section title */}
-        <div className="text-center mb-16">
+        <div ref={titleRef} className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-black mb-6">
             <span className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
               Journey.start()
@@ -50,7 +112,7 @@ export default function StorySection() {
         </div>
 
         {/* Story timeline - diagonal layout */}
-        <div className="relative space-y-32">
+        <div ref={cardsRef} className="relative space-y-32">
           {storySteps.map((step, index) => {
             const Icon = step.icon;
             const isEven = index % 2 === 0;
@@ -69,7 +131,7 @@ export default function StorySection() {
                   >
                     {/* Card */}
                     <div
-                      className={`relative p-8 backdrop-blur-sm bg-gradient-to-br ${step.color}  shadow-2xl overflow-hidden group hover:scale-105 transition-all duration-500`}
+                      className={`relative p-8 backdrop-blur-sm bg-gradient-to-br ${step.color} shadow-2xl overflow-hidden group hover:scale-105 transition-smooth rounded-lg magnetic shadow-glow`}
                     >
                       {/* Background pattern */}
                       <div className="absolute inset-0 opacity-10">
@@ -79,7 +141,7 @@ export default function StorySection() {
 
                       <div className="relative z-10">
                         <div className="flex items-center mb-4">
-                          <div className="p-3 bg-white/20 rounded-full mr-4">
+                          <div className="p-3 bg-white/20 rounded-full mr-4 group-hover:scale-110 transition-transform duration-300">
                             <Icon className="w-6 h-6 text-white" />
                           </div>
                           <span className="text-2xl font-black text-white">
@@ -119,15 +181,18 @@ export default function StorySection() {
         </div>
 
         {/* Stats section */}
-        <div className="mt-32 grid grid-cols-2 md:grid-cols-4 gap-8">
+        <div
+          ref={statsRef}
+          className="mt-32 grid grid-cols-2 md:grid-cols-4 gap-8"
+        >
           {[
             { number: "20+", label: "Projects Shipped" },
             { number: "3+", label: "Years Coding" },
             { number: "∞", label: "Problems Solved" },
             { number: "24/7", label: "Passion Mode" },
           ].map((stat, index) => (
-            <div key={index} className="text-center">
-              <div className="text-3xl md:text-5xl font-black bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent mb-2">
+            <div key={index} className="text-center group">
+              <div className="text-3xl md:text-5xl font-black bg-gradient-to-r from-cyan-400 to-purple-500 bg-clip-text text-transparent mb-2 group-hover:scale-110 transition-transform duration-300">
                 {stat.number}
               </div>
               <div className="text-gray-400 text-sm uppercase tracking-wider">

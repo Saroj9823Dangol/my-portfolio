@@ -3,11 +3,17 @@
 import { ArrowDown, ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default function CreativeHero() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const [scrollY, setScrollY] = useState(0);
   const heroRef = useRef<HTMLElement>(null);
+  const titleRef = useRef<HTMLDivElement>(null);
+  const subtitleRef = useRef<HTMLDivElement>(null);
+  const circleRef = useRef<HTMLDivElement>(null);
+  const descRef = useRef<HTMLParagraphElement>(null);
+  const ctaRef = useRef<HTMLDivElement>(null);
 
   const [isMobile, setIsMobile] = useState(false);
   const [touchIntensity, setTouchIntensity] = useState(0);
@@ -52,7 +58,6 @@ export default function CreativeHero() {
     setTouchIntensity(touches);
 
     if (touches > 1) {
-      // Multi-touch creates more intense effects
       const touch1 = e.touches[0];
       const touch2 = e.touches[1];
       setMousePosition({
@@ -86,20 +91,86 @@ export default function CreativeHero() {
       setMousePosition({ x: e.clientX, y: e.clientY });
     };
 
-    const handleScroll = () => {
-      setScrollY(window.scrollY);
-    };
-
     window.addEventListener("mousemove", handleMouseMove);
-    window.addEventListener("scroll", handleScroll);
 
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
-      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
-  const parallaxOffset = scrollY * 0.5;
+  // GSAP Animations
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    const ctx = gsap.context(() => {
+      // Hero entrance timeline
+      const tl = gsap.timeline({
+        defaults: { ease: "power3.out" },
+      });
+
+      // Animate title with split effect
+      tl.from(titleRef.current, {
+        opacity: 0,
+        y: 100,
+        duration: 1.2,
+        ease: "power4.out",
+      })
+        .from(
+          subtitleRef.current?.children || [],
+          {
+            opacity: 0,
+            y: 30,
+            stagger: 0.05,
+            duration: 0.8,
+          },
+          "-=0.6"
+        )
+        .from(
+          circleRef.current,
+          {
+            opacity: 0,
+            scale: 0.5,
+            duration: 1,
+            ease: "back.out(1.7)",
+          },
+          "-=0.8"
+        )
+        .from(
+          descRef.current,
+          {
+            opacity: 0,
+            y: 30,
+            duration: 0.8,
+          },
+          "-=0.6"
+        )
+        .from(
+          ctaRef.current?.children || [],
+          {
+            opacity: 0,
+            y: 30,
+            stagger: 0.2,
+            duration: 0.8,
+          },
+          "-=0.4"
+        );
+
+      // Parallax effect on scroll
+      gsap.to(heroRef.current, {
+        y: 200,
+        opacity: 0.5,
+        ease: "none",
+        scrollTrigger: {
+          trigger: heroRef.current,
+          start: "top top",
+          end: "bottom top",
+          scrub: true,
+        },
+      });
+    }, heroRef);
+
+    return () => ctx.revert();
+  }, []);
 
   return (
     <section
@@ -110,7 +181,7 @@ export default function CreativeHero() {
       {/* Main content */}
       <div className="relative z-10 text-center max-w-6xl mx-auto px-4">
         {/* Glitch effect name - mobile optimized */}
-        <div className="relative mb-8">
+        <div ref={titleRef} className="relative mb-8">
           <span
             className={`font-black tracking-tighter ${
               isMobile ? "text-6xl" : "text-6xl md:text-8xl"
@@ -119,6 +190,7 @@ export default function CreativeHero() {
             &lt;SAROJ /&gt;
           </span>
           <div
+            ref={subtitleRef}
             className={`font-light tracking-widest mt-4 text-gray-300 ${
               isMobile ? "text-2xl" : "text-3xl md:text-5xl"
             }`}
@@ -141,14 +213,15 @@ export default function CreativeHero() {
           </div>
         </div>
 
-        {/* Rotating text around circle with sun and moon - mobile optimized */}
+        {/* Rotating text around circle with enhanced animations */}
         <div
+          ref={circleRef}
           className={`relative mx-auto mb-12 ${
             isMobile ? "w-48 h-48" : "w-64 h-64"
           }`}
         >
           <div
-            className={`absolute inset-0 rounded-full border border-white/20 ${
+            className={`absolute inset-0 rounded-full border border-white/20 shadow-glow-cyan ${
               isMobile && touchIntensity > 0 ? "animate-spin" : "animate-spin"
             }`}
             style={{
@@ -192,14 +265,17 @@ export default function CreativeHero() {
 
         {/* Morphing description */}
         <div className="max-w-2xl mx-auto mb-12">
-          <p className="text-xl text-gray-300 leading-relaxed">
+          <p ref={descRef} className="text-xl text-gray-300 leading-relaxed">
             I don't just write code — I architect digital experiences that push
             boundaries and challenge conventions.
           </p>
         </div>
 
         {/* Interactive CTA - mobile optimized */}
-        <div className="relative flex items-center flex-wrap gap-5">
+        <div
+          ref={ctaRef}
+          className="relative flex items-center justify-center flex-wrap gap-5"
+        >
           <button
             onClick={() =>
               document
@@ -208,9 +284,9 @@ export default function CreativeHero() {
             }
             onTouchStart={() => isMobile && setTouchIntensity(1)}
             onTouchEnd={() => isMobile && setTouchIntensity(0)}
-            className={`group relative bg-transparent border-2 border-white/30 rounded-full text-white font-semibold transition-all duration-500 hover:border-white/60 hover:scale-105 overflow-hidden ${
+            className={`group relative glass-dark rounded-full text-white font-semibold transition-smooth hover:shadow-glow-cyan hover:scale-105 overflow-hidden magnetic ${
               isMobile ? "px-8 py-4 text-base" : "px-12 py-6 text-lg"
-            } ${touchIntensity > 0 ? "scale-110 border-white/80" : ""}`}
+            } ${touchIntensity > 0 ? "scale-110 shadow-glow-cyan" : ""}`}
           >
             <span className="relative z-10 flex items-center">
               {isMobile ? "Enter Universe" : "Enter My Universe"}
@@ -221,7 +297,7 @@ export default function CreativeHero() {
               />
             </span>
             <div
-              className={`absolute inset-0 bg-gradient-to-r from-[#DC143C]/20 to-[#0000FF]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${
+              className={`absolute inset-0 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${
                 touchIntensity > 0 ? "opacity-100" : ""
               }`}
             ></div>
@@ -231,9 +307,9 @@ export default function CreativeHero() {
             href={"/blogs"}
             onTouchStart={() => isMobile && setTouchIntensity(1)}
             onTouchEnd={() => isMobile && setTouchIntensity(0)}
-            className={`group relative bg-transparent border-2 border-white/30 rounded-full text-white font-semibold transition-all duration-500 hover:border-white/60 hover:scale-105 overflow-hidden ${
+            className={`group relative glass-dark rounded-full text-white font-semibold transition-smooth hover:shadow-glow-purple hover:scale-105 overflow-hidden magnetic ${
               isMobile ? "px-8 py-4 text-base" : "px-12 py-6 text-lg"
-            } ${touchIntensity > 0 ? "scale-110 border-white/80" : ""}`}
+            } ${touchIntensity > 0 ? "scale-110 shadow-glow-purple" : ""}`}
           >
             <span className="relative z-10 flex items-center">
               Read Blogs
@@ -244,7 +320,7 @@ export default function CreativeHero() {
               />
             </span>
             <div
-              className={`absolute inset-0 bg-gradient-to-r from-[#DC143C]/20 to-[#0000FF]/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${
+              className={`absolute inset-0 bg-gradient-to-r from-purple-500/20 to-pink-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500 ${
                 touchIntensity > 0 ? "opacity-100" : ""
               }`}
             ></div>

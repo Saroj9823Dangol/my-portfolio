@@ -1,7 +1,19 @@
+"use client";
+
 import { Card } from "@/components/ui/card";
 import { Brain, Rocket, Target, Zap } from "lucide-react";
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export function AboutSection() {
+  const sectionRef = useRef<HTMLElement>(null);
+  const titleRef = useRef<HTMLDivElement>(null);
+  const storyRef = useRef<HTMLDivElement>(null);
+  const codeBlockRef = useRef<HTMLDivElement>(null);
+  const cardsRef = useRef<HTMLDivElement>(null);
+  const shapesRef = useRef<HTMLDivElement>(null);
+
   const principles = [
     {
       icon: Brain,
@@ -33,17 +45,95 @@ export function AboutSection() {
     },
   ];
 
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    const ctx = gsap.context(() => {
+      // Parallax floating shapes
+      gsap.to(shapesRef.current?.children || [], {
+        y: (i) => -100 - i * 50,
+        rotation: (i) => 360 * (i + 1),
+        ease: "none",
+        scrollTrigger: {
+          trigger: sectionRef.current,
+          start: "top bottom",
+          end: "bottom top",
+          scrub: true,
+        },
+      });
+
+      // Title animation
+      gsap.from(titleRef.current, {
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        scrollTrigger: {
+          trigger: titleRef.current,
+          start: "top 80%",
+          toggleActions: "play none none reverse",
+        },
+      });
+
+      // Story section fade in from left
+      gsap.from(storyRef.current, {
+        opacity: 0,
+        x: -100,
+        duration: 1,
+        scrollTrigger: {
+          trigger: storyRef.current,
+          start: "top 75%",
+          toggleActions: "play none none reverse",
+        },
+      });
+
+      // Code block fade in from right
+      gsap.from(codeBlockRef.current, {
+        opacity: 0,
+        x: 100,
+        duration: 1,
+        scrollTrigger: {
+          trigger: codeBlockRef.current,
+          start: "top 75%",
+          toggleActions: "play none none reverse",
+        },
+      });
+
+      // Cards stagger animation
+      gsap.from(cardsRef.current?.children || [], {
+        opacity: 0,
+        y: 50,
+        stagger: 0.15,
+        duration: 0.8,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: cardsRef.current,
+          start: "top 80%",
+          toggleActions: "play none none reverse",
+        },
+      });
+    }, sectionRef);
+
+    return () => ctx.revert();
+  }, []);
+
   return (
-    <section id="about" className="py-20 relative max-auto px-4">
-      {/* Floating geometric shapes */}
-      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+    <section
+      id="about"
+      ref={sectionRef}
+      className="py-20 relative max-auto px-4"
+    >
+      {/* Floating geometric shapes with parallax */}
+      <div
+        ref={shapesRef}
+        className="absolute inset-0 overflow-hidden pointer-events-none"
+      >
         <div className="absolute top-20 left-10 w-32 h-32 border border-cyan-500/20 rotate-45 animate-pulse"></div>
-        <div className="absolute top-40 right-20 w-24 h-24 border border-purple-500/20 animate-bounce"></div>
+        <div className="absolute top-40 right-20 w-24 h-24 border border-purple-500/20 animate-float-enhanced"></div>
         <div className="absolute bottom-20 left-1/4 w-16 h-16 bg-gradient-to-r from-cyan-500/10 to-purple-500/10 rotate-12"></div>
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
-        <div className="text-center mb-20 opacity-100 translate-y-0">
+        <div ref={titleRef} className="text-center mb-20">
           <h2 className="text-3xl md:text-5xl font-black mb-6">
             <span className="bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
               About.exe
@@ -54,7 +144,7 @@ export function AboutSection() {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-20">
           {/* Story */}
-          <div className="opacity-100 translate-x-0">
+          <div ref={storyRef}>
             <div className="space-y-6 text-gray-300">
               <p className="text-xl leading-relaxed">
                 I don't just write code—I architect digital experiences that
@@ -79,8 +169,8 @@ export function AboutSection() {
           </div>
 
           {/* Interactive Code Block */}
-          <div className="opacity-100 translate-x-0">
-            <div className="bg-transparent backdrop-blur-sm border border-cyan-500/30 overflow-hidden">
+          <div ref={codeBlockRef}>
+            <div className="glass-dark backdrop-blur-sm border border-cyan-500/30 overflow-hidden rounded-lg shadow-glow-cyan transition-smooth hover:shadow-glow-purple">
               <div className="px-4 py-2 bg-gray-800 border-b border-gray-700">
                 <div className="text-cyan-400 text-sm font-mono">saroj.js</div>
               </div>
@@ -115,19 +205,22 @@ export function AboutSection() {
         </div>
 
         {/* Principles Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div
+          ref={cardsRef}
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6"
+        >
           {principles.map((principle, index) => (
             <Card
               key={principle.title}
-              className="relative bg-gray-900/50 border-gray-700 overflow-hidden"
+              className="relative bg-gray-900/50 border-gray-700 overflow-hidden group hover:scale-105 transition-smooth hover:shadow-glow magnetic"
             >
               <div
-                className={`absolute inset-0 bg-gradient-to-br ${principle.color} opacity-10`}
+                className={`absolute inset-0 bg-gradient-to-br ${principle.color} opacity-10 group-hover:opacity-20 transition-opacity duration-500`}
               />
 
               <div className="relative p-6 text-center">
                 <div
-                  className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-r ${principle.color} mb-4`}
+                  className={`inline-flex items-center justify-center w-16 h-16 rounded-full bg-gradient-to-r ${principle.color} mb-4 group-hover:scale-110 transition-transform duration-300`}
                 >
                   <principle.icon className="h-8 w-8 text-white" />
                 </div>
