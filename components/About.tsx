@@ -155,9 +155,10 @@ export function AboutSection() {
                 </h1>
               </p>
               <p className="text-lg leading-relaxed">
-                Over 3 years, I've transformed complex business challenges into
-                elegant solutions, working with startups that became unicorns
-                and enterprises that needed to think like startups.
+                Over 3 years as a developer in Nepal, I've transformed complex
+                business challenges into elegant solutions, working with
+                startups that became unicorns and enterprises that needed to
+                think like startups.
               </p>
               <p className="text-lg leading-relaxed">
                 When I'm not pushing pixels or optimizing algorithms, you'll

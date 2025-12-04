@@ -98,14 +98,12 @@ export default function RootLayout({ children }: { children: ReactNode }) {
           content="ZehS4kI2H4bUfWwPGCGl23h8rxEEp4KPxCiBdykJ-v4"
         />
 
-        <meta name="application-name" content="Push Demo" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="theme-color" content="#ffffff" />
         <link rel="manifest" href="/manifest.ts" />
         <meta
           httpEquiv="Content-Security-Policy"
-          content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';"
+          content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://www.google-analytics.com;"
         />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -164,6 +162,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
                 name: siteConfig.structuredData.worksFor.name,
               },
               description: siteConfig.structuredData.description,
+              address: siteConfig.structuredData.address,
               skills: siteConfig.structuredData.skills,
             }),
           }}

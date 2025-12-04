@@ -266,7 +266,7 @@ export default function CreativeHero() {
         {/* Morphing description */}
         <div className="max-w-2xl mx-auto mb-12">
           <p ref={descRef} className="text-xl text-gray-300 leading-relaxed">
-            I don't just write code — I architect digital experiences that push
+            Based in Lalitpur, Nepal, I architect digital experiences that push
             boundaries and challenge conventions.
           </p>
         </div>

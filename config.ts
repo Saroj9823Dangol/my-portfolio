@@ -113,6 +113,14 @@ interface SiteConfig {
     };
     description: string;
     skills: string[];
+    address?: {
+      "@type": string;
+      streetAddress: string;
+      addressLocality: string;
+      addressRegion: string;
+      postalCode: string;
+      addressCountry: string;
+    };
     hasOccupation?: {
       "@type": string;
       name: string;
@@ -158,19 +166,32 @@ export const siteConfig: SiteConfig = {
   },
   metadata: {
     title: {
-      default: "Saroj Dangol | MERN & React Native Developer | AWS",
-      template: "%s | Saroj Dangol",
+      default:
+        "Saroj Dangol | IT Developer in Lalitpur, Nepal | Full Stack Expert",
+      template: "%s | Saroj Dangol - IT Developer Nepal",
     },
     author: {
       name: "Saroj Dangol",
       url: "https://www.sarojdangol012.com.np",
     },
     description:
-      "Saroj Dangol | Full Stack Developer (MERN, React Native, AWS) | 3+ years building scalable web & mobile apps with modern cloud solutions.",
-    applicationName: "Saroj Dangol - Premium Development Services",
+      "Looking for an IT Developer in Lalitpur, Nepal? Saroj Dangol is a Senior Full Stack Developer (MERN, React Native, AWS) offering premium web & mobile app development services in Kathmandu Valley.",
+    applicationName: "Saroj Dangol - Premium IT Services Nepal",
     generator: "Next.js",
     referrer: "origin-when-cross-origin",
     keywords: [
+      // Local SEO - Primary
+      "IT Developer in Lalitpur",
+      "IT Developer in Nepal",
+      "Web Developer Lalitpur",
+      "Software Engineer Nepal",
+      "Freelance Developer Kathmandu",
+      "Best Programmer in Lalitpur",
+      "IT Jobs Lalitpur",
+      "Hire Developer Nepal",
+      "Kathmandu Valley Developer",
+      "Nepal IT Services",
+
       // Core expertise
       "Full Stack Developer",
       "MERN Stack Expert",
@@ -212,12 +233,6 @@ export const siteConfig: SiteConfig = {
       "SaaS Development",
       "Startup Tech Partner",
 
-      // Location-based
-      "Best Developer in Nepal",
-      "Top Kathmandu Programmer",
-      "Hire Nepali Developer",
-      "Remote Development Team",
-
       // Personal brand
       "Saroj Dangol Portfolio",
       "Dangol Development Services",
@@ -243,22 +258,18 @@ export const siteConfig: SiteConfig = {
     metadataBase: new URL("https://www.sarojdangol012.com.np"),
     alternates: {
       canonical: "https://www.sarojdangol012.com.np/",
-      // languages: {
-      //   "en-US": "/en-US",
-      //   "ne-NP": "/ne-NP",
-      // },
     },
     openGraph: {
-      title: "Hire Saroj Dangol - Elite Full Stack & Mobile Developer",
+      title: "Hire Saroj Dangol - Best IT Developer in Lalitpur, Nepal",
       description:
-        "Looking for a top-tier developer? Saroj Dangol delivers exceptional MERN stack web applications and React Native mobile solutions with 3+ years of proven results.",
+        "Expert Full Stack & Mobile Developer in Lalitpur, Nepal. Specializing in MERN stack, React Native, and AWS. Available for hire in Kathmandu Valley.",
       url: "https://www.sarojdangol012.com.np",
-      siteName: "Saroj Dangol - Premium Development Services",
+      siteName: "Saroj Dangol - IT Developer Nepal",
       images: {
         url: "https://www.sarojdangol012.com.np/images/profile.webp",
         width: 1200,
         height: 630,
-        alt: "Saroj Dangol - Full Stack & Mobile Development Expert",
+        alt: "Saroj Dangol - IT Developer in Lalitpur, Nepal",
       },
       locale: "en_US",
       type: "profile",
@@ -268,15 +279,15 @@ export const siteConfig: SiteConfig = {
       card: "summary_large_image",
       site: "@sarojdev",
       creator: "@sarojdev",
-      title: "Saroj Dangol - Code That Converts Visitors to Customers",
+      title: "Saroj Dangol - Top IT Developer in Nepal",
       description:
-        "Full Stack Developer building performant web & mobile apps that drive business growth. MERN Stack | React Native | AWS | TypeScript",
+        "Senior Full Stack Developer in Lalitpur, Nepal. Building world-class web & mobile apps. MERN | React Native | AWS.",
       images: [
         {
           url: "https://www.sarojdangol012.com.np/images/twitter-card.webp",
           width: 1200,
           height: 675,
-          alt: "Saroj Dangol Development Services",
+          alt: "Saroj Dangol - IT Developer Nepal",
         },
       ],
     },
@@ -329,17 +340,21 @@ export const siteConfig: SiteConfig = {
       "msapplication-TileColor": "#2b5797",
       "msapplication-config": "/browserconfig.xml",
       "theme-color": "#1a365d",
-      "og:latitude": "27.7172",
-      "og:longitude": "85.3240",
-      "og:locality": "Kathmandu",
-      "og:region": "NP",
-      "og:postal-code": "44600",
+      "og:latitude": "27.6710",
+      "og:longitude": "85.3226",
+      "og:locality": "Lalitpur",
+      "og:region": "Bagmati",
+      "og:postal-code": "44700",
       "og:country-name": "Nepal",
-      "business:contact_data:street_address": "Your Street",
-      "business:contact_data:locality": "Kathmandu",
+      "business:contact_data:street_address": "Lalitpur",
+      "business:contact_data:locality": "Lalitpur",
       "business:contact_data:region": "Bagmati",
-      "business:contact_data:postal_code": "44600",
+      "business:contact_data:postal_code": "44700",
       "business:contact_data:country_name": "Nepal",
+      "geo.region": "NP-P3",
+      "geo.placename": "Lalitpur",
+      "geo.position": "27.6710;85.3226",
+      ICBM: "27.6710, 85.3226",
     },
   },
   structuredData: {
@@ -359,7 +374,15 @@ export const siteConfig: SiteConfig = {
       url: "https://apptechnologies.com",
     },
     description:
-      "Professional Full Stack Developer with 3+ years experience specializing in MERN stack web development, React Native mobile apps, and cloud solutions. Proven track record of delivering high-performance applications.",
+      "Professional IT Developer in Lalitpur, Nepal. 3+ years experience in MERN stack, React Native, and Cloud Solutions. Serving Kathmandu Valley and beyond.",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "Lalitpur",
+      addressLocality: "Lalitpur",
+      addressRegion: "Bagmati",
+      postalCode: "44700",
+      addressCountry: "Nepal",
+    },
     skills: [
       // Languages
       "JavaScript (ES6+)",

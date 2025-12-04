@@ -262,9 +262,9 @@ export default async function BlogPost({ params }: Props) {
               <div>
                 <h3 className="text-lg font-medium">Saroj Dangol</h3>
                 <p className="text-gray-400">
-                  Full-stack developer specializing in MERN stack applications.
-                  Passionate about creating performant and accessible web
-                  experiences.
+                  Full-stack developer based in Lalitpur, Nepal, specializing in
+                  MERN stack applications. Passionate about creating performant
+                  and accessible web experiences.
                 </p>
                 <div className="flex gap-4 mt-2">
                   <Link
