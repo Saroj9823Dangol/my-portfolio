@@ -1,0 +1,11 @@
+:HL["/_next/static/chunks/6430dbae6e974469.css","style"]
+:HL["/_next/static/chunks/eda137deab273553.css","style"]
+:HL["/_next/static/media/0acc7fdf55eb3220-s.p.532ccaa1.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/278cbb97e75e04e2-s.p.2ce9a157.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/3206eb66b875a5b3-s.p.e2b99870.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/8d05cfa5faa8406c-s.p.4adea45d.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/a079e02bba5bf7ab-s.p.7367eab7.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/a10c617c9026098c-s.p.ca7c307b.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/d23f31b94ad01e54-s.p.4b0b0c7e.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/dc0d9adbac686440-s.p.3b382e45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"buildId":"gbAw0zW9_-lLai1G7Mw1T","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"blogs","paramType":null,"paramKey":"blogs","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"mern-stack-folder-structure-best-practices-2025","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}

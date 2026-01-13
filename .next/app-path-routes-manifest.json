@@ -1,0 +1,9 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/contact/route": "/api/contact",
+  "/blogs/[slug]/page": "/blogs/[slug]",
+  "/blogs/page": "/blogs",
+  "/manifest.webmanifest/route": "/manifest.webmanifest",
+  "/page": "/"
+}
