@@ -2,7 +2,7 @@ export const nextJsSeoBestPractices = {
   id: "nextjs-seo-best-practices",
   slug: "nextjs-seo-best-practices",
   title: "Next.js SEO Best Practices: Complete Guide for 2026",
-  image: "/images/blog/nextjs-seo.jpg",
+  image: "/images/blogs/nextjs-seo.jpg",
   excerpt:
     "Master SEO in Next.js applications with this comprehensive guide covering metadata, structured data, performance optimization, and more.",
   content: `

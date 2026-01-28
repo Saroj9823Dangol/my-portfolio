@@ -2,7 +2,7 @@ export const reactNativeAppCost = {
   id: "react-native-app-cost",
   slug: "react-native-app-development-cost-nepal",
   title: "React Native App Development Cost in Nepal: Complete Breakdown",
-  image: "/images/blog/app-development-cost.webp",
+  image: "/images/blogs/app-development-cost.webp",
   excerpt:
     "Detailed breakdown of mobile app development costs in Nepal. Learn about pricing factors, timeline estimates, and how to budget for your project.",
   content: `
