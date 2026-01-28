@@ -150,8 +150,8 @@ export const PLANETS: PlanetConfig[] = [
   },
   {
     // Saturn - Blog section
-    id: "blog",
-    name: "Blog",
+    id: "blogs",
+    name: "Blogs",
     realName: "Saturn",
     baseColor: "#e8d4a8",
     secondaryColor: "#d4bc8a",

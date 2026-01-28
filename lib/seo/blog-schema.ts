@@ -46,10 +46,10 @@ export function generateBlogListSchema(
   return {
     "@context": "https://schema.org",
     "@type": "Blog",
-    "@id": "https://www.sarojdangol012.com.np/blog",
+    "@id": "https://www.sarojdangol012.com.np/blogs",
     name: "Saroj Dangol's Blog",
     description: "IT development insights, tutorials, and industry knowledge",
-    url: "https://www.sarojdangol012.com.np/blog",
+    url: "https://www.sarojdangol012.com.np/blogs",
     author: {
       "@type": "Person",
       name: "Saroj Dangol",

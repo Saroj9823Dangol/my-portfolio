@@ -10,7 +10,7 @@ export type PlanetId =
   | "skills"
   | "experience"
   | "contact"
-  | "blog"
+  | "blogs"
   | "services"
   | "cv"
   | null;

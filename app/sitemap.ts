@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { sampleBlogPosts } from "@/data/blog";
+import { ALL_BLOG_POSTS } from "@/data/blogs";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.sarojdangol012.com.np";
@@ -31,7 +31,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/blog`,
+      url: `${baseUrl}/blogs`,
       lastModified: new Date(),
       changeFrequency: "weekly" as const,
       priority: 0.9,
@@ -39,9 +39,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   ];
 
   // Blog posts
-  const blogPosts = sampleBlogPosts.map((post) => ({
-    url: `${baseUrl}/blog/${post.slug}`,
-    lastModified: new Date(post.updatedAt || post.publishedAt),
+  const blogPosts = ALL_BLOG_POSTS.map((post) => ({
+    url: `${baseUrl}/blogs/${post.slug}`,
+    lastModified: new Date(post.date),
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));

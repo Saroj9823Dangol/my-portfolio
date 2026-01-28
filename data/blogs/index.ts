@@ -1,10 +1,15 @@
 import { aiWebDevelopmentGuide } from "./ai-web-devs";
+import { awsServerlessArchitecture } from "./aws-serverless-architecture-guide";
 import { fullStackDeveloperGuide } from "./how-to-become-fullstack";
+import { howToHireItDeveloper } from "./how-to-hire-it-developer-nepal";
 import { jwtAuthentication } from "./jwt-authentication";
 import { mernStackFolderStructureGuide } from "./mern-folder-structure";
 import { mernStackDominanceGuide } from "./mern-stack-dominates";
 import { mernStackGuide } from "./mern-stack-guide";
+import { mernStackVsAlternatives } from "./mern-stack-vs-alternatives-2026";
 import { microFrontendsGuide } from "./micro-frontend-nextjs";
+import { nextJsSeoBestPractices } from "./nextjs-seo-best-practices";
+import { reactNativeAppCost } from "./react-native-app-development-cost-nepal";
 import { reactPerformance } from "./react-performance";
 import { reactServerComponentsGuide } from "./react-server-component";
 import { serverComponentsGuide } from "./server-components";
@@ -14,12 +19,17 @@ import { webAssemblyGuide } from "./web-assembly";
 // Export all blog posts as an array
 export const ALL_BLOG_POSTS = [
   aiWebDevelopmentGuide,
+  awsServerlessArchitecture,
   fullStackDeveloperGuide,
+  howToHireItDeveloper,
   jwtAuthentication,
   mernStackFolderStructureGuide,
   mernStackDominanceGuide,
   mernStackGuide,
+  mernStackVsAlternatives,
   microFrontendsGuide,
+  nextJsSeoBestPractices,
+  reactNativeAppCost,
   reactPerformance,
   reactServerComponentsGuide,
   serverComponentsGuide,

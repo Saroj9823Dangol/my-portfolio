@@ -44,7 +44,7 @@ const NAV_ITEMS = [
     color: "#f97316",
   },
   { id: "contact" as PlanetId, icon: Mail, label: "Contact", color: "#06b6d4" },
-  { id: "blog" as PlanetId, icon: BookOpen, label: "Blog", color: "#94a3b8" },
+  { id: "blogs" as PlanetId, icon: BookOpen, label: "Blog", color: "#94a3b8" },
   { id: "cv" as PlanetId, icon: FileDown, label: "CV", color: "#10b981" },
 ] as const;
 
