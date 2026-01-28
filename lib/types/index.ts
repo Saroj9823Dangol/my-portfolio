@@ -11,6 +11,7 @@ export type PlanetId =
   | "experience"
   | "contact"
   | "blog"
+  | "services"
   | "cv"
   | null;
 

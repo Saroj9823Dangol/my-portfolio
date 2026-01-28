@@ -3344,6 +3344,7 @@ const configEnv = ("TURBOPACK compile-time value", {
         ("TURBOPACK compile-time value", 3840)
     ]),
     "imageSizes": ("TURBOPACK compile-time value", [
+        ("TURBOPACK compile-time value", 16),
         ("TURBOPACK compile-time value", 32),
         ("TURBOPACK compile-time value", 48),
         ("TURBOPACK compile-time value", 64),
@@ -3699,6 +3700,7 @@ function getImageProps(imgProps) {
                 ("TURBOPACK compile-time value", 3840)
             ]),
             "imageSizes": ("TURBOPACK compile-time value", [
+                ("TURBOPACK compile-time value", 16),
                 ("TURBOPACK compile-time value", 32),
                 ("TURBOPACK compile-time value", 48),
                 ("TURBOPACK compile-time value", 64),

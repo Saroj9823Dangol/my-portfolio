@@ -2,8 +2,14 @@
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
   "/api/contact/route": "/api/contact",
+  "/blog/page": "/blog",
   "/blogs/[slug]/page": "/blogs/[slug]",
   "/blogs/page": "/blogs",
+  "/contact/page": "/contact",
+  "/faq/page": "/faq",
   "/manifest.webmanifest/route": "/manifest.webmanifest",
-  "/page": "/"
+  "/page": "/",
+  "/robots.txt/route": "/robots.txt",
+  "/services/page": "/services",
+  "/sitemap.xml/route": "/sitemap.xml"
 }

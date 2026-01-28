@@ -8,34 +8,41 @@ import { X, ArrowLeft } from "lucide-react";
 import type { PlanetId } from "@/lib/types";
 
 const AboutContent = lazy(() =>
-  import("./content/about-content").then((m) => ({ default: m.AboutContent }))
+  import("./content/about-content").then((m) => ({ default: m.AboutContent })),
 );
 const ProjectsContent = lazy(() =>
   import("./content/projects-content").then((m) => ({
     default: m.ProjectsContent,
-  }))
+  })),
 );
 const SkillsContent = lazy(() =>
-  import("./content/skills-content").then((m) => ({ default: m.SkillsContent }))
+  import("./content/skills-content").then((m) => ({
+    default: m.SkillsContent,
+  })),
 );
 const ExperienceContent = lazy(() =>
   import("./content/experience-content").then((m) => ({
     default: m.ExperienceContent,
-  }))
+  })),
 );
 const ContactContent = lazy(() =>
   import("./content/contact-content").then((m) => ({
     default: m.ContactContent,
-  }))
+  })),
 );
 const BlogContent = lazy(() =>
-  import("./content/blog-content").then((m) => ({ default: m.BlogContent }))
+  import("./content/blog-content").then((m) => ({ default: m.BlogContent })),
 );
 const CVContent = lazy(() =>
-  import("./content/cv-content").then((m) => ({ default: m.CVContent }))
+  import("./content/cv-content").then((m) => ({ default: m.CVContent })),
+);
+const ServicesContent = lazy(() =>
+  import("./content/services-content").then((m) => ({
+    default: m.ServicesContent,
+  })),
 );
 const SunContent = lazy(() =>
-  import("./content/sun-content").then((m) => ({ default: m.SunContent }))
+  import("./content/sun-content").then((m) => ({ default: m.SunContent })),
 );
 
 interface PlanetOverlayProps {
@@ -99,6 +106,12 @@ const PLANET_CONFIG: Record<
     subtitle: "Resume Document",
     color: "#10b981",
     Component: CVContent,
+  },
+  services: {
+    title: "Services",
+    subtitle: "Tech Solutions",
+    color: "#22d3ee",
+    Component: ServicesContent,
   },
 };
 

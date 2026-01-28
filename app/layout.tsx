@@ -4,6 +4,8 @@ import { Orbitron, Space_Mono, Rajdhani } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { siteConfig } from "@/config";
+import { StructuredData } from "@/components/seo/structured-data";
+import { combinedSchema } from "@/lib/seo/schema";
 
 const orbitron = Orbitron({
   subsets: ["latin"],
@@ -99,6 +101,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <head>
+        <StructuredData data={combinedSchema} />
+      </head>
       <body
         className={`${orbitron.variable} ${spaceMono.variable} ${rajdhani.variable} font-body antialiased`}
       >

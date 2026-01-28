@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 import { MapPin, Calendar, Heart, Rocket } from "lucide-react";
+import Link from "next/link";
+import { experience } from "@/data/experience";
 
 export function AboutContent() {
   return (
@@ -12,19 +14,41 @@ export function AboutContent() {
         className="glass rounded-xl p-6 md:p-8"
       >
         <h3 className="font-display text-2xl text-earth-blue mb-4">
-          Who Am I?
+          IT Developer in Nepal
         </h3>
         <p className="font-body text-lg text-muted-foreground leading-relaxed mb-4">
-          I&apos;m Saroj Dangol, a fullstack developer with a passion for
-          creating beautiful, functional, and user-friendly web applications. My
-          journey in programming started when I was fascinated by the endless
-          possibilities that code could bring to life.
+          Namaste! I&apos;m{" "}
+          <span className="text-foreground font-semibold">Saroj Dangol</span>, a
+          dedicated{" "}
+          <span className="text-foreground font-semibold">
+            Full Stack Developer
+          </span>{" "}
+          based in <span className="text-foreground">Lalitpur, Nepal</span>.
+          With over 3 years of professional experience, I specialize in building
+          scalable web and mobile applications using the{" "}
+          <span className="text-foreground">MERN Stack</span> and{" "}
+          <span className="text-foreground">React Native</span>.
         </p>
         <p className="font-body text-lg text-muted-foreground leading-relaxed">
-          When I&apos;m not coding, you can find me exploring new technologies,
-          contributing to open-source projects, or stargazing (literally and
-          figuratively through data!).
+          My mission is to help businesses in Kathmandu Valley and globally to
+          digitally transform their ideas into reality. Whether you need a
+          custom website, a complex SaaS platform, or a cross-platform mobile
+          app, I deliver clean, efficient, and SEO-friendly code.
         </p>
+        <div className="mt-6 flex flex-wrap gap-4">
+          <Link
+            href="/services"
+            className="text-sm text-primary hover:underline underline-offset-4"
+          >
+            View My Services
+          </Link>
+          <Link
+            href="/contact"
+            className="text-sm text-primary hover:underline underline-offset-4"
+          >
+            Get in Touch
+          </Link>
+        </div>
       </motion.div>
 
       <motion.div
@@ -38,7 +62,7 @@ export function AboutContent() {
           <div>
             <h4 className="font-display text-lg text-foreground">Location</h4>
             <p className="font-body text-muted-foreground">
-              Solar System Alpha-7
+              Lalitpur, Nepal (Bagmati)
             </p>
           </div>
         </div>
@@ -48,7 +72,7 @@ export function AboutContent() {
           <div>
             <h4 className="font-display text-lg text-foreground">Experience</h4>
             <p className="font-body text-muted-foreground">
-              3+ Years in Development
+              3+ Years Professional
             </p>
           </div>
         </div>
@@ -56,9 +80,9 @@ export function AboutContent() {
         <div className="glass rounded-xl p-6 flex items-start gap-4">
           <Heart className="text-earth-blue shrink-0" />
           <div>
-            <h4 className="font-display text-lg text-foreground">Passion</h4>
+            <h4 className="font-display text-lg text-foreground">Expertise</h4>
             <p className="font-body text-muted-foreground">
-              Clean Code & Great UX
+              MERN, React Native, AWS
             </p>
           </div>
         </div>
@@ -67,7 +91,9 @@ export function AboutContent() {
           <Rocket className="text-earth-blue shrink-0" />
           <div>
             <h4 className="font-display text-lg text-foreground">Goal</h4>
-            <p className="font-body text-muted-foreground">Build the Future</p>
+            <p className="font-body text-muted-foreground">
+              Digital Excellence
+            </p>
           </div>
         </div>
       </motion.div>
@@ -78,24 +104,34 @@ export function AboutContent() {
         transition={{ delay: 0.2 }}
         className="glass rounded-xl p-6 md:p-8"
       >
-        <h3 className="font-display text-2xl text-earth-blue mb-4">Timeline</h3>
+        <h3 className="font-display text-2xl text-earth-blue mb-4">
+          Professional Timeline
+        </h3>
         <div className="space-y-4">
-          {[
-            { year: "2019", event: "Started coding journey" },
-            { year: "2020", event: "First professional project" },
-            { year: "2021", event: "Joined a startup" },
-            { year: "2022", event: "Lead developer role" },
-            { year: "2023", event: "Launched 10+ projects" },
-            { year: "2024", event: "Building the future" },
-          ].map((item, i) => (
-            <div key={i} className="flex items-center gap-4">
-              <span className="font-terminal text-earth-blue shrink-0 w-16">
-                {item.year}
-              </span>
-              <div className="h-px flex-1 bg-border" />
-              <span className="font-body text-muted-foreground">
-                {item.event}
-              </span>
+          {experience.map((item, i) => (
+            <div key={i} className="flex items-start gap-4">
+              <div className="w-24 shrink-0 text-right">
+                <span className="font-terminal text-sm text-earth-blue block">
+                  {item.period.split(" - ")[0]}
+                </span>
+                <span className="font-terminal text-[10px] text-muted-foreground block">
+                  {item.company}
+                </span>
+              </div>
+              <div className="relative pt-1">
+                <div className="w-2 h-2 rounded-full bg-earth-blue" />
+                {i !== experience.length - 1 && (
+                  <div className="absolute top-3 left-1 w-px h-full bg-border" />
+                )}
+              </div>
+              <div className="pb-4">
+                <h4 className="font-body font-medium text-foreground text-sm">
+                  {item.title}
+                </h4>
+                <p className="font-body text-xs text-muted-foreground mt-1 line-clamp-2">
+                  {item.description}
+                </p>
+              </div>
             </div>
           ))}
         </div>

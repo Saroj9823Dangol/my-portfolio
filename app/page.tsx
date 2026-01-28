@@ -18,7 +18,7 @@ const SolarSystem = dynamic(
   {
     ssr: false,
     loading: () => <div className="fixed inset-0 z-10 bg-background" />,
-  }
+  },
 );
 
 export default function Home() {
@@ -46,6 +46,7 @@ export default function Home() {
       experience: "experience",
       contact: "contact",
       blog: "blog",
+      services: "services",
       cv: "cv",
       home: null,
       sun: "sun",
