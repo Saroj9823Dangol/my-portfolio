@@ -1,8 +1,8 @@
 var R=require("../../chunks/[turbopack]_runtime.js")("server/app/sitemap.xml/route.js")
-R.c("server/chunks/[root-of-the-server]__1404ca0b._.js")
-R.c("server/chunks/4dfb7_next_2d3fc134._.js")
-R.c("server/chunks/4dfb7_next_dist_esm_build_templates_app-route_1d187aa7.js")
-R.c("server/chunks/[root-of-the-server]__6bb6272a._.js")
-R.c("server/chunks/f5b49__next-internal_server_app_sitemap_xml_route_actions_3c927420.js")
-R.m(42746)
-module.exports=R.m(42746).exports
+R.c("server/chunks/[root-of-the-server]__41ae2f4d._.js")
+R.c("server/chunks/ec245_next_cbadf201._.js")
+R.c("server/chunks/ec245_next_dist_esm_build_templates_app-route_398e948b.js")
+R.c("server/chunks/[root-of-the-server]__72185be0._.js")
+R.c("server/chunks/3d860_SD_sd-portfolio__next-internal_server_app_sitemap_xml_route_actions_c67c5768.js")
+R.m(84802)
+module.exports=R.m(84802).exports

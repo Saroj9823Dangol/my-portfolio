@@ -82,6 +82,12 @@
       "namedRegex": "^/api/contact(?:/)?$"
     },
     {
+      "page": "/api/currency",
+      "regex": "^/api/currency(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/currency(?:/)?$"
+    },
+    {
       "page": "/blogs",
       "regex": "^/blogs(?:/)?$",
       "routeKeys": {},
@@ -134,6 +140,54 @@
       "regex": "^/sitemap\\.xml(?:/)?$",
       "routeKeys": {},
       "namedRegex": "^/sitemap\\.xml(?:/)?$"
+    },
+    {
+      "page": "/tools",
+      "regex": "^/tools(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools(?:/)?$"
+    },
+    {
+      "page": "/tools/base64-encoder",
+      "regex": "^/tools/base64\\-encoder(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/base64\\-encoder(?:/)?$"
+    },
+    {
+      "page": "/tools/color-converter",
+      "regex": "^/tools/color\\-converter(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/color\\-converter(?:/)?$"
+    },
+    {
+      "page": "/tools/currency-converter",
+      "regex": "^/tools/currency\\-converter(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/currency\\-converter(?:/)?$"
+    },
+    {
+      "page": "/tools/hash-generator",
+      "regex": "^/tools/hash\\-generator(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/hash\\-generator(?:/)?$"
+    },
+    {
+      "page": "/tools/json-formatter",
+      "regex": "^/tools/json\\-formatter(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/json\\-formatter(?:/)?$"
+    },
+    {
+      "page": "/tools/jwt-decoder",
+      "regex": "^/tools/jwt\\-decoder(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/jwt\\-decoder(?:/)?$"
+    },
+    {
+      "page": "/tools/regex-tester",
+      "regex": "^/tools/regex\\-tester(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tools/regex\\-tester(?:/)?$"
     }
   ],
   "dataRoutes": [],

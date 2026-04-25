@@ -1,3 +1,0 @@
-module.exports=[31782,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(83401);a.n(d("[project]/Desktop/SD/solar-system-portfolio/node_modules/.pnpm/next@16.0.7_babel-plugin-react-compiler@1.0.0_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},99219,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(83401);a.n(d("[project]/Desktop/SD/solar-system-portfolio/node_modules/.pnpm/next@16.0.7_babel-plugin-react-compiler@1.0.0_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/dist/client/components/builtin/global-error.js"))},90954,a=>{"use strict";a.i(31782);var b=a.i(99219);a.n(b)}];
-
-//# sourceMappingURL=4dfb7_next_dist_client_components_builtin_global-error_87ad7220.js.map

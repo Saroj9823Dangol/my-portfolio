@@ -4,22 +4,22 @@
   },
   "devFiles": [],
   "polyfillFiles": [
-    "static/chunks/00ee3_next_dist_build_polyfills_polyfill-nomodule.js"
+    "static/chunks/ec245_next_dist_build_polyfills_polyfill-nomodule.js"
   ],
   "lowPriorityFiles": [
     "static/development/_ssgManifest.js",
     "static/development/_buildManifest.js"
   ],
   "rootMainFiles": [
-    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_196bc361._.js",
-    "static/chunks/00ee3_next_dist_compiled_react-dom_ebe7703c._.js",
-    "static/chunks/00ee3_next_dist_compiled_react-server-dom-turbopack_2c60f9a0._.js",
-    "static/chunks/00ee3_next_dist_compiled_next-devtools_index_4c584e01.js",
-    "static/chunks/00ee3_next_dist_compiled_dc3db29e._.js",
-    "static/chunks/00ee3_next_dist_client_da1da05c._.js",
-    "static/chunks/00ee3_next_dist_92d340bc._.js",
-    "static/chunks/49324_@swc_helpers_cjs_1073f372._.js",
-    "static/chunks/Desktop_SD_solar-system-portfolio_a0ff3932._.js",
-    "static/chunks/turbopack-Desktop_SD_solar-system-portfolio_0f81eac4._.js"
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_90d1823b._.js",
+    "static/chunks/ec245_next_dist_compiled_react-dom_a17b3655._.js",
+    "static/chunks/ec245_next_dist_compiled_react-server-dom-turbopack_bc51135d._.js",
+    "static/chunks/ec245_next_dist_compiled_next-devtools_index_35c6e51f.js",
+    "static/chunks/ec245_next_dist_compiled_9804ee5f._.js",
+    "static/chunks/ec245_next_dist_client_bd92ead0._.js",
+    "static/chunks/ec245_next_dist_94dd49c3._.js",
+    "static/chunks/e12ec_@swc_helpers_cjs_61f221fe._.js",
+    "static/chunks/Desktop_SD_sd-portfolio_a0ff3932._.js",
+    "static/chunks/turbopack-Desktop_SD_sd-portfolio_b4c151a9._.js"
   ]
 }

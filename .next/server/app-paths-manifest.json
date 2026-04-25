@@ -3,6 +3,7 @@
   "/_not-found/page": "app/_not-found/page.js",
   "/about/page": "app/about/page.js",
   "/api/contact/route": "app/api/contact/route.js",
+  "/api/currency/route": "app/api/currency/route.js",
   "/blogs/[slug]/page": "app/blogs/[slug]/page.js",
   "/blogs/page": "app/blogs/page.js",
   "/contact/page": "app/contact/page.js",
@@ -13,5 +14,13 @@
   "/projects/page": "app/projects/page.js",
   "/robots.txt/route": "app/robots.txt/route.js",
   "/services/page": "app/services/page.js",
-  "/sitemap.xml/route": "app/sitemap.xml/route.js"
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/tools/base64-encoder/page": "app/tools/base64-encoder/page.js",
+  "/tools/color-converter/page": "app/tools/color-converter/page.js",
+  "/tools/currency-converter/page": "app/tools/currency-converter/page.js",
+  "/tools/hash-generator/page": "app/tools/hash-generator/page.js",
+  "/tools/json-formatter/page": "app/tools/json-formatter/page.js",
+  "/tools/jwt-decoder/page": "app/tools/jwt-decoder/page.js",
+  "/tools/page": "app/tools/page.js",
+  "/tools/regex-tester/page": "app/tools/regex-tester/page.js"
 }

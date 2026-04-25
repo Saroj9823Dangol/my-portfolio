@@ -1,5 +1,6 @@
 import type { MetadataRoute } from "next";
 import { ALL_BLOG_POSTS } from "@/data/blogs";
+import { toolsList } from "@/lib/tools/tool-list";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.sarojdangol012.com.np";
@@ -31,6 +32,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${baseUrl}/tools`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.9,
+    },
+    {
       url: `${baseUrl}/contact`,
       lastModified: new Date(),
       changeFrequency: "monthly" as const,
@@ -50,6 +57,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
+  // Tool pages
+  const toolPages = toolsList.map((tool) => ({
+    url: `${baseUrl}/tools/${tool.slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
+
   // Blog posts
   const blogPosts = ALL_BLOG_POSTS.map((post) => ({
     url: `${baseUrl}/blogs/${post.slug}`,
@@ -58,5 +73,5 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...blogPosts];
+  return [...staticPages, ...toolPages, ...blogPosts];
 }

@@ -3,6 +3,7 @@
   "/_not-found/page": "/_not-found",
   "/about/page": "/about",
   "/api/contact/route": "/api/contact",
+  "/api/currency/route": "/api/currency",
   "/blogs/[slug]/page": "/blogs/[slug]",
   "/blogs/page": "/blogs",
   "/contact/page": "/contact",
@@ -13,5 +14,13 @@
   "/projects/page": "/projects",
   "/robots.txt/route": "/robots.txt",
   "/services/page": "/services",
-  "/sitemap.xml/route": "/sitemap.xml"
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/tools/base64-encoder/page": "/tools/base64-encoder",
+  "/tools/color-converter/page": "/tools/color-converter",
+  "/tools/currency-converter/page": "/tools/currency-converter",
+  "/tools/hash-generator/page": "/tools/hash-generator",
+  "/tools/json-formatter/page": "/tools/json-formatter",
+  "/tools/jwt-decoder/page": "/tools/jwt-decoder",
+  "/tools/page": "/tools",
+  "/tools/regex-tester/page": "/tools/regex-tester"
 }

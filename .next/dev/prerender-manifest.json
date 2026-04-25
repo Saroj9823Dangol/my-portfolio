@@ -1,1 +1,11 @@
-{"version":4,"routes":{"/blogs/how-ai-transforms-web-development-2025":{},"/blogs/aws-serverless-architecture-guide":{},"/blogs/how-to-become-full-stack-developer-2025":{},"/blogs/how-to-hire-it-developer-nepal":{},"/blogs/mern-stack-authentication":{},"/blogs/mern-stack-folder-structure-best-practices-2025":{},"/blogs/why-mern-stack-dominates-2025":{},"/blogs/mern-stack-guide-2025":{},"/blogs/mern-stack-vs-alternatives-2026":{},"/blogs/building-scalable-micro-frontends-nextjs-2025":{},"/blogs/nextjs-seo-best-practices":{},"/blogs/react-native-app-development-cost-nepal":{},"/blogs/react-performance-optimization-2024":{},"/blogs/react-server-components-2025":{},"/blogs/server-components-nextjs-15-mern-2025":{},"/blogs/ssr-vs-csr-web-development-2025":{},"/blogs/webassembly-mern-stack-2025":{}},"dynamicRoutes":{"/blogs/[slug]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/blogs/[slug]","routeRegex":"^\\/blogs\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"f4dd0724f021cb77510d05eb6c67092e","previewModeSigningKey":"b1986259e95cf6c4270140c8e1f2f63ac4806b5ef8545cf1db32619bb4d14e98","previewModeEncryptionKey":"23b76d2c93687408864ffc82ccd906422d9eb2f310d82541d7cbb960c4e89768"}}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": [],
+  "preview": {
+    "previewModeId": "f8cb2818316c98dcc00443c05813621c",
+    "previewModeSigningKey": "0d818dad1d5eaf00651d065b76f1dab829370e9e8163f25082856d4e904fa27a",
+    "previewModeEncryptionKey": "4c2a31673fe08a8a338fd300bc3a6ed22227f340dbace821b28c3f0352ca8322"
+  }
+}

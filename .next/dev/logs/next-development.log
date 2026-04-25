@@ -1,40 +1,149 @@
-[00:00:01.611] Server  LOG      ✓ Ready in 1107ms
-[00:00:06.062] Server  LOG      ○ Compiling / ...
-[00:00:11.564] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:12.288] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:12.288] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:12.288] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777125099228} /_vercel/insights/view
-[00:00:36.954] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:36.954] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777125123885} /_vercel/insights/view
-[00:00:44.844] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/blogs color: rgb(120, 120, 120) color: inherit {"dp":"/blogs","o":"http://localhost:3000/blogs","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777125131784} /_vercel/insights/view
-[00:00:53.880] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/services color: rgb(120, 120, 120) color: inherit {"dp":"/services","o":"http://localhost:3000/services","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777125140817} /_vercel/insights/view
-[00:01:06.582] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777125153508} /_vercel/insights/view
-[00:01:14.616] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777125161552} /_vercel/insights/view
-[00:01:51.096] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777125198035} /_vercel/insights/view
-[00:01:55.688] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777125202580} /_vercel/insights/view
-[00:02:04.582] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/blogs color: rgb(120, 120, 120) color: inherit {"dp":"/blogs","o":"http://localhost:3000/blogs","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777125211521} /_vercel/insights/view
-[00:02:09.472] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/blogs/nextjs-seo-best-practices color: rgb(120, 120, 120) color: inherit {"dp":"/blogs/[slug]","o":"http://localhost:3000/blogs/nextjs-seo-best-practices","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777125216410} /_vercel/insights/view
-[00:02:20.376] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/blogs color: rgb(120, 120, 120) color: inherit {"dp":"/blogs","o":"http://localhost:3000/blogs","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777125227292} /_vercel/insights/view
-[00:02:22.050] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777125228955} /_vercel/insights/view
-[00:05:42.914] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/projects color: rgb(120, 120, 120) color: inherit {"dp":"/projects","o":"http://localhost:3000/projects","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777125429853} /_vercel/insights/view
-[00:05:47.570] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777125434489} /_vercel/insights/view
-[00:05:51.711] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/contact color: rgb(120, 120, 120) color: inherit {"dp":"/contact","o":"http://localhost:3000/contact","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777125438640} /_vercel/insights/view
-[00:06:21.942] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777125468822} /_vercel/insights/view
-[00:15:03.754] Server  LOG      ✓ Compiled in 1258ms
-[00:15:04.146] Server  LOG      ✓ Compiled in 1ms
-[00:15:15.112] Server  LOG      ✓ Compiled in 335ms
-[00:15:15.236] Server  LOG      ✓ Compiled in 0ms
-[00:17:30.155] Server  LOG      ✓ Compiled in 0ms
-[00:19:30.167] Server  LOG      ✓ Compiled in 557ms
-[00:25:21.525] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:25:22.179] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:25:22.179] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:25:22.179] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777126609135} /_vercel/insights/view
-[00:41:34.173] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:41:34.627] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:41:34.627] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:41:34.627] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777127581588} /_vercel/insights/view
-[00:41:46.471] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:41:46.471] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/services color: rgb(120, 120, 120) color: inherit {"dp":"/services","o":"http://localhost:3000/services","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777127593418} /_vercel/insights/view
-[00:41:53.995] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777127600870} /_vercel/insights/view
-[00:42:02.267] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/blogs color: rgb(120, 120, 120) color: inherit {"dp":"/blogs","o":"http://localhost:3000/blogs","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777127609229} /_vercel/insights/view
+[00:00:01.621] Server  LOG      ✓ Ready in 1074ms
+[00:00:04.680] Server  LOG      ○ Compiling /tools/currency-converter ...
+[00:00:08.023] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.050] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/tools/cur..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/S...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="dark">
+                          <head>
+                          <body
+                            className="instrument_serif_56fd4bd3-module__E2lYQa__variable inter_7f54167b-module__7AH-0..."
+-                           data-new-gr-c-s-check-loaded="14.1286.0"
+-                           data-gr-ext-installed=""
+                          >
+                            <Navbar>
+                            ...
+                              <div className="max-w-6xl ...">
+                                <header>
+                                <div className="max-w-2xl ...">
+                                  <div>
+                                  <div className="mt-4 text-...">
++                                   {"Rates from Budget API • "}
+-                                   {"Rates from Budget API (via CORS proxy) • "}
+                                    ...
+                            ...
+                  ...
+
+[00:00:10.051] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:10.051] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/tools/currency-converter","route":"/tools/currency-converter"}
+[00:00:10.051] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/tools/currency-converter","route":"/tools/currency-converter"}
+[00:00:10.051] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/tools/currency-converter color: rgb(120, 120, 120) color: inherit {"dp":"/tools/currency-converter","o":"http://localhost:3000/tools/currency-converter","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777136286712} /_vercel/insights/view
+[00:00:10.051] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/tools/currency-converter color: rgb(120, 120, 120) color: inherit {"dp":"/tools/currency-converter","o":"http://localhost:3000/tools/currency-converter","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777136286712} /_vercel/insights/view
+[00:00:39.998] Server  LOG      ✓ Compiled in 612ms
+[00:00:40.072] Browser ERROR   The final argument passed to %s changed size between renders. The order and size of this array must remain constant.
+
+Previous: %s
+Incoming: %s useEffect [async ()=>{
+            if (fromCurrency === toCurrency) {
+                setRate(1);
+                setResult(parseFloat(amount).toLocaleString("en-US", {
+                    minimumFractionDigits: 2,
+                    maximumFractionDigits: 2
+                }));
+                return;
+            }
+            setLoading(true);
+            setErrorMsg("");
+            try {
+                const res = await fetch(`https://api.budjet.org/fiat/${fromCurrency}/${toCurrency}/100`);
+                if (res.ok) {
+                    const data = await res.json();
+                    if (data.success) {
+                        setRate(data.conversion_rate);
+                        setErrorMsg("");
+                    } else {
+                        throw new Error("API failed");
+                    }
+                } else {
+                    throw new Error("API error");
+                }
+            } catch  {
+                setErrorMsg("Rate unavailable");
+                setRate(1);
+            } finally{
+                setLoading(false);
+            }
+        }] [USD, NPR]
+[00:00:40.587] Browser LOG     {} ressss
+[00:01:47.331] Server  LOG      ✓ Compiled in 1173ms
+[00:04:29.551] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:30.166] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/tools/cur..." notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/S...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en" className="dark">
+                          <head>
+                          <body
+                            className="instrument_serif_56fd4bd3-module__E2lYQa__variable inter_7f54167b-module__7AH-0..."
+-                           data-new-gr-c-s-check-loaded="14.1286.0"
+-                           data-gr-ext-installed=""
+                          >
+                            <Navbar>
+                            ...
+                              <div className="max-w-6xl ...">
+                                <header>
+                                <div className="max-w-2xl ...">
+                                  <div>
+                                  <div className="mt-4 text-...">
++                                   4/25/2026, 10:47:27 PM
+-                                   4/25/2026, 10:47:26 PM
+                            ...
+                  ...
+
+[00:04:30.297] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:04:30.297] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/tools/currency-converter","route":"/tools/currency-converter"}
+[00:04:30.297] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/tools/currency-converter","route":"/tools/currency-converter"}
+[00:04:30.298] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/tools/currency-converter color: rgb(120, 120, 120) color: inherit {"dp":"/tools/currency-converter","o":"http://localhost:3000/tools/currency-converter","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777136547818} /_vercel/insights/view
+[00:04:30.298] Browser LOG     %c[Vercel Web Analytics]%c [view] http://localhost:3000/tools/currency-converter color: rgb(120, 120, 120) color: inherit {"dp":"/tools/currency-converter","o":"http://localhost:3000/tools/currency-converter","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1777136547819} /_vercel/insights/view
+[00:10:51.170] Server  LOG        Reload env: .env
