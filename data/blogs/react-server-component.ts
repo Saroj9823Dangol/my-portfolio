@@ -221,4 +221,12 @@ export const reactServerComponentsGuide = {
   author: "Saroj Dangol",
   canonicalUrl:
     "https://www.sarojdangol012.com.np/blogs/react-server-components-2025",
+  keyTakeaways: [
+    "React Server Components render on the server and send HTML to the client, reducing JavaScript bundle size",
+    "Server Components can directly access databases and file systems without API calls",
+    "Client Components are still needed for interactivity, state, and browser APIs",
+    "The 'use client' directive marks a component as a Client Component in Next.js",
+    "Server Components improve performance by moving data fetching closer to the data source",
+  ],
+  relatedSlugs: ["server-components-nextjs-15-mern-2025", "nextjs-seo-best-practices", "react-performance-optimization-2024"],
 };

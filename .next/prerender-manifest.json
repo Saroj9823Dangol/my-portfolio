@@ -52,7 +52,7 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/blog": {
+    "/blogs/aws-serverless-architecture-guide": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -65,8 +65,8 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/blog",
-      "dataRoute": "/blog.rsc",
+      "srcRoute": "/blogs/[slug]",
+      "dataRoute": "/blogs/aws-serverless-architecture-guide.rsc",
       "prefetchDataRoute": null,
       "allowHeader": [
         "host",
@@ -152,6 +152,31 @@
         "x-next-revalidate-tag-token"
       ]
     },
+    "/blogs/how-to-hire-it-developer-nepal": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blogs/[slug]",
+      "dataRoute": "/blogs/how-to-hire-it-developer-nepal.rsc",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
     "/blogs/mern-stack-authentication": {
       "experimentalBypassFor": [
         {
@@ -217,6 +242,81 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/blogs/[slug]",
       "dataRoute": "/blogs/mern-stack-guide-2025.rsc",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blogs/mern-stack-vs-alternatives-2026": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blogs/[slug]",
+      "dataRoute": "/blogs/mern-stack-vs-alternatives-2026.rsc",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blogs/nextjs-seo-best-practices": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blogs/[slug]",
+      "dataRoute": "/blogs/nextjs-seo-best-practices.rsc",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/blogs/react-native-app-development-cost-nepal": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/blogs/[slug]",
+      "dataRoute": "/blogs/react-native-app-development-cost-nepal.rsc",
       "prefetchDataRoute": null,
       "allowHeader": [
         "host",
@@ -624,8 +724,8 @@
   },
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "61a5d3b8b1153f4d12cef28daf41fe79",
-    "previewModeSigningKey": "4ea43ce8b6ae67a4c5aecca5cda3b66c6730ec332b86a6eb84773e17a0cae1d0",
-    "previewModeEncryptionKey": "56e1c65b26966f4aa4e4b154c77ce3de915b560516fc230b164817cd5eda248e"
+    "previewModeId": "f320371aaa29c28a1b3b3db2f6ea184a",
+    "previewModeSigningKey": "1f85ee40b89ea2a04d115c13c9328f4b40dab23a39057d7cb72353e424b10946",
+    "previewModeEncryptionKey": "b3d7616423caba1d94268893cf8af50969414126e13415dfe76f4b0e8fe16ed2"
   }
 }

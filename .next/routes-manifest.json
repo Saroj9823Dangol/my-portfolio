@@ -76,12 +76,6 @@
       "namedRegex": "^/api/contact(?:/)?$"
     },
     {
-      "page": "/blog",
-      "regex": "^/blog(?:/)?$",
-      "routeKeys": {},
-      "namedRegex": "^/blog(?:/)?$"
-    },
-    {
       "page": "/blogs",
       "regex": "^/blogs(?:/)?$",
       "routeKeys": {},

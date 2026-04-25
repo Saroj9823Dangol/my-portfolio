@@ -143,4 +143,12 @@ export const webAssemblyGuide = {
   author: "Saroj Dangol",
   canonicalUrl:
     "https://www.sarojdangol012.com.np/blogs/WebAssembly-in-2025-Supercharging-MERN-Stack-Performance",
+  keyTakeaways: [
+    "WebAssembly (WASM) enables near-native performance for computationally intensive web applications",
+    "WASM can be compiled from C, C++, Rust, and other languages for use in browsers",
+    "WebAssembly complements JavaScript rather than replacing it",
+    "WASM is ideal for video processing, gaming, cryptography, and scientific computing in browsers",
+    "The WASM ecosystem is maturing rapidly with tools like Emscripten and wasm-pack",
+  ],
+  relatedSlugs: ["react-performance-optimization-2024", "mern-stack-guide-2025", "aws-serverless-architecture-guide"],
 };

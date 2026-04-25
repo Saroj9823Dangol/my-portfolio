@@ -355,4 +355,12 @@ export const ssrVsCsrGuide = {
   author: "Saroj Dangol",
   canonicalUrl:
     "https://www.sarojdangol012.com.np/blogs/ssr-vs-csr-web-development-2025",
+  keyTakeaways: [
+    "SSR (Server-Side Rendering) generates HTML on the server for each request, improving SEO",
+    "CSR (Client-Side Rendering) loads a minimal HTML shell and renders content with JavaScript",
+    "SSR provides better initial page load performance and SEO for content-heavy sites",
+    "CSR is preferred for highly interactive applications like dashboards and SPAs",
+    "Next.js supports both SSR and CSR, allowing developers to choose per page",
+  ],
+  relatedSlugs: ["nextjs-seo-best-practices", "react-server-components-2025", "mern-stack-guide-2025"],
 };

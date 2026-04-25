@@ -112,4 +112,12 @@ export const reactNativeAppCost = {
   author: "Saroj Dangol",
   canonicalUrl:
     "https://www.sarojdangol012.com.np/blogs/react-native-app-development-cost-nepal",
+  keyTakeaways: [
+    "React Native app development in Nepal costs significantly less than in Western markets",
+    "A basic React Native app in Nepal starts from NPR 80,000 to NPR 150,000",
+    "App complexity, features, and integrations are the primary cost drivers",
+    "Ongoing maintenance typically costs 15-20% of the initial development cost annually",
+    "Hiring a local Nepali developer offers cost savings while maintaining quality",
+  ],
+  relatedSlugs: ["how-to-hire-it-developer-nepal", "mern-stack-guide-2025", "how-to-become-full-stack-developer-2025"],
 };

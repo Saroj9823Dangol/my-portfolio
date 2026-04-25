@@ -223,4 +223,16 @@ export const microFrontendsGuide = {
   author: "Saroj Dangol",
   canonicalUrl:
     "https://www.sarojdangol012.com.np/blogs/building-scalable-micro-frontends-nextjs-2025",
+  keyTakeaways: [
+    "Micro-frontends enable independent deployment of frontend modules by separate teams",
+    "Next.js Module Federation allows sharing components across micro-frontend applications",
+    "Micro-frontends increase complexity and should only be used for large-scale applications",
+    "Shared design systems are critical for maintaining visual consistency across micro-frontends",
+    "Performance monitoring is essential as micro-frontends can increase bundle sizes",
+  ],
+  relatedSlugs: [
+    "nextjs-seo-best-practices",
+    "react-server-components-2025",
+    "mern-stack-guide-2025",
+  ],
 };

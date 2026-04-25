@@ -195,4 +195,12 @@ const UserList = React.memo(({ users }) => {
     "Comprehensive 2024 guide to React performance optimization covering Concurrent Features, advanced memoization, component optimization, and practical implementation examples.",
   author: "Saroj Dangol",
   canonicalUrl: `https://www.sarojdangol012.com.np/blogs/react-performance-optimization-2024`,
+  keyTakeaways: [
+    "React.memo prevents unnecessary re-renders of functional components",
+    "useMemo and useCallback optimize expensive computations and function references",
+    "Code splitting with React.lazy reduces initial bundle size and improves load time",
+    "Virtualization libraries like react-window handle large lists efficiently",
+    "React DevTools Profiler is the essential tool for identifying performance bottlenecks",
+  ],
+  relatedSlugs: ["react-server-components-2025", "mern-stack-guide-2025", "nextjs-seo-best-practices"],
 };

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { generateSEOMetadata } from "@/lib/seo/metadata";
+import Link from "next/link";
 import { StructuredData } from "@/components/seo/structured-data";
 import { faqSchema } from "@/lib/seo/schema";
 import {
@@ -9,70 +9,78 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 
-export const metadata: Metadata = generateSEOMetadata({
-  title: "FAQ - Frequently Asked Questions | Saroj Dangol",
+export const metadata: Metadata = {
+  title: "FAQ — Frequently Asked Questions | Saroj Dangol",
   description:
-    "Common questions about IT development services in Nepal. Learn about pricing, technologies, timelines, and how to work with Saroj Dangol.",
-  keywords: [
-    "IT developer FAQ Nepal",
-    "web development cost Nepal",
-    "hire developer Lalitpur",
-    "app development pricing",
-    "MERN stack developer questions",
-  ],
-  canonical: "https://www.sarojdangol012.com.np/faq",
-});
+    "Common questions about IT development services in Nepal — pricing, technologies, timelines, MERN stack, React Native, and AWS. Answered by Saroj Dangol.",
+  alternates: { canonical: "https://www.sarojdangol012.com.np/faq" },
+};
 
 const faqs = [
   {
     question: "What services do you offer as an IT developer in Nepal?",
     answer:
-      "I offer comprehensive IT development services including Full Stack Web Development (MERN stack), Mobile App Development (React Native), Cloud Solutions (AWS), API Development, and Technical Consulting. I specialize in building scalable, high-performance applications for businesses in Kathmandu Valley and beyond.",
+      "Saroj Dangol offers full stack web development, React Native mobile app development, backend and API development, and AWS cloud and DevOps services for businesses in Nepal and worldwide.",
   },
   {
     question: "How much does it cost to develop a web application in Nepal?",
     answer:
-      "The cost varies based on project complexity, features, and timeline. A basic website starts from NPR 50,000, while complex web applications can range from NPR 200,000 to NPR 1,000,000+. I provide detailed quotes after understanding your specific requirements.",
+      "Web application development costs in Nepal vary by complexity — a basic website starts from NPR 50,000, while complex web applications range from NPR 200,000 to NPR 1,000,000+, and detailed quotes are provided after reviewing your specific requirements.",
   },
   {
     question: "Do you work with clients outside Nepal?",
     answer:
-      "Yes, I work with clients globally. While I'm based in Lalitpur, Nepal, I have experience working remotely with international clients. I'm available for both remote and on-site projects in the Kathmandu Valley.",
+      "Yes, Saroj Dangol works with clients globally via remote collaboration, serving businesses in Nepal, the United States, Europe, Australia, and other regions.",
   },
   {
-    question: "What technologies do you specialize in?",
+    question: "What technologies does Saroj Dangol specialize in?",
     answer:
-      "I specialize in the MERN stack (MongoDB, Express.js, React.js, Node.js), React Native for mobile development, Next.js for web applications, TypeScript, AWS cloud services, and modern DevOps practices. I'm also experienced with GraphQL, PostgreSQL, and various frontend frameworks.",
+      "Saroj Dangol specialises in the MERN stack (MongoDB, Express.js, React.js, Node.js), React Native for cross-platform mobile development, Next.js, TypeScript, NestJS, AWS cloud services, GraphQL, and PostgreSQL.",
   },
   {
     question: "How long does it take to develop a mobile app?",
     answer:
-      "Development time depends on app complexity. A simple app takes 4-8 weeks, a medium complexity app takes 2-4 months, and complex apps with advanced features can take 4-6 months or more. I provide detailed timelines during project planning.",
+      "A simple React Native mobile app typically takes 4–8 weeks, a medium-complexity app takes 2–4 months, and a complex app with advanced features can take 4–6 months or more depending on scope.",
   },
   {
     question: "Do you provide ongoing support and maintenance?",
     answer:
-      "Yes, I offer ongoing support and maintenance packages for all projects. This includes bug fixes, security updates, performance optimization, and feature enhancements. Support packages can be customized based on your needs.",
+      "Yes, ongoing support and maintenance packages are available for all projects, covering bug fixes, security updates, performance optimisation, and feature enhancements.",
   },
   {
     question: "What is your development process?",
     answer:
-      "My development process follows Agile methodology: 1) Discovery & Planning, 2) Design & Prototyping, 3) Development & Testing, 4) Deployment, 5) Support & Maintenance. I maintain clear communication throughout and provide regular updates.",
+      "The development process follows an Agile methodology with five phases: Discovery and Planning, Design and Prototyping, Development and Testing, Deployment, and ongoing Support and Maintenance, with regular client updates throughout.",
   },
   {
-    question: "Can you help with existing projects?",
+    question: "Can you help with existing projects or legacy codebases?",
     answer:
-      "Absolutely! I can help with code reviews, bug fixes, performance optimization, feature additions, technology upgrades, and complete project refactoring. I'm experienced in taking over and improving existing codebases.",
+      "Yes, Saroj Dangol can assist with code reviews, bug fixes, performance optimisation, feature additions, technology upgrades, and complete refactoring of existing web and mobile applications.",
   },
   {
-    question: "What makes you different from other developers in Nepal?",
+    question: "What makes Saroj Dangol different from other developers in Nepal?",
     answer:
-      "I bring 5+ years of professional experience, AWS certification, expertise in modern technologies, a strong focus on code quality and best practices, excellent communication skills, and a proven track record of delivering successful projects on time and within budget.",
+      "Saroj Dangol brings 3+ years of professional experience, AWS certification, expertise in modern full stack and mobile technologies, a strong focus on code quality, and a proven track record of delivering 9+ projects on time.",
   },
   {
     question: "How can I get started with a project?",
     answer:
-      "Simply contact me through the contact form, email, or phone. We'll schedule a consultation to discuss your requirements, timeline, and budget. I'll then provide a detailed proposal and project plan for your review.",
+      "To get started, contact Saroj via the contact form at sarojdangol012.com.np/contact or email hello@sarojdangol012.com.np, and a consultation will be scheduled to discuss your requirements, timeline, and budget.",
+  },
+  {
+    question: "What is the MERN stack and why do you use it?",
+    answer:
+      "The MERN stack consists of MongoDB, Express.js, React.js, and Node.js — a JavaScript-only technology stack that enables rapid development of scalable, high-performance web applications with a single language across frontend and backend.",
+  },
+  {
+    question: "What React Native services do you offer for mobile app development?",
+    answer:
+      "React Native mobile app development services include cross-platform iOS and Android app development, real-time features, push notifications, offline-first architecture, third-party API integrations, and App Store and Play Store submission.",
+  },
+  {
+    question: "What AWS services do you work with?",
+    answer:
+      "AWS services used include EC2, Lambda (serverless), S3, RDS, DynamoDB, CloudFront, API Gateway, Elastic Beanstalk, and IAM, enabling scalable, cost-effective cloud infrastructure for web and mobile applications.",
   },
 ];
 
@@ -80,48 +88,51 @@ export default function FAQPage() {
   return (
     <>
       <StructuredData data={faqSchema} />
-      <div className="min-h-screen bg-background py-20 px-4">
-        <div className="max-w-4xl mx-auto">
-          <div className="text-center mb-12">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-blue-400 bg-clip-text text-transparent">
-              Frequently Asked Questions
-            </h1>
-            <p className="text-lg text-muted-foreground">
-              Everything you need to know about working with me
-            </p>
-          </div>
+      <div className="pt-16">
+        <section className="py-24 max-w-4xl mx-auto px-6">
+          <span className="label-mono">Help</span>
+          <h1 className="heading-display mt-2 text-4xl md:text-5xl text-[var(--color-fg)]">
+            Frequently Asked Questions
+          </h1>
+          <p className="mt-4 text-lg text-[var(--color-fg-muted)] max-w-xl">
+            Everything you need to know about working with me.
+          </p>
 
-          <Accordion type="single" collapsible className="w-full space-y-4">
+          <Accordion type="single" collapsible className="mt-12 space-y-3">
             {faqs.map((faq, index) => (
               <AccordionItem
                 key={index}
                 value={`item-${index}`}
-                className="border border-border rounded-lg px-6 bg-card/50 backdrop-blur-sm"
+                className="border border-[var(--color-border)] rounded-xl px-6 bg-[var(--color-surface)]"
               >
-                <AccordionTrigger className="text-left hover:no-underline">
-                  <span className="font-semibold text-lg">{faq.question}</span>
+                <AccordionTrigger className="text-left hover:no-underline py-5">
+                  <span className="font-medium text-[var(--color-fg)] text-base">
+                    {faq.question}
+                  </span>
                 </AccordionTrigger>
-                <AccordionContent className="text-muted-foreground leading-relaxed">
+                <AccordionContent className="text-[var(--color-fg-muted)] text-sm leading-relaxed pb-5">
                   {faq.answer}
                 </AccordionContent>
               </AccordionItem>
             ))}
           </Accordion>
 
-          <div className="mt-12 p-8 bg-gradient-to-r from-primary/10 to-blue-500/10 rounded-lg border border-primary/20">
-            <h2 className="text-2xl font-bold mb-4">Still have questions?</h2>
-            <p className="text-muted-foreground mb-6">
-              Can't find the answer you're looking for? Feel free to reach out
-              directly.
+          {/* CTA band */}
+          <div className="mt-16 rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-8 text-center">
+            <h2 className="heading-display text-2xl text-[var(--color-fg)]">
+              Still have questions?
+            </h2>
+            <p className="mt-2 text-sm text-[var(--color-fg-muted)]">
+              Can&apos;t find the answer you&apos;re looking for? Reach out directly.
             </p>
-            <a
+            <Link
               href="/contact"
-              className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors font-semibold"
+              className="mt-6 inline-flex items-center bg-[var(--color-accent)] text-black font-medium rounded-lg px-6 py-3 text-sm hover:opacity-90 transition-opacity"
             >
-              Contact Me
-            </a>
+              Contact Me →
+            </Link>
           </div>
-        </div>
+        </section>
       </div>
     </>
   );

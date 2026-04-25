@@ -1,30 +1,37 @@
 import type React from "react";
 import type { Metadata, Viewport } from "next";
-import { Orbitron, Space_Mono, Rajdhani } from "next/font/google";
+import { Instrument_Serif, Inter, JetBrains_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 import { siteConfig } from "@/config";
 import { StructuredData } from "@/components/seo/structured-data";
 import { combinedSchema } from "@/lib/seo/schema";
+import Navbar from "@/components/layout/navbar";
+import Footer from "@/components/layout/footer";
 
-const orbitron = Orbitron({
+const instrumentSerif = Instrument_Serif({
   subsets: ["latin"],
-  variable: "--font-orbitron",
+  weight: ["400"],
+  style: ["normal", "italic"],
+  variable: "--font-display",
   display: "swap",
+  preload: true,
 });
 
-const spaceMono = Space_Mono({
+const inter = Inter({
   subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-space-mono",
+  weight: ["400", "500", "600"],
+  variable: "--font-body",
   display: "swap",
+  preload: true,
 });
 
-const rajdhani = Rajdhani({
+const jetbrainsMono = JetBrains_Mono({
   subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-rajdhani",
+  weight: ["400", "500"],
+  variable: "--font-mono",
   display: "swap",
+  preload: false,
 });
 
 // Dynamic metadata
@@ -89,7 +96,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: "#0a0e27",
+  themeColor: "#0d0d0d",
   width: "device-width",
   initialScale: 1,
 };
@@ -102,12 +109,15 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
+        <meta name="robots" content="max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <StructuredData data={combinedSchema} />
       </head>
       <body
-        className={`${orbitron.variable} ${spaceMono.variable} ${rajdhani.variable} font-body antialiased`}
+        className={`${instrumentSerif.variable} ${inter.variable} ${jetbrainsMono.variable} font-body antialiased`}
       >
-        {children}
+        <Navbar />
+        <main>{children}</main>
+        <Footer />
         <Analytics />
       </body>
     </html>

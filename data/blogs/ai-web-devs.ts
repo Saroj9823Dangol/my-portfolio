@@ -277,4 +277,16 @@ export const aiWebDevelopmentGuide = {
   author: "Saroj Dangol",
   canonicalUrl:
     "https://www.sarojdangol012.com.np/blogs/how-ai-transforms-web-development-2025",
+  keyTakeaways: [
+    "AI tools like GitHub Copilot and ChatGPT accelerate web development workflows",
+    "AI cannot replace developers but significantly boosts productivity",
+    "Prompt engineering is a critical skill for AI-assisted development",
+    "AI-generated code requires human review for security and correctness",
+    "The future of web development combines human creativity with AI efficiency",
+  ],
+  relatedSlugs: [
+    "mern-stack-guide-2025",
+    "react-performance-optimization-2024",
+    "nextjs-seo-best-practices",
+  ],
 };

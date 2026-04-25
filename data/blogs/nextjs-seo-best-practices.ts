@@ -159,4 +159,12 @@ export async function generateMetadata(
   author: "Saroj Dangol",
   canonicalUrl:
     "https://www.sarojdangol012.com.np/blogs/nextjs-seo-best-practices",
+  keyTakeaways: [
+    "Next.js Server-Side Rendering (SSR) significantly improves SEO compared to client-side rendering",
+    "The Next.js Metadata API simplifies adding title, description, and Open Graph tags",
+    "Image optimization with next/image is critical for Core Web Vitals performance",
+    "Structured data (JSON-LD) helps search engines understand page content and enables rich results",
+    "Canonical URLs prevent duplicate content issues that can harm search rankings",
+  ],
+  relatedSlugs: ["react-server-components-2025", "server-components-nextjs-15-mern-2025", "building-scalable-micro-frontends-nextjs-2025"],
 };

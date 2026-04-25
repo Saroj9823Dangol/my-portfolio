@@ -191,4 +191,16 @@ export const jwtAuthentication = {
     "Step-by-step guide to implementing secure JWT authentication in MERN stack. Learn token handling, protected routes, and best practices for MongoDB, Express, React, and Node.js.",
   author: "Saroj Dangol",
   canonicalUrl: `https://www.sarojdangol012.com.np/blogs/mern-stack-authentication`,
+  keyTakeaways: [
+    "JWT tokens consist of three parts: header, payload, and signature",
+    "Never store sensitive data in JWT payloads as they are base64-encoded, not encrypted",
+    "Access tokens should have short expiry times (15 minutes) for security",
+    "Refresh tokens enable seamless re-authentication without requiring users to log in again",
+    "Always validate JWT signatures on the server side to prevent token forgery",
+  ],
+  relatedSlugs: [
+    "mern-stack-guide-2025",
+    "mern-stack-folder-structure-best-practices-2025",
+    "how-to-become-full-stack-developer-2025",
+  ],
 };

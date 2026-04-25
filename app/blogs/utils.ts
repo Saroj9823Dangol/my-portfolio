@@ -72,11 +72,14 @@ export function generateBlogStructuredData(post: BlogPost) {
     headline: post.title,
     description: post.excerpt,
     image: imageUrl,
+    url: url,
     datePublished: post.date,
-    dateModified: post.date,
+    dateModified: post.lastModified || post.date,
     author: {
       "@type": "Person",
+      "@id": "https://www.sarojdangol012.com.np/#person",
       name: post.author || "Saroj Dangol",
+      url: "https://www.sarojdangol012.com.np/about",
     },
     publisher: {
       "@type": "Person",

@@ -1,142 +1,144 @@
-"use client";
-
-import { motion } from "framer-motion";
-import { Calendar, Clock, ArrowLeft, Tag } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
+import { ArrowLeft } from "lucide-react";
 import type { BlogPost } from "@/data/blogs";
+import { ALL_BLOG_POSTS } from "@/data/blogs";
 
 interface BlogDetailClientProps {
   post: BlogPost;
 }
 
 export default function BlogDetailClient({ post }: BlogDetailClientProps) {
+  // Get related posts
+  const relatedPosts = post.relatedSlugs
+    ? ALL_BLOG_POSTS.filter((p) => post.relatedSlugs!.includes(p.slug)).slice(0, 3)
+    : [];
+
   return (
-    <div className="min-h-screen bg-background py-20 px-4">
-      <motion.div
-        initial={{ opacity: 0, x: 50 }}
-        animate={{ opacity: 1, x: 0 }}
-        exit={{ opacity: 0, x: -50 }}
-        className="max-w-4xl mx-auto"
-      >
-        {/* Back button */}
-        <Link href="/blogs">
-          <motion.button
-            className="flex items-center gap-2 text-moon-gray font-terminal text-sm mb-6 hover:text-foreground transition-colors group"
-            whileHover={{ x: -4 }}
-          >
-            <ArrowLeft
-              size={16}
-              className="group-hover:-translate-x-1 transition-transform"
-            />
-            Back to all posts
-          </motion.button>
+    <div className="pt-16">
+      <article className="py-16 max-w-3xl mx-auto px-6">
+        {/* Back link */}
+        <Link
+          href="/blogs"
+          className="inline-flex items-center gap-2 text-sm text-[var(--color-fg-muted)] hover:text-[var(--color-fg)] transition-colors mb-8"
+        >
+          <ArrowLeft size={14} aria-hidden="true" />
+          All posts
         </Link>
 
         {/* Post header */}
-        <motion.header
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.1 }}
-          className="mb-8"
-        >
-          <div className="flex flex-wrap items-center gap-4 mb-4 text-muted-foreground font-terminal text-sm">
-            <span className="flex items-center gap-1.5">
-              <Calendar size={14} />
-              {post.formattedDate ||
-                new Date(post.date).toLocaleDateString("en-US", {
-                  month: "long",
-                  day: "numeric",
-                  year: "numeric",
-                })}
-            </span>
-            <span className="flex items-center gap-1.5">
-              <Clock size={14} />
-              {post.readingTime}
-            </span>
+        <header className="mb-8">
+          <div className="flex flex-wrap items-center gap-3 mb-4">
+            <time className="font-mono text-xs text-[var(--color-fg-subtle)]">
+              {post.formattedDate || post.date}
+            </time>
+            <span className="font-mono text-xs text-[var(--color-fg-subtle)]">·</span>
+            <span className="font-mono text-xs text-[var(--color-fg-subtle)]">{post.readingTime}</span>
+            {post.tags[0] && (
+              <>
+                <span className="font-mono text-xs text-[var(--color-fg-subtle)]">·</span>
+                <span className="font-mono text-xs bg-[var(--color-accent-dim)] text-[var(--color-accent)] rounded-full px-2 py-0.5">
+                  {post.tags[0]}
+                </span>
+              </>
+            )}
           </div>
 
-          <h1 className="font-display text-3xl md:text-4xl text-foreground mb-4 leading-tight">
+          <h1 className="heading-display text-3xl md:text-4xl text-[var(--color-fg)] leading-tight">
             {post.title}
           </h1>
 
-          <p className="font-body text-lg text-muted-foreground leading-relaxed">
+          <p className="mt-4 text-lg text-[var(--color-fg-muted)] leading-relaxed">
             {post.excerpt}
           </p>
 
-          <div className="flex flex-wrap gap-2 mt-4">
-            {post.tags.map((tag) => (
-              <span
-                key={tag}
-                className="flex items-center gap-1 px-3 py-1.5 rounded-full bg-moon-gray/10 text-moon-gray font-terminal text-xs"
-              >
-                <Tag size={10} />
-                {tag}
-              </span>
-            ))}
-          </div>
-
-          {/* Cover Image */}
+          {/* Cover image */}
           {post.image && (
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.2 }}
-              className="mt-6 rounded-xl overflow-hidden"
-            >
-              <img
+            <div className="mt-6 rounded-xl overflow-hidden">
+              <Image
                 src={post.image}
                 alt={post.title}
+                width={800}
+                height={450}
                 className="w-full h-auto object-cover"
+                priority
               />
-            </motion.div>
+            </div>
           )}
-        </motion.header>
+        </header>
 
-        {/* Divider */}
-        <motion.div
-          initial={{ scaleX: 0 }}
-          animate={{ scaleX: 1 }}
-          transition={{ delay: 0.2 }}
-          className="h-px bg-gradient-to-r from-transparent via-moon-gray/50 to-transparent mb-8"
-        />
+        {/* Key Takeaways */}
+        {post.keyTakeaways && post.keyTakeaways.length > 0 && (
+          <aside className="mb-8 rounded-xl border border-[var(--color-accent-border)] bg-[var(--color-accent-dim)] p-6">
+            <h2 className="font-mono text-xs text-[var(--color-accent)] uppercase tracking-widest mb-3">
+              Key Takeaways
+            </h2>
+            <ul className="space-y-2">
+              {post.keyTakeaways.map((takeaway, i) => (
+                <li key={i} className="flex items-start gap-2 text-sm text-[var(--color-fg-muted)]">
+                  <span className="text-[var(--color-accent)] mt-0.5 shrink-0" aria-hidden="true">→</span>
+                  {takeaway}
+                </li>
+              ))}
+            </ul>
+          </aside>
+        )}
 
         {/* Post content */}
-        <motion.article
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3 }}
-          className="prose prose-invert prose-moon max-w-none"
-        >
-          <div
-            className="font-body text-muted-foreground leading-relaxed"
-            dangerouslySetInnerHTML={{ __html: post.content }}
-          />
-        </motion.article>
+        <div
+          className="text-[var(--color-fg-muted)] leading-relaxed"
+          dangerouslySetInnerHTML={{ __html: post.content }}
+        />
 
-        {/* Post footer */}
-        <motion.footer
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.4 }}
-          className="mt-12 pt-8 border-t border-moon-gray/20"
-        >
-          <div className="glass rounded-xl p-6 text-center">
-            {post.author && (
-              <p className="font-terminal text-sm text-muted-foreground mb-2">
-                Written by {post.author}
+        {/* Author bio */}
+        <div className="mt-12 pt-8 border-t border-[var(--color-border)]">
+          <div className="flex items-start gap-4">
+            <Image
+              src="/images/profile.webp"
+              alt="Saroj Dangol"
+              width={56}
+              height={56}
+              className="rounded-full shrink-0"
+            />
+            <div>
+              <p className="font-semibold text-[var(--color-fg)]">Saroj Dangol</p>
+              <p className="text-sm text-[var(--color-accent)]">Senior Full Stack Developer</p>
+              <p className="mt-1 text-sm text-[var(--color-fg-muted)]">
+                React · Node.js · Next.js · React Native · AWS
               </p>
-            )}
-            <p className="font-terminal text-muted-foreground mb-4">
-              Enjoyed this article? Check out more posts or get in touch.
-            </p>
-            <Link href="/blogs">
-              <button className="px-6 py-2 bg-moon-gray/20 text-moon-gray font-terminal text-sm rounded-lg hover:bg-moon-gray/30 transition-colors">
-                View All Posts
-              </button>
-            </Link>
+              <Link
+                href="/about"
+                className="mt-2 inline-block text-sm text-[var(--color-accent)] hover:opacity-80 transition-opacity"
+              >
+                About Saroj →
+              </Link>
+            </div>
           </div>
-        </motion.footer>
-      </motion.div>
+        </div>
+
+        {/* Related Articles */}
+        {relatedPosts.length > 0 && (
+          <div className="mt-12">
+            <h2 className="font-mono text-xs text-[var(--color-fg-subtle)] uppercase tracking-widest mb-6">
+              Related Articles
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {relatedPosts.map((related) => (
+                <Link
+                  key={related.slug}
+                  href={`/blogs/${related.slug}`}
+                  className="group rounded-xl border border-[var(--color-border)] bg-[var(--color-surface)] p-5 hover:border-[var(--color-accent-border)] transition-colors"
+                >
+                  <time className="font-mono text-xs text-[var(--color-fg-subtle)]">{related.date}</time>
+                  <h3 className="mt-1 text-sm font-medium text-[var(--color-fg)] group-hover:text-[var(--color-accent)] transition-colors line-clamp-2">
+                    {related.title}
+                  </h3>
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+      </article>
     </div>
   );
 }

@@ -26,22 +26,17 @@ export const localBusinessSchema = {
     longitude: 85.3226,
   },
   areaServed: [
-    {
-      "@type": "City",
-      name: "Lalitpur",
-    },
-    {
-      "@type": "City",
-      name: "Kathmandu",
-    },
-    {
-      "@type": "City",
-      name: "Bhaktapur",
-    },
-    {
-      "@type": "Country",
-      name: "Nepal",
-    },
+    { "@type": "City", name: "Lalitpur" },
+    { "@type": "City", name: "Kathmandu" },
+    { "@type": "City", name: "Bhaktapur" },
+    { "@type": "Country", name: "Nepal" },
+  ],
+  serviceArea: [
+    { "@type": "City", name: "Lalitpur" },
+    { "@type": "City", name: "Kathmandu" },
+    { "@type": "City", name: "Bhaktapur" },
+    { "@type": "Country", name: "Nepal" },
+    { "@type": "AdministrativeArea", name: "Worldwide Remote" },
   ],
   priceRange: "$$",
   openingHoursSpecification: [
@@ -135,7 +130,7 @@ export const websiteSchema = {
   inLanguage: "en-US",
 };
 
-// Person Schema (Enhanced)
+// Person Schema (GEO-Enhanced)
 export const personSchema = {
   "@context": "https://schema.org",
   "@type": "Person",
@@ -152,8 +147,7 @@ export const personSchema = {
   },
   address: siteConfig.structuredData.address,
   email: "hello@sarojdangol012.com.np",
-  telephone: "+977-9863485599", // Update with actual phone
-  knowsAbout: siteConfig.structuredData.knowsAbout,
+  telephone: "+977-9863485599",
   alumniOf: siteConfig.structuredData.alumniOf,
   hasOccupation: siteConfig.structuredData.hasOccupation,
   description: siteConfig.structuredData.description,
@@ -162,15 +156,57 @@ export const personSchema = {
     name: "Nepal",
   },
   knowsLanguage: [
-    {
-      "@type": "Language",
-      name: "English",
-    },
-    {
-      "@type": "Language",
-      name: "Nepali",
-    },
+    { "@type": "Language", name: "English" },
+    { "@type": "Language", name: "Nepali" },
   ],
+  // GEO: mainEntityOfPage — establishes this page as canonical source about Saroj
+  mainEntityOfPage: {
+    "@type": "WebPage",
+    "@id": "https://www.sarojdangol012.com.np/",
+  },
+  // GEO: speakable — points AI answer engines to the most quotable content
+  speakable: {
+    "@type": "SpeakableSpecification",
+    cssSelector: ["#about-saroj", ".hero-headline"],
+  },
+  // GEO: expanded knowsAbout — 18 specific searchable topics
+  knowsAbout: [
+    "MERN Stack Development",
+    "React Native Mobile App Development",
+    "AWS Serverless Architecture",
+    "Next.js Web Development",
+    "Full Stack JavaScript Development",
+    "Node.js Backend Development",
+    "MongoDB Database Design",
+    "TypeScript Development",
+    "REST API Development",
+    "GraphQL API Development",
+    "IT Developer Nepal",
+    "Web Development Lalitpur",
+    "Software Engineer Kathmandu",
+    "React.js Development",
+    "Cloud Computing AWS",
+    "Docker and Kubernetes",
+    "CI/CD Pipeline Implementation",
+    "E-commerce Development Nepal",
+  ],
+  // GEO: mentions — key technologies as SoftwareApplication entities
+  mentions: [
+    { "@type": "SoftwareApplication", name: "React" },
+    { "@type": "SoftwareApplication", name: "Node.js" },
+    { "@type": "SoftwareApplication", name: "Next.js" },
+    { "@type": "SoftwareApplication", name: "MongoDB" },
+    { "@type": "SoftwareApplication", name: "React Native" },
+    { "@type": "SoftwareApplication", name: "TypeScript" },
+    { "@type": "SoftwareApplication", name: "AWS" },
+    { "@type": "SoftwareApplication", name: "NestJS" },
+  ],
+  // GEO: hasCredential — AWS certification authority signal
+  hasCredential: {
+    "@type": "EducationalOccupationalCredential",
+    name: "AWS Certified Developer",
+    credentialCategory: "certification",
+  },
 };
 
 // BreadcrumbList Schema Generator
@@ -258,7 +294,7 @@ export const faqSchema = {
       name: "What services do you offer as an IT developer in Nepal?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "I offer comprehensive IT development services including Full Stack Web Development (MERN stack), Mobile App Development (React Native), Cloud Solutions (AWS), API Development, and Technical Consulting. I specialize in building scalable, high-performance applications for businesses in Kathmandu Valley and beyond.",
+        text: "Saroj Dangol offers full stack web development, React Native mobile app development, backend and API development, and AWS cloud and DevOps services for businesses in Nepal and worldwide.",
       },
     },
     {
@@ -266,7 +302,7 @@ export const faqSchema = {
       name: "How much does it cost to develop a web application in Nepal?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The cost varies based on project complexity, features, and timeline. A basic website starts from NPR 50,000, while complex web applications can range from NPR 200,000 to NPR 1,000,000+. I provide detailed quotes after understanding your specific requirements.",
+        text: "Web application development costs in Nepal vary by complexity — a basic website starts from NPR 50,000, while complex web applications range from NPR 200,000 to NPR 1,000,000+, and detailed quotes are provided after reviewing your specific requirements.",
       },
     },
     {
@@ -274,15 +310,15 @@ export const faqSchema = {
       name: "Do you work with clients outside Nepal?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, I work with clients globally. While I'm based in Lalitpur, Nepal, I have experience working remotely with international clients. I'm available for both remote and on-site projects in the Kathmandu Valley.",
+        text: "Yes, Saroj Dangol works with clients globally via remote collaboration, serving businesses in Nepal, the United States, Europe, Australia, and other regions.",
       },
     },
     {
       "@type": "Question",
-      name: "What technologies do you specialize in?",
+      name: "What technologies does Saroj Dangol specialize in?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "I specialize in the MERN stack (MongoDB, Express.js, React.js, Node.js), React Native for mobile development, Next.js for web applications, TypeScript, AWS cloud services, and modern DevOps practices. I'm also experienced with GraphQL, PostgreSQL, and various frontend frameworks.",
+        text: "Saroj Dangol specialises in the MERN stack (MongoDB, Express.js, React.js, Node.js), React Native for cross-platform mobile development, Next.js, TypeScript, NestJS, AWS cloud services, GraphQL, and PostgreSQL.",
       },
     },
     {
@@ -290,7 +326,7 @@ export const faqSchema = {
       name: "How long does it take to develop a mobile app?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Development time depends on app complexity. A simple app takes 4-8 weeks, a medium complexity app takes 2-4 months, and complex apps with advanced features can take 4-6 months or more. I provide detailed timelines during project planning.",
+        text: "A simple React Native mobile app typically takes 4–8 weeks, a medium-complexity app takes 2–4 months, and a complex app with advanced features can take 4–6 months or more depending on scope.",
       },
     },
     {
@@ -298,7 +334,63 @@ export const faqSchema = {
       name: "Do you provide ongoing support and maintenance?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, I offer ongoing support and maintenance packages for all projects. This includes bug fixes, security updates, performance optimization, and feature enhancements. Support packages can be customized based on your needs.",
+        text: "Yes, ongoing support and maintenance packages are available for all projects, covering bug fixes, security updates, performance optimisation, and feature enhancements.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is your development process?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The development process follows an Agile methodology with five phases: Discovery and Planning, Design and Prototyping, Development and Testing, Deployment, and ongoing Support and Maintenance, with regular client updates throughout.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can you help with existing projects or legacy codebases?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, Saroj Dangol can assist with code reviews, bug fixes, performance optimisation, feature additions, technology upgrades, and complete refactoring of existing web and mobile applications.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What makes Saroj Dangol different from other developers in Nepal?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Saroj Dangol brings 3+ years of professional experience, AWS certification, expertise in modern full stack and mobile technologies, a strong focus on code quality, and a proven track record of delivering 9+ projects on time.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How can I get started with a project?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "To get started, contact Saroj via the contact form at sarojdangol012.com.np/contact or email hello@sarojdangol012.com.np, and a consultation will be scheduled to discuss your requirements, timeline, and budget.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the MERN stack and why do you use it?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The MERN stack consists of MongoDB, Express.js, React.js, and Node.js — a JavaScript-only technology stack that enables rapid development of scalable, high-performance web applications with a single language across frontend and backend.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What React Native services do you offer for mobile app development?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "React Native mobile app development services include cross-platform iOS and Android app development, real-time features, push notifications, offline-first architecture, third-party API integrations, and App Store and Play Store submission.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What AWS services do you work with?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "AWS services used include EC2, Lambda (serverless), S3, RDS, DynamoDB, CloudFront, API Gateway, Elastic Beanstalk, and IAM, enabling scalable, cost-effective cloud infrastructure for web and mobile applications.",
       },
     },
   ],
@@ -327,6 +419,17 @@ export const organizationSchema = {
 export const combinedSchema = {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://www.sarojdangol012.com.np/",
+      url: "https://www.sarojdangol012.com.np",
+      name: "Saroj Dangol — Senior Full Stack Developer, Lalitpur Nepal",
+      description:
+        "Saroj Dangol is a Senior Full Stack Developer based in Lalitpur, Nepal, specialising in MERN stack, React Native, and AWS cloud solutions.",
+      inLanguage: "en-US",
+      isPartOf: { "@id": "https://www.sarojdangol012.com.np/#website" },
+      mainEntity: { "@id": "https://www.sarojdangol012.com.np/#person" },
+    },
     websiteSchema,
     personSchema,
     localBusinessSchema,

@@ -92,4 +92,16 @@ export const howToHireItDeveloper = {
   author: "Saroj Dangol",
   canonicalUrl:
     "https://www.sarojdangol012.com.np/blogs/how-to-hire-it-developer-nepal",
+  keyTakeaways: [
+    "Nepal has a growing pool of skilled IT developers with competitive rates",
+    "Verify a developer's portfolio and GitHub profile before hiring",
+    "Communication skills are as important as technical skills for remote work",
+    "Lalitpur and Kathmandu are the main tech hubs in Nepal",
+    "Freelance platforms like Upwork provide access to vetted Nepali developers",
+  ],
+  relatedSlugs: [
+    "react-native-app-development-cost-nepal",
+    "mern-stack-guide-2025",
+    "how-to-become-full-stack-developer-2025",
+  ],
 };

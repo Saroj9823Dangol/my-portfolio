@@ -1,0 +1,60 @@
+# Saroj Dangol
+
+> Saroj Dangol is a Senior Full Stack Developer based in Lalitpur, Nepal,
+> specialising in MERN stack, React Native, and AWS cloud solutions.
+> Available for web development, mobile app development, and cloud projects
+> worldwide. Website: https://www.sarojdangol012.com.np
+
+## Identity
+
+- Full name: Saroj Dangol
+- Title: Senior Full Stack Developer & Mobile Specialist
+- Location: Lalitpur, Bagmati, Nepal
+- Experience: 3+ years professional (since 2021)
+- Currently at: Marichitech AI (Nov 2024–present), AppTechnologies (Oct 2023–present)
+- Website: https://www.sarojdangol012.com.np
+- Email: hello@sarojdangol012.com.np
+
+## Services
+
+- [Web Development](https://www.sarojdangol012.com.np/services): Custom web applications using React, Next.js, Node.js, MongoDB
+- [Mobile App Development](https://www.sarojdangol012.com.np/services): Cross-platform iOS/Android apps using React Native
+- [Backend & API](https://www.sarojdangol012.com.np/services): RESTful and GraphQL APIs, NestJS, database design
+- [Cloud & DevOps](https://www.sarojdangol012.com.np/services): AWS infrastructure, serverless architecture, CI/CD pipelines
+
+## Skills
+
+- React.js (95%), Node.js (90%), Next.js (88%), NestJS (85%)
+- React Native (82%), MySQL (85%), MongoDB (80%), AWS (75%)
+- TypeScript, GraphQL, Docker, PostgreSQL, Redis, Firebase
+
+## Experience
+
+- Full Stack Developer, Marichitech AI (Nov 2024–present)
+- Full Stack Web Developer, AppTechnologies (Oct 2023–present)
+- Backend Developer, AppTechnologies (Jan 2022–Oct 2023)
+- React Intern, AppTechnologies (Sep 2021–Dec 2021)
+
+## Projects
+
+- [Nepal Kabaddi League](https://nepalkabaddileague.com/): Sports platform with fixtures, scores, admin panel
+- [Sajilo Ride Sharing](https://sajilosathi.com/): Google Maps ride sharing with real-time tracking
+- [Hamro Blood Bank](https://hamrobloodbank.com): Real-time blood donation platform
+- [PetsNepal](https://petsnepal.com.np/): Pet services booking platform
+- [LAURE Official](https://akalaure.com/): Celebrity artist website
+- [Miami Saloon](https://miamisalongroup.com/): Salon booking platform
+- [Citygarms](https://citygarms.com/): Fashion e-commerce platform
+- [Shivalaya Holidays](https://shivalayaholidays.com): Travel booking platform
+- [Social Work Institute](https://www.swi-nepal.org/): Youth empowerment platform
+
+## Contact
+
+- Email: hello@sarojdangol012.com.np
+- GitHub: https://github.com/Saroj9823Dangol
+- LinkedIn: https://linkedin.com/in/er-saroj-dangol-9492bb216
+- Upwork: https://www.upwork.com/freelancers/~01a78d9a0751fb1801
+
+## Availability
+
+Available for freelance projects, contract work, and full-time remote positions.
+Serving clients in Nepal (Kathmandu Valley) and worldwide via remote collaboration.

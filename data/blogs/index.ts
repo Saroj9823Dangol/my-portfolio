@@ -53,4 +53,7 @@ export interface BlogPost {
   metaDescription?: string;
   author?: string;
   canonicalUrl?: string;
+  keyTakeaways?: string[];   // 3–5 bullet points for the TL;DR block
+  relatedSlugs?: string[];   // 2–3 slugs for related articles
+  lastModified?: string;     // ISO date string for dateModified in Article schema
 }

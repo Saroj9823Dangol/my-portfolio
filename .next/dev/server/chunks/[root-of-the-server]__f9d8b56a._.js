@@ -58,13 +58,13 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$SD$2f$solar$2d$sy
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$SD$2f$solar$2d$system$2d$portfolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/SD/solar-system-portfolio/node_modules/.pnpm/next@16.0.7_@babel+core@7.28.5_babel-plugin-react-compiler@1.0.0_react-dom@19.2.0_react@19.2.0__react@19.2.0/node_modules/next/server.js [app-route] (ecmascript)");
 ;
 ;
-const resend = new __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$SD$2f$solar$2d$system$2d$portfolio$2f$node_modules$2f2e$pnpm$2f$resend$40$6$2e$6$2e$0$2f$node_modules$2f$resend$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__["Resend"](process.env.RESEND_API_KEY);
+const resend = new __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$SD$2f$solar$2d$system$2d$portfolio$2f$node_modules$2f2e$pnpm$2f$resend$40$6$2e$6$2e$0$2f$node_modules$2f$resend$2f$dist$2f$index$2e$mjs__$5b$app$2d$route$5d$__$28$ecmascript$29$__["Resend"](process.env.RESEND_API_KEY || "re_AeFLp4wP_E5nZK3eyiXubWvhUsQKyq2hA");
 async function POST(request) {
     try {
         const body = await request.json();
-        const { name, email, message } = body;
+        const { name, email, subject, message } = body;
         // Validate input
-        if (!name || !email || !message) {
+        if (!name || !email || !subject || !message) {
             return __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$SD$2f$solar$2d$system$2d$portfolio$2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$0$2e$7_$40$babel$2b$core$40$7$2e$28$2e$5_babel$2d$plugin$2d$react$2d$compiler$40$1$2e$0$2e$0_react$2d$dom$40$19$2e$2$2e$0_react$40$19$2e$2$2e$0_$5f$react$40$19$2e$2$2e$0$2f$node_modules$2f$next$2f$server$2e$js__$5b$app$2d$route$5d$__$28$ecmascript$29$__["NextResponse"].json({
                 error: "Missing required fields"
             }, {
@@ -75,7 +75,7 @@ async function POST(request) {
         const { data, error } = await resend.emails.send({
             from: process.env.CONTACT_EMAIL_FROM || "hello@sarojdangol012.com.np",
             to: process.env.CONTACT_EMAIL_TO || "mail.sarojdangol@gmail.com",
-            subject: `New Contact Form Message from ${name}`,
+            subject: `${subject} — from ${name}`,
             html: `
         <!DOCTYPE html>
         <html>
@@ -125,7 +125,7 @@ async function POST(request) {
           </head>
           <body>
             <div class="header">
-              <h1>🚀 New Contact Form Submission</h1>
+              <h1>New Contact Form Submission</h1>
               <p>Someone reached out through your portfolio!</p>
             </div>
             <div class="content">
@@ -138,12 +138,16 @@ async function POST(request) {
                 <div class="value"><a href="mailto:${email}">${email}</a></div>
               </div>
               <div class="field">
+                <div class="label">Subject:</div>
+                <div class="value">${subject}</div>
+              </div>
+              <div class="field">
                 <div class="label">Message:</div>
                 <div class="value">${message.replace(/\n/g, "<br>")}</div>
               </div>
             </div>
             <div class="footer">
-              <p>Sent from your Solar System Portfolio Contact Form</p>
+              <p>Sent from sarojdangol012.com.np Contact Form</p>
             </div>
           </body>
         </html>
@@ -197,11 +201,11 @@ async function POST(request) {
           </head>
           <body>
             <div class="header">
-              <h1>👋 Message Received!</h1>
+              <h1>Message Received!</h1>
             </div>
             <div class="content">
               <p>Hi ${name},</p>
-              <p>Thank you for reaching out! I've received your message and will get back to you as soon as possible.</p>
+              <p>Thank you for reaching out! I've received your message and will get back to you within 24 hours.</p>
               <p>In the meantime, feel free to check out my:</p>
               <ul>
                 <li><a href="https://github.com/Saroj9823Dangol">GitHub Profile</a></li>

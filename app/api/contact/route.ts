@@ -8,10 +8,10 @@ const resend = new Resend(
 export async function POST(request: Request) {
   try {
     const body = await request.json();
-    const { name, email, message } = body;
+    const { name, email, subject, message } = body;
 
     // Validate input
-    if (!name || !email || !message) {
+    if (!name || !email || !subject || !message) {
       return NextResponse.json(
         { error: "Missing required fields" },
         { status: 400 }
@@ -22,7 +22,7 @@ export async function POST(request: Request) {
     const { data, error } = await resend.emails.send({
       from: process.env.CONTACT_EMAIL_FROM || "hello@sarojdangol012.com.np",
       to: process.env.CONTACT_EMAIL_TO || "mail.sarojdangol@gmail.com",
-      subject: `New Contact Form Message from ${name}`,
+      subject: `${subject} — from ${name}`,
       html: `
         <!DOCTYPE html>
         <html>
@@ -72,7 +72,7 @@ export async function POST(request: Request) {
           </head>
           <body>
             <div class="header">
-              <h1>🚀 New Contact Form Submission</h1>
+              <h1>New Contact Form Submission</h1>
               <p>Someone reached out through your portfolio!</p>
             </div>
             <div class="content">
@@ -85,12 +85,16 @@ export async function POST(request: Request) {
                 <div class="value"><a href="mailto:${email}">${email}</a></div>
               </div>
               <div class="field">
+                <div class="label">Subject:</div>
+                <div class="value">${subject}</div>
+              </div>
+              <div class="field">
                 <div class="label">Message:</div>
                 <div class="value">${message.replace(/\n/g, "<br>")}</div>
               </div>
             </div>
             <div class="footer">
-              <p>Sent from your Solar System Portfolio Contact Form</p>
+              <p>Sent from sarojdangol012.com.np Contact Form</p>
             </div>
           </body>
         </html>
@@ -142,11 +146,11 @@ export async function POST(request: Request) {
           </head>
           <body>
             <div class="header">
-              <h1>👋 Message Received!</h1>
+              <h1>Message Received!</h1>
             </div>
             <div class="content">
               <p>Hi ${name},</p>
-              <p>Thank you for reaching out! I've received your message and will get back to you as soon as possible.</p>
+              <p>Thank you for reaching out! I've received your message and will get back to you within 24 hours.</p>
               <p>In the meantime, feel free to check out my:</p>
               <ul>
                 <li><a href="https://github.com/Saroj9823Dangol">GitHub Profile</a></li>

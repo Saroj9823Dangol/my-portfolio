@@ -1,27 +1,549 @@
 1:"$Sreact.fragment"
 2:I[37539,["/_next/static/chunks/471430f3720d0863.js"],""]
 8:I[24410,["/_next/static/chunks/f60b2d32fe610be5.js","/_next/static/chunks/7c455c799ae90de5.js"],"default"]
-:HL["/_next/static/chunks/6430dbae6e974469.css","style"]
-:HL["/_next/static/chunks/9f3fc16de1730c74.css","style"]
-:HL["/_next/static/media/0acc7fdf55eb3220-s.p.532ccaa1.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/media/278cbb97e75e04e2-s.p.2ce9a157.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/media/3206eb66b875a5b3-s.p.e2b99870.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/media/8d05cfa5faa8406c-s.p.4adea45d.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/media/a079e02bba5bf7ab-s.p.7367eab7.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/media/a10c617c9026098c-s.p.ca7c307b.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/media/d23f31b94ad01e54-s.p.4b0b0c7e.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/_next/static/media/dc0d9adbac686440-s.p.3b382e45.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-3:T15d7,{"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"WebSite","@id":"https://www.sarojdangol012.com.np/#website","url":"https://www.sarojdangol012.com.np","name":"Saroj Dangol - IT Developer Nepal","description":"Looking for an IT Developer in Lalitpur, Nepal? Saroj Dangol is a Senior Full Stack Developer (MERN, React Native, AWS) offering premium web & mobile app development services in Kathmandu Valley.","publisher":{"@id":"https://www.sarojdangol012.com.np/#person"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.sarojdangol012.com.np/search?q={search_term_string}"},"query-input":"required name=search_term_string"},"inLanguage":"en-US"},{"@context":"https://schema.org","@type":"Person","@id":"https://www.sarojdangol012.com.np/#person","name":"Saroj Dangol","url":"https://www.sarojdangol012.com.np","image":"https://www.sarojdangol012.com.np/images/profile.webp","sameAs":["https://github.com/Saroj9823Dangol","https://linkedin.com/in/er-saroj-dangol-9492bb216","https://facebook.com/saroz.dangol.7","https://www.upwork.com/freelancers/~01a78d9a0751fb1801"],"jobTitle":"Senior Full Stack Developer & Mobile Specialist","worksFor":{"@type":"Organization","name":"Apptechnologies","url":"https://apptechnologies.com"},"address":{"@type":"PostalAddress","streetAddress":"Lalitpur","addressLocality":"Lalitpur","addressRegion":"Bagmati","postalCode":"44700","addressCountry":"Nepal"},"email":"hello@sarojdangol012.com.np","telephone":"+977-9863485599","knowsAbout":["Web Development","Mobile Development","Cloud Computing","Database Design","API Development","Software Architecture","DevOps Practices","UI/UX Principles"],"alumniOf":{"@type":"EducationalOrganization","name":"Tribhuvan University","url":"https://tu.edu.np"},"hasOccupation":{"@type":"Occupation","name":"Software Developer","estimatedSalary":{"@type":"MonetaryAmount","currency":"USD","value":{"@type":"QuantitativeValue","minValue":50000,"maxValue":120000,"unitText":"YEAR"}},"experienceRequirements":"5+ years"},"description":"Professional IT Developer in Lalitpur, Nepal. 3+ years experience in MERN stack, React Native, and Cloud Solutions. Serving Kathmandu Valley and beyond.","nationality":{"@type":"Country","name":"Nepal"},"knowsLanguage":[{"@type":"Language","name":"English"},{"@type":"Language","name":"Nepali"}]},{"@context":"https://schema.org","@type":"LocalBusiness","@id":"https://www.sarojdangol012.com.np/#localbusiness","name":"Saroj Dangol - IT Development Services","image":"https://www.sarojdangol012.com.np/images/profile.webp","description":"Professional IT Developer in Lalitpur, Nepal. 3+ years experience in MERN stack, React Native, and Cloud Solutions. Serving Kathmandu Valley and beyond.","url":"https://www.sarojdangol012.com.np","telephone":"+977-9863485599","email":"hello@sarojdangol012.com.np","address":{"@type":"PostalAddress","streetAddress":"Lalitpur","addressLocality":"Lalitpur","addressRegion":"Bagmati","postalCode":"44700","addressCountry":"NP"},"geo":{"@type":"GeoCoordinates","latitude":27.671,"longitude":85.3226},"areaServed":[{"@type":"City","name":"Lalitpur"},{"@type":"City","name":"Kathmandu"},{"@type":"City","name":"Bhaktapur"},{"@type":"Country","name":"Nepal"}],"priceRange":"$$","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"18:00"}],"sameAs":["https://github.com/Saroj9823Dangol","https://linkedin.com/in/er-saroj-dangol-9492bb216","https://facebook.com/saroz.dangol.7","https://www.upwork.com/freelancers/~01a78d9a0751fb1801"],"founder":{"@type":"Person","name":"Saroj Dangol","url":"https://www.sarojdangol012.com.np"},"hasOfferCatalog":{"@type":"OfferCatalog","name":"IT Development Services","itemListElement":[{"@type":"OfferCatalog","name":"Web Development","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Full Stack Web Development","description":"Custom web application development using MERN stack"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"E-Commerce Development","description":"Complete e-commerce solutions with payment integration"}}]},{"@type":"OfferCatalog","name":"Mobile Development","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"React Native App Development","description":"Cross-platform mobile applications for iOS and Android"}}]}]},"aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"15","bestRating":"5","worstRating":"1"}},{"@context":"https://schema.org","@type":"Organization","@id":"https://www.sarojdangol012.com.np/#organization","name":"Saroj Dangol IT Services","url":"https://www.sarojdangol012.com.np","logo":"https://www.sarojdangol012.com.np/logo.png","image":"https://www.sarojdangol012.com.np/images/profile.webp","description":"Looking for an IT Developer in Lalitpur, Nepal? Saroj Dangol is a Senior Full Stack Developer (MERN, React Native, AWS) offering premium web & mobile app development services in Kathmandu Valley.","email":"hello@sarojdangol012.com.np","telephone":"+977-9863485599","address":{"@type":"PostalAddress","streetAddress":"Lalitpur","addressLocality":"Lalitpur","addressRegion":"Bagmati","postalCode":"44700","addressCountry":"Nepal"},"founder":{"@id":"https://www.sarojdangol012.com.np/#person"},"sameAs":["https://github.com/Saroj9823Dangol","https://linkedin.com/in/er-saroj-dangol-9492bb216","https://facebook.com/saroz.dangol.7","https://www.upwork.com/freelancers/~01a78d9a0751fb1801"]}]}0:{"P":null,"b":"BYRQWdH9UoGwS7rhH_esD","c":["","blogs"],"q":"","i":false,"f":[[["",{"children":["blogs",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/6430dbae6e974469.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/9f3fc16de1730c74.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/471430f3720d0863.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","children":[["$","head",null,{"children":[["$","$L2","0",{"id":"structured-data-0","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],"$L4"]}]]}],{"children":["$L5",{"children":["$L6",{},null,false,false]},null,false,false]},null,false,false],"$L7",false]],"m":"$undefined","G":["$8",[]],"S":true}
+:HL["/_next/static/chunks/c9950d4d42d03948.css","style"]
+:HL["/_next/static/chunks/14aa1c8da5f2aa08.css","style"]
+:HL["/_next/static/media/7ebf22b5a21034f8-s.p.d8bad3ab.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/e41d5df559864f9e-s.p.380d09ea.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+3:T15d7,{"@context":"https://schema.org","@graph":[{"@context":"https://schema.org","@type":"WebSite","@id":"https://www.sarojdangol012.com.np/#website","url":"https://www.sarojdangol012.com.np","name":"Saroj Dangol - IT Developer Nepal","description":"Looking for an IT Developer in Lalitpur, Nepal? Saroj Dangol is a Senior Full Stack Developer (MERN, React Native, AWS) offering premium web & mobile app development services in Kathmandu Valley.","publisher":{"@id":"https://www.sarojdangol012.com.np/#person"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://www.sarojdangol012.com.np/search?q={search_term_string}"},"query-input":"required name=search_term_string"},"inLanguage":"en-US"},{"@context":"https://schema.org","@type":"Person","@id":"https://www.sarojdangol012.com.np/#person","name":"Saroj Dangol","url":"https://www.sarojdangol012.com.np","image":"https://www.sarojdangol012.com.np/images/profile.webp","sameAs":["https://github.com/Saroj9823Dangol","https://linkedin.com/in/er-saroj-dangol-9492bb216","https://facebook.com/saroz.dangol.7","https://www.upwork.com/freelancers/~01a78d9a0751fb1801"],"jobTitle":"Senior Full Stack Developer & Mobile Specialist","worksFor":{"@type":"Organization","name":"Apptechnologies","url":"https://apptechnologies.com"},"address":{"@type":"PostalAddress","streetAddress":"Lalitpur","addressLocality":"Lalitpur","addressRegion":"Bagmati","postalCode":"44700","addressCountry":"Nepal"},"email":"hello@sarojdangol012.com.np","telephone":"+977-9863485599","knowsAbout":["Web Development","Mobile Development","Cloud Computing","Database Design","API Development","Software Architecture","DevOps Practices","UI/UX Principles"],"alumniOf":{"@type":"EducationalOrganization","name":"Tribhuvan University","url":"https://tu.edu.np"},"hasOccupation":{"@type":"Occupation","name":"Software Developer","estimatedSalary":{"@type":"MonetaryAmount","currency":"USD","value":{"@type":"QuantitativeValue","minValue":50000,"maxValue":120000,"unitText":"YEAR"}},"experienceRequirements":"5+ years"},"description":"Professional IT Developer in Lalitpur, Nepal. 3+ years experience in MERN stack, React Native, and Cloud Solutions. Serving Kathmandu Valley and beyond.","nationality":{"@type":"Country","name":"Nepal"},"knowsLanguage":[{"@type":"Language","name":"English"},{"@type":"Language","name":"Nepali"}]},{"@context":"https://schema.org","@type":"LocalBusiness","@id":"https://www.sarojdangol012.com.np/#localbusiness","name":"Saroj Dangol - IT Development Services","image":"https://www.sarojdangol012.com.np/images/profile.webp","description":"Professional IT Developer in Lalitpur, Nepal. 3+ years experience in MERN stack, React Native, and Cloud Solutions. Serving Kathmandu Valley and beyond.","url":"https://www.sarojdangol012.com.np","telephone":"+977-9863485599","email":"hello@sarojdangol012.com.np","address":{"@type":"PostalAddress","streetAddress":"Lalitpur","addressLocality":"Lalitpur","addressRegion":"Bagmati","postalCode":"44700","addressCountry":"NP"},"geo":{"@type":"GeoCoordinates","latitude":27.671,"longitude":85.3226},"areaServed":[{"@type":"City","name":"Lalitpur"},{"@type":"City","name":"Kathmandu"},{"@type":"City","name":"Bhaktapur"},{"@type":"Country","name":"Nepal"}],"priceRange":"$$","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"09:00","closes":"18:00"}],"sameAs":["https://github.com/Saroj9823Dangol","https://linkedin.com/in/er-saroj-dangol-9492bb216","https://facebook.com/saroz.dangol.7","https://www.upwork.com/freelancers/~01a78d9a0751fb1801"],"founder":{"@type":"Person","name":"Saroj Dangol","url":"https://www.sarojdangol012.com.np"},"hasOfferCatalog":{"@type":"OfferCatalog","name":"IT Development Services","itemListElement":[{"@type":"OfferCatalog","name":"Web Development","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"Full Stack Web Development","description":"Custom web application development using MERN stack"}},{"@type":"Offer","itemOffered":{"@type":"Service","name":"E-Commerce Development","description":"Complete e-commerce solutions with payment integration"}}]},{"@type":"OfferCatalog","name":"Mobile Development","itemListElement":[{"@type":"Offer","itemOffered":{"@type":"Service","name":"React Native App Development","description":"Cross-platform mobile applications for iOS and Android"}}]}]},"aggregateRating":{"@type":"AggregateRating","ratingValue":"5.0","reviewCount":"15","bestRating":"5","worstRating":"1"}},{"@context":"https://schema.org","@type":"Organization","@id":"https://www.sarojdangol012.com.np/#organization","name":"Saroj Dangol IT Services","url":"https://www.sarojdangol012.com.np","logo":"https://www.sarojdangol012.com.np/logo.png","image":"https://www.sarojdangol012.com.np/images/profile.webp","description":"Looking for an IT Developer in Lalitpur, Nepal? Saroj Dangol is a Senior Full Stack Developer (MERN, React Native, AWS) offering premium web & mobile app development services in Kathmandu Valley.","email":"hello@sarojdangol012.com.np","telephone":"+977-9863485599","address":{"@type":"PostalAddress","streetAddress":"Lalitpur","addressLocality":"Lalitpur","addressRegion":"Bagmati","postalCode":"44700","addressCountry":"Nepal"},"founder":{"@id":"https://www.sarojdangol012.com.np/#person"},"sameAs":["https://github.com/Saroj9823Dangol","https://linkedin.com/in/er-saroj-dangol-9492bb216","https://facebook.com/saroz.dangol.7","https://www.upwork.com/freelancers/~01a78d9a0751fb1801"]}]}0:{"P":null,"b":"runySGL-4TYNsLGuiM0KU","c":["","blogs"],"q":"","i":false,"f":[[["",{"children":["blogs",{"children":["__PAGE__",{}]}]},"$undefined","$undefined",true],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/c9950d4d42d03948.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/14aa1c8da5f2aa08.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/471430f3720d0863.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"dark","children":[["$","head",null,{"children":[["$","$L2","0",{"id":"structured-data-0","type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],"$L4"]}]]}],{"children":["$L5",{"children":["$L6",{},null,false,false]},null,false,false]},null,false,false],"$L7",false]],"m":"$undefined","G":["$8",[]],"S":true}
 9:I[69467,["/_next/static/chunks/f60b2d32fe610be5.js","/_next/static/chunks/7c455c799ae90de5.js"],"default"]
 a:I[40466,["/_next/static/chunks/f60b2d32fe610be5.js","/_next/static/chunks/7c455c799ae90de5.js"],"default"]
 b:I[41248,["/_next/static/chunks/471430f3720d0863.js"],"Analytics"]
 c:I[64572,["/_next/static/chunks/471430f3720d0863.js","/_next/static/chunks/66a603a996eeccde.js","/_next/static/chunks/65d4a554567c7e54.js"],"default"]
-1c:I[74662,["/_next/static/chunks/f60b2d32fe610be5.js","/_next/static/chunks/7c455c799ae90de5.js"],"ViewportBoundary"]
-1e:I[74662,["/_next/static/chunks/f60b2d32fe610be5.js","/_next/static/chunks/7c455c799ae90de5.js"],"MetadataBoundary"]
-1f:"$Sreact.suspense"
-4:["$","body",null,{"className":"orbitron_d6a675bd-module__lKSnbq__variable space_mono_7618295e-module__0uytZW__variable rajdhani_7a51e862-module__Wc1DtW__variable font-body antialiased","children":[["$","$L9",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$Lb",null,{}]]}]
+21:I[74662,["/_next/static/chunks/f60b2d32fe610be5.js","/_next/static/chunks/7c455c799ae90de5.js"],"ViewportBoundary"]
+23:I[74662,["/_next/static/chunks/f60b2d32fe610be5.js","/_next/static/chunks/7c455c799ae90de5.js"],"MetadataBoundary"]
+24:"$Sreact.suspense"
+4:["$","body",null,{"className":"instrument_serif_56fd4bd3-module__E2lYQa__variable inter_7f54167b-module__7AH-0G__variable jetbrains_mono_4723954f-module__mDA6Pq__variable font-body antialiased","children":[["$","$L9",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","$Lb",null,{}]]}]
 5:["$","$1","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$La",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
-d:T1a69,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+d:T1b5f,
+    <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+      <h2>Why Next.js Excels at SEO in 2026</h2>
+      <p>Next.js has become the go-to React framework for SEO-critical apps like marketing sites, e-commerce, blogs, and SaaS. Its hybrid rendering (SSR, SSG, ISR), built-in Metadata API, React Server Components, and automatic optimizations deliver crawlable HTML instantly — no JavaScript execution needed for bots.</p>
+      <p>Key 2026 advantages:</p>
+      <ul>
+        <li>Pre-rendered HTML improves crawling, indexing, and Core Web Vitals (LCP, INP, CLS).</li>
+        <li>App Router centralizes metadata with inheritance & dynamic generation.</li>
+        <li>Edge runtime + caching = faster global delivery & better rankings.</li>
+        <li>Built-in image/font optimization reduces load times.</li>
+      </ul>
+      <p>Follow these best practices to rank higher on Google in 2026.</p>
+
+      <h2>1. Choose the Right Rendering Strategy for SEO</h2>
+      <p>Rendering determines how fast & crawlable your content is:</p>
+      <table style="width:100%; border-collapse:collapse; margin:2rem 0;">
+        <tr style="background:#374151;">
+          <th style="padding:1rem; border:1px solid #4b5563;">Strategy</th>
+          <th style="padding:1rem; border:1px solid #4b5563;">How</th>
+          <th style="padding:1rem; border:1px solid #4b5563;">SEO Impact</th>
+          <th style="padding:1rem; border:1px solid #4b5563;">Best For</th>
+        </tr>
+        <tr>
+          <td style="padding:1rem; border:1px solid #4b5563;">Static Site Generation (SSG)</td>
+          <td><code>export const dynamic = 'force-static';</code> or no fetch</td>
+          <td>Excellent — full HTML at build time</td>
+          <td>Blogs, docs, marketing pages</td>
+        </tr>
+        <tr>
+          <td style="padding:1rem; border:1px solid #4b5563;">Incremental Static Regeneration (ISR)</td>
+          <td><code>fetch(..., { next: { revalidate: 3600 } })</code></td>
+          <td>Great — static speed + fresh content</td>
+          <td>News, products, dynamic-yet-cacheable pages</td>
+        </tr>
+        <tr>
+          <td style="padding:1rem; border:1px solid #4b5563;">Server-Side Rendering (SSR)</td>
+          <td><code>export const dynamic = 'force-dynamic';</code></td>
+          <td>Very good — HTML on request</td>
+          <td>User-specific, real-time dashboards</td>
+        </tr>
+        <tr>
+          <td style="padding:1rem; border:1px solid #4b5563;">Client-Side Rendering (CSR)</td>
+          <td>Avoid for main content</td>
+          <td>Poor — bots may miss JS-rendered content</td>
+          <td>Interactive widgets only</td>
+        </tr>
+      </table>
+      <p>Tip: Use Partial Prerendering (PPR) in Next.js 15+ for hybrid static + dynamic shells — best of both worlds for SEO & personalization.</p>
+
+      <h2>2. Master the Metadata API (App Router – 2026 Standard)</h2>
+      <p>Next.js Metadata API handles <code>&lt;title&gt;</code>, <code>&lt;meta&gt;</code>, Open Graph, robots, etc. — with automatic deduplication & inheritance from layouts.</p>
+      <p>Static metadata (root layout.ts):</p>
+      <pre><code>import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Saroj Dangol - Web Developer & Blogger',
+  description: 'Building modern web apps with Next.js, React, and AWS.',
+  openGraph: {
+    images: '/og-image.png',
+  },
+};</code></pre>
+      <p>Dynamic metadata (page.ts or layout.ts):</p>
+      <pre><code>import type { Metadata, ResolvingMetadata } from 'next';
+
+type Props = { params: { slug: string } };
+
+export async function generateMetadata(
+  { params }: Props,
+  parent: ResolvingMetadata
+): Promise<Metadata> {
+  const slug = params.slug;
+  // Fetch data
+  const post = await getPost(slug);
+
+  const previousImages = (await parent).openGraph?.images || [];
+
+  return {
+    title: post.title,
+    description: post.excerpt,
+    openGraph: {
+      title: post.title,
+      description: post.excerpt,
+      images: [post.ogImage, ...previousImages],
+    },
+  };
+}</code></pre>
+      <p>Best practices:</p>
+      <ul>
+        <li>Use file-based metadata for icons/favicons (icon.png, apple-icon.png).</li>
+        <li>Set canonical URLs to avoid duplicate content.</li>
+        <li>Include robots: { index: true, follow: true } or disallow staging.</li>
+      </ul>
+
+      <h2>3. Add Structured Data (Schema Markup)</h2>
+      <p>Boost rich snippets with JSON-LD. Render on server for bots.</p>
+      <pre><code>export default function ArticlePage({ post }) {
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Article",
+            headline: post.title,
+            datePublished: post.date,
+            author: { "@type": "Person", name: "Saroj Dangol" },
+            image: post.image,
+          }),
+        }}
+      />
+      {/* content */}
+    </>
+  );
+}</code></pre>
+      <p>Use for Article, Product, FAQ, BreadcrumbList — test with Google's Rich Results Tool.</p>
+
+      <h2>4. Performance Optimizations That Boost SEO</h2>
+      <p>Core Web Vitals are ranking factors. Next.js helps automatically:</p>
+      <ul>
+        <li><strong>Images</strong>: Use <code>next/image</code> — auto WebP, lazy loading, responsive sizes, alt text mandatory.</li>
+        <li><strong>Fonts</strong>: Automatic self-hosting & optimization — no layout shift.</li>
+        <li><strong>Code splitting & lazy loading</strong>: <code>next/dynamic</code> for components.</li>
+        <li><strong>Caching</strong>: Explicit with <code>fetch</code> options or route segment config.</li>
+        <li><strong>Minify & compress</strong>: Built-in (gzip/Brotli).</li>
+      </ul>
+      <p>Monitor with Lighthouse, Vercel Analytics, or Google Search Console.</p>
+
+      <h2>5. Additional Must-Do Practices</h2>
+      <ul>
+        <li><strong>Sitemap & robots.txt</strong>: Generate dynamically (sitemap.ts) or use file conventions.</li>
+        <li><strong>Mobile-first & responsive</strong>: Test with Google's Mobile-Friendly Tool.</li>
+        <li><strong>HTTPS</strong>: Automatic on Vercel/Netlify.</li>
+        <li><strong>Internal linking & site structure</strong>: Logical hierarchy for crawl budget.</li>
+        <li><strong>Analytics integration</strong>: GA4/ Vercel Speed Insights for monitoring.</li>
+      </ul>
+
+      <h2>Conclusion: Build SEO-First Next.js Apps in 2026</h2>
+      <p>Next.js makes SEO almost effortless compared to plain React. Prioritize App Router, Metadata API, smart rendering (SSG/ISR), and performance defaults — then layer structured data & monitoring.</p>
+      <p>Deploy on Vercel for edge speed & built-in analytics. Audit regularly with tools like Search Console & Lighthouse. Implement these practices, and watch your rankings climb!</p>
+      <p>Questions or your own tips? Comment below!</p>
+    </div>
+  e:T179e,
+    <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+      <h2>Introduction to Serverless on AWS</h2>
+      <p>Serverless computing has transformed how developers build and deploy applications. With AWS serverless services, you no longer provision or manage servers — AWS handles scaling, patching, and high availability automatically. You pay only for the compute time you consume.</p>
+      <p>The core trio for most serverless backends is:</p>
+      <ul>
+        <li><strong>AWS Lambda</strong> — runs your code on-demand</li>
+        <li><strong>Amazon API Gateway</strong> — creates secure, scalable APIs</li>
+        <li><strong>Amazon DynamoDB</strong> — provides fast, fully managed NoSQL storage</li>
+      </ul>
+      <p>This combination enables building highly scalable, cost-effective applications such as REST APIs, mobile backends, real-time data processors, and microservices.</p>
+
+      <h2>Core Components of a Typical AWS Serverless Architecture</h2>
+      <p>A classic pattern looks like this:</p>
+      <ol>
+        <li>Clients (web, mobile, IoT) send HTTP requests to <strong>API Gateway</strong>.</li>
+        <li>API Gateway routes and triggers <strong>Lambda</strong> functions.</li>
+        <li>Lambda executes business logic and reads/writes to <strong>DynamoDB</strong>.</li>
+        <li>Optional: Static assets served from <strong>Amazon S3</strong> + <strong>CloudFront</strong>.</li>
+        <li>Authentication via <strong>Amazon Cognito</strong>.</li>
+        <li>Orchestration & workflows with <strong>AWS Step Functions</strong> when needed.</li>
+      </ol>
+      <p>This architecture auto-scales to millions of requests, costs pennies for low traffic, and requires almost zero operational overhead.</p>
+
+      <h2>Step-by-Step: Building a Simple Serverless CRUD API</h2>
+
+      <h3>1. Set Up DynamoDB Table</h3>
+      <p>Create a DynamoDB table (e.g., "Tasks") with:</p>
+      <ul>
+        <li>Partition key: <code>id</code> (String)</li>
+        <li>Optional sort key or global secondary indexes for queries</li>
+      </ul>
+      <p>Use on-demand capacity mode for true serverless scaling.</p>
+
+      <h3>2. Create Lambda Functions</h3>
+      <p>Write separate Lambda functions for each operation (best practice for clean separation):</p>
+      <ul>
+        <li><code>getTasks</code>: Scan or query items</li>
+        <li><code>getTaskById</code>: Get single item</li>
+        <li><code>createTask</code>: PutItem</li>
+        <li><code>updateTask</code>: UpdateItem</li>
+        <li><code>deleteTask</code>: DeleteItem</li>
+      </ul>
+      <p>Example (Node.js):</p>
+      <pre><code>const { DynamoDBClient, PutItemCommand } = require("@aws-sdk/client-dynamodb");
+
+const client = new DynamoDBClient({ region: "us-east-1" });
+
+exports.handler = async (event) => {
+  const body = JSON.parse(event.body);
+  const params = {
+    TableName: "Tasks",
+    Item: {
+      id: { S: body.id || Date.now().toString() },
+      title: { S: body.title },
+      completed: { BOOL: body.completed || false }
+    }
+  };
+
+  await client.send(new PutItemCommand(params));
+  return {
+    statusCode: 201,
+    body: JSON.stringify({ message: "Task created" })
+  };
+};</code></pre>
+      <p>Tip: Initialize clients outside the handler for better performance (reuse across invocations).</p>
+
+      <h3>3. Configure API Gateway</h3>
+      <p>Create a REST API (or HTTP API for lower cost/latency):</p>
+      <ul>
+        <li>Add resources (/tasks, /tasks/{id})</li>
+        <li>Attach methods (GET, POST, PUT, DELETE)</li>
+        <li>Integrate with corresponding Lambda functions</li>
+        <li>Enable CORS</li>
+        <li>Optional: Add usage plans, API keys, throttling, caching</li>
+      </ul>
+
+      <h3>4. Secure the API</h3>
+      <p>Use Amazon Cognito User Pools for JWT-based authentication:</p>
+      <ul>
+        <li>Create a User Pool and App Client</li>
+        <li>Set API Gateway Authorizer to Cognito</li>
+        <li>Protect sensitive endpoints</li>
+      </ul>
+      <p>Alternatively, use IAM or Lambda authorizers for custom logic.</p>
+
+      <h2>Best Practices for Scalable & Production-Ready Serverless Apps (2026)</h2>
+      <ul>
+        <li><strong>Single-purpose functions</strong>: Keep Lambdas small (≤ 300–500 lines) for faster cold starts and easier debugging.</li>
+        <li><strong>Powertools</strong>: Use AWS Lambda Powertools (observability, tracing, logging, idempotency).</li>
+        <li><strong>Provisioned concurrency</strong>: For latency-sensitive paths to eliminate cold starts.</li>
+        <li><strong>DynamoDB design</strong>: Choose partition keys carefully; use single-table design when possible.</li>
+        <li><strong>Error handling & retries</strong>: Use dead-letter queues (DLQ) + SQS redrive for failed events.</li>
+        <li><strong>Observability</strong>: Enable X-Ray tracing, CloudWatch Logs Insights, structured logging (JSON).</li>
+        <li><strong>Deployment</strong>: Use AWS SAM, Serverless Framework, or CDK for IaC.</li>
+        <li><strong>Cost control</strong>: Monitor with AWS Cost Explorer; use HTTP APIs over REST where possible.</li>
+      </ul>
+
+      <h2>Common Use Cases</h2>
+      <ul>
+        <li>REST/GraphQL APIs for web & mobile apps</li>
+        <li>Real-time data processing (with EventBridge or Kinesis)</li>
+        <li>Workflow automation (Step Functions + Lambda)</li>
+        <li>IoT ingestion pipelines</li>
+        <li>E-commerce backends, task trackers, chatbots</li>
+      </ul>
+
+      <h2>Conclusion</h2>
+      <p>AWS serverless architecture with Lambda, API Gateway, and DynamoDB lets you build applications that scale effortlessly from zero to millions of users while keeping costs low and operations minimal.</p>
+      <p>Start small with a basic CRUD API, then expand with Cognito, Step Functions, S3, EventBridge, and more as your needs grow. Serverless isn't just a trend — in 2026 it's the default choice for agile, cloud-native development.</p>
+      <p>Happy building!</p>
+    </div>
+  f:T18cd,
+    <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+      <h2>Why Choose React Native for App Development in Nepal (2026)?</h2>
+      <p>React Native remains a top choice for cross-platform mobile apps in Nepal. One codebase for iOS and Android saves 30–50% time & cost vs native development. Nepali developers excel in React Native (thanks to strong JS/React ecosystem), and local/remote talent is affordable yet skilled — ideal for startups, SMEs, e-commerce, fintech, and delivery apps.</p>
+      <p>In 2026, with rising smartphone penetration (~80% in urban Nepal) and digital payments booming, investing in a React Native app offers high ROI at lower entry cost than in US/Europe.</p>
+
+      <h2>Average React Native App Development Cost in Nepal (2026)</h2>
+      <p>Costs vary widely by app complexity, features, team type (freelance vs agency), and scope. Here's a realistic breakdown in NPR (approx. $1 = NPR 135):</p>
+      <table style="width:100%; border-collapse:collapse; margin:2rem 0;">
+        <tr style="background:#374151;">
+          <th style="padding:1rem; border:1px solid #4b5563;">App Type</th>
+          <th style="padding:1rem; border:1px solid #4b5563;">Features Examples</th>
+          <th style="padding:1rem; border:1px solid #4b5563;">Timeline</th>
+          <th style="padding:1rem; border:1px solid #4b5563;">Cost Range (NPR)</th>
+          <th style="padding:1rem; border:1px solid #4b5563;">USD Equivalent</th>
+        </tr>
+        <tr>
+          <td style="padding:1rem; border:1px solid #4b5563;">Simple App</td>
+          <td>Login, basic UI, static content, API integration</td>
+          <td>1–3 months</td>
+          <td>5–15 lakhs</td>
+          <td>$3,700–$11,000</td>
+        </tr>
+        <tr>
+          <td style="padding:1rem; border:1px solid #4b5563;">Medium Complexity</td>
+          <td>User profiles, payments, maps, push notifications, admin panel</td>
+          <td>3–6 months</td>
+          <td>15–35 lakhs</td>
+          <td>$11,000–$26,000</td>
+        </tr>
+        <tr>
+          <td style="padding:1rem; border:1px solid #4b5563;">Complex/Enterprise</td>
+          <td>Real-time chat, AR/ML features, offline support, heavy backend, multi-role</td>
+          <td>6–12+ months</td>
+          <td>35–80 lakhs+</td>
+          <td>$26,000–$60,000+</td>
+        </tr>
+      </table>
+      <p>These are local Nepal rates (agencies/freelancers in Kathmandu). International clients pay 2–4x more ($15–$40/hour remote Nepali talent), still cheaper than US ($100–$200/hour).</p>
+
+      <h2>Key Factors Influencing React Native App Cost in Nepal</h2>
+      <ol>
+        <li><strong>App Complexity & Features</strong>: Basic (info/display) vs advanced (real-time, payments via eSewa/Khalti, GPS, camera, biometrics). Each integration adds 10–30% cost.</li>
+        <li><strong>Team Type</strong>:
+          <ul>
+            <li>Freelancers: NPR 1,000–3,000/hour (~$7–$22) — cheapest, but riskier for large projects.</li>
+            <li>Local Agencies (e.g., ByteCode Developers, Flyup Technology, Deerwalk, CloudFactory): NPR 2,000–5,000/hour — include PM, QA, design; more reliable.</li>
+            <li>Remote for international clients: $15–$40/hour — high demand on Upwork/Arc.</li>
+          </ul>
+        </li>
+        <li><strong>Design & UI/UX</strong>: Custom animations, branding, accessibility — adds 15–25%.</li>
+        <li><strong>Backend & Integrations</strong>: Firebase/Node.js backend, third-party APIs (Google Maps, payment gateways) — major cost driver.</li>
+        <li><strong>Testing & Deployment</strong>: Manual/QA, App Store/Google Play submission, beta testing — 10–15% of budget.</li>
+        <li><strong>Maintenance & Updates</strong>: Post-launch support (bugs, OS updates) — 15–20% of dev cost annually.</li>
+      </ol>
+
+      <h2>React Native Developer Rates in Nepal (2026)</h2>
+      <ul>
+        <li><strong>Junior (0–2 years)</strong>: NPR 40,000–80,000/month (~$300–$600)</li>
+        <li><strong>Mid-level (3–6 years)</strong>: NPR 80,000–150,000/month (~$600–$1,100)</li>
+        <li><strong>Senior/Lead</strong>: NPR 150,000–300,000+/month (~$1,100–$2,200+)</li>
+        <li><strong>Freelance/Remote Hourly</strong>: $15–$40 (higher for international contracts)</li>
+      </ul>
+      <p>Top Nepali talent often works remote for global clients, earning significantly more than local salaries.</p>
+
+      <h2>Where to Hire React Native Developers in Nepal</h2>
+      <ul>
+        <li><strong>Freelance Platforms</strong>: Upwork, Fiverr, Arc.dev — many 4.8+ rated Nepali RN devs.</li>
+        <li><strong>Local Job Sites</strong>: MeroJob, KumariJob — for full-time hires.</li>
+        <li><strong>Agencies</strong>: ByteCode Developers, Flyup Technology, Onviro Tech, Genesis WTech, Skybase Innovations — vetted teams, portfolios on Clutch.co.</li>
+        <li><strong>LinkedIn</strong>: Search "React Native Nepal" — direct outreach common.</li>
+      </ul>
+
+      <h2>Tips to Reduce React Native App Development Cost in Nepal</h2>
+      <ul>
+        <li>Start with MVP: Build core features first, iterate later.</li>
+        <li>Use pre-built libraries: Expo, React Navigation, Firebase — cut custom work.</li>
+        <li>Choose cross-platform wisely: React Native shines for 80–90% shared code.</li>
+        <li>Hire local/remote Nepali talent: Save 60–80% vs US/Europe agencies.</li>
+        <li>Clear scope & milestones: Avoid scope creep with fixed-price contracts.</li>
+        <li>Post-launch plan: Budget 15–20% yearly for updates/maintenance.</li>
+      </ul>
+
+      <h2>Conclusion: Budget Smart for Your React Native App in Nepal</h2>
+      <p>In 2026, developing a React Native app in Nepal is one of the most cost-effective ways to enter the mobile space. A solid MVP can launch for NPR 10–20 lakhs, while full-featured apps stay under NPR 50 lakhs — far below global averages.</p>
+      <p>Define your requirements clearly, compare quotes from 3–5 providers, and prioritize experienced teams with React Native portfolios. With Nepal's growing tech talent pool, you get world-class quality at unbeatable prices.</p>
+      <p>Ready to build? Share your app idea in the comments or contact local firms today!</p>
+    </div>
+  10:T1bca,
+    <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+      <h2>Introduction: Why Compare MERN Stack in 2026?</h2>
+      <p>The <strong>MERN stack</strong> (MongoDB, Express.js, React, Node.js) remains one of the most popular full-stack JavaScript solutions for building dynamic web applications. Its all-JavaScript ecosystem, huge community, and flexibility make it ideal for startups, MVPs, and real-time apps.</p>
+      <p>But in 2026, the landscape has evolved. Next.js has become the go-to for production-grade React apps with built-in SSR/SSG, edge functions, and React Server Components. Alternatives like PERN (PostgreSQL instead of MongoDB), T3 Stack, Remix, SvelteKit, and MEAN are gaining traction for better performance, type safety, relational data, or developer experience.</p>
+      <p>This guide compares MERN with the top alternatives to help you choose the right stack for your project in 2026.</p>
+
+      <h2>MERN Stack Overview (2026 Status)</h2>
+      <p><strong>Pros</strong>:</p>
+      <ul>
+        <li>Single language (JavaScript/TypeScript) across the stack → faster development & smaller teams</li>
+        <li>Enormous ecosystem & job market (still very high demand in Nepal, India, global freelance)</li>
+        <li>Flexible schema with MongoDB → great for rapid prototyping, unstructured data</li>
+        <li>React's component model + huge libraries for UI</li>
+        <li>Real-time apps shine with Socket.io, WebSockets</li>
+      </ul>
+      <p><strong>Cons</strong>:</p>
+      <ul>
+        <li>Client-side rendering by default → SEO & initial load issues (unless you add SSR manually)</li>
+        <li>MongoDB can struggle with complex relational queries & transactions</li>
+        <li>Boilerplate-heavy without modern meta-frameworks</li>
+        <li>Cold starts & scaling Node.js can be tricky at massive scale</li>
+      </ul>
+      <p><strong>Best for</strong>: SPAs, dashboards, real-time chat/apps, MVPs, e-commerce backends, teams already in JS ecosystem.</p>
+
+      <h2>Top MERN Alternatives in 2026 & Head-to-Head Comparison</h2>
+      <p>Here's a quick comparison table of popular stacks:</p>
+      <table style="width:100%; border-collapse:collapse; margin:2rem 0;">
+        <tr style="background:#374151;">
+          <th style="padding:1rem; border:1px solid #4b5563;">Stack</th>
+          <th style="padding:1rem; border:1px solid #4b5563;">Frontend</th>
+          <th style="padding:1rem; border:1px solid #4b5563;">Backend</th>
+          <th style="padding:1rem; border:1px solid #4b5563;">Database</th>
+          <th style="padding:1rem; border:1px solid #4b5563;">Best For (2026)</th>
+          <th style="padding:1rem; border:1px solid #4b5563;">Popularity Trend</th>
+        </tr>
+        <tr>
+          <td style="padding:1rem; border:1px solid #4b5563;">MERN</td>
+          <td>React</td>
+          <td>Express + Node</td>
+          <td>MongoDB</td>
+          <td>Real-time, UI-heavy, quick MVPs</td>
+          <td>Still very high</td>
+        </tr>
+        <tr>
+          <td style="padding:1rem; border:1px solid #4b5563;">Next.js Full-Stack (App Router + tRPC/Prisma)</td>
+          <td>React + Next.js</td>
+          <td>Next.js API Routes / Server Actions</td>
+          <td>Any (Prisma + Postgres common)</td>
+          <td>SEO-critical sites, SaaS, e-commerce, production apps</td>
+          <td>Dominating 2026</td>
+        </tr>
+        <tr>
+          <td style="padding:1rem; border:1px solid #4b5563;">PERN</td>
+          <td>React</td>
+          <td>Express + Node</td>
+          <td>PostgreSQL</td>
+          <td>Apps needing relations, transactions, analytics</td>
+          <td>Rising fast</td>
+        </tr>
+        <tr>
+          <td style="padding:1rem; border:1px solid #4b5563;">T3 Stack</td>
+          <td>Next.js + React</td>
+          <td>Next.js + tRPC</td>
+          <td>Prisma + Postgres/MySQL</td>
+          <td>Type-safe, modern SaaS/internal tools</td>
+          <td>Very hot among TS devs</td>
+        </tr>
+        <tr>
+          <td style="padding:1rem; border:1px solid #4b5563;">Remix / SvelteKit</td>
+          <td>Remix or Svelte</td>
+          <td>Built-in server</td>
+          <td>Any</td>
+          <td>Fast UX, forms-heavy, progressive apps</td>
+          <td>Growing rapidly</td>
+        </tr>
+        <tr>
+          <td style="padding:1rem; border:1px solid #4b5563;">MEAN</td>
+          <td>Angular</td>
+          <td>Express + Node</td>
+          <td>MongoDB</td>
+          <td>Enterprise, structured large apps</td>
+          <td>Stable but declining</td>
+        </tr>
+      </table>
+
+      <h3>1. MERN vs Next.js (The Biggest Shift in 2026)</h3>
+      <p>Next.js has overtaken classic MERN for most new projects. It adds SSR, SSG, ISR, React Server Components, edge runtime, and built-in routing — solving MERN's biggest pain points (SEO, performance, boilerplate).</p>
+      <p><strong>Choose Next.js over MERN if</strong>: You need great SEO, fast loads, hybrid rendering, or you're building SaaS/marketing sites.</p>
+      <p><strong>Stick with MERN if</strong>: Pure client-side SPA, heavy real-time, or you prefer full control over backend (Express is still king for complex APIs).</p>
+
+      <h3>2. MERN vs PERN</h3>
+      <p>PERN swaps MongoDB for PostgreSQL — better for complex relations, ACID compliance, joins, reporting. Prisma + Postgres is now the default for many.</p>
+      <p><strong>Choose PERN if</strong>: Data integrity matters (fintech, e-commerce inventory, analytics dashboards).</p>
+
+      <h3>3. MERN vs T3 Stack</h3>
+      <p>T3 = The Typed Trio: Next.js + tRPC + Prisma + Tailwind + TypeScript. End-to-end type safety, minimal boilerplate, excellent DX.</p>
+      <p><strong>Choose T3 if</strong>: You love TypeScript and want modern, production-ready setup fast.</p>
+
+      <h3>4. MERN vs Remix / SvelteKit</h3>
+      <p>Remix excels at forms & data mutations; SvelteKit is ultra-lightweight & fast. Both offer nested routing & server-first mindset.</p>
+      <p><strong>Choose them if</strong>: You want better UX out-of-the-box or smaller bundles.</p>
+
+      <h2>When to Choose MERN in 2026</h2>
+      <ul>
+        <li>You're already invested in React + Node ecosystem</li>
+        <li>Building real-time features (chat, notifications)</li>
+        <li>Rapid prototyping or freelance projects</li>
+        <li>Team prefers MongoDB flexibility</li>
+      </ul>
+
+      <h2>Final Recommendation for 2026</h2>
+      <p>For most new projects: Start with <strong>Next.js + Prisma + PostgreSQL</strong> (or T3 stack) — it's the modern evolution of MERN with better defaults, performance, and future-proofing.</p>
+      <p>MERN is still excellent and very much alive — especially if you add Next.js on top for rendering. The "pure classic MERN" is best for learning fundamentals or specific real-time needs.</p>
+      <p>Pick based on your project, team skills, and priorities (SEO/performance vs raw speed of development). The JavaScript ecosystem wins either way!</p>
+      <p>What stack are you using in 2026? Drop a comment below!</p>
+    </div>
+  11:T1b0e,
+    <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+      <h2>Why Hire IT Developers in Nepal in 2026?</h2>
+      <p>Nepal has emerged as a top destination for <strong>IT outsourcing</strong> and hiring skilled developers. With a young, English-speaking workforce, strong education in engineering colleges like Pulchowk and Kathmandu University, and growing expertise in web, mobile, full-stack, AI, and cloud technologies, Nepali developers deliver high-quality work at competitive costs.</p>
+      <p>Key advantages include:</p>
+      <ul>
+        <li>Cost savings: Developers in Nepal often cost 50-70% less than in the US, Europe, or Australia while maintaining excellent standards.</li>
+        <li>Time zone compatibility: Close alignment with Asia-Pacific and reasonable overlap with Europe/US East Coast.</li>
+        <li>Growing market: Nepal's IT exports continue rising ~20% year-on-year, with strong demand in software development, fintech, and remote work.</li>
+        <li>English proficiency and cultural adaptability: Many developers work seamlessly with international clients.</li>
+      </ul>
+      <p>Whether you're a startup needing a full-stack developer, a company seeking staff augmentation, or looking for freelance talent, Nepal offers reliable, scalable options in 2026.</p>
+
+      <h2>Understanding Salary Expectations for IT Developers in Nepal (2026)</h2>
+      <p>Salaries vary by experience, skills, location (mostly Kathmandu), and employment type (local vs. remote/international contracts).</p>
+      <ul>
+        <li><strong>Junior Developer (0-2 years)</strong>: NPR 30,000–60,000/month (~$220–$450)</li>
+        <li><strong>Mid-level Developer (3-6 years)</strong>: NPR 60,000–120,000/month (~$450–$900)</li>
+        <li><strong>Senior Developer / Full-Stack / Specialist (7+ years)</strong>: NPR 120,000–200,000+/month (~$900–$1,500+)</li>
+        <li><strong>Remote for international clients</strong>: $2,500–$5,000+/month (or $15–$40/hour), especially for skilled talent on platforms like Upwork or Arc.</li>
+      </ul>
+      <p>Specialized roles (AI/ML, DevOps, React/Node.js, Flutter) command 20-40% higher pay. Remote/international contracts often pay significantly more than local ones.</p>
+
+      <h2>Where to Find and Hire IT Developers in Nepal</h2>
+      <p>Choose the right channel based on your needs (freelance, dedicated team, or full-time hire):</p>
+      <ul>
+        <li><strong>Freelance Platforms</strong>: Upwork, Fiverr, Twine, Arc.dev — many top-rated Nepali developers available with portfolios and reviews.</li>
+        <li><strong>Local Job Portals</strong>: MeroJob, KumariJob, JobsNepal — ideal for full-time local hires.</li>
+        <li><strong>Specialized Outsourcing Firms</strong>: CloudFactory, Leapfrog Technology, Deerwalk, Fusemachines, Byte Code Developers, LIS Nepal — offer vetted teams, staff augmentation, and dedicated developers.</li>
+        <li><strong>Clutch.co & GoodFirms</strong>: Search top-rated software development companies in Nepal with client reviews.</li>
+        <li><strong>LinkedIn & Networking</strong>: Search "software developer Nepal" or join Nepali tech groups; many professionals are open to remote opportunities.</li>
+      </ul>
+
+      <h2>Step-by-Step Guide: How to Hire the Right Developer in Nepal</h2>
+      <ol>
+        <li><strong>Define Your Needs Clearly</strong>: Specify tech stack (e.g., React, Node.js, Python/Django, Flutter, AWS), project type (web app, mobile, API), timeline, and budget.</li>
+        <li><strong>Post Detailed Job/Project Description</strong>: Include must-have skills, nice-to-haves, expected deliverables, and communication expectations (daily Slack/Zoom?).</li>
+        <li><strong>Screen Candidates</strong>: Review portfolios, GitHub repos, past client feedback, and live projects. Ask for code samples or small test tasks.</li>
+        <li><strong>Conduct Interviews</strong>: Use video calls (Zoom/Google Meet). Evaluate technical skills, problem-solving, and soft skills like communication.</li>
+        <li><strong>Test Technically</strong>: Assign a small paid test task or use platforms like HackerRank/LeetCode for coding challenges.</li>
+        <li><strong>Check References & Contracts</strong>: Verify past work. Use clear agreements covering scope, milestones, payment (e.g., hourly/milestone), IP rights, and NDA.</li>
+        <li><strong>Onboard & Manage</strong>: Set up tools (Git, Jira/Trello, Slack), agree on working hours, and start with small milestones to build trust.</li>
+      </ol>
+
+      <h2>Key Interview Questions to Ask When Hiring Developers in Nepal</h2>
+      <p>Ask a mix of technical, behavioral, and project-specific questions:</p>
+      <ul>
+        <li>Technical: "Explain how you would build a REST API with authentication using Node.js/React." / "How do you optimize database queries in a high-traffic app?" / "Walk us through your experience with [specific tech from resume]."</li>
+        <li>Problem-Solving: "Describe a challenging bug you fixed." / "How do you approach debugging in production?"</li>
+        <li>Behavioral: "How do you handle tight deadlines or changing requirements?" / "Describe working in a remote team — tools and communication style?"</li>
+        <li>Nepal-specific: "Have you worked with international clients? How do you manage time zone differences?"</li>
+      </ul>
+      <p>Focus on real-world experience over rote DSA unless the role demands it (many Nepali companies prioritize practical skills and project history).</p>
+
+      <h2>Best Practices for Successful Hiring & Collaboration</h2>
+      <ul>
+        <li>Start small: Begin with a pilot project or 1-2 week sprint to test fit.</li>
+        <li>Clear communication: Daily stand-ups, shared docs, and tools like Notion or Miro help bridge any gaps.</li>
+        <li>Payment & Legal: Use escrow on freelance platforms; for direct hires, consider milestone payments and proper contracts.</li>
+        <li>Build long-term relationships: Many clients scale from one developer to full teams after successful projects.</li>
+        <li>Avoid red flags: Be wary of overly cheap rates without proof of quality, poor English/communication, or no portfolio.</li>
+      </ul>
+
+      <h2>Conclusion: Start Hiring Top Talent from Nepal Today</h2>
+      <p>Hiring an <strong>IT developer in Nepal</strong> in 2026 is one of the smartest moves for cost-effective, high-quality development. With the right approach — clear requirements, thorough vetting, and strong collaboration — you can build scalable products without breaking the bank.</p>
+      <p>Ready to hire? Post on Upwork, reach out via LinkedIn, or contact reputable firms like those on Clutch.co. Nepal's tech talent is waiting to power your next project.</p>
+      <p>Share your hiring experiences or questions in the comments below!</p>
+    </div>
+  12:T1a69,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             background: white; -webkit-background-clip: text; 
             -webkit-text-fill-color: transparent; background-clip: text; position: relative;">
@@ -149,7 +671,7 @@ d:T1a69,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
           By 2026, server components will dominate MERN stack apps, with Next.js 15 simplifying integration. Developers must optimize server-side logic and caching to maximize performance.
         </p>
       </div>
-    e:T19cf,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+    13:T19cf,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             background: white; -webkit-background-clip: text; 
             -webkit-text-fill-color: transparent; background-clip: text; position: relative;">
@@ -268,7 +790,7 @@ d:T1a69,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
           By 2026, WebAssembly will power advanced MERN apps, with frameworks like Wasmer enhancing Node.js integration. Developers must upskill in Rust and optimize Wasm modules for performance.
         </p>
       </div>
-    f:T4678,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+    14:T4678,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             background: white; -webkit-background-clip: text; 
             -webkit-text-fill-color: transparent; background-clip: text; position: relative;">
@@ -598,7 +1120,7 @@ d:T1a69,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
           </code></pre>
         </div>
       </div>
-    10:T69a0,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+    15:T69a0,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
           <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
               background: white; -webkit-background-clip: text; 
               -webkit-text-fill-color: transparent; background-clip: text; position: relative;">
@@ -1048,7 +1570,7 @@ d:T1a69,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
             Becoming a full-stack developer in 2025 is an exciting journey that combines technical expertise with adaptability. By mastering the MERN stack, leveraging AI tools like Grok and Copilot, and building real-world projects, you can carve out a rewarding career. Start with the basics, stay curious, and keep learning to thrive in this dynamic field.
           </p>
         </div>
-      11:T5351,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+      16:T5351,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             background: white; -webkit-background-clip: text; 
             -webkit-text-fill-color: transparent; background-clip: text; position: relative;">
@@ -1419,7 +1941,7 @@ my-mern-app/
           A well-organized MERN stack folder structure is essential for building scalable, maintainable applications in 2025. By separating client and server, modularizing components, and leveraging AI tools like Grok, developers can streamline workflows and enhance collaboration. Adopting these best practices ensures your MERN projects are ready for growth and innovation.
         </p>
       </div>
-    12:T4792,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+    17:T4792,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             background: white; -webkit-background-clip: text; 
             -webkit-text-fill-color: transparent; background-clip: text; position: relative;">
@@ -1732,7 +2254,7 @@ my-mern-app/
           The MERN stack's dominance in 2025 is driven by its full JavaScript ecosystem, scalability, and alignment with trends like AI and serverless architecture. Its appeal to developers lies in rapid development, strong community support, and a robust job market. By embracing modern tools and addressing challenges, MERN developers can build cutting-edge applications and thrive in the evolving tech landscape.
         </p>
       </div>
-    13:T3ca9,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+    18:T3ca9,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             background: white; -webkit-background-clip: text; 
             -webkit-text-fill-color: transparent; background-clip: text; position: relative;">
@@ -1984,7 +2506,7 @@ my-mern-app/
           </code></pre>
         </div>
       </div>
-    14:T2623,
+    19:T2623,
       <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             background: white; -webkit-background-clip: text; 
@@ -2183,7 +2705,7 @@ my-mern-app/
           </li>
         </ul>
       </div>
-    15:T2554,
+    1a:T2554,
       <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             background: white; -webkit-background-clip: text; 
@@ -2380,7 +2902,7 @@ my-mern-app/
           </li>
         </ul>
       </div>
-    16:T2402,
+    1b:T2402,
       <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
        
 
@@ -2577,7 +3099,7 @@ my-mern-app/
           </li>
         </ul>
       </div>
-    17:T1de6,
+    1c:T1de6,
   <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
  
   <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
@@ -2749,7 +3271,7 @@ const UserList = React.memo(({ users }) => {
     </li>
   </ul>
 </div>
-18:T1e9f,
+1d:T1e9f,
       <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             -webkit-text-fill-color: transparent; background-clip: text; position: relative;">
@@ -2925,25 +3447,25 @@ const UserList = React.memo(({ users }) => {
   };</code></pre>
         </div>
       </div>
-    6:["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen bg-background py-20 px-4","children":["$","$Lc",null,{"posts":[{"id":"13","slug":"server-components-nextjs-15-mern-2025","title":"Server Components in Next.js 15: Revolutionizing MERN Stack Performance","image":"/images/blogs/server-components-nextjs.jpg","excerpt":"Learn how Next.js 15’s server components enhance MERN stack performance in 2025, reducing client-side JavaScript and improving SEO with practical MongoDB integration.","content":"$d","date":"2025-09-30","formattedDate":"September 30, 2025","readingTime":"7 min","tags":["Server Components","Next.js","MERN Stack","Performance","SEO","MongoDB"],"metaTitle":"Server Components in Next.js 15: Boosting MERN Stack Performance","metaDescription":"Explore how Next.js 15’s server components revolutionize MERN stack performance in 2025, with MongoDB integration for reduced JavaScript and improved SEO.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/server-components-nextjs"},{"id":"10","slug":"webassembly-mern-stack-2025","title":"WebAssembly in 2025: Supercharging MERN Stack Performance","image":"/images/blogs/WebAssembly-in-2025-Supercharging-MERN-Stack-Performance.webp","excerpt":"Discover how WebAssembly (Wasm) enhances MERN stack performance in 2025, enabling high-performance computing for tasks like image processing and AI in React and Node.js apps.","content":"$e","date":"2025-09-15","formattedDate":"September 15, 2025","readingTime":"7 min","tags":["WebAssembly","MERN Stack","React","Node.js","Performance","Web Development"],"metaTitle":"WebAssembly in 2025: Boosting MERN Stack Performance","metaDescription":"Learn how WebAssembly supercharges MERN stack apps in 2025, enabling high-performance computing with React and Node.js for tasks like AI and image processing.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/WebAssembly-in-2025-Supercharging-MERN-Stack-Performance"},{"id":"8","slug":"ssr-vs-csr-web-development-2025","title":"SSR vs CSR: A 2025 Guide for MERN Stack Developers","image":"/images/blogs/ssr-vs-csr-web-development-2025.png","excerpt":"Discover the differences between Server-Side Rendering (SSR) and Client-Side Rendering (CSR) in 2025, their impact on MERN stack development, pros, cons, and how to choose the right approach for performance and SEO.","content":"$f","date":"2025-09-04","formattedDate":"September 4, 2025","readingTime":"8 min","tags":["SSR","CSR","Next.js","React","MERN Stack","SEO","Performance","Web Development"],"metaTitle":"SSR vs CSR in 2025: Which is Best for MERN Stack Developers?","metaDescription":"Explore Server-Side Rendering (SSR) vs Client-Side Rendering (CSR) in 2025 for MERN stack apps, comparing performance, SEO, and tools like Next.js and React Query.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/ssr-vs-csr-web-development-2025"},{"id":"8","slug":"how-to-become-full-stack-developer-2025","title":"How to Become a Full-Stack Developer in 2025: A Roadmap","image":"/images/blogs/how-to-become-full-stack-developer-2025.jpeg","excerpt":"A comprehensive roadmap to becoming a full-stack developer in 2025, covering essential skills, tools like the MERN stack, AI integration, and strategies to stay competitive.","content":"$10","date":"2025-07-08","formattedDate":"July 8, 2025","readingTime":"10 min","tags":["Full-Stack Development","MERN Stack","Web Development","AI Tools","Next.js","Node.js","Career","DevOps"],"metaTitle":"How to Become a Full-Stack Developer in 2025: Roadmap & Tools","metaDescription":"A 2025 roadmap to becoming a full-stack developer, covering MERN stack, AI tools like GitHub Copilot and xAI's Grok, DevOps, and real-world projects to build a rewarding career.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/how-to-become-full-stack-developer-2025"},{"id":"10","slug":"mern-stack-folder-structure-best-practices-2025","title":"MERN Stack Folder Structure Best Practices for Scalability in 2025","image":"/images/blogs/mern-stack-folder-structure-best-practices-2025.png","excerpt":"Learn the best practices for organizing a MERN stack (MongoDB, Express.js, React, Node.js) project folder structure in 2025 to ensure scalability, maintainability, and developer efficiency.","content":"$11","date":"2025-07-08","formattedDate":"July 8, 2025","readingTime":"7 min","tags":["MERN Stack","Web Development","Folder Structure","Scalability","React","Node.js","MongoDB","Best Practices"],"metaTitle":"MERN Stack Folder Structure Best Practices for Scalability in 2025","metaDescription":"Discover best practices for organizing a MERN stack project folder structure in 2025, ensuring scalability, maintainability, and developer efficiency with React, Node.js, and MongoDB.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/mern-stack-folder-structure-best-practices-2025"},{"id":"9","slug":"why-mern-stack-dominates-2025","title":"Why MERN Stack is Still Dominating in 2025: Trend Analysis","image":"/images/blogs/why-mern-stack-dominates-2025.jpeg","excerpt":"Discover why the MERN stack (MongoDB, Express.js, React, Node.js) continues to dominate web development in 2025, its appeal to developers, and key trends driving its popularity.","content":"$12","date":"2025-07-08","formattedDate":"July 8, 2025","readingTime":"8 min","tags":["MERN Stack","Web Development","React","Node.js","MongoDB","AI Integration","Serverless","Trends"],"metaTitle":"Why MERN Stack Dominates Web Development in 2025","metaDescription":"Explore why the MERN stack remains a top choice in 2025, with trends like AI integration, serverless architecture, and a full JavaScript ecosystem attracting developers.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/why-mern-stack-dominates-2025"},{"id":"7","slug":"how-ai-transforms-web-development-2025","title":"How AI is changing web development, jobs, and tools in 2025.","image":"/images/blogs/how-ai-transforms-web-development-2025.png","excerpt":"Explore how AI is reshaping web development in 2025, its impact on web developer jobs, new challenges, pros and cons, and the top AI tools transforming the MERN stack workflow.","content":"$13","date":"2025-07-05","formattedDate":"July 5, 2025","readingTime":"9 min","tags":["AI","Web Development","MERN Stack","Next.js","AI Tools","SEO","Accessibility","Jobs"],"metaTitle":"AI in Web Development: 2025 Impact on Jobs & Tools","metaDescription":"Discover how AI is revolutionizing web development in 2025, its impact on web developer jobs, new challenges, pros and cons, and top AI tools like GitHub Copilot and xAI's Grok for MERN stack developers.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/how-ai-transforms-web-development-2025"},{"id":"5","slug":"building-scalable-micro-frontends-nextjs-2025","title":"Building Scalable Micro-Frontends with Next.js in 2025","image":"/images/blogs/mirco-frontend-nextjs.jpg","excerpt":"Discover how to build scalable micro-frontends using Next.js in 2025, with practical examples, performance optimization techniques, and SEO best practices for modern web applications.","content":"$14","date":"2025-07-05","formattedDate":"July 5, 2025","readingTime":"8 min","tags":["Micro-Frontends","Next.js","Web Development","Module Federation","SEO","Performance","Scalability"],"metaTitle":"Next.js Micro-Frontends: 2025 Scalability Guide","metaDescription":"Learn how to build scalable micro-frontends with Next.js in 2025, including Module Federation setup, server-side rendering, and SEO best practices for modern web applications.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/building-scalable-micro-frontends-nextjs-2025"},{"id":"4","slug":"react-server-components-2025","title":"Dive into React Server Components in 2025 with this SEO-...","image":"/images/blogs/react-server-component.jpg","excerpt":"Dive into React Server Components in 2025 with this SEO-friendly guide, exploring server-side rendering, performance optimization, and practical examples for modern web applications.","content":"$15","date":"2025-02-01","formattedDate":"February 1, 2025","readingTime":"10 min","tags":["React","Server Components","Next.js","Web Development","JavaScript","SEO","Performance"],"metaTitle":"2025 React Server Components: Optimized for SEO & Speed","metaDescription":"Learn how to master React Server Components in 2025 with this comprehensive guide, covering setup, data fetching, client-server integration, and SEO-friendly best practices for modern web applications.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/react-server-components-2025"},{"id":"3","slug":"mern-stack-guide-2025","title":"Ultimate MERN Stack Development Guide for 2025","image":"/images/blogs/mern-stack-guide-2025.webp","excerpt":"Explore the ultimate guide to MERN stack development in 2025, covering MongoDB, Express.js, React, Node.js, best practices, and SEO-friendly techniques for modern web applications.","content":"$16","date":"2025-01-10","formattedDate":"January 10, 2025","readingTime":"12 min","tags":["MERN","MongoDB","Express.js","React","Node.js","Web Development","JavaScript"],"metaTitle":"MERN Stack Guide 2025: Ultimate Development Handbook","metaDescription":"Master MERN stack development in 2025 with this comprehensive guide covering MongoDB, Express.js, React, Node.js, and SEO-friendly best practices for building scalable web applications.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/mern-stack-guide-2025"},{"id":"2","slug":"react-performance-optimization-2024","title":"Master React performance optimization techniques for 2024.","image":"/images/blogs/react-optimization.png","excerpt":"Master the latest React performance optimization techniques for 2024 with this comprehensive guide covering Concurrent Features, advanced memoization, and cutting-edge optimization strategies.","content":"$17","date":"2024-01-15","formattedDate":"January 15, 2024","readingTime":"15 min","tags":["React","Performance","Frontend","JavaScript","React 18","Optimization","Web Development"],"metaTitle":"React Performance Optimization: 2024 Master Guide","metaDescription":"Comprehensive 2024 guide to React performance optimization covering Concurrent Features, advanced memoization, component optimization, and practical implementation examples.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/react-performance-optimization-2024"},{"id":"1","slug":"mern-stack-authentication","title":"Complete JWT Authentication in MERN Stack","image":"/images/blogs/Complete-JWT-Authentication-in-MERN-Stack.jpg","excerpt":"Learn how to implement complete JWT authentication in a MERN stack application, including backend and frontend integration.","content":"$18","date":"2023-10-01","formattedDate":"October 1, 2023","readingTime":"12 min","tags":["MERN","Authentication","JWT","Node.js","React"],"metaTitle":"JWT Authentication in MERN: Complete 2024 Implementation","metaDescription":"Step-by-step guide to implementing secure JWT authentication in MERN stack. Learn token handling, protected routes, and best practices for MongoDB, Express, React, and Node.js.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/mern-stack-authentication"}]}]}],["$L19","$L1a"],"$L1b"]}]
-7:["$","$1","h",{"children":[null,["$","$L1c",null,{"children":"$@1d"}],["$","div",null,{"hidden":true,"children":["$","$L1e",null,{"children":["$","$1f",null,{"name":"Next.Metadata","children":"$@20"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
-21:I[74662,["/_next/static/chunks/f60b2d32fe610be5.js","/_next/static/chunks/7c455c799ae90de5.js"],"OutletBoundary"]
-19:["$","script","script-0",{"src":"/_next/static/chunks/66a603a996eeccde.js","async":true,"nonce":"$undefined"}]
-1a:["$","script","script-1",{"src":"/_next/static/chunks/65d4a554567c7e54.js","async":true,"nonce":"$undefined"}]
-1b:["$","$L21",null,{"children":["$","$1f",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
-1d:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#0a0e27"}]]
-20:[["$","title","0",{"children":"Blog - Saroj Dangol | Saroj Dangol - IT Developer Nepal"}],["$","meta","1",{"name":"description","content":"Articles and tutorials about web development, MERN stack, React, Next.js, and modern JavaScript technologies."}],["$","meta","2",{"name":"application-name","content":"Saroj Dangol - Premium IT Services Nepal"}],["$","link","3",{"rel":"author","href":"https://www.sarojdangol012.com.np"}],["$","meta","4",{"name":"author","content":"Saroj Dangol"}],["$","link","5",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","6",{"name":"generator","content":"Next.js"}],["$","meta","7",{"name":"keywords","content":"IT Developer in Lalitpur,IT Developer in Nepal,Web Developer Lalitpur,Software Engineer Nepal,Freelance Developer Lalitpur,Best Programmer in Lalitpur,IT Jobs Lalitpur,Hire Developer Nepal,Kathmandu Valley Developer,Nepal IT Services,Full Stack Developer,MERN Stack Expert,React Native Developer,Next.js Specialist,Node.js Developer,TypeScript Engineer,Web Application Development,Responsive Web Design,Progressive Web Apps,Single Page Applications,Frontend Optimization,Backend Architecture,Cross-Platform Mobile Apps,React Native Expert,Mobile App Development,iOS/Android Development,Hybrid Mobile Apps,MongoDB Developer,Express.js Specialist,React.js Consultant,GraphQL API Development,RESTful API Design,AWS Certified Developer,Serverless Architecture,Microservices Expert,High-Performance Websites,SEO-Optimized Development,Web Performance Tuning,E-Commerce Solutions,SaaS Development,Startup Tech Partner,Saroj Dangol Portfolio,Dangol Development Services,Saroj Tech Solutions"}],["$","meta","8",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","9",{"name":"creator","content":"Saroj Dangol"}],["$","meta","10",{"name":"publisher","content":"Apptechnologies"}],["$","meta","11",{"name":"robots","content":"index, follow"}],["$","meta","12",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","13",{"name":"msapplication-TileColor","content":"#2b5797"}],["$","meta","14",{"name":"msapplication-config","content":"/browserconfig.xml"}],["$","meta","15",{"name":"theme-color","content":"#1a365d"}],["$","meta","16",{"name":"og:latitude","content":"27.6710"}],["$","meta","17",{"name":"og:longitude","content":"85.3226"}],["$","meta","18",{"name":"og:locality","content":"Lalitpur"}],["$","meta","19",{"name":"og:region","content":"Bagmati"}],["$","meta","20",{"name":"og:postal-code","content":"44700"}],["$","meta","21",{"name":"og:country-name","content":"Nepal"}],["$","meta","22",{"name":"business:contact_data:street_address","content":"Lalitpur"}],["$","meta","23",{"name":"business:contact_data:locality","content":"Lalitpur"}],["$","meta","24",{"name":"business:contact_data:region","content":"Bagmati"}],["$","meta","25",{"name":"business:contact_data:postal_code","content":"44700"}],["$","meta","26",{"name":"business:contact_data:country_name","content":"Nepal"}],["$","meta","27",{"name":"geo.region","content":"NP-P3"}],["$","meta","28",{"name":"geo.placename","content":"Lalitpur"}],["$","meta","29",{"name":"geo.position","content":"27.6710;85.3226"}],["$","meta","30",{"name":"ICBM","content":"27.6710, 85.3226"}],["$","link","31",{"rel":"canonical","href":"https://www.sarojdangol012.com.np"}],["$","meta","32",{"name":"google-site-verification","content":"ZehS4kI2H4bUfWwPGCGl23h8rxEEp4KPxCiBdykJ-v4"}],["$","meta","33",{"property":"og:title","content":"Blog - Saroj Dangol"}],["$","meta","34",{"property":"og:description","content":"Articles and tutorials about web development, MERN stack, React, Next.js, and modern JavaScript technologies."}],["$","meta","35",{"property":"og:type","content":"website"}],["$","meta","36",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","37",{"name":"twitter:site","content":"@sarojdev"}],["$","meta","38",{"name":"twitter:creator","content":"@sarojdev"}],"$L23","$L24","$L25","$L26","$L27","$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e"]
-2f:I[80503,["/_next/static/chunks/f60b2d32fe610be5.js","/_next/static/chunks/7c455c799ae90de5.js"],"IconMark"]
-23:["$","meta","39",{"name":"twitter:title","content":"Saroj Dangol - Top IT Developer in Nepal"}]
-24:["$","meta","40",{"name":"twitter:description","content":"Senior Full Stack Developer in Lalitpur, Nepal. Building world-class web & mobile apps. MERN | React Native | AWS."}]
-25:["$","meta","41",{"name":"twitter:image","content":"https://www.sarojdangol012.com.np/images/twitter-card.webp"}]
-26:["$","link","42",{"rel":"shortcut icon","href":"/favicon.ico"}]
-27:["$","link","43",{"rel":"icon","href":"/favicon-32x32.png","sizes":"32x32","type":"image/png"}]
-28:["$","link","44",{"rel":"icon","href":"/favicon-16x16.png","sizes":"16x16","type":"image/png"}]
-29:["$","link","45",{"rel":"icon","href":"/favicon-48x48.png","sizes":"48x48","type":"image/png"}]
-2a:["$","link","46",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png","sizes":"180x180","type":"image/png"}]
-2b:["$","link","47",{"rel":"apple-touch-icon","href":"/apple-touch-icon-152x152.png","sizes":"152x152","type":"image/png"}]
-2c:["$","link","48",{"rel":"mask-icon","href":"/safari-pinned-tab.svg","color":"#5bbad5"}]
-2d:["$","link","49",{"rel":"apple-touch-startup-image","href":"/apple-startup.png","sizes":"2048x2732"}]
-2e:["$","$L2f","50",{}]
-22:null
+    6:["$","$1","c",{"children":[["$","div",null,{"className":"min-h-screen bg-background py-20 px-4","children":["$","$Lc",null,{"posts":[{"id":"nextjs-seo-best-practices","slug":"nextjs-seo-best-practices","title":"Next.js SEO Best Practices: Complete Guide for 2026","image":"/images/blogs/nextjs-seo.jpg","excerpt":"Master SEO in Next.js applications with this comprehensive guide covering metadata, structured data, performance optimization, and more.","content":"$d","date":"2026-01-28","formattedDate":"January 28, 2026","readingTime":"14 min","tags":["nextjs","seo","web performance","react","app-router","metadata"],"metaTitle":"Next.js SEO Best Practices 2026: Metadata API, Rendering & Performance Guide","metaDescription":"Complete 2026 guide to Next.js SEO: App Router Metadata API, SSG/ISR/SSR strategies, structured data, image optimization, Core Web Vitals, and ranking tips.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/nextjs-seo-best-practices"},{"id":"aws-serverless-architecture","slug":"aws-serverless-architecture-guide","title":"Building Scalable Applications with AWS Serverless Architecture","image":"/images/blogs/aws-serverless.jpg","excerpt":"Learn how to leverage AWS Lambda, API Gateway, and DynamoDB to build cost-effective, scalable serverless applications.","content":"$e","date":"2026-01-25","formattedDate":"January 25, 2026","readingTime":"15 min","tags":["aws","serverless","lambda","cloud"],"metaTitle":"Building Scalable Applications with AWS Serverless Architecture","metaDescription":"Learn how to leverage AWS Lambda, API Gateway, and DynamoDB to build cost-effective, scalable serverless applications.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/aws-serverless-architecture-guide"},{"id":"react-native-app-cost","slug":"react-native-app-development-cost-nepal","title":"React Native App Development Cost in Nepal: Complete Breakdown","image":"/images/blogs/app-development-cost.webp","excerpt":"Detailed breakdown of mobile app development costs in Nepal. Learn about pricing factors, timeline estimates, and how to budget for your project.","content":"$f","date":"2026-01-22","formattedDate":"January 22, 2026","readingTime":"12 min","tags":["react native","pricing","nepal","mobile apps","app development","cost breakdown"],"metaTitle":"React Native App Development Cost in Nepal 2026: Full Breakdown & Estimates","metaDescription":"2026 guide to React Native mobile app development costs in Nepal: simple to complex app pricing (NPR 5–80 lakhs), hourly rates, factors, timelines, and cost-saving tips for startups & businesses.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/react-native-app-development-cost-nepal"},{"id":"mern-stack-vs-alternatives","slug":"mern-stack-vs-alternatives-2026","title":"MERN Stack vs Alternatives in 2026: Which Should You Choose?","image":"/images/blogs/mern-stack-comparison.jpg","excerpt":"A comprehensive comparison of MERN stack with other popular technology stacks. Understand the pros, cons, and best use cases for each.","content":"$10","date":"2026-01-20","formattedDate":"January 20, 2026","readingTime":"12 min","tags":["mern","react","nodejs","web development","nextjs","fullstack","2026"],"metaTitle":"MERN Stack vs Next.js, PERN, T3 & Alternatives in 2026: Full Comparison","metaDescription":"MERN stack vs alternatives 2026: Compare MERN with Next.js, PERN, T3 Stack, Remix, MEAN. Pros, cons, best use cases, and which full-stack to choose for modern web apps.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/mern-stack-vs-alternatives-2026"},{"id":"hire-developer-nepal","slug":"how-to-hire-it-developer-nepal","title":"How to Hire the Right IT Developer in Nepal: A Complete Guide","image":"/images/blogs/hire-developer-nepal.jpg","excerpt":"Learn the essential steps to find and hire qualified IT developers in Nepal. Discover what to look for, questions to ask, and how to ensure project success.","content":"$11","date":"2026-01-15","formattedDate":"January 15, 2026","readingTime":"12 min","tags":["hiring","nepal","it developer","freelancing","outsourcing","software developer"],"metaTitle":"How to Hire the Right IT Developer in Nepal 2026: Salaries, Platforms & Tips","metaDescription":"Complete 2026 guide to hiring skilled IT developers in Nepal: best platforms, salary ranges, interview questions, outsourcing tips, and how to find top talent cost-effectively.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/how-to-hire-it-developer-nepal"},{"id":"13","slug":"server-components-nextjs-15-mern-2025","title":"Server Components in Next.js 15: Revolutionizing MERN Stack Performance","image":"/images/blogs/server-components-nextjs.jpg","excerpt":"Learn how Next.js 15’s server components enhance MERN stack performance in 2025, reducing client-side JavaScript and improving SEO with practical MongoDB integration.","content":"$12","date":"2025-09-30","formattedDate":"September 30, 2025","readingTime":"7 min","tags":["Server Components","Next.js","MERN Stack","Performance","SEO","MongoDB"],"metaTitle":"Server Components in Next.js 15: Boosting MERN Stack Performance","metaDescription":"Explore how Next.js 15’s server components revolutionize MERN stack performance in 2025, with MongoDB integration for reduced JavaScript and improved SEO.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/server-components-nextjs"},{"id":"10","slug":"webassembly-mern-stack-2025","title":"WebAssembly in 2025: Supercharging MERN Stack Performance","image":"/images/blogs/WebAssembly-in-2025-Supercharging-MERN-Stack-Performance.webp","excerpt":"Discover how WebAssembly (Wasm) enhances MERN stack performance in 2025, enabling high-performance computing for tasks like image processing and AI in React and Node.js apps.","content":"$13","date":"2025-09-15","formattedDate":"September 15, 2025","readingTime":"7 min","tags":["WebAssembly","MERN Stack","React","Node.js","Performance","Web Development"],"metaTitle":"WebAssembly in 2025: Boosting MERN Stack Performance","metaDescription":"Learn how WebAssembly supercharges MERN stack apps in 2025, enabling high-performance computing with React and Node.js for tasks like AI and image processing.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/WebAssembly-in-2025-Supercharging-MERN-Stack-Performance"},{"id":"8","slug":"ssr-vs-csr-web-development-2025","title":"SSR vs CSR: A 2025 Guide for MERN Stack Developers","image":"/images/blogs/ssr-vs-csr-web-development-2025.png","excerpt":"Discover the differences between Server-Side Rendering (SSR) and Client-Side Rendering (CSR) in 2025, their impact on MERN stack development, pros, cons, and how to choose the right approach for performance and SEO.","content":"$14","date":"2025-09-04","formattedDate":"September 4, 2025","readingTime":"8 min","tags":["SSR","CSR","Next.js","React","MERN Stack","SEO","Performance","Web Development"],"metaTitle":"SSR vs CSR in 2025: Which is Best for MERN Stack Developers?","metaDescription":"Explore Server-Side Rendering (SSR) vs Client-Side Rendering (CSR) in 2025 for MERN stack apps, comparing performance, SEO, and tools like Next.js and React Query.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/ssr-vs-csr-web-development-2025"},{"id":"8","slug":"how-to-become-full-stack-developer-2025","title":"How to Become a Full-Stack Developer in 2025: A Roadmap","image":"/images/blogs/how-to-become-full-stack-developer-2025.jpeg","excerpt":"A comprehensive roadmap to becoming a full-stack developer in 2025, covering essential skills, tools like the MERN stack, AI integration, and strategies to stay competitive.","content":"$15","date":"2025-07-08","formattedDate":"July 8, 2025","readingTime":"10 min","tags":["Full-Stack Development","MERN Stack","Web Development","AI Tools","Next.js","Node.js","Career","DevOps"],"metaTitle":"How to Become a Full-Stack Developer in 2025: Roadmap & Tools","metaDescription":"A 2025 roadmap to becoming a full-stack developer, covering MERN stack, AI tools like GitHub Copilot and xAI's Grok, DevOps, and real-world projects to build a rewarding career.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/how-to-become-full-stack-developer-2025"},{"id":"10","slug":"mern-stack-folder-structure-best-practices-2025","title":"MERN Stack Folder Structure Best Practices for Scalability in 2025","image":"/images/blogs/mern-stack-folder-structure-best-practices-2025.png","excerpt":"Learn the best practices for organizing a MERN stack (MongoDB, Express.js, React, Node.js) project folder structure in 2025 to ensure scalability, maintainability, and developer efficiency.","content":"$16","date":"2025-07-08","formattedDate":"July 8, 2025","readingTime":"7 min","tags":["MERN Stack","Web Development","Folder Structure","Scalability","React","Node.js","MongoDB","Best Practices"],"metaTitle":"MERN Stack Folder Structure Best Practices for Scalability in 2025","metaDescription":"Discover best practices for organizing a MERN stack project folder structure in 2025, ensuring scalability, maintainability, and developer efficiency with React, Node.js, and MongoDB.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/mern-stack-folder-structure-best-practices-2025"},{"id":"9","slug":"why-mern-stack-dominates-2025","title":"Why MERN Stack is Still Dominating in 2025: Trend Analysis","image":"/images/blogs/why-mern-stack-dominates-2025.jpeg","excerpt":"Discover why the MERN stack (MongoDB, Express.js, React, Node.js) continues to dominate web development in 2025, its appeal to developers, and key trends driving its popularity.","content":"$17","date":"2025-07-08","formattedDate":"July 8, 2025","readingTime":"8 min","tags":["MERN Stack","Web Development","React","Node.js","MongoDB","AI Integration","Serverless","Trends"],"metaTitle":"Why MERN Stack Dominates Web Development in 2025","metaDescription":"Explore why the MERN stack remains a top choice in 2025, with trends like AI integration, serverless architecture, and a full JavaScript ecosystem attracting developers.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/why-mern-stack-dominates-2025"},{"id":"7","slug":"how-ai-transforms-web-development-2025","title":"How AI is changing web development, jobs, and tools in 2025.","image":"/images/blogs/how-ai-transforms-web-development-2025.png","excerpt":"Explore how AI is reshaping web development in 2025, its impact on web developer jobs, new challenges, pros and cons, and the top AI tools transforming the MERN stack workflow.","content":"$18","date":"2025-07-05","formattedDate":"July 5, 2025","readingTime":"9 min","tags":["AI","Web Development","MERN Stack","Next.js","AI Tools","SEO","Accessibility","Jobs"],"metaTitle":"AI in Web Development: 2025 Impact on Jobs & Tools","metaDescription":"Discover how AI is revolutionizing web development in 2025, its impact on web developer jobs, new challenges, pros and cons, and top AI tools like GitHub Copilot and xAI's Grok for MERN stack developers.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/how-ai-transforms-web-development-2025"},{"id":"5","slug":"building-scalable-micro-frontends-nextjs-2025","title":"Building Scalable Micro-Frontends with Next.js in 2025","image":"/images/blogs/mirco-frontend-nextjs.jpg","excerpt":"Discover how to build scalable micro-frontends using Next.js in 2025, with practical examples, performance optimization techniques, and SEO best practices for modern web applications.","content":"$19","date":"2025-07-05","formattedDate":"July 5, 2025","readingTime":"8 min","tags":["Micro-Frontends","Next.js","Web Development","Module Federation","SEO","Performance","Scalability"],"metaTitle":"Next.js Micro-Frontends: 2025 Scalability Guide","metaDescription":"Learn how to build scalable micro-frontends with Next.js in 2025, including Module Federation setup, server-side rendering, and SEO best practices for modern web applications.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/building-scalable-micro-frontends-nextjs-2025"},{"id":"4","slug":"react-server-components-2025","title":"Dive into React Server Components in 2025 with this SEO-...","image":"/images/blogs/react-server-component.jpg","excerpt":"Dive into React Server Components in 2025 with this SEO-friendly guide, exploring server-side rendering, performance optimization, and practical examples for modern web applications.","content":"$1a","date":"2025-02-01","formattedDate":"February 1, 2025","readingTime":"10 min","tags":["React","Server Components","Next.js","Web Development","JavaScript","SEO","Performance"],"metaTitle":"2025 React Server Components: Optimized for SEO & Speed","metaDescription":"Learn how to master React Server Components in 2025 with this comprehensive guide, covering setup, data fetching, client-server integration, and SEO-friendly best practices for modern web applications.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/react-server-components-2025"},{"id":"3","slug":"mern-stack-guide-2025","title":"Ultimate MERN Stack Development Guide for 2025","image":"/images/blogs/mern-stack-guide-2025.webp","excerpt":"Explore the ultimate guide to MERN stack development in 2025, covering MongoDB, Express.js, React, Node.js, best practices, and SEO-friendly techniques for modern web applications.","content":"$1b","date":"2025-01-10","formattedDate":"January 10, 2025","readingTime":"12 min","tags":["MERN","MongoDB","Express.js","React","Node.js","Web Development","JavaScript"],"metaTitle":"MERN Stack Guide 2025: Ultimate Development Handbook","metaDescription":"Master MERN stack development in 2025 with this comprehensive guide covering MongoDB, Express.js, React, Node.js, and SEO-friendly best practices for building scalable web applications.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/mern-stack-guide-2025"},{"id":"2","slug":"react-performance-optimization-2024","title":"Master React performance optimization techniques for 2024.","image":"/images/blogs/react-optimization.png","excerpt":"Master the latest React performance optimization techniques for 2024 with this comprehensive guide covering Concurrent Features, advanced memoization, and cutting-edge optimization strategies.","content":"$1c","date":"2024-01-15","formattedDate":"January 15, 2024","readingTime":"15 min","tags":["React","Performance","Frontend","JavaScript","React 18","Optimization","Web Development"],"metaTitle":"React Performance Optimization: 2024 Master Guide","metaDescription":"Comprehensive 2024 guide to React performance optimization covering Concurrent Features, advanced memoization, component optimization, and practical implementation examples.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/react-performance-optimization-2024"},{"id":"1","slug":"mern-stack-authentication","title":"Complete JWT Authentication in MERN Stack","image":"/images/blogs/Complete-JWT-Authentication-in-MERN-Stack.jpg","excerpt":"Learn how to implement complete JWT authentication in a MERN stack application, including backend and frontend integration.","content":"$1d","date":"2023-10-01","formattedDate":"October 1, 2023","readingTime":"12 min","tags":["MERN","Authentication","JWT","Node.js","React"],"metaTitle":"JWT Authentication in MERN: Complete 2024 Implementation","metaDescription":"Step-by-step guide to implementing secure JWT authentication in MERN stack. Learn token handling, protected routes, and best practices for MongoDB, Express, React, and Node.js.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/mern-stack-authentication"}]}]}],["$L1e","$L1f"],"$L20"]}]
+7:["$","$1","h",{"children":[null,["$","$L21",null,{"children":"$@22"}],["$","div",null,{"hidden":true,"children":["$","$L23",null,{"children":["$","$24",null,{"name":"Next.Metadata","children":"$@25"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+26:I[74662,["/_next/static/chunks/f60b2d32fe610be5.js","/_next/static/chunks/7c455c799ae90de5.js"],"OutletBoundary"]
+1e:["$","script","script-0",{"src":"/_next/static/chunks/66a603a996eeccde.js","async":true,"nonce":"$undefined"}]
+1f:["$","script","script-1",{"src":"/_next/static/chunks/65d4a554567c7e54.js","async":true,"nonce":"$undefined"}]
+20:["$","$L26",null,{"children":["$","$24",null,{"name":"Next.MetadataOutlet","children":"$@27"}]}]
+22:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#0a0e27"}]]
+25:[["$","title","0",{"children":"Blog - Saroj Dangol | Saroj Dangol - IT Developer Nepal"}],["$","meta","1",{"name":"description","content":"Articles and tutorials about web development, MERN stack, React, Next.js, and modern JavaScript technologies."}],["$","meta","2",{"name":"application-name","content":"Saroj Dangol - Premium IT Services Nepal"}],["$","link","3",{"rel":"author","href":"https://www.sarojdangol012.com.np"}],["$","meta","4",{"name":"author","content":"Saroj Dangol"}],["$","link","5",{"rel":"manifest","href":"/manifest.webmanifest","crossOrigin":"$undefined"}],["$","meta","6",{"name":"generator","content":"Next.js"}],["$","meta","7",{"name":"keywords","content":"IT Developer in Lalitpur,IT Developer in Nepal,Web Developer Lalitpur,Software Engineer Nepal,Freelance Developer Lalitpur,Best Programmer in Lalitpur,IT Jobs Lalitpur,Hire Developer Nepal,Kathmandu Valley Developer,Nepal IT Services,Full Stack Developer,MERN Stack Expert,React Native Developer,Next.js Specialist,Node.js Developer,TypeScript Engineer,Web Application Development,Responsive Web Design,Progressive Web Apps,Single Page Applications,Frontend Optimization,Backend Architecture,Cross-Platform Mobile Apps,React Native Expert,Mobile App Development,iOS/Android Development,Hybrid Mobile Apps,MongoDB Developer,Express.js Specialist,React.js Consultant,GraphQL API Development,RESTful API Design,AWS Certified Developer,Serverless Architecture,Microservices Expert,High-Performance Websites,SEO-Optimized Development,Web Performance Tuning,E-Commerce Solutions,SaaS Development,Startup Tech Partner,Saroj Dangol Portfolio,Dangol Development Services,Saroj Tech Solutions"}],["$","meta","8",{"name":"referrer","content":"origin-when-cross-origin"}],["$","meta","9",{"name":"creator","content":"Saroj Dangol"}],["$","meta","10",{"name":"publisher","content":"Apptechnologies"}],["$","meta","11",{"name":"robots","content":"index, follow"}],["$","meta","12",{"name":"googlebot","content":"index, follow, max-video-preview:-1, max-image-preview:large, max-snippet:-1"}],["$","meta","13",{"name":"msapplication-TileColor","content":"#2b5797"}],["$","meta","14",{"name":"msapplication-config","content":"/browserconfig.xml"}],["$","meta","15",{"name":"theme-color","content":"#1a365d"}],["$","meta","16",{"name":"og:latitude","content":"27.6710"}],["$","meta","17",{"name":"og:longitude","content":"85.3226"}],["$","meta","18",{"name":"og:locality","content":"Lalitpur"}],["$","meta","19",{"name":"og:region","content":"Bagmati"}],["$","meta","20",{"name":"og:postal-code","content":"44700"}],["$","meta","21",{"name":"og:country-name","content":"Nepal"}],["$","meta","22",{"name":"business:contact_data:street_address","content":"Lalitpur"}],["$","meta","23",{"name":"business:contact_data:locality","content":"Lalitpur"}],["$","meta","24",{"name":"business:contact_data:region","content":"Bagmati"}],["$","meta","25",{"name":"business:contact_data:postal_code","content":"44700"}],["$","meta","26",{"name":"business:contact_data:country_name","content":"Nepal"}],["$","meta","27",{"name":"geo.region","content":"NP-P3"}],["$","meta","28",{"name":"geo.placename","content":"Lalitpur"}],["$","meta","29",{"name":"geo.position","content":"27.6710;85.3226"}],["$","meta","30",{"name":"ICBM","content":"27.6710, 85.3226"}],["$","link","31",{"rel":"canonical","href":"https://www.sarojdangol012.com.np"}],["$","meta","32",{"name":"google-site-verification","content":"ZehS4kI2H4bUfWwPGCGl23h8rxEEp4KPxCiBdykJ-v4"}],["$","meta","33",{"property":"og:title","content":"Blog - Saroj Dangol"}],["$","meta","34",{"property":"og:description","content":"Articles and tutorials about web development, MERN stack, React, Next.js, and modern JavaScript technologies."}],["$","meta","35",{"property":"og:type","content":"website"}],["$","meta","36",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","37",{"name":"twitter:site","content":"@sarojdev"}],["$","meta","38",{"name":"twitter:creator","content":"@sarojdev"}],"$L28","$L29","$L2a","$L2b","$L2c","$L2d","$L2e","$L2f","$L30","$L31","$L32","$L33"]
+34:I[80503,["/_next/static/chunks/f60b2d32fe610be5.js","/_next/static/chunks/7c455c799ae90de5.js"],"IconMark"]
+28:["$","meta","39",{"name":"twitter:title","content":"Saroj Dangol - Top IT Developer in Nepal"}]
+29:["$","meta","40",{"name":"twitter:description","content":"Senior Full Stack Developer in Lalitpur, Nepal. Building world-class web & mobile apps. MERN | React Native | AWS."}]
+2a:["$","meta","41",{"name":"twitter:image","content":"https://www.sarojdangol012.com.np/images/twitter-card.webp"}]
+2b:["$","link","42",{"rel":"shortcut icon","href":"/favicon.ico"}]
+2c:["$","link","43",{"rel":"icon","href":"/favicon-32x32.png","sizes":"32x32","type":"image/png"}]
+2d:["$","link","44",{"rel":"icon","href":"/favicon-16x16.png","sizes":"16x16","type":"image/png"}]
+2e:["$","link","45",{"rel":"icon","href":"/favicon-48x48.png","sizes":"48x48","type":"image/png"}]
+2f:["$","link","46",{"rel":"apple-touch-icon","href":"/apple-touch-icon.png","sizes":"180x180","type":"image/png"}]
+30:["$","link","47",{"rel":"apple-touch-icon","href":"/apple-touch-icon-152x152.png","sizes":"152x152","type":"image/png"}]
+31:["$","link","48",{"rel":"mask-icon","href":"/safari-pinned-tab.svg","color":"#5bbad5"}]
+32:["$","link","49",{"rel":"apple-touch-startup-image","href":"/apple-startup.png","sizes":"2048x2732"}]
+33:["$","$L34","50",{}]
+27:null

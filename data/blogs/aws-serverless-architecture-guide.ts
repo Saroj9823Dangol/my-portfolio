@@ -128,4 +128,16 @@ exports.handler = async (event) => {
   author: "Saroj Dangol",
   canonicalUrl:
     "https://www.sarojdangol012.com.np/blogs/aws-serverless-architecture-guide",
+  keyTakeaways: [
+    "AWS Lambda enables serverless functions that scale automatically with zero server management",
+    "Serverless architecture reduces operational costs by charging only for actual compute time",
+    "API Gateway combined with Lambda creates scalable REST APIs without managing servers",
+    "DynamoDB is the recommended database for serverless applications due to its auto-scaling",
+    "Cold start latency is the main trade-off of serverless architecture",
+  ],
+  relatedSlugs: [
+    "mern-stack-guide-2025",
+    "how-to-become-full-stack-developer-2025",
+    "react-server-components-2025",
+  ],
 };

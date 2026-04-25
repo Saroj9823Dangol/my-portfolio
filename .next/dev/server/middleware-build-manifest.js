@@ -1,36 +1,24 @@
 globalThis.__BUILD_MANIFEST = {
   "pages": {
-    "/_app": [
-      "static/chunks/00ee3_next_dist_compiled_2747fc1f._.js",
-      "static/chunks/00ee3_next_dist_shared_lib_a0fce0fc._.js",
-      "static/chunks/00ee3_next_dist_client_785b4b6b._.js",
-      "static/chunks/00ee3_next_dist_6f832d9b._.js",
-      "static/chunks/00ee3_next_app_672c8fcd.js",
-      "static/chunks/[next]_entry_page-loader_ts_31b7c4c6._.js",
-      "static/chunks/3665f_react-dom_e513eda3._.js",
-      "static/chunks/d89e3__pnpm_dffb1a37._.js",
-      "static/chunks/[root-of-the-server]__4958ea28._.js",
-      "static/chunks/Desktop_SD_solar-system-portfolio_pages__app_2da965e7._.js",
-      "static/chunks/turbopack-Desktop_SD_solar-system-portfolio_pages__app_1342dec6._.js"
-    ],
-    "/_error": [
-      "static/chunks/00ee3_next_dist_compiled_2747fc1f._.js",
-      "static/chunks/00ee3_next_dist_shared_lib_6afc2d1c._.js",
-      "static/chunks/00ee3_next_dist_client_785b4b6b._.js",
-      "static/chunks/00ee3_next_dist_3fe19458._.js",
-      "static/chunks/00ee3_next_error_df841238.js",
-      "static/chunks/[next]_entry_page-loader_ts_e410dd3f._.js",
-      "static/chunks/3665f_react-dom_e513eda3._.js",
-      "static/chunks/d89e3__pnpm_dffb1a37._.js",
-      "static/chunks/[root-of-the-server]__2917565a._.js",
-      "static/chunks/Desktop_SD_solar-system-portfolio_pages__error_2da965e7._.js",
-      "static/chunks/turbopack-Desktop_SD_solar-system-portfolio_pages__error_2702e529._.js"
-    ]
+    "/_app": []
   },
   "devFiles": [],
-  "polyfillFiles": [],
+  "polyfillFiles": [
+    "static/chunks/00ee3_next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
   "lowPriorityFiles": [],
-  "rootMainFiles": []
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_196bc361._.js",
+    "static/chunks/00ee3_next_dist_compiled_react-dom_ebe7703c._.js",
+    "static/chunks/00ee3_next_dist_compiled_react-server-dom-turbopack_2c60f9a0._.js",
+    "static/chunks/00ee3_next_dist_compiled_next-devtools_index_4c584e01.js",
+    "static/chunks/00ee3_next_dist_compiled_dc3db29e._.js",
+    "static/chunks/00ee3_next_dist_client_da1da05c._.js",
+    "static/chunks/00ee3_next_dist_92d340bc._.js",
+    "static/chunks/49324_@swc_helpers_cjs_1073f372._.js",
+    "static/chunks/Desktop_SD_solar-system-portfolio_a0ff3932._.js",
+    "static/chunks/turbopack-Desktop_SD_solar-system-portfolio_0f81eac4._.js"
+  ]
 };
 globalThis.__BUILD_MANIFEST.lowPriorityFiles = [
 "/static/" + process.env.__NEXT_BUILD_ID + "/_buildManifest.js",

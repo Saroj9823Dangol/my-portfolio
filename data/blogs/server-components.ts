@@ -152,4 +152,12 @@ export const serverComponentsGuide = {
   author: "Saroj Dangol",
   canonicalUrl:
     "https://www.sarojdangol012.com.np/blogs/server-components-nextjs",
+  keyTakeaways: [
+    "Server Components eliminate the need for useEffect for data fetching in many cases",
+    "Zero JavaScript is sent to the client for Server Components, improving performance",
+    "Server Components and Client Components can be composed together in the same tree",
+    "Streaming with Suspense enables progressive rendering of Server Components",
+    "Server Components are the default in Next.js 13+ App Router",
+  ],
+  relatedSlugs: ["react-server-components-2025", "nextjs-seo-best-practices", "building-scalable-micro-frontends-nextjs-2025"],
 };
