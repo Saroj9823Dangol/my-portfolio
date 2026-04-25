@@ -1,9 +1,8 @@
 "use client";
 import type React from "react";
 
-import { motion } from "framer-motion";
 import { useState } from "react";
-import { Send, Mail, Github, Linkedin, Twitter, Rocket } from "lucide-react";
+import { Send, Mail, Github, Linkedin, Rocket } from "lucide-react";
 
 export function ContactContent() {
   const [formState, setFormState] = useState({
@@ -45,14 +44,11 @@ export function ContactContent() {
   if (submitted) {
     return (
       <div className="max-w-2xl mx-auto text-center py-12">
-        <motion.div
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          transition={{ type: "spring", damping: 15 }}
+        <div
           className="w-24 h-24 mx-auto mb-6 rounded-full bg-gradient-to-br from-neptune-cyan to-cosmic-blue flex items-center justify-center"
         >
           <Rocket size={40} className="text-background" />
-        </motion.div>
+        </div>
         <h3 className="font-display text-2xl text-neptune-cyan mb-4">
           Message Launched!
         </h3>
@@ -68,9 +64,7 @@ export function ContactContent() {
     <div className="max-w-4xl mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {/* Contact Form */}
-        <motion.div
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
+        <div
           className="glass rounded-xl p-6"
         >
           <h3 className="font-display text-xl text-neptune-cyan mb-6">
@@ -143,13 +137,10 @@ export function ContactContent() {
               )}
             </button>
           </form>
-        </motion.div>
+        </div>
 
         {/* Contact Info */}
-        <motion.div
-          initial={{ opacity: 0, x: 20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ delay: 0.1 }}
+        <div
           className="space-y-6"
         >
           <div className="glass rounded-xl p-6">
@@ -240,7 +231,7 @@ export function ContactContent() {
               (approximately).
             </p>
           </div>
-        </motion.div>
+        </div>
       </div>
     </div>
   );

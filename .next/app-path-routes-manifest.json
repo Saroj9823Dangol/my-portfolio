@@ -1,13 +1,16 @@
 {
   "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
   "/api/contact/route": "/api/contact",
   "/blogs/[slug]/page": "/blogs/[slug]",
   "/blogs/page": "/blogs",
   "/contact/page": "/contact",
   "/faq/page": "/faq",
+  "/llms.txt/route": "/llms.txt",
   "/manifest.webmanifest/route": "/manifest.webmanifest",
   "/page": "/",
+  "/projects/page": "/projects",
   "/robots.txt/route": "/robots.txt",
   "/services/page": "/services",
   "/sitemap.xml/route": "/sitemap.xml"

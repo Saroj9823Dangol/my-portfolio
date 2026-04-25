@@ -1,36 +1,28 @@
 "use client";
 
 import { useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { Calendar, Clock, ArrowRight, ArrowLeft, Rss, Tag } from "lucide-react";
 import { ALL_BLOG_POSTS as BLOG_POSTS, type BlogPost } from "@/data/blogs";
 
 function BlogDetail({ post, onBack }: { post: BlogPost; onBack: () => void }) {
   return (
-    <motion.div
-      initial={{ opacity: 0, x: 50 }}
-      animate={{ opacity: 1, x: 0 }}
-      exit={{ opacity: 0, x: -50 }}
+    <div
       className="max-w-4xl mx-auto"
     >
       {/* Back button */}
-      <motion.button
+      <button
         onClick={onBack}
         className="flex items-center gap-2 text-moon-gray font-terminal text-sm mb-6 hover:text-foreground transition-colors group"
-        whileHover={{ x: -4 }}
       >
         <ArrowLeft
           size={16}
           className="group-hover:-translate-x-1 transition-transform"
         />
         Back to all posts
-      </motion.button>
+      </button>
 
       {/* Post header */}
-      <motion.header
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1 }}
+      <header
         className="mb-8"
       >
         <div className="flex flex-wrap items-center gap-4 mb-4 text-muted-foreground font-terminal text-sm">
@@ -71,10 +63,7 @@ function BlogDetail({ post, onBack }: { post: BlogPost; onBack: () => void }) {
 
         {/* Cover Image */}
         {post.image && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
+          <div
             className="mt-6 rounded-xl overflow-hidden"
           >
             <img
@@ -82,36 +71,27 @@ function BlogDetail({ post, onBack }: { post: BlogPost; onBack: () => void }) {
               alt={post.title}
               className="w-full h-auto object-cover"
             />
-          </motion.div>
+          </div>
         )}
-      </motion.header>
+      </header>
 
       {/* Divider */}
-      <motion.div
-        initial={{ scaleX: 0 }}
-        animate={{ scaleX: 1 }}
-        transition={{ delay: 0.2 }}
+      <div
         className="h-px bg-gradient-to-r from-transparent via-moon-gray/50 to-transparent mb-8"
       />
 
       {/* Post content */}
-      <motion.article
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.3 }}
+      <article
         className="prose prose-invert prose-moon max-w-none"
       >
         <div
           className="font-body text-muted-foreground leading-relaxed"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
-      </motion.article>
+      </article>
 
       {/* Post footer */}
-      <motion.footer
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.4 }}
+      <footer
         className="mt-12 pt-8 border-t border-moon-gray/20"
       >
         <div className="glass rounded-xl p-6 text-center">
@@ -130,8 +110,8 @@ function BlogDetail({ post, onBack }: { post: BlogPost; onBack: () => void }) {
             View All Posts
           </button>
         </div>
-      </motion.footer>
-    </motion.div>
+      </footer>
+    </div>
   );
 }
 
@@ -139,7 +119,7 @@ export function BlogContent() {
   const [selectedPost, setSelectedPost] = useState<BlogPost | null>(null);
 
   return (
-    <AnimatePresence mode="wait">
+    <div>
       {selectedPost ? (
         <BlogDetail
           key="detail"
@@ -147,17 +127,12 @@ export function BlogContent() {
           onBack={() => setSelectedPost(null)}
         />
       ) : (
-        <motion.div
+        <div
           key="list"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0, x: -50 }}
           className="max-w-4xl mx-auto"
         >
           {/* RSS Subscribe */}
-          <motion.div
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
+          <div
             className="glass rounded-xl p-4 mb-8 flex items-center justify-between"
           >
             <div className="flex items-center gap-3">
@@ -169,16 +144,13 @@ export function BlogContent() {
             <button className="px-4 py-2 bg-moon-gray/10 text-moon-gray font-terminal text-sm rounded-lg hover:bg-moon-gray/20 transition-colors">
               Subscribe to RSS
             </button>
-          </motion.div>
+          </div>
 
           {/* Blog posts */}
           <div className="space-y-6">
             {BLOG_POSTS.map((post, i) => (
-              <motion.article
+              <article
                 key={i}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: i * 0.1 }}
                 onClick={() => setSelectedPost(post)}
                 className="glass rounded-xl p-6 hover:border-moon-gray/50 transition-colors group cursor-pointer"
               >
@@ -222,11 +194,11 @@ export function BlogContent() {
                     Read more <ArrowRight size={14} />
                   </span>
                 </div>
-              </motion.article>
+              </article>
             ))}
           </div>
-        </motion.div>
+        </div>
       )}
-    </AnimatePresence>
+    </div>
   );
 }

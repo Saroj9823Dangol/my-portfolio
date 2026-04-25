@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { Building, Calendar } from "lucide-react";
 import { experience } from "@/data/experience";
 
@@ -16,11 +15,8 @@ export function ExperienceContent() {
             const isCurrent = exp.period.toLowerCase().includes("present");
 
             return (
-              <motion.div
+              <div
                 key={i}
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: i * 0.1 }}
                 className="relative pl-20"
               >
                 {/* Timeline dot */}
@@ -56,7 +52,7 @@ export function ExperienceContent() {
                     {exp.description}
                   </p>
                 </div>
-              </motion.div>
+              </div>
             );
           })}
         </div>

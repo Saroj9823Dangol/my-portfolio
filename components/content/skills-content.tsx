@@ -1,6 +1,5 @@
 "use client";
 
-import { motion, AnimatePresence } from "framer-motion";
 import { useState, memo, useCallback } from "react";
 import { skills } from "@/data/skills";
 
@@ -28,20 +27,12 @@ const SkillPlanet = memo(function SkillPlanet({
   onLeave: () => void;
 }) {
   return (
-    <motion.div
+    <div
       className="absolute top-1/2 left-1/2 z-10"
-      initial={{ rotate: angle }}
-      animate={{ rotate: angle + 360 }}
-      transition={{
-        duration: speed,
-        repeat: Infinity,
-        ease: "linear",
-      }}
       style={{
         width: orbitRadius * 2,
         height: orbitRadius * 2,
-        x: "-50%",
-        y: "-50%",
+        transform: "translate(-50%, -50%)",
       }}
     >
       <div
@@ -53,17 +44,8 @@ const SkillPlanet = memo(function SkillPlanet({
         onMouseEnter={onHover}
         onMouseLeave={onLeave}
       >
-        <motion.div
-          // Counter rotate to keep icon upright
-          initial={{ rotate: -angle }}
-          animate={{ rotate: -(angle + 360) }}
-          transition={{
-            duration: speed,
-            repeat: Infinity,
-            ease: "linear",
-          }}
-        >
-          <motion.div
+        <div>
+          <div
             className={`relative flex items-center justify-center rounded-full bg-background border transition-all duration-300 ${
               isSelected ? "border-2 scale-110" : "border-transparent"
             }`}
@@ -73,8 +55,6 @@ const SkillPlanet = memo(function SkillPlanet({
               borderColor: isSelected ? color : "transparent",
               backgroundColor: "#0f172a", // Solid dark background for contrast
             }}
-            whileHover={{ scale: 1.1 }}
-            whileTap={{ scale: 0.95 }}
           >
             {skill.icon && (
               <skill.icon
@@ -82,8 +62,8 @@ const SkillPlanet = memo(function SkillPlanet({
                 style={{ color: isSelected ? color : "#94a3b8" }}
               />
             )}
-          </motion.div>
-        </motion.div>
+          </div>
+        </div>
 
         {/* CSS-based Tooltip to avoid render lag in animation */}
         <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200 pointer-events-none z-20">
@@ -92,7 +72,7 @@ const SkillPlanet = memo(function SkillPlanet({
           </div>
         </div>
       </div>
-    </motion.div>
+    </div>
   );
 });
 
@@ -120,46 +100,36 @@ export function SkillsContent() {
       onClick={handleBackgroundClick}
     >
       {/* Detail Overlay Card */}
-      <AnimatePresence>
-        {selectedSkillData && (
-          <motion.div
-            initial={{ opacity: 0, scale: 0.9, y: 20 }}
-            animate={{ opacity: 1, scale: 1, y: 0 }}
-            exit={{ opacity: 0, scale: 0.9, y: 20 }}
-            className="absolute z-30 pointer-events-none flex flex-col items-center text-center p-6 rounded-2xl bg-black/80 border border-white/10 backdrop-blur-xl max-w-xs"
-            style={{ top: "60%" }}
-          >
-            <h3 className="text-2xl font-display font-bold text-white mb-1">
-              {selectedSkillData.name}
-            </h3>
-            <div className="w-full bg-white/10 h-1 rounded-full mb-4 overflow-hidden">
-              <motion.div
-                initial={{ width: 0 }}
-                animate={{ width: `${selectedSkillData.level}%` }}
-                transition={{ duration: 0.8, delay: 0.2 }}
-                className="h-full bg-gradient-to-r from-purple-500 to-pink-500"
-              />
-            </div>
-            <p className="font-terminal text-xs text-muted-foreground mb-4">
-              Proficiency Level:{" "}
-              <span className="text-white">{selectedSkillData.level}%</span>
-            </p>
-            <p className="text-sm text-gray-300 leading-relaxed">
-              Core technology in my development stack.
-            </p>
-          </motion.div>
-        )}
-      </AnimatePresence>
+      {selectedSkillData && (
+        <div
+          className="absolute z-30 pointer-events-none flex flex-col items-center text-center p-6 rounded-2xl bg-black/80 border border-white/10 backdrop-blur-xl max-w-xs"
+          style={{ top: "60%" }}
+        >
+          <h3 className="text-2xl font-display font-bold text-white mb-1">
+            {selectedSkillData.name}
+          </h3>
+          <div className="w-full bg-white/10 h-1 rounded-full mb-4 overflow-hidden">
+            <div
+              className="h-full bg-gradient-to-r from-purple-500 to-pink-500"
+              style={{ width: `${selectedSkillData.level}%` }}
+            />
+          </div>
+          <p className="font-terminal text-xs text-muted-foreground mb-4">
+            Proficiency Level:{" "}
+            <span className="text-white">{selectedSkillData.level}%</span>
+          </p>
+          <p className="text-sm text-gray-300 leading-relaxed">
+            Core technology in my development stack.
+          </p>
+        </div>
+      )}
 
-      <motion.div
-        initial={{ opacity: 0, scale: 0.8 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 1 }}
+      <div
         className="relative flex items-center justify-center"
         style={{ width: 600, height: 600 }}
       >
         {/* Central Star (Tech Core) - Simplified */}
-        <motion.div
+        <div
           className="absolute z-10 w-28 h-28 rounded-full bg-slate-900 border border-slate-700 flex items-center justify-center cursor-pointer group hover:border-slate-500 transition-colors"
           onClick={(e) => {
             e.stopPropagation();
@@ -174,7 +144,7 @@ export function SkillsContent() {
               SYSTEM
             </span>
           </div>
-        </motion.div>
+        </div>
 
         {/* Orbits */}
         {orbits.map((orbit, orbitIndex) => (
@@ -211,7 +181,7 @@ export function SkillsContent() {
             })}
           </div>
         ))}
-      </motion.div>
+      </div>
 
       <div className="mt-12 text-center max-w-md mx-auto z-10 pointer-events-none opacity-50">
         <p className="font-terminal text-[10px] text-muted-foreground uppercase tracking-widest">

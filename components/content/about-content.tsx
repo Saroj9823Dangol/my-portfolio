@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { MapPin, Calendar, Heart, Rocket } from "lucide-react";
 import Link from "next/link";
 import { experience } from "@/data/experience";
@@ -8,9 +7,7 @@ import { experience } from "@/data/experience";
 export function AboutContent() {
   return (
     <div className="max-w-4xl mx-auto space-y-8">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
+      <div
         className="glass rounded-xl p-6 md:p-8"
       >
         <h3 className="font-display text-2xl text-earth-blue mb-4">
@@ -49,12 +46,9 @@ export function AboutContent() {
             Get in Touch
           </Link>
         </div>
-      </motion.div>
+      </div>
 
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1 }}
+      <div
         className="grid grid-cols-1 md:grid-cols-2 gap-4"
       >
         <div className="glass rounded-xl p-6 flex items-start gap-4">
@@ -96,12 +90,9 @@ export function AboutContent() {
             </p>
           </div>
         </div>
-      </motion.div>
+      </div>
 
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.2 }}
+      <div
         className="glass rounded-xl p-6 md:p-8"
       >
         <h3 className="font-display text-2xl text-earth-blue mb-4">
@@ -135,7 +126,7 @@ export function AboutContent() {
             </div>
           ))}
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 }

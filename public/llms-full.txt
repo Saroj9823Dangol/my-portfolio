@@ -1,0 +1,176 @@
+# Saroj Dangol — Full Profile
+
+> Saroj Dangol is a Senior Full Stack Developer based in Lalitpur, Nepal,
+> specialising in MERN stack, React Native, and AWS cloud solutions.
+> Available for web development, mobile app development, and cloud projects
+> worldwide. Website: https://www.sarojdangol012.com.np
+
+## Identity
+
+- Full name: Saroj Dangol
+- Title: Senior Full Stack Developer & Mobile Specialist
+- Location: Lalitpur, Bagmati, Nepal (27.671°N, 85.3226°E)
+- Experience: 3+ years professional (since September 2021)
+- Currently at: Marichitech AI (Nov 2024–present), AppTechnologies (Oct 2023–present)
+- Education: BSc CSIT, Tribhuvan University
+- Certification: AWS Certified Developer
+- Website: https://www.sarojdangol012.com.np
+- Email: hello@sarojdangol012.com.np
+
+## Services
+
+### Web Development
+Custom web applications built with React, Next.js, Node.js, and MongoDB. Includes
+responsive UI design, REST and GraphQL API integration, authentication systems,
+e-commerce solutions, and performance optimisation. Serving businesses in Nepal
+and internationally.
+
+### Mobile App Development
+Cross-platform iOS and Android applications using React Native. Includes real-time
+features, push notifications, offline-first architecture, Google Maps integration,
+payment gateway integration (eSewa, Khalti, Stripe), and App Store/Play Store
+submission.
+
+### Backend & API Development
+Scalable, secure backend systems using Node.js, NestJS, and Express.js. Includes
+RESTful and GraphQL API design, JWT authentication, database design (MongoDB,
+MySQL, PostgreSQL), third-party API integrations, and microservices architecture.
+
+### Cloud & DevOps
+AWS infrastructure setup and management including EC2, Lambda (serverless), S3,
+RDS, DynamoDB, CloudFront, and API Gateway. CI/CD pipeline implementation with
+GitHub Actions, Docker containerisation, and performance monitoring.
+
+## Skills
+
+### Frontend
+- React.js: 95% — 3+ years, production applications
+- Next.js: 88% — SSR, SSG, App Router, SEO optimisation
+- TypeScript: 85% — strict typing, interfaces, generics
+- Tailwind CSS: 90% — responsive design, custom design systems
+- React Native: 82% — cross-platform iOS/Android apps
+
+### Backend
+- Node.js: 90% — REST APIs, real-time apps, microservices
+- NestJS: 85% — enterprise-grade APIs, dependency injection
+- Express.js: 88% — middleware, routing, authentication
+- GraphQL: 78% — schema design, resolvers, Apollo Server
+
+### Databases
+- MySQL: 85% — relational design, complex queries, optimisation
+- MongoDB: 80% — document design, aggregation pipelines
+- PostgreSQL: 75% — advanced queries, indexing
+- Redis: 70% — caching, session management
+
+### Cloud & DevOps
+- AWS: 75% — EC2, Lambda, S3, RDS, CloudFront, API Gateway
+- Docker: 72% — containerisation, Docker Compose
+- CI/CD: 70% — GitHub Actions, automated deployments
+- Firebase: 75% — Firestore, Authentication, Cloud Functions
+
+## Experience
+
+### Full Stack Developer — Marichitech AI
+Period: November 2024 – Present
+Developing dynamic web applications with scalable backends. Led performance
+tuning reducing latency by 35%. Integrated third-party APIs and optimized
+frontend assets for production deployments.
+
+### Full Stack Web Developer — AppTechnologies
+Period: October 2023 – Present
+Designed responsive UIs using React.js and Tailwind CSS. Built secure APIs
+with NestJS and Node.js. Applied mobile-first design principles for
+cross-device compatibility across multiple client projects.
+
+### Backend Developer — AppTechnologies
+Period: January 2022 – October 2023
+Developed REST APIs for scalable web applications. Integrated third-party
+services including SMS gateways and payment processors. Optimised SQL queries
+for complex data operations and improved database performance.
+
+### React Intern — AppTechnologies
+Period: September 2021 – December 2021
+Contributed to frontend projects gaining real-world React experience. Built
+reusable UI components and collaborated on code reviews and feature releases.
+
+## Projects
+
+### Nepal Kabaddi League (NKL)
+URL: https://nepalkabaddileague.com/
+Description: Official platform for Nepal's Premier Kabaddi League. Responsive
+sports platform showcasing fixtures, scores, and standings with a secure
+role-based admin panel for content management.
+Technologies: Next.js, Tailwind CSS, Firebase, MongoDB
+
+### Sajilo Ride Sharing
+URL: https://sajilosathi.com/
+Description: Google Maps-based ride sharing platform with fare calculations,
+live location tracking, and real-time ride requests. Features driver and
+passenger apps with real-time communication.
+Technologies: React, Node.js, Google Maps API, Socket.io
+
+### Hamro Blood Bank (HBB)
+URL: https://hamrobloodbank.com
+Description: Real-time blood donation platform connecting donors and recipients.
+Features donor notifications, location-based search, and mobile app integration
+for emergency blood requests.
+Technologies: React, Next.js, React Native, Firebase, Redux, MySQL
+
+### PetsNepal
+URL: https://petsnepal.com.np/
+Description: Pet service platform for booking grooming, vet checkups, and
+sharing pet-related content. Serves 100+ satisfied clients with a comprehensive
+pet care marketplace.
+Technologies: React, NestJS, MySQL, TypeORM
+
+### LAURE Official
+URL: https://akalaure.com/
+Description: Official website for celebrity singer and rapper LAURE. Features
+music releases, tour dates, merchandise, and exclusive content for fans.
+Technologies: Laravel, Node.js, MySQL, Tailwind CSS
+
+### Miami Saloon
+URL: https://miamisalongroup.com/
+Description: Modern salon and barbershop booking platform with real-time
+appointment scheduling, service catalog, stylist profiles, and customer reviews.
+Technologies: Inertia.js, Laravel, Tailwind CSS
+
+### Citygarms
+URL: https://citygarms.com/
+Description: Trendy fashion e-commerce platform with seamless shopping
+experiences, secure payments, and user-friendly navigation for fashion
+enthusiasts.
+Technologies: React, Tailwind CSS, Vite
+
+### Shivalaya Holidays
+URL: https://shivalayaholidays.com
+Description: Travel booking frontend with tour details, booking modals, and
+dynamic content management for a Nepal-based travel agency.
+Technologies: React, Laravel, Inertia.js, Tailwind CSS
+
+### Social Work Institute (SWI)
+URL: https://www.swi-nepal.org/
+Description: Platform empowering youth through skill development training,
+community engagement programs, and resources for social work initiatives in Nepal.
+Technologies: React, Tailwind CSS, Vite
+
+## Contact
+
+- Email: hello@sarojdangol012.com.np
+- GitHub: https://github.com/Saroj9823Dangol
+- LinkedIn: https://linkedin.com/in/er-saroj-dangol-9492bb216
+- Upwork: https://www.upwork.com/freelancers/~01a78d9a0751fb1801
+- Portfolio: https://www.sarojdangol012.com.np
+- About page: https://www.sarojdangol012.com.np/about
+- Contact form: https://www.sarojdangol012.com.np/contact
+
+## Availability
+
+Available for:
+- Freelance web and mobile development projects
+- Contract work (short-term and long-term)
+- Full-time remote positions
+- Technical consulting
+
+Serving clients in Nepal (Kathmandu Valley: Lalitpur, Kathmandu, Bhaktapur)
+and worldwide via remote collaboration. Timezone: Asia/Kathmandu (UTC+5:45).

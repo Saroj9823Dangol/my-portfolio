@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import { ExternalLink, Github } from "lucide-react";
 import { projects } from "@/data/projects";
 import Image from "next/image";
@@ -10,11 +9,8 @@ export function ProjectsContent() {
     <div className="max-w-5xl mx-auto">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {projects.map((project, i) => (
-          <motion.div
+          <div
             key={project.id}
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: i * 0.1 }}
             className="glass rounded-xl overflow-hidden hover:border-mars-red/50 transition-colors group"
           >
             {/* Project Image */}
@@ -80,7 +76,7 @@ export function ProjectsContent() {
                 </a>
               </div>
             </div>
-          </motion.div>
+          </div>
         ))}
       </div>
     </div>

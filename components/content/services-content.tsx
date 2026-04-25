@@ -1,6 +1,5 @@
 "use client";
 
-import { motion } from "framer-motion";
 import {
   ArrowRight,
   Cloud,
@@ -72,9 +71,7 @@ const services = [
 export function ServicesContent() {
   return (
     <div className="max-w-4xl mx-auto space-y-8">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
+      <div
         className="glass rounded-xl p-6 md:p-8 text-center"
       >
         <h3 className="font-display text-2xl text-earth-blue mb-2">
@@ -83,15 +80,12 @@ export function ServicesContent() {
         <p className="font-body text-muted-foreground">
           Comprehensive development solutions tailored to your needs.
         </p>
-      </motion.div>
+      </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {services.map((service, index) => (
-          <motion.div
+          <div
             key={service.id}
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: index * 0.1 }}
             className="group flex flex-col glass rounded-xl overflow-hidden hover:border-earth-blue/50 transition-colors"
           >
             {/* Gradient Header with Icon */}
@@ -136,14 +130,11 @@ export function ServicesContent() {
                 </div>
               </div>
             </div>
-          </motion.div>
+          </div>
         ))}
       </div>
 
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ delay: 0.4 }}
+      <div
         className="text-center"
       >
         <Link
@@ -152,7 +143,7 @@ export function ServicesContent() {
         >
           View All Details <ArrowRight className="w-4 h-4 ml-2" />
         </Link>
-      </motion.div>
+      </div>
     </div>
   );
 }

@@ -1,13 +1,9 @@
 "use client";
 
-import { motion } from "framer-motion";
-
 export function SunContent() {
   return (
     <div className="max-w-4xl mx-auto space-y-8">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
+      <div
         className="text-center"
       >
         {/* Avatar */}
@@ -33,12 +29,9 @@ export function SunContent() {
             TypeScript
           </span>
         </div>
-      </motion.div>
+      </div>
 
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.2 }}
+      <div
         className="glass rounded-xl p-6"
       >
         <h3 className="font-display text-xl text-foreground mb-4">
@@ -51,12 +44,9 @@ export function SunContent() {
           center of this portfolio, I bring energy and light to every project I
           work on.
         </p>
-      </motion.div>
+      </div>
 
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.3 }}
+      <div
         className="grid grid-cols-1 md:grid-cols-3 gap-4"
       >
         <div className="glass rounded-xl p-4 text-center">
@@ -77,7 +67,7 @@ export function SunContent() {
             Companies
           </p>
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 }
