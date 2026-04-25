@@ -1,8 +1,403 @@
 1:"$Sreact.fragment"
-2:I[64572,["/_next/static/chunks/7b84432ef92d96a3.js","/_next/static/chunks/8e4812e70fd0588d.js"],"default"]
-16:I[74662,["/_next/static/chunks/f60b2d32fe610be5.js","/_next/static/chunks/7c455c799ae90de5.js"],"OutletBoundary"]
-17:"$Sreact.suspense"
-3:T1b5f,
+2:I[64572,["/_next/static/chunks/718bc159d10755aa.js","/_next/static/chunks/0242d8db028ddd76.js"],"default"]
+1b:I[16443,["/_next/static/chunks/a050409b700eaed5.js","/_next/static/chunks/d810253c94d15f6f.js"],"OutletBoundary"]
+1c:"$Sreact.suspense"
+3:T1999,
+    <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+      <p>Let's be real: finding a good developer in Nepal is like finding a good restaurant in Thamel - there are tons of options, but how do you know which ones are actually good?</p>
+      <p>I've been in the Nepal tech scene since 2021. I've hired devs, worked with devs, and been hired as a dev. Let me save you some pain and tell you what actually matters when finding the best developer for your project.</p>
+
+      <h2>What Actually Makes a Developer "Good"</h2>
+      <p>Here's the thing: degrees don't matter. I've met Computer Science grads who can't code a login form. I've met self-taught devs who can architect entire systems. Here's what actually matters:</p>
+      <ul>
+        <li><strong>They ship actual projects</strong>: Not tutorials. Real applications that real people use. That's thedifference between someone who knows how to code and someone who knows how to build.</li>
+        <li><strong>They can explain their code</strong>: If they can't explain what they wrote in simple terms, they don't understand it themselves. I've interviewed devs who wrote impressive code but couldn't explain a single line.</li>
+        <li><strong>They communicate</strong>: The best code with terrible communication = failed project. I've seen it happen too many times.</li>
+        <li><strong>They meet deadlines</strong>: Not always, but consistently missing deadlines is a pattern. Pay attention to it.</li>
+        <li><strong>They update you</strong>: Good devs keep you in the loop. Bad devs go silent for weeks and then say "there's a problem."</li>
+      </ul>
+
+      <h2>Skills That Are Actually In Demand</h2>
+      <p>Based on what clients actually hire for:</p>
+      <h3>Frontend (What Users See)</h3>
+      <ul>
+        <li>React.js - The big one. Every company wants it.</li>
+        <li>Next.js - For SEO and performance. Huge in 2026.</li>
+        <li>Vue.js - Some prefer it. Solid choice.</li>
+        <li>Tailwind CSS - Fast development, goodlooking results.</li>
+      </ul>
+      <h3>Backend (What Users Don't See)</h3>
+      <ul>
+        <li>Node.js - JavaScript on the server. Natural progression.</li>
+        <li>Python/Django - Good for data, AI, automation.</li>
+        <li>NestJS - The "enterprise" Node.js choice.</li>
+        <li>Laravel - If they're doing PHP (still a lot of this).</li>
+      </ul>
+      <h3>Mobile</h3>
+      <ul>
+        <li>React Native - One codebase,iOS + Android. Efficient.</li>
+        <li>Flutter - Google's alternative. Solid choice.</li>
+      </ul>
+      <h3>Database</h3>
+      <ul>
+        <li>MongoDB - The MERN stack staple.</li>
+        <li>PostgreSQL - For serious relational data.</li>
+        <li>MySQL - Classic choice. Still widely used.</li>
+      </ul>
+
+      <h2>Where to Find Good Developers</h2>
+      <ul>
+        <li><strong>Upwork</strong>: Best for freelancers. Look for 4.5+ stars, portfolio with actual screenshots, quick responses to messages. I've found good hires here.</li>
+        <li><strong>LinkedIn</strong>: Just search what you need. "React developer Nepal" gets results. Message directly - don't just apply for jobs.</li>
+        <li><strong>GitHub</strong>: Look for activity. Developers who actively contribute to open source or have good repos. This is how I vet backend devs.</li>
+        <li><strong>Clutch</strong>: For agencies. More professional but more expensive.</li>
+        <li><strong>Nepal tech community</strong>: Facebook groups, meetups. The network effect is real.</li>
+        <li><strong>Referrals</strong>: Ask other founders. Who's worked with good devs? Word of mouth is underrated.</li>
+      </ul>
+
+      <h2>Agencies vs Freelancers: What's Right for You?</h2>
+      <p>Here's my honest take:</p>
+      <ul>
+        <li><strong>Agencies</strong>: Better for big projects, more professional process, more expensive. Good for startups with big budgets. You get project managers, structured processes.</li>
+        <li><strong>Freelancers</strong>: Better for small-to-medium projects, direct communication, often cheaper. Good for MVPs and iterations. I am one, so take that as you will.</li>
+      </ul>
+      <p>For your first project? I'd go freelancer. Cheaper, more direct communication, better learning opportunity.</p>
+
+      <h2>Questions to Ask Before Hiring (The Important Ones)</h2>
+      <ol>
+        <li>"Can you show me a live project you've built?" - Not screenshots. LIVE links. Anyone can make fake screenshots.</li>
+        <li>"What's your development process?" - Good devs have a process. Bad devs say "I just code."</li>
+        <li>"How do you handle revisions?" - Establish this upfront. Nobody gets it right first time.</li>
+        <li>"What's your timeline estimate?" - Reasonable estimates = experienced devs. "I can do it in 2 days" = run away.</li>
+        <li>"What happens after launch?" - Bug fixes. Support. Maintenance. These cost money. Know upfront.</li>
+      </ol>
+
+      <h2>Red Flags (Run Away Fast)</h2>
+      <ul>
+        <li>No portfolio or portfolio with stock images</li>
+        <li>Can't explain their own code</li>
+        <li>Won't do a small paid test</li>
+        <li>Communication only via WhatsApp with no contract</li>
+        <li>"I can do it cheap" - You get what you pay for</li>
+        <li>No willingness to share process</li>
+      </ul>
+
+      <h2>How to Test (The Right Way)</h2>
+      <p>Here's what I do when hiring:</p>
+      <ol>
+        <li>Review portfolio - Call the links. Actually use the apps.</li>
+        <li>Request code sample - Ask them to show you GitHub or send a snippet.</li>
+        <li>Give a small task -$50-100 task. Pay them. See how they work.</li>
+        <li>Check references - Call previous clients. Ask the hard questions.</li>
+        <li>Start small - Don't give them your whole project first. Test first.</li>
+      </ol>
+
+      <h2>The Nepal Dev Scene: My Take</h2>
+      <p>The talent is here. But it's about finding the right fit. I've worked with incredible Nepali developers and I've worked with ones who ghosts for weeks. The difference is usually communication and expectations management.</p>
+      <p>My advice: Be clear about what you want. Set expectations early. And don't just go for the cheapest option.</p>
+      <p>If you need help finding or vetting developers, reach out. I've helped several clients find the right devs. It's not that hard once you know what to look for.</p>
+      <p>Contact: hello@sarojdangol012.com.np</p>
+    </div>
+  4:T1c4c,
+    <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+      <p>Alright, let me be real with you. I've been freelancing since 2021, and I made basically every mistake possible before figuring out what actually works. This guide is the stuff I wish someone told me when I started.</p>
+
+      <h2>The Nepal Freelance Reality (2026)</h2>
+      <p>First, let's talk about what's actually happening in Nepal's freelance scene:</p>
+      <p>It's BOOMING. Seriously. Every other person I know is doing some kind of freelance work. Whether it's designing logos, writing content, or building websites - there's money being made.</p>
+      <p>But here's the thing nobody tells you: It's not easy money. I remember my first Upwork proposal - I applied to 47 jobs before getting one response. One response! And that person ghosted me. Welcome to freelancing, right?</p>
+      <p>But once you figure it out, it's pretty sweet. I now earn more freelancing than I would at a regular job, and I've got the freedom to work from anywhere. Coffee shop, home, even from my village during Dashain. That's the dream, right?</p>
+
+      <h2>What You Should Actually Charge</h2>
+      <p>Here's the uncomfortable truth about rates in Nepal. They're all over the place, and it depends on:</p>
+      <ul>
+        <li><strong>Your skill level</strong>: Are you just starting or do you have years of experience?</li>
+        <li><strong>Client type</strong>: Local clients in Nepal vs international clients is a huge difference</li>
+        <li><strong>Project type</strong>: A simple landing page vs a full e-commerce site</li>
+        <li><strong>The platform</strong>: Fiverr clients expect cheap, Upwork clients expect quality</li>
+      </ul>
+      <p>Here's a realistic breakdown based on what I've seen and charged:</p>
+      <ul>
+        <li><strong>Complete beginner (just learned HTML/CSS)</strong>: Start at $5-10/hour. Yes, it's low. But you need reviews, man. Gotta build that profile. Think of it as paying your dues.</li>
+        <li><strong>Can build basic websites (1-2 years)</strong>: $10-20/hour. You can actually deliver stuff now. Don't undersell yourself too much though - I've seen devs charge $5/hour and then wonder why they get terrible clients.</li>
+        <li><strong>Solid developer (2-4 years)</strong>: $20-40/hour. This is where you should be. You can build most things. You communicate well. You're worth this.</li>
+        <li><strong>Expert/Senior (4+ years)</strong>: $40-80/hour. You architect solutions. You lead projects. You've got the portfolio to prove it.</li>
+      </ul>
+      <p>Quick story: I started at $15/hour on Upwork. After 2 years of building my profile, I'm now at $40/hour for the same type of work. The portfolio does the talking.</p>
+
+      <h2>Best Platforms (My Honest Take)</h2>
+      <ul>
+        <li><strong>Upwork</strong>: The big one. Most clients, most competition. You need a strategy - don't just mass apply. Customize every proposal. My success rate went from 2% to 20% when I started writing personalized proposals instead of copy-pasting.</li>
+        <li><strong>Fiverr</strong>: Good for quick small jobs. Create gigs that are specific - "I'll build a React contact form" instead of "I'll build your website." Specific gets more buyers.</li>
+        <li><strong>Toptal</strong>: If you're good, this is where the money's at. Higher barrier to entry, but clients who pay well and treat you with respect. The interview process is tough but worth it.</li>
+        <li><strong>LinkedIn</strong>: Underrated. I've gotten clients through LinkedIn outreach - it's not gig-based like Upwork, it's relationship-based. Works better for longer contracts.</li>
+        <li><strong>Direct outreach</strong>: Cold email businesses. Yes, it takes nerve. But I landed my biggest client just by emailing a local company and saying "Hey, I can build you a better website." They said yes. Still working with them.</li>
+      </ul>
+
+      <h2>How to Actually Get Clients</h2>
+      <p>Here's what actually works (I've tried everything):</p>
+      <ol>
+        <li><strong>Build a portfolio that doesn't suck</strong>: No, random tutorial projects won't cut it. Build something real. I built Hamro Blood Bank for my portfolio - actual users, actual problems solved. That got me more clients than 10 fake projects.</li>
+        <li><strong>Get reviews at any cost</strong>: First few reviews are hard. Do small jobs for slightly lower rates if needed. A 5-star review on Upwork is worth way more than $50.</li>
+        <li><strong>Niche down</strong>: Don't be "a web developer." Be "the guy who builds React apps for healthcare startups." Specific wins over generic every time.</li>
+        <li><strong>Communication is everything</strong>: I've lost more potential clients to bad communication than bad code. Respond fast. Be clear. Don't leave people hanging.</li>
+        <li><strong>Follow up</strong>: I know it's annoying. But a polite follow-up after a proposal increased my response rate by like 300%. People are busy. Remind them you exist.</li>
+      </ol>
+
+      <h2>Payment in Nepal: The Real Talk</h2>
+      <p>This is where it gets tricky. Here's what Nepali freelancers actually use:</p>
+      <ul>
+        <li><strong>PayPal</strong>: Still the most common, but they've cracked down. Your account might get limited. Have backup methods.</li>
+        <li><strong>Wise</strong>: My personal favorite. Low fees, reliable, works for most currencies. Set it up and thank me later.</li>
+        <li><strong>Payoneer</strong>: Good for Upwork specifically. The virtual bank account feature is clutch.</li>
+        <li><strong>Crypto</strong>: Some clients prefer this. Convert to USDT, then to NPR through local exchanges. Not for beginners though.</li>
+        <li><strong>Bank transfer</strong>: For local Nepali clients. Easier but tracking can be a headache.</li>
+      </ul>
+
+      <h2>Challenges (And How to Deal)</h2>
+      <ul>
+        <li><strong>Getting ghosted</strong>: It happens. Don't take it personally. Move on.</li>
+        <li><strong>Scope creep</strong>: Define deliverables clearly from the start. "This is included, that costs extra." Write it down.</li>
+        <li><strong>Bad clients</strong>: Red flag if they won't pay escrow. Don't start without it.</li>
+        <li><strong>Time zones</strong>: Find overlapping hours. I work 9PM-midnight for US clients. Sucks sometimes, but that's the grind.</li>
+        <li><strong>Burnout</strong>: Take breaks. I've worked 14-hour days and crashed hard. Don't be me.</li>
+      </ul>
+
+      <h2>Final Thoughts</h2>
+      <p>Freelancing in Nepal isn't some magic money solution. It's hard work. You'll face rejection, difficult clients, and times when you wonder why you quit your job.</p>
+      <p>But it's also pretty great when it works. I can work from anywhere, set my own hours, and make more money than I would locally. That freedom is worth the struggle.</p>
+      <p>Start small. Apply to jobs. Build your portfolio. Read every day. And don't give up when (not if) things get hard.</p>
+      <p>Questions? Drop me a message at hello@sarojdangol012.com.np - I've been there and I'm happy to help.</p>
+    </div>
+  5:T1925,
+    <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+      <p>So you want to be a freelancer in Nepal? Cool. Let me tell you - I've been there. I started my freelance journey in 2021, and I've made basically every mistake you can imagine. This guide is the stuff I wish someone told me instead of learning the hard way.</p>
+
+      <h2>Why Freelancing in Nepal Actually Makes Sense</h2>
+      <p>Here's the thing: Nepal's cost of living is low, but if you're earning in dollars (or euros, or pounds), you're basically rich by local standards. I'm not exaggerating.</p>
+      <p>$1,000/month from international clients? That's like 135,000 NPR. You can live pretty comfortably on that in Kathmandu. Maybe even support a family.</p>
+      <p>Compare that to a "good" local job that pays 50,000 NPR, and the math starts making sense. Plus, you work from home, set your own hours, and don't have to deal with Kathmandu traffic. That's worth something.</p>
+      <p>But here's the reality: It's not all Instagram freedom lifestyle. There's hard days. Days where you wonder if any of this is worth it. Days where you apply to 30 jobs and get zero responses.</p>
+      <p>But when it works? It's pretty sweet.</p>
+
+      <h2>What Skills Actually Sell in Nepal (2026)</h2>
+      <p>Based on what clients actually ask me for (I keep track):</p>
+      <ul>
+        <li><strong>Web Development</strong>: This is the big one. React, Next.js, Node.js. If you can build a modern website, you'll never be out of work. I've been building with these tools since 2021 and demand just keeps growing.</li>
+        <li><strong>Mobile Apps</strong>: React Native is huge. Everyone wants an app. Build one skill here and you've got yourself a career.</li>
+        <li><strong>WordPress</strong>: Don't dismiss this. Local businesses need WordPress sites constantly. Easy entry point if you're starting.</li>
+        <li><strong>UI/UX Design</strong>: Figma skills are in demand. Companies want their websites to look good.</li>
+        <li><strong>Python/Django</strong>: For backend and automation. Good for data-related work.</li>
+        <li><strong>Content Writing</strong>: If you're good at writing, there's money here. Less technical barrier to entry.</li>
+      </ul>
+      <p>My advice? Pick one skill and go deep. Don't be a generalist who can do nothing well. I'm a full-stack dev, but I positioned myself as "React Native specialist" early on and that got me clients.</p>
+
+      <h2>Setting Your Rates (The Hardest Part)</h2>
+      <p>Here's how I think about rates:</p>
+      <ul>
+        <li><strong>Stage 1: Building profile</strong>: $10-15/hour. Yeah, it's low. But you need reviews. Do 2-3 projects at this rate to build your profile, then raise rates.</li>
+        <li><strong>Stage 2: Established (1-2 years)</strong>: $20-35/hour. You can be picky now. Deliver good work, charge accordingly.</li>
+        <li><strong>Stage 3: Expert (3+ years)</strong>: $40-80/hour. You've got the portfolio. You set the terms.</li>
+      </ul>
+      <p>Quick story: I charged $10/hour for my first Upwork project. It was a simple React bug fix. Took me 2 hours. Now I charge $40/hour for the same type of work. The profile opened those doors.</p>
+      <p>Don't undersell yourself forever, but don't overshoot either. There's a balance.</p>
+
+      <h2>Getting Started Step by Step</h2>
+      <ol>
+        <li><strong>Week 1-2</strong>: Create your Upwork/Fiverr profile. Write a good bio. Don't say "I'm a passionate developer" - no one cares about passion. Say what you can DO for clients.</li>
+        <li><strong>Week 3-4</strong>: Create 2-3 portfolio pieces. Build something real. I built a todo app and a weather app - nothing fancy but it showed I could code.</li>
+        <li><strong>Month 2</strong>: Start applying. Apply to 10 jobs daily. Customize each proposal. Yes, it's exhausting. But it works.</li>
+        <li><strong>Month 3</strong>: Land your first client. Overdeliver. Get that 5-star review. This is the foundation of everything.</li>
+        <li><strong>Month 6 onwards</strong>: Raise your rates. Build more portfolio. Repeat.</li>
+      </ol>
+
+      <h2>Platforms That Actually Work</h2>
+      <ul>
+        <li><strong>Upwork</strong>: The big one. Competition is fierce but so are the clients. Stand out with a good proposal.</li>
+        <li><strong>Fiverr</strong>: Good for quick small jobs. Create specific gigs - "I will build a React login form" beats "I will build your website."</li>
+        <li><strong>Toptal</strong>: Higher barrier to entry. Higher pay. If you're good, try it.</li>
+        <li><strong>LinkedIn</strong>: Underused. Post content, engage with people, get found.</li>
+        <li><strong>Direct outreach</strong>: The scariest but most rewarding. Just email businesses and offer help.</li>
+      </ul>
+
+      <h2>Payment Methods (What Nepalis Actually Use)</h2>
+      <ul>
+        <li><strong>PayPal</strong>: Most common but increasingly problematic. Accounts get limited. Have a backup.</li>
+        <li><strong>Wise</strong>: My personal go-to. Low fees, reliable, works great.</li>
+        <li><strong>Payoneer</strong>: Specifically good for Upwork withdrawals.</li>
+        <li><strong>Crypto</strong>: Some clients prefer this. Requires more setup but works.</li>
+        <li><strong>Bank transfer</strong>: For local clients. Simpler but tracking can be annoying.</li>
+      </ul>
+
+      <h2>What I Wish I Knew Starting Out</h2>
+      <ul>
+        <li>Apply to jobs DAILY. Consistency beats quality proposals. Just show up.</li>
+        <li>Don't take rejection personally. I applied to 50+ jobs before my first response.</li>
+        <li>Communication matters more than code. I've gotten jobs over better coders because I communicated better.</li>
+        <li>Deliver more than promised. That 5-star review is worth everything.</li>
+        <li>It's a marathon, not a sprint. Don't burn out.</li>
+      </ul>
+
+      <h2>The Bottom Line</h2>
+      <p>Freelancing in Nepal is possible. I'm living proof. But it's not some get-rich-quick scheme. It takes work, patience, and the ability to handle rejection.</p>
+      <p>Start today. Apply to jobs. Build your portfolio. And don't give up when it gets hard (and it will get hard).</p>
+      <p>Questions? I've been there. Reach out at hello@sarojdangol012.com.np - happy to help a fellow Nepali freelancer.</p>
+    </div>
+  6:T18f1,
+    <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+      <p>Okay, real talk. If you're looking to hire a MERN stack developer in Nepal, I've been on both sides of this table - I've hired developers myself and I've been hired as a developer. So let me give you the honest breakdown that actually matters.</p>
+
+      <h2>Why Nepal for MERN Developers?</h2>
+      <p>Let me share something from my own journey. When I started back in 2021, I was building random projects for friends and family - nothing fancy. But fast forward to now, and I've seen the Nepal tech scene explode. Here's what's happening:</p>
+      <p>The MERN stack (MongoDB, Express.js, React.js, Node.js) is literally everywhere in Kathmandu and Lalitpur. Why? Because you write JavaScript for both frontend and backend. One language. That's it. No need to learn Python or PHP separately. That simplicity is why every bootcamp and CS graduate is jumping on the MERN train.</p>
+      <p>And honestly? The quality is there. I've worked with developers who went from zero to hero in 8 months - building real, production apps. The talent pool is legit.</p>
+
+      <h2>What You Should Actually Pay (2026)</h2>
+      <p>Here's the deal nobody talks about openly.Rates are all over the place, and I'm going to be straight with you:</p>
+      <ul>
+        <li><strong>Fresher to 1 year</strong>: They're eager, they're cheap, but they'll need some hand-holding. Expect to pay around NPR 25,000-40,000/month if hiring full-time, or $10-18/hour on Upwork. Some will even work for exposure (don't exploit this lol).</li>
+        <li><strong>2-3 years experience</strong>: This is where the sweet spot is. They can build stuff without constant supervision. NPR 45,000-80,000/month or $18-30/hour. I've hired at this level and been hired at this level.</li>
+        <li><strong>4+ years</strong>: They can architect solutions, lead teams, and actually make good decisions. NPR 80,000-150,000+/month or $30-50/hour. Worth every penny if you find the right one.</li>
+        <li><strong>For international clients through platforms</strong>: You can find amazing talent at $15-40/hour through Upwork or Toptal. Still a fraction of US rates.</li>
+      </ul>
+      <p>Pro tip: Don't just go for the cheapest option. I've seen projects fail because someone picked the cheapest dev and got烂代码 (lousy code). Pay for quality.</p>
+
+      <h2>Skills That Actually Matter</h2>
+      <p>Here's what I look for when hiring or getting hired:</p>
+      <h3>The Non-Negotiables</h3>
+      <ul>
+        <li>Can they actually build a React hook from scratch? Not just copy from tutorials.</li>
+        <li>Do they understand async/await? Like, really understand it?</li>
+        <li>Can they connect to MongoDB and not mess up the queries?</li>
+        <li>Have they deployed something live? Not just localhost projects.</li>
+      </ul>
+
+      <h3>The Nice-to-Haves</h3>
+      <ul>
+        <li>Next.js experience (huge plus in 2026)</li>
+        <li>TypeScript (will save you headaches later)</li>
+        <li>Tailwind CSS (faster development)</li>
+        <li>Testing knowledge (if they write tests, they're serious)</li>
+      </ul>
+
+      <p>I'll be honest - I've met devs who know every algorithm but can't actually build a working login system. Don't fall for impressive-sounding talk. Ask for code samples. Ask to see their GitHub. Ask what they actually built, not what they studied.</p>
+
+      <h2>Where to Find These Developers</h2>
+      <p>From my experience:</p>
+      <ul>
+        <li><strong>Upwork</strong>: Good for finding freelancers. I've found some solid devs here. Look for 4.5+ stars with actual project photos, not just stock images.</li>
+        <li><strong>LinkedIn</strong>: Just search "MERN stack developer Nepal" - tons of results. Reach out directly.</li>
+        <li><strong>GitHub</strong>: Look for Nepali developers with active repos. Actually impressive - some are super active.</li>
+        <li><strong>Nepal tech community</strong>: There are Facebook groups, meetups, even hackathons now. Tap into that network.</li>
+        <li><strong>Referrals</strong>: Ask around. Who's worked with good devs? Word of mouth is gold.</li>
+      </ul>
+
+      <h2>Interview Questions That Actually Reveal Stuff</h2>
+      <p>Skip the generic questions. Ask stuff like:</p>
+      <ul>
+        <li>"Show me your most complex project. What was the hardest part and how did you solve it?"</li>
+        <li>"What's a bug you spent hours fixing? What was the solution?"</li>
+        <li>"How do you handle when a client changes requirements mid-project?"</li>
+        <li>"Walk me through your code review process."</li>
+      </ul>
+      <p>If they can't explain their own code in simple terms, that's a red flag. I've interviewed candidates who couldn't explain their own portfolio projects. Run away from those.</p>
+
+      <h2>Red Flags to Watch For</h2>
+      <p>Learn from my mistakes:</p>
+      <ul>
+        <li>Only tutorial projects - real devs build their own stuff</li>
+        <li>Can't explain their code - if they wrote it, they should know it</li>
+        <li>No GitHub or inactive - shows they're not actually building</li>
+        <li>Bad communication - will be a nightmare for project management</li>
+        <li>Overpromising and underdelivering - you know the type</li>
+      </ul>
+
+      <h2>How to Actually Test Them</h2>
+      <p>Here's what I do: Give a small paid test task. Like, really small - build a simple API or a basic todo list. Pay them for it. If they:</p>
+      <ol>
+        <li>Deliver on time</li>
+        <li>Write clean, understandable code</li>
+        <li>Ask good questions</li>
+        <li>Communicate progress</li>
+      </ol>
+      <p>Then you know you've got a keeper. I've hired 3 developers using this method and it's worked out great.</p>
+
+      <h2>The Bottom Line</h2>
+      <p>Hiring a MERN developer in Nepal in 2026 is a great move. You get quality work at fair prices. But don't just shop by price - look for someone who actually codes, communicates well, and gives a damn about your project.</p>
+      <p>Want my help? I know some solid developers. Or if you need someone to build your project, hit me up. I'm always down to help Nepal tech scene grow.</p>
+      <p>Drop me a message at hello@sarojdangol012.com.np - let's talk.</p>
+    </div>
+  7:T1a25,
+    <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+      <p>Alright, let's talk money. If you're thinking about building an IT project in Nepal, you probably have one question first: "How much is this going to cost me?"</p>
+      <p>I've been on both sides of this - I've hired devs for my projects and I've given quotes to clients. Let me break it down honestly so you know what to expect.</p>
+
+      <h2>Why Nepal Makes Sense (Dollar-wise)</h2>
+      <p>Here's the thing: building software in Nepal costs WAY less than in the US or Europe, but the quality? Actually comparable. Maybe even better sometimes because developers here actually care about their craft.</p>
+      <p>Let me put it this way: A $30,000 project in the US will probably cost you around $5,000-10,000 in Nepal. Same quality. Same features. Just more affordable because the cost of living is different.</p>
+      <p>That's not exploitation or anything - it's just economics. And for you as a client, that's a pretty sweet deal.</p>
+
+      <h2>Website Costs - Real Numbers</h2>
+      <ul>
+        <li><strong>Landing page (5-7 sections)</strong>: NPR 15,000-30,000 ($110-220). Simple HTML/CSS landing page. Good for testing ideas.</li>
+        <li><strong>Business website (10-15 pages)</strong>: NPR 35,000-80,000 ($260-600). About us, services, contact, the usual. Basically a digital business card. I've built dozens of these.</li>
+        <li><strong>Blog/Content website</strong>: NPR 50,000-100,000 ($370-740). WordPress or custom blog with CMS. Good for SEO and content marketing.</li>
+        <li><strong>E-commerce website</strong>: NPR 100,000-350,000 ($740-2,600). Product catalog, shopping cart, payment integration (eSewa/Khalti), order management. This is where it gets real.</li>
+        <li><strong>Custom web application</strong>: NPR 200,000-2,000,000+ ($1,500-$15,000). SaaS, dashboards, booking systems, anything with custom logic. Price depends on complexity.</li>
+      </ul>
+
+      <h2>Mobile App Costs - What to Expect</h2>
+      <p>I've built a few mobile apps in React Native. Here's the reality:</p>
+      <ul>
+        <li><strong>Simple app (3-5 screens)</strong>: NPR 200,000-400,000 ($1,500-3,000). Login, profile, some basic features. Think "hello world plus."</li>
+        <li><strong>Medium app (5-10 screens)</strong>: NPR 400,000-1,500,000 ($3,000-11,000). Real features - user dashboards, notifications, basic API integration, maybe payments. I've worked on apps at this level.</li>
+        <li><strong>Complex app (10+ screens)</strong>: NPR 1,500,000-8,000,000+ ($11,000-$60,000). Real-time features, multiple user types, complex backend, third-party integrations. This is proper startup territory.</li>
+        <li><strong>Enterprise app</strong>: NPR 8,000,000+ ($60,000+). Think banking apps, health apps with compliance, logistics with real-time GPS. Big projects.</li>
+      </ul>
+
+      <h2>Backend & API Costs</h2>
+      <ul>
+        <li><strong>Simple REST API</strong>: NPR 40,000-80,000 ($300-600). Login, basic CRUD operations. Not glamorous but necessary.</li>
+        <li><strong>Custom API with auth</strong>: NPR 80,000-200,000 ($600-1,500). JWT authentication, role-based access, proper security.</li>
+        <li><strong>Complex backend system</strong>: NPR 200,000-1,000,000+ ($1,500-$7,500). Multiple microservices, real-time features, complex database. This is where my backend skills come in handy.</li>
+      </ul>
+
+      <h2>What Actually Drives the Cost</h2>
+      <p>Here's what I've learned quoting projects:</p>
+      <ul>
+        <li><strong>Features = Money</strong>: Every "cool feature" you want adds time and money. That innovative idea? It's probably 20% of your budget. Be honest about what you actually need.</li>
+        <li><strong>Design complexity</strong>: Custom designs cost more than templates. But honestly? Good templates often look better than bad custom designs. Pick your battles.</li>
+        <li><strong>Third-party integrations</strong>: Connecting to payment gateways, maps, SMS, email - each integration takes time. Building one project with eSewa took me 3 weeks just for payment integration, no joke.</li>
+        <li><strong>Database complexity</strong>: Simple user tables = cheap. Multi-layered relational data with complex queries = expensive. Plan your data structure.</li>
+        <li><strong>Timeline</strong>: Rush jobs cost more. If you need it "asap," expect to pay 20-30% premium. I've had clients ask for 2-week turnarounds on projects that should take 2 months. Doesn't end well.</li>
+        <li><strong>Developer experience</strong>: Senior devs cost more. But they also finish faster and with fewer bugs. Sometimes paying more upfront saves money on fixes later.</li>
+      </ul>
+
+      <h2>Hidden Costs Nobody Talks About</h2>
+      <ul>
+        <li><strong>Domain & hosting</strong>: Usually $20-100/year. Don't forget this!</li>
+        <li><strong>App store fees</strong>: Apple Developer = $99/year. Google Play = $25 one-time. Factor this in for mobile apps.</li>
+        <li><strong>Maintenance</strong>: Bugs happen. Plan for 10-15% of project cost yearly for fixes and updates.</li>
+        <li><strong>SSL certificates</strong>: Free from Let's Encrypt these days. No excuse not to have one.</li>
+        <li><strong>Content creation</strong>: If you need copy, images, or videos - that costs extra. Building the app is one thing, filling it with content is another.</li>
+      </ul>
+
+      <h2>How to Not Get Scammed</h2>
+      <ul>
+        <li>Get quotes from multiple developers. Don't just go with the first one.</li>
+        <li>Ask for a timeline. If someone says they can build your e-commerce site in 3 days, they're lying or cutting corners.</li>
+        <li>Request milestones. Pay 30% upfront, 30% at midpoint, 40% on completion. That keeps everyone accountable.</li>
+        <li>Get everything in writing. Scope, timeline, costs, revision policy. Verbal agreements = problems later.</li>
+        <li>Check their work. Actually call their previous clients. Ask the hard questions.</li>
+      </ul>
+
+      <h2>My Recommendation</h2>
+      <p>Start small. Don't come in asking for a full Amazon clone with $500 budget. It doesn't work that way.</p>
+      <p>Start with a minimum viable product (MVP). Get it working. Test it with real users. Then iterate. That's how successful projects actually work in the real world.</p>
+      <p>If you're unsure, reach out. I offer free consultations - let's discuss what you actually need vs what you think you need. You'd be surprised how often they're different.</p>
+      <p>Contact: hello@sarojdangol012.com.np</p>
+    </div>
+  8:T1b5f,
     <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
       <h2>Why Next.js Excels at SEO in 2026</h2>
       <p>Next.js has become the go-to React framework for SEO-critical apps like marketing sites, e-commerce, blogs, and SaaS. Its hybrid rendering (SSR, SSG, ISR), built-in Metadata API, React Server Components, and automatic optimizations deliver crawlable HTML instantly — no JavaScript execution needed for bots.</p>
@@ -144,7 +539,7 @@ export async function generateMetadata(
       <p>Deploy on Vercel for edge speed & built-in analytics. Audit regularly with tools like Search Console & Lighthouse. Implement these practices, and watch your rankings climb!</p>
       <p>Questions or your own tips? Comment below!</p>
     </div>
-  4:T179e,
+  9:T179e,
     <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
       <h2>Introduction to Serverless on AWS</h2>
       <p>Serverless computing has transformed how developers build and deploy applications. With AWS serverless services, you no longer provision or manage servers — AWS handles scaling, patching, and high availability automatically. You pay only for the compute time you consume.</p>
@@ -256,7 +651,7 @@ exports.handler = async (event) => {
       <p>Start small with a basic CRUD API, then expand with Cognito, Step Functions, S3, EventBridge, and more as your needs grow. Serverless isn't just a trend — in 2026 it's the default choice for agile, cloud-native development.</p>
       <p>Happy building!</p>
     </div>
-  5:T18cd,
+  a:T18cd,
     <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
       <h2>Why Choose React Native for App Development in Nepal (2026)?</h2>
       <p>React Native remains a top choice for cross-platform mobile apps in Nepal. One codebase for iOS and Android saves 30–50% time & cost vs native development. Nepali developers excel in React Native (thanks to strong JS/React ecosystem), and local/remote talent is affordable yet skilled — ideal for startups, SMEs, e-commerce, fintech, and delivery apps.</p>
@@ -344,7 +739,7 @@ exports.handler = async (event) => {
       <p>Define your requirements clearly, compare quotes from 3–5 providers, and prioritize experienced teams with React Native portfolios. With Nepal's growing tech talent pool, you get world-class quality at unbeatable prices.</p>
       <p>Ready to build? Share your app idea in the comments or contact local firms today!</p>
     </div>
-  6:T1bca,
+  b:T1bca,
     <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
       <h2>Introduction: Why Compare MERN Stack in 2026?</h2>
       <p>The <strong>MERN stack</strong> (MongoDB, Express.js, React, Node.js) remains one of the most popular full-stack JavaScript solutions for building dynamic web applications. Its all-JavaScript ecosystem, huge community, and flexibility make it ideal for startups, MVPs, and real-time apps.</p>
@@ -461,7 +856,7 @@ exports.handler = async (event) => {
       <p>Pick based on your project, team skills, and priorities (SEO/performance vs raw speed of development). The JavaScript ecosystem wins either way!</p>
       <p>What stack are you using in 2026? Drop a comment below!</p>
     </div>
-  7:T1b0e,
+  c:T1b0e,
     <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
       <h2>Why Hire IT Developers in Nepal in 2026?</h2>
       <p>Nepal has emerged as a top destination for <strong>IT outsourcing</strong> and hiring skilled developers. With a young, English-speaking workforce, strong education in engineering colleges like Pulchowk and Kathmandu University, and growing expertise in web, mobile, full-stack, AI, and cloud technologies, Nepali developers deliver high-quality work at competitive costs.</p>
@@ -529,7 +924,7 @@ exports.handler = async (event) => {
       <p>Ready to hire? Post on Upwork, reach out via LinkedIn, or contact reputable firms like those on Clutch.co. Nepal's tech talent is waiting to power your next project.</p>
       <p>Share your hiring experiences or questions in the comments below!</p>
     </div>
-  8:T1a69,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+  d:T1a69,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             background: white; -webkit-background-clip: text; 
             -webkit-text-fill-color: transparent; background-clip: text; position: relative;">
@@ -657,7 +1052,7 @@ exports.handler = async (event) => {
           By 2026, server components will dominate MERN stack apps, with Next.js 15 simplifying integration. Developers must optimize server-side logic and caching to maximize performance.
         </p>
       </div>
-    9:T19cf,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+    e:T19cf,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             background: white; -webkit-background-clip: text; 
             -webkit-text-fill-color: transparent; background-clip: text; position: relative;">
@@ -776,7 +1171,7 @@ exports.handler = async (event) => {
           By 2026, WebAssembly will power advanced MERN apps, with frameworks like Wasmer enhancing Node.js integration. Developers must upskill in Rust and optimize Wasm modules for performance.
         </p>
       </div>
-    a:T4678,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+    f:T4678,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             background: white; -webkit-background-clip: text; 
             -webkit-text-fill-color: transparent; background-clip: text; position: relative;">
@@ -1106,7 +1501,7 @@ exports.handler = async (event) => {
           </code></pre>
         </div>
       </div>
-    b:T69a0,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+    10:T69a0,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
           <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
               background: white; -webkit-background-clip: text; 
               -webkit-text-fill-color: transparent; background-clip: text; position: relative;">
@@ -1556,7 +1951,7 @@ exports.handler = async (event) => {
             Becoming a full-stack developer in 2025 is an exciting journey that combines technical expertise with adaptability. By mastering the MERN stack, leveraging AI tools like Grok and Copilot, and building real-world projects, you can carve out a rewarding career. Start with the basics, stay curious, and keep learning to thrive in this dynamic field.
           </p>
         </div>
-      c:T5351,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+      11:T5351,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             background: white; -webkit-background-clip: text; 
             -webkit-text-fill-color: transparent; background-clip: text; position: relative;">
@@ -1927,7 +2322,7 @@ my-mern-app/
           A well-organized MERN stack folder structure is essential for building scalable, maintainable applications in 2025. By separating client and server, modularizing components, and leveraging AI tools like Grok, developers can streamline workflows and enhance collaboration. Adopting these best practices ensures your MERN projects are ready for growth and innovation.
         </p>
       </div>
-    d:T4792,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+    12:T4792,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             background: white; -webkit-background-clip: text; 
             -webkit-text-fill-color: transparent; background-clip: text; position: relative;">
@@ -2240,7 +2635,7 @@ my-mern-app/
           The MERN stack's dominance in 2025 is driven by its full JavaScript ecosystem, scalability, and alignment with trends like AI and serverless architecture. Its appeal to developers lies in rapid development, strong community support, and a robust job market. By embracing modern tools and addressing challenges, MERN developers can build cutting-edge applications and thrive in the evolving tech landscape.
         </p>
       </div>
-    e:T3ca9,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
+    13:T3ca9,<div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             background: white; -webkit-background-clip: text; 
             -webkit-text-fill-color: transparent; background-clip: text; position: relative;">
@@ -2492,7 +2887,7 @@ my-mern-app/
           </code></pre>
         </div>
       </div>
-    f:T2623,
+    14:T2623,
       <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             background: white; -webkit-background-clip: text; 
@@ -2691,7 +3086,7 @@ my-mern-app/
           </li>
         </ul>
       </div>
-    10:T2554,
+    15:T2554,
       <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             background: white; -webkit-background-clip: text; 
@@ -2888,7 +3283,7 @@ my-mern-app/
           </li>
         </ul>
       </div>
-    11:T2402,
+    16:T2402,
       <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
        
 
@@ -3085,7 +3480,7 @@ my-mern-app/
           </li>
         </ul>
       </div>
-    12:T1de6,
+    17:T1de6,
   <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
  
   <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
@@ -3257,7 +3652,7 @@ const UserList = React.memo(({ users }) => {
     </li>
   </ul>
 </div>
-13:T1e9f,
+18:T1e9f,
       <div style="color: #e5e7eb; line-height: 1.8; font-size: 1.125rem;">
         <h2 style="color: white; font-size: 1.875rem; font-weight: 700; margin-top: 3rem; margin-bottom: 1.5rem; 
             -webkit-text-fill-color: transparent; background-clip: text; position: relative;">
@@ -3433,7 +3828,7 @@ const UserList = React.memo(({ users }) => {
   };</code></pre>
         </div>
       </div>
-    0:{"buildId":"MtP5w_f4wBQ6fCETY0RDl","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"pt-16","children":["$","section",null,{"className":"py-24 max-w-4xl mx-auto px-6","children":[["$","span",null,{"className":"label-mono","children":"Writing"}],["$","h1",null,{"className":"heading-display mt-2 text-4xl md:text-5xl text-[var(--color-fg)]","children":"Blog"}],["$","p",null,{"className":"mt-4 text-lg text-[var(--color-fg-muted)] max-w-xl","children":"Thoughts on web development, mobile apps, cloud architecture, and building software in Nepal."}],["$","$L2",null,{"posts":[{"id":"nextjs-seo-best-practices","slug":"nextjs-seo-best-practices","title":"Next.js SEO Best Practices: Complete Guide for 2026","image":"/images/blogs/nextjs-seo.jpg","excerpt":"Master SEO in Next.js applications with this comprehensive guide covering metadata, structured data, performance optimization, and more.","content":"$3","date":"2026-01-28","formattedDate":"January 28, 2026","readingTime":"14 min","tags":["nextjs","seo","web performance","react","app-router","metadata"],"metaTitle":"Next.js SEO Best Practices 2026: Metadata API, Rendering & Performance Guide","metaDescription":"Complete 2026 guide to Next.js SEO: App Router Metadata API, SSG/ISR/SSR strategies, structured data, image optimization, Core Web Vitals, and ranking tips.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/nextjs-seo-best-practices","keyTakeaways":["Next.js Server-Side Rendering (SSR) significantly improves SEO compared to client-side rendering","The Next.js Metadata API simplifies adding title, description, and Open Graph tags","Image optimization with next/image is critical for Core Web Vitals performance","Structured data (JSON-LD) helps search engines understand page content and enables rich results","Canonical URLs prevent duplicate content issues that can harm search rankings"],"relatedSlugs":["react-server-components-2025","server-components-nextjs-15-mern-2025","building-scalable-micro-frontends-nextjs-2025"]},{"id":"aws-serverless-architecture","slug":"aws-serverless-architecture-guide","title":"Building Scalable Applications with AWS Serverless Architecture","image":"/images/blogs/aws-serverless.jpg","excerpt":"Learn how to leverage AWS Lambda, API Gateway, and DynamoDB to build cost-effective, scalable serverless applications.","content":"$4","date":"2026-01-25","formattedDate":"January 25, 2026","readingTime":"15 min","tags":["aws","serverless","lambda","cloud"],"metaTitle":"Building Scalable Applications with AWS Serverless Architecture","metaDescription":"Learn how to leverage AWS Lambda, API Gateway, and DynamoDB to build cost-effective, scalable serverless applications.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/aws-serverless-architecture-guide","keyTakeaways":["AWS Lambda enables serverless functions that scale automatically with zero server management","Serverless architecture reduces operational costs by charging only for actual compute time","API Gateway combined with Lambda creates scalable REST APIs without managing servers","DynamoDB is the recommended database for serverless applications due to its auto-scaling","Cold start latency is the main trade-off of serverless architecture"],"relatedSlugs":["mern-stack-guide-2025","how-to-become-full-stack-developer-2025","react-server-components-2025"]},{"id":"react-native-app-cost","slug":"react-native-app-development-cost-nepal","title":"React Native App Development Cost in Nepal: Complete Breakdown","image":"/images/blogs/app-development-cost.webp","excerpt":"Detailed breakdown of mobile app development costs in Nepal. Learn about pricing factors, timeline estimates, and how to budget for your project.","content":"$5","date":"2026-01-22","formattedDate":"January 22, 2026","readingTime":"12 min","tags":["react native","pricing","nepal","mobile apps","app development","cost breakdown"],"metaTitle":"React Native App Development Cost in Nepal 2026: Full Breakdown & Estimates","metaDescription":"2026 guide to React Native mobile app development costs in Nepal: simple to complex app pricing (NPR 5–80 lakhs), hourly rates, factors, timelines, and cost-saving tips for startups & businesses.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/react-native-app-development-cost-nepal","keyTakeaways":["React Native app development in Nepal costs significantly less than in Western markets","A basic React Native app in Nepal starts from NPR 80,000 to NPR 150,000","App complexity, features, and integrations are the primary cost drivers","Ongoing maintenance typically costs 15-20% of the initial development cost annually","Hiring a local Nepali developer offers cost savings while maintaining quality"],"relatedSlugs":["how-to-hire-it-developer-nepal","mern-stack-guide-2025","how-to-become-full-stack-developer-2025"]},{"id":"mern-stack-vs-alternatives","slug":"mern-stack-vs-alternatives-2026","title":"MERN Stack vs Alternatives in 2026: Which Should You Choose?","image":"/images/blogs/mern-stack-comparison.jpg","excerpt":"A comprehensive comparison of MERN stack with other popular technology stacks. Understand the pros, cons, and best use cases for each.","content":"$6","date":"2026-01-20","formattedDate":"January 20, 2026","readingTime":"12 min","tags":["mern","react","nodejs","web development","nextjs","fullstack","2026"],"metaTitle":"MERN Stack vs Next.js, PERN, T3 & Alternatives in 2026: Full Comparison","metaDescription":"MERN stack vs alternatives 2026: Compare MERN with Next.js, PERN, T3 Stack, Remix, MEAN. Pros, cons, best use cases, and which full-stack to choose for modern web apps.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/mern-stack-vs-alternatives-2026","keyTakeaways":["MERN stack remains the most popular full stack JavaScript framework in 2026","Next.js has largely replaced Create React App for production React applications","Python-based stacks (Django, FastAPI) are preferred for AI and data-heavy applications","The choice of stack should be driven by project requirements, not trends","TypeScript adoption has become standard across all major JavaScript frameworks"],"relatedSlugs":["mern-stack-guide-2025","why-mern-stack-dominates-2025","how-to-become-full-stack-developer-2025"]},{"id":"hire-developer-nepal","slug":"how-to-hire-it-developer-nepal","title":"How to Hire the Right IT Developer in Nepal: A Complete Guide","image":"/images/blogs/hire-developer-nepal.jpg","excerpt":"Learn the essential steps to find and hire qualified IT developers in Nepal. Discover what to look for, questions to ask, and how to ensure project success.","content":"$7","date":"2026-01-15","formattedDate":"January 15, 2026","readingTime":"12 min","tags":["hiring","nepal","it developer","freelancing","outsourcing","software developer"],"metaTitle":"How to Hire the Right IT Developer in Nepal 2026: Salaries, Platforms & Tips","metaDescription":"Complete 2026 guide to hiring skilled IT developers in Nepal: best platforms, salary ranges, interview questions, outsourcing tips, and how to find top talent cost-effectively.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/how-to-hire-it-developer-nepal","keyTakeaways":["Nepal has a growing pool of skilled IT developers with competitive rates","Verify a developer's portfolio and GitHub profile before hiring","Communication skills are as important as technical skills for remote work","Lalitpur and Kathmandu are the main tech hubs in Nepal","Freelance platforms like Upwork provide access to vetted Nepali developers"],"relatedSlugs":["react-native-app-development-cost-nepal","mern-stack-guide-2025","how-to-become-full-stack-developer-2025"]},{"id":"13","slug":"server-components-nextjs-15-mern-2025","title":"Server Components in Next.js 15: Revolutionizing MERN Stack Performance","image":"/images/blogs/server-components-nextjs.jpg","excerpt":"Learn how Next.js 15’s server components enhance MERN stack performance in 2025, reducing client-side JavaScript and improving SEO with practical MongoDB integration.","content":"$8","date":"2025-09-30","formattedDate":"September 30, 2025","readingTime":"7 min","tags":["Server Components","Next.js","MERN Stack","Performance","SEO","MongoDB"],"metaTitle":"Server Components in Next.js 15: Boosting MERN Stack Performance","metaDescription":"Explore how Next.js 15’s server components revolutionize MERN stack performance in 2025, with MongoDB integration for reduced JavaScript and improved SEO.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/server-components-nextjs","keyTakeaways":["Server Components eliminate the need for useEffect for data fetching in many cases","Zero JavaScript is sent to the client for Server Components, improving performance","Server Components and Client Components can be composed together in the same tree","Streaming with Suspense enables progressive rendering of Server Components","Server Components are the default in Next.js 13+ App Router"],"relatedSlugs":["react-server-components-2025","nextjs-seo-best-practices","building-scalable-micro-frontends-nextjs-2025"]},{"id":"10","slug":"webassembly-mern-stack-2025","title":"WebAssembly in 2025: Supercharging MERN Stack Performance","image":"/images/blogs/WebAssembly-in-2025-Supercharging-MERN-Stack-Performance.webp","excerpt":"Discover how WebAssembly (Wasm) enhances MERN stack performance in 2025, enabling high-performance computing for tasks like image processing and AI in React and Node.js apps.","content":"$9","date":"2025-09-15","formattedDate":"September 15, 2025","readingTime":"7 min","tags":["WebAssembly","MERN Stack","React","Node.js","Performance","Web Development"],"metaTitle":"WebAssembly in 2025: Boosting MERN Stack Performance","metaDescription":"Learn how WebAssembly supercharges MERN stack apps in 2025, enabling high-performance computing with React and Node.js for tasks like AI and image processing.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/WebAssembly-in-2025-Supercharging-MERN-Stack-Performance","keyTakeaways":["WebAssembly (WASM) enables near-native performance for computationally intensive web applications","WASM can be compiled from C, C++, Rust, and other languages for use in browsers","WebAssembly complements JavaScript rather than replacing it","WASM is ideal for video processing, gaming, cryptography, and scientific computing in browsers","The WASM ecosystem is maturing rapidly with tools like Emscripten and wasm-pack"],"relatedSlugs":["react-performance-optimization-2024","mern-stack-guide-2025","aws-serverless-architecture-guide"]},{"id":"8","slug":"ssr-vs-csr-web-development-2025","title":"SSR vs CSR: A 2025 Guide for MERN Stack Developers","image":"/images/blogs/ssr-vs-csr-web-development-2025.png","excerpt":"Discover the differences between Server-Side Rendering (SSR) and Client-Side Rendering (CSR) in 2025, their impact on MERN stack development, pros, cons, and how to choose the right approach for performance and SEO.","content":"$a","date":"2025-09-04","formattedDate":"September 4, 2025","readingTime":"8 min","tags":["SSR","CSR","Next.js","React","MERN Stack","SEO","Performance","Web Development"],"metaTitle":"SSR vs CSR in 2025: Which is Best for MERN Stack Developers?","metaDescription":"Explore Server-Side Rendering (SSR) vs Client-Side Rendering (CSR) in 2025 for MERN stack apps, comparing performance, SEO, and tools like Next.js and React Query.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/ssr-vs-csr-web-development-2025","keyTakeaways":["SSR (Server-Side Rendering) generates HTML on the server for each request, improving SEO","CSR (Client-Side Rendering) loads a minimal HTML shell and renders content with JavaScript","SSR provides better initial page load performance and SEO for content-heavy sites","CSR is preferred for highly interactive applications like dashboards and SPAs","Next.js supports both SSR and CSR, allowing developers to choose per page"],"relatedSlugs":["nextjs-seo-best-practices","react-server-components-2025","mern-stack-guide-2025"]},{"id":"8","slug":"how-to-become-full-stack-developer-2025","title":"How to Become a Full-Stack Developer in 2025: A Roadmap","image":"/images/blogs/how-to-become-full-stack-developer-2025.jpeg","excerpt":"A comprehensive roadmap to becoming a full-stack developer in 2025, covering essential skills, tools like the MERN stack, AI integration, and strategies to stay competitive.","content":"$b","date":"2025-07-08","formattedDate":"July 8, 2025","readingTime":"10 min","tags":["Full-Stack Development","MERN Stack","Web Development","AI Tools","Next.js","Node.js","Career","DevOps"],"metaTitle":"How to Become a Full-Stack Developer in 2025: Roadmap & Tools","metaDescription":"A 2025 roadmap to becoming a full-stack developer, covering MERN stack, AI tools like GitHub Copilot and xAI's Grok, DevOps, and real-world projects to build a rewarding career.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/how-to-become-full-stack-developer-2025","keyTakeaways":["Full stack development requires proficiency in both frontend (React) and backend (Node.js) technologies","The MERN stack is the most popular full stack JavaScript combination in 2025","Database design skills are essential for every full stack developer","Version control with Git is a non-negotiable skill for professional developers","Building real projects is the fastest path to becoming a full stack developer"],"relatedSlugs":["mern-stack-guide-2025","mern-stack-folder-structure-best-practices-2025","mern-stack-authentication"]},{"id":"10","slug":"mern-stack-folder-structure-best-practices-2025","title":"MERN Stack Folder Structure Best Practices for Scalability in 2025","image":"/images/blogs/mern-stack-folder-structure-best-practices-2025.png","excerpt":"Learn the best practices for organizing a MERN stack (MongoDB, Express.js, React, Node.js) project folder structure in 2025 to ensure scalability, maintainability, and developer efficiency.","content":"$c","date":"2025-07-08","formattedDate":"July 8, 2025","readingTime":"7 min","tags":["MERN Stack","Web Development","Folder Structure","Scalability","React","Node.js","MongoDB","Best Practices"],"metaTitle":"MERN Stack Folder Structure Best Practices for Scalability in 2025","metaDescription":"Discover best practices for organizing a MERN stack project folder structure in 2025, ensuring scalability, maintainability, and developer efficiency with React, Node.js, and MongoDB.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/mern-stack-folder-structure-best-practices-2025","keyTakeaways":["A well-organized folder structure improves code maintainability and team collaboration","Separate concerns by organizing code into routes, controllers, models, and middleware","Feature-based folder structure scales better than layer-based for large applications","Consistent naming conventions reduce cognitive load for developers","Environment configuration should be centralized and never committed to version control"],"relatedSlugs":["mern-stack-guide-2025","mern-stack-authentication","how-to-become-full-stack-developer-2025"]},{"id":"9","slug":"why-mern-stack-dominates-2025","title":"Why MERN Stack is Still Dominating in 2025: Trend Analysis","image":"/images/blogs/why-mern-stack-dominates-2025.jpeg","excerpt":"Discover why the MERN stack (MongoDB, Express.js, React, Node.js) continues to dominate web development in 2025, its appeal to developers, and key trends driving its popularity.","content":"$d","date":"2025-07-08","formattedDate":"July 8, 2025","readingTime":"8 min","tags":["MERN Stack","Web Development","React","Node.js","MongoDB","AI Integration","Serverless","Trends"],"metaTitle":"Why MERN Stack Dominates Web Development in 2025","metaDescription":"Explore why the MERN stack remains a top choice in 2025, with trends like AI integration, serverless architecture, and a full JavaScript ecosystem attracting developers.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/why-mern-stack-dominates-2025","keyTakeaways":["The MERN stack dominates web development due to its unified JavaScript ecosystem","React's component-based architecture enables rapid UI development and reuse","Node.js non-blocking I/O makes it ideal for real-time and high-concurrency applications","MongoDB's flexible schema accelerates development during early project stages","The MERN stack has the largest developer community and job market demand"],"relatedSlugs":["mern-stack-guide-2025","mern-stack-vs-alternatives-2026","how-to-become-full-stack-developer-2025"]},{"id":"7","slug":"how-ai-transforms-web-development-2025","title":"How AI is changing web development, jobs, and tools in 2025.","image":"/images/blogs/how-ai-transforms-web-development-2025.png","excerpt":"Explore how AI is reshaping web development in 2025, its impact on web developer jobs, new challenges, pros and cons, and the top AI tools transforming the MERN stack workflow.","content":"$e","date":"2025-07-05","formattedDate":"July 5, 2025","readingTime":"9 min","tags":["AI","Web Development","MERN Stack","Next.js","AI Tools","SEO","Accessibility","Jobs"],"metaTitle":"AI in Web Development: 2025 Impact on Jobs & Tools","metaDescription":"Discover how AI is revolutionizing web development in 2025, its impact on web developer jobs, new challenges, pros and cons, and top AI tools like GitHub Copilot and xAI's Grok for MERN stack developers.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/how-ai-transforms-web-development-2025","keyTakeaways":["AI tools like GitHub Copilot and ChatGPT accelerate web development workflows","AI cannot replace developers but significantly boosts productivity","Prompt engineering is a critical skill for AI-assisted development","AI-generated code requires human review for security and correctness","The future of web development combines human creativity with AI efficiency"],"relatedSlugs":["mern-stack-guide-2025","react-performance-optimization-2024","nextjs-seo-best-practices"]},{"id":"5","slug":"building-scalable-micro-frontends-nextjs-2025","title":"Building Scalable Micro-Frontends with Next.js in 2025","image":"/images/blogs/mirco-frontend-nextjs.jpg","excerpt":"Discover how to build scalable micro-frontends using Next.js in 2025, with practical examples, performance optimization techniques, and SEO best practices for modern web applications.","content":"$f","date":"2025-07-05","formattedDate":"July 5, 2025","readingTime":"8 min","tags":["Micro-Frontends","Next.js","Web Development","Module Federation","SEO","Performance","Scalability"],"metaTitle":"Next.js Micro-Frontends: 2025 Scalability Guide","metaDescription":"Learn how to build scalable micro-frontends with Next.js in 2025, including Module Federation setup, server-side rendering, and SEO best practices for modern web applications.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/building-scalable-micro-frontends-nextjs-2025","keyTakeaways":["Micro-frontends enable independent deployment of frontend modules by separate teams","Next.js Module Federation allows sharing components across micro-frontend applications","Micro-frontends increase complexity and should only be used for large-scale applications","Shared design systems are critical for maintaining visual consistency across micro-frontends","Performance monitoring is essential as micro-frontends can increase bundle sizes"],"relatedSlugs":["nextjs-seo-best-practices","react-server-components-2025","mern-stack-guide-2025"]},{"id":"4","slug":"react-server-components-2025","title":"Dive into React Server Components in 2025 with this SEO-...","image":"/images/blogs/react-server-component.jpg","excerpt":"Dive into React Server Components in 2025 with this SEO-friendly guide, exploring server-side rendering, performance optimization, and practical examples for modern web applications.","content":"$10","date":"2025-02-01","formattedDate":"February 1, 2025","readingTime":"10 min","tags":["React","Server Components","Next.js","Web Development","JavaScript","SEO","Performance"],"metaTitle":"2025 React Server Components: Optimized for SEO & Speed","metaDescription":"Learn how to master React Server Components in 2025 with this comprehensive guide, covering setup, data fetching, client-server integration, and SEO-friendly best practices for modern web applications.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/react-server-components-2025","keyTakeaways":["React Server Components render on the server and send HTML to the client, reducing JavaScript bundle size","Server Components can directly access databases and file systems without API calls","Client Components are still needed for interactivity, state, and browser APIs","The 'use client' directive marks a component as a Client Component in Next.js","Server Components improve performance by moving data fetching closer to the data source"],"relatedSlugs":["server-components-nextjs-15-mern-2025","nextjs-seo-best-practices","react-performance-optimization-2024"]},{"id":"3","slug":"mern-stack-guide-2025","title":"Ultimate MERN Stack Development Guide for 2025","image":"/images/blogs/mern-stack-guide-2025.webp","excerpt":"Explore the ultimate guide to MERN stack development in 2025, covering MongoDB, Express.js, React, Node.js, best practices, and SEO-friendly techniques for modern web applications.","content":"$11","date":"2025-01-10","formattedDate":"January 10, 2025","readingTime":"12 min","tags":["MERN","MongoDB","Express.js","React","Node.js","Web Development","JavaScript"],"metaTitle":"MERN Stack Guide 2025: Ultimate Development Handbook","metaDescription":"Master MERN stack development in 2025 with this comprehensive guide covering MongoDB, Express.js, React, Node.js, and SEO-friendly best practices for building scalable web applications.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/mern-stack-guide-2025","keyTakeaways":["MERN stack uses JavaScript across the entire application stack for consistency","MongoDB stores data as flexible JSON-like documents ideal for modern applications","Express.js provides a minimal and flexible Node.js web application framework","React's virtual DOM enables efficient UI updates with minimal performance overhead","Node.js enables server-side JavaScript execution with excellent performance"],"relatedSlugs":["mern-stack-vs-alternatives-2026","mern-stack-folder-structure-best-practices-2025","mern-stack-authentication"]},{"id":"2","slug":"react-performance-optimization-2024","title":"Master React performance optimization techniques for 2024.","image":"/images/blogs/react-optimization.png","excerpt":"Master the latest React performance optimization techniques for 2024 with this comprehensive guide covering Concurrent Features, advanced memoization, and cutting-edge optimization strategies.","content":"$12","date":"2024-01-15","formattedDate":"January 15, 2024","readingTime":"15 min","tags":["React","Performance","Frontend","JavaScript","React 18","Optimization","Web Development"],"metaTitle":"React Performance Optimization: 2024 Master Guide","metaDescription":"Comprehensive 2024 guide to React performance optimization covering Concurrent Features, advanced memoization, component optimization, and practical implementation examples.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/react-performance-optimization-2024","keyTakeaways":["React.memo prevents unnecessary re-renders of functional components","useMemo and useCallback optimize expensive computations and function references","Code splitting with React.lazy reduces initial bundle size and improves load time","Virtualization libraries like react-window handle large lists efficiently","React DevTools Profiler is the essential tool for identifying performance bottlenecks"],"relatedSlugs":["react-server-components-2025","mern-stack-guide-2025","nextjs-seo-best-practices"]},{"id":"1","slug":"mern-stack-authentication","title":"Complete JWT Authentication in MERN Stack","image":"/images/blogs/Complete-JWT-Authentication-in-MERN-Stack.jpg","excerpt":"Learn how to implement complete JWT authentication in a MERN stack application, including backend and frontend integration.","content":"$13","date":"2023-10-01","formattedDate":"October 1, 2023","readingTime":"12 min","tags":["MERN","Authentication","JWT","Node.js","React"],"metaTitle":"JWT Authentication in MERN: Complete 2024 Implementation","metaDescription":"Step-by-step guide to implementing secure JWT authentication in MERN stack. Learn token handling, protected routes, and best practices for MongoDB, Express, React, and Node.js.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/mern-stack-authentication","keyTakeaways":["JWT tokens consist of three parts: header, payload, and signature","Never store sensitive data in JWT payloads as they are base64-encoded, not encrypted","Access tokens should have short expiry times (15 minutes) for security","Refresh tokens enable seamless re-authentication without requiring users to log in again","Always validate JWT signatures on the server side to prevent token forgery"],"relatedSlugs":["mern-stack-guide-2025","mern-stack-folder-structure-best-practices-2025","how-to-become-full-stack-developer-2025"]}]}]]}]}],["$L14"],"$L15"]}],"loading":null,"isPartial":false}
-14:["$","script","script-0",{"src":"/_next/static/chunks/8e4812e70fd0588d.js","async":true}]
-15:["$","$L16",null,{"children":["$","$17",null,{"name":"Next.MetadataOutlet","children":"$@18"}]}]
-18:null
+    0:{"buildId":"3b_pzqUvyp8xTzCjSC3aw","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"pt-16","children":["$","section",null,{"className":"py-24 max-w-4xl mx-auto px-6","children":[["$","span",null,{"className":"label-mono","children":"Writing"}],["$","h1",null,{"className":"heading-display mt-2 text-4xl md:text-5xl text-[var(--color-fg)]","children":"Blog"}],["$","p",null,{"className":"mt-4 text-lg text-[var(--color-fg-muted)] max-w-xl","children":"Thoughts on web development, mobile apps, cloud architecture, and building software in Nepal."}],["$","$L2",null,{"posts":[{"id":"best-web-developer-nepal","slug":"best-web-developer-nepal","title":"Best Web Developer in Nepal: Top Developers & Services 2026","image":"/images/blogs/hire-developer-nepal.jpg","excerpt":"Find the best web developer in Nepal. Discover top developers, agencies, and services for web and mobile development projects.","content":"$3","date":"2026-04-25","formattedDate":"April 25, 2026","readingTime":"7 min","tags":["best developer","web developer","Nepal","top developer","hire developer","developer"],"metaTitle":"Best Web Developer in Nepal 2026: Top Services & Developers","metaDescription":"Find the best web developer in Nepal. Complete guide to top developers, agencies, and services for web development.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/best-web-developer-nepal","keyTakeaways":["MERN and React developers are most in demand","Check live projects, not just portfolio","Communication is as important as code","Start with small paid test tasks","Save 50-70% vs US/Europe"],"relatedSlugs":["hire-mern-developer-nepal-2026","freelance-web-developer-nepal"]},{"id":"freelance-web-developer-nepal","slug":"freelance-web-developer-nepal","title":"Freelance Web Developer in Nepal: Complete Guide 2026","image":"/images/blogs/hire-developer-nepal.jpg","excerpt":"Hire freelance web developers in Nepal. Learn about rates, best platforms, and how to find top Nepali freelancers for your web and mobile projects.","content":"$4","date":"2026-04-25","formattedDate":"April 25, 2026","readingTime":"8 min","tags":["freelance","web developer","Nepal","hire developer","remote work","freelancing","upwork"],"metaTitle":"Freelance Web Developer in Nepal 2026: Rates, Platforms & Hiring Guide","metaDescription":"Complete guide to hiring freelance web developers in Nepal. Learn about hourly rates, best platforms, and how to find top Nepali freelancers.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/freelance-web-developer-nepal","keyTakeaways":["Start rates: $10-20/hour for beginners","Upwork is best for getting started","Build real projects for your portfolio","Communication matters more than code","Wise and Payoneer for payment"],"relatedSlugs":["hire-mern-developer-nepal-2026","freelancing-in-nepal-2026"]},{"id":"freelancing-nepal-2026","slug":"freelancing-in-nepal-2026","title":"Freelancing in Nepal: How to Start & Succeed in 2026","image":"/images/blogs/hire-developer-nepal.jpg","excerpt":"Complete guide to freelancing in Nepal. Learn how to start, find clients, set rates, and build a successful freelance career in IT.","content":"$5","date":"2026-04-25","formattedDate":"April 25, 2026","readingTime":"9 min","tags":["freelancing","Nepal","freelance","remote work","make money online","upwork","career"],"metaTitle":"Freelancing in Nepal 2026: Complete Guide to Success","metaDescription":"How to start freelancing in Nepal. Complete guide to platforms, rates, skills, and building a successful freelance career.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/freelancing-in-nepal-2026","keyTakeaways":["Start with $10-15/hour to build profile","Upwork is best for beginners","Pick one skill and go deep","Apply to jobs DAILY","Wise and Payoneer for payment"],"relatedSlugs":["freelance-web-developer-nepal","hire-mern-developer-nepal-2026"]},{"id":"hire-mern-developer-nepal-2026","slug":"hire-mern-developer-nepal-2026","title":"How to Hire the Best MERN Stack Developer in Nepal 2026: Complete Guide","image":"/images/blogs/hire-developer-nepal.jpg","excerpt":"Discover how to hire top MERN stack developers in Nepal. Learn about rates, skills to look for, interview questions, and where to find the best talent for your project.","content":"$6","date":"2026-04-25","formattedDate":"April 25, 2026","readingTime":"10 min","tags":["MERN stack","hire developer","React","Node.js","MongoDB","Nepal","web development","hiring"],"metaTitle":"How to Hire the Best MERN Stack Developer in Nepal 2026 | Complete Guide","metaDescription":"Learn how to hire top MERN stack developers in Nepal. Get salary insights, essential skills checklist, interview questions, and where to find the best talent.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/hire-mern-developer-nepal-2026","keyTakeaways":["Junior MERN developers: NPR 25,000-40,000/month","Mid-level is the sweet spot: $18-30/hour","Look for live projects, not just tutorials","Always give a small paid test task","Upwork and LinkedIn are best for hiring"],"relatedSlugs":["how-to-hire-it-developer-nepal","freelance-web-developer-nepal"]},{"id":"it-project-cost-nepal","slug":"it-project-cost-nepal","title":"IT Project Development Cost in Nepal: Complete Price Guide 2026","image":"/images/blogs/hire-developer-nepal.jpg","excerpt":"Learn the complete cost breakdown for IT projects in Nepal. From website to mobile apps - understand pricing and budget for your development project.","content":"$7","date":"2026-04-25","formattedDate":"April 25, 2026","readingTime":"7 min","tags":["IT project","cost","development","budget","Nepal","pricing","website cost"],"metaTitle":"IT Project Development Cost in Nepal 2026: Complete Price Guide","metaDescription":"Learn IT project development costs in Nepal. Complete price guide for websites, mobile apps, and web applications.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/it-project-cost-nepal","keyTakeaways":["Simple website: NPR 15,000-80,000","Mobile app: NPR 200,000-8,000,000+","Save 50-70% vs US/Europe","Always get multiple quotes","Start with MVP, iterate later"],"relatedSlugs":["hire-mern-developer-nepal-2026","react-native-app-development-cost-nepal"]},{"id":"nextjs-seo-best-practices","slug":"nextjs-seo-best-practices","title":"Next.js SEO Best Practices: Complete Guide for 2026","image":"/images/blogs/nextjs-seo.jpg","excerpt":"Master SEO in Next.js applications with this comprehensive guide covering metadata, structured data, performance optimization, and more.","content":"$8","date":"2026-01-28","formattedDate":"January 28, 2026","readingTime":"14 min","tags":["nextjs","seo","web performance","react","app-router","metadata"],"metaTitle":"Next.js SEO Best Practices 2026: Metadata API, Rendering & Performance Guide","metaDescription":"Complete 2026 guide to Next.js SEO: App Router Metadata API, SSG/ISR/SSR strategies, structured data, image optimization, Core Web Vitals, and ranking tips.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/nextjs-seo-best-practices","keyTakeaways":["Next.js Server-Side Rendering (SSR) significantly improves SEO compared to client-side rendering","The Next.js Metadata API simplifies adding title, description, and Open Graph tags","Image optimization with next/image is critical for Core Web Vitals performance","Structured data (JSON-LD) helps search engines understand page content and enables rich results","Canonical URLs prevent duplicate content issues that can harm search rankings"],"relatedSlugs":["react-server-components-2025","server-components-nextjs-15-mern-2025","building-scalable-micro-frontends-nextjs-2025"]},{"id":"aws-serverless-architecture","slug":"aws-serverless-architecture-guide","title":"Building Scalable Applications with AWS Serverless Architecture","image":"/images/blogs/aws-serverless.jpg","excerpt":"Learn how to leverage AWS Lambda, API Gateway, and DynamoDB to build cost-effective, scalable serverless applications.","content":"$9","date":"2026-01-25","formattedDate":"January 25, 2026","readingTime":"15 min","tags":["aws","serverless","lambda","cloud"],"metaTitle":"Building Scalable Applications with AWS Serverless Architecture","metaDescription":"Learn how to leverage AWS Lambda, API Gateway, and DynamoDB to build cost-effective, scalable serverless applications.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/aws-serverless-architecture-guide","keyTakeaways":["AWS Lambda enables serverless functions that scale automatically with zero server management","Serverless architecture reduces operational costs by charging only for actual compute time","API Gateway combined with Lambda creates scalable REST APIs without managing servers","DynamoDB is the recommended database for serverless applications due to its auto-scaling","Cold start latency is the main trade-off of serverless architecture"],"relatedSlugs":["mern-stack-guide-2025","how-to-become-full-stack-developer-2025","react-server-components-2025"]},{"id":"react-native-app-cost","slug":"react-native-app-development-cost-nepal","title":"React Native App Development Cost in Nepal: Complete Breakdown","image":"/images/blogs/app-development-cost.webp","excerpt":"Detailed breakdown of mobile app development costs in Nepal. Learn about pricing factors, timeline estimates, and how to budget for your project.","content":"$a","date":"2026-01-22","formattedDate":"January 22, 2026","readingTime":"12 min","tags":["react native","pricing","nepal","mobile apps","app development","cost breakdown"],"metaTitle":"React Native App Development Cost in Nepal 2026: Full Breakdown & Estimates","metaDescription":"2026 guide to React Native mobile app development costs in Nepal: simple to complex app pricing (NPR 5–80 lakhs), hourly rates, factors, timelines, and cost-saving tips for startups & businesses.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/react-native-app-development-cost-nepal","keyTakeaways":["React Native app development in Nepal costs significantly less than in Western markets","A basic React Native app in Nepal starts from NPR 80,000 to NPR 150,000","App complexity, features, and integrations are the primary cost drivers","Ongoing maintenance typically costs 15-20% of the initial development cost annually","Hiring a local Nepali developer offers cost savings while maintaining quality"],"relatedSlugs":["how-to-hire-it-developer-nepal","mern-stack-guide-2025","how-to-become-full-stack-developer-2025"]},{"id":"mern-stack-vs-alternatives","slug":"mern-stack-vs-alternatives-2026","title":"MERN Stack vs Alternatives in 2026: Which Should You Choose?","image":"/images/blogs/mern-stack-comparison.jpg","excerpt":"A comprehensive comparison of MERN stack with other popular technology stacks. Understand the pros, cons, and best use cases for each.","content":"$b","date":"2026-01-20","formattedDate":"January 20, 2026","readingTime":"12 min","tags":["mern","react","nodejs","web development","nextjs","fullstack","2026"],"metaTitle":"MERN Stack vs Next.js, PERN, T3 & Alternatives in 2026: Full Comparison","metaDescription":"MERN stack vs alternatives 2026: Compare MERN with Next.js, PERN, T3 Stack, Remix, MEAN. Pros, cons, best use cases, and which full-stack to choose for modern web apps.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/mern-stack-vs-alternatives-2026","keyTakeaways":["MERN stack remains the most popular full stack JavaScript framework in 2026","Next.js has largely replaced Create React App for production React applications","Python-based stacks (Django, FastAPI) are preferred for AI and data-heavy applications","The choice of stack should be driven by project requirements, not trends","TypeScript adoption has become standard across all major JavaScript frameworks"],"relatedSlugs":["mern-stack-guide-2025","why-mern-stack-dominates-2025","how-to-become-full-stack-developer-2025"]},{"id":"hire-developer-nepal","slug":"how-to-hire-it-developer-nepal","title":"How to Hire the Right IT Developer in Nepal: A Complete Guide","image":"/images/blogs/hire-developer-nepal.jpg","excerpt":"Learn the essential steps to find and hire qualified IT developers in Nepal. Discover what to look for, questions to ask, and how to ensure project success.","content":"$c","date":"2026-01-15","formattedDate":"January 15, 2026","readingTime":"12 min","tags":["hiring","nepal","it developer","freelancing","outsourcing","software developer"],"metaTitle":"How to Hire the Right IT Developer in Nepal 2026: Salaries, Platforms & Tips","metaDescription":"Complete 2026 guide to hiring skilled IT developers in Nepal: best platforms, salary ranges, interview questions, outsourcing tips, and how to find top talent cost-effectively.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/how-to-hire-it-developer-nepal","keyTakeaways":["Nepal has a growing pool of skilled IT developers with competitive rates","Verify a developer's portfolio and GitHub profile before hiring","Communication skills are as important as technical skills for remote work","Lalitpur and Kathmandu are the main tech hubs in Nepal","Freelance platforms like Upwork provide access to vetted Nepali developers"],"relatedSlugs":["react-native-app-development-cost-nepal","mern-stack-guide-2025","how-to-become-full-stack-developer-2025"]},{"id":"13","slug":"server-components-nextjs-15-mern-2025","title":"Server Components in Next.js 15: Revolutionizing MERN Stack Performance","image":"/images/blogs/server-components-nextjs.jpg","excerpt":"Learn how Next.js 15’s server components enhance MERN stack performance in 2025, reducing client-side JavaScript and improving SEO with practical MongoDB integration.","content":"$d","date":"2025-09-30","formattedDate":"September 30, 2025","readingTime":"7 min","tags":["Server Components","Next.js","MERN Stack","Performance","SEO","MongoDB"],"metaTitle":"Server Components in Next.js 15: Boosting MERN Stack Performance","metaDescription":"Explore how Next.js 15’s server components revolutionize MERN stack performance in 2025, with MongoDB integration for reduced JavaScript and improved SEO.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/server-components-nextjs","keyTakeaways":["Server Components eliminate the need for useEffect for data fetching in many cases","Zero JavaScript is sent to the client for Server Components, improving performance","Server Components and Client Components can be composed together in the same tree","Streaming with Suspense enables progressive rendering of Server Components","Server Components are the default in Next.js 13+ App Router"],"relatedSlugs":["react-server-components-2025","nextjs-seo-best-practices","building-scalable-micro-frontends-nextjs-2025"]},{"id":"10","slug":"webassembly-mern-stack-2025","title":"WebAssembly in 2025: Supercharging MERN Stack Performance","image":"/images/blogs/WebAssembly-in-2025-Supercharging-MERN-Stack-Performance.webp","excerpt":"Discover how WebAssembly (Wasm) enhances MERN stack performance in 2025, enabling high-performance computing for tasks like image processing and AI in React and Node.js apps.","content":"$e","date":"2025-09-15","formattedDate":"September 15, 2025","readingTime":"7 min","tags":["WebAssembly","MERN Stack","React","Node.js","Performance","Web Development"],"metaTitle":"WebAssembly in 2025: Boosting MERN Stack Performance","metaDescription":"Learn how WebAssembly supercharges MERN stack apps in 2025, enabling high-performance computing with React and Node.js for tasks like AI and image processing.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/WebAssembly-in-2025-Supercharging-MERN-Stack-Performance","keyTakeaways":["WebAssembly (WASM) enables near-native performance for computationally intensive web applications","WASM can be compiled from C, C++, Rust, and other languages for use in browsers","WebAssembly complements JavaScript rather than replacing it","WASM is ideal for video processing, gaming, cryptography, and scientific computing in browsers","The WASM ecosystem is maturing rapidly with tools like Emscripten and wasm-pack"],"relatedSlugs":["react-performance-optimization-2024","mern-stack-guide-2025","aws-serverless-architecture-guide"]},{"id":"8","slug":"ssr-vs-csr-web-development-2025","title":"SSR vs CSR: A 2025 Guide for MERN Stack Developers","image":"/images/blogs/ssr-vs-csr-web-development-2025.png","excerpt":"Discover the differences between Server-Side Rendering (SSR) and Client-Side Rendering (CSR) in 2025, their impact on MERN stack development, pros, cons, and how to choose the right approach for performance and SEO.","content":"$f","date":"2025-09-04","formattedDate":"September 4, 2025","readingTime":"8 min","tags":["SSR","CSR","Next.js","React","MERN Stack","SEO","Performance","Web Development"],"metaTitle":"SSR vs CSR in 2025: Which is Best for MERN Stack Developers?","metaDescription":"Explore Server-Side Rendering (SSR) vs Client-Side Rendering (CSR) in 2025 for MERN stack apps, comparing performance, SEO, and tools like Next.js and React Query.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/ssr-vs-csr-web-development-2025","keyTakeaways":["SSR (Server-Side Rendering) generates HTML on the server for each request, improving SEO","CSR (Client-Side Rendering) loads a minimal HTML shell and renders content with JavaScript","SSR provides better initial page load performance and SEO for content-heavy sites","CSR is preferred for highly interactive applications like dashboards and SPAs","Next.js supports both SSR and CSR, allowing developers to choose per page"],"relatedSlugs":["nextjs-seo-best-practices","react-server-components-2025","mern-stack-guide-2025"]},{"id":"8","slug":"how-to-become-full-stack-developer-2025","title":"How to Become a Full-Stack Developer in 2025: A Roadmap","image":"/images/blogs/how-to-become-full-stack-developer-2025.jpeg","excerpt":"A comprehensive roadmap to becoming a full-stack developer in 2025, covering essential skills, tools like the MERN stack, AI integration, and strategies to stay competitive.","content":"$10","date":"2025-07-08","formattedDate":"July 8, 2025","readingTime":"10 min","tags":["Full-Stack Development","MERN Stack","Web Development","AI Tools","Next.js","Node.js","Career","DevOps"],"metaTitle":"How to Become a Full-Stack Developer in 2025: Roadmap & Tools","metaDescription":"A 2025 roadmap to becoming a full-stack developer, covering MERN stack, AI tools like GitHub Copilot and xAI's Grok, DevOps, and real-world projects to build a rewarding career.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/how-to-become-full-stack-developer-2025","keyTakeaways":["Full stack development requires proficiency in both frontend (React) and backend (Node.js) technologies","The MERN stack is the most popular full stack JavaScript combination in 2025","Database design skills are essential for every full stack developer","Version control with Git is a non-negotiable skill for professional developers","Building real projects is the fastest path to becoming a full stack developer"],"relatedSlugs":["mern-stack-guide-2025","mern-stack-folder-structure-best-practices-2025","mern-stack-authentication"]},{"id":"10","slug":"mern-stack-folder-structure-best-practices-2025","title":"MERN Stack Folder Structure Best Practices for Scalability in 2025","image":"/images/blogs/mern-stack-folder-structure-best-practices-2025.png","excerpt":"Learn the best practices for organizing a MERN stack (MongoDB, Express.js, React, Node.js) project folder structure in 2025 to ensure scalability, maintainability, and developer efficiency.","content":"$11","date":"2025-07-08","formattedDate":"July 8, 2025","readingTime":"7 min","tags":["MERN Stack","Web Development","Folder Structure","Scalability","React","Node.js","MongoDB","Best Practices"],"metaTitle":"MERN Stack Folder Structure Best Practices for Scalability in 2025","metaDescription":"Discover best practices for organizing a MERN stack project folder structure in 2025, ensuring scalability, maintainability, and developer efficiency with React, Node.js, and MongoDB.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/mern-stack-folder-structure-best-practices-2025","keyTakeaways":["A well-organized folder structure improves code maintainability and team collaboration","Separate concerns by organizing code into routes, controllers, models, and middleware","Feature-based folder structure scales better than layer-based for large applications","Consistent naming conventions reduce cognitive load for developers","Environment configuration should be centralized and never committed to version control"],"relatedSlugs":["mern-stack-guide-2025","mern-stack-authentication","how-to-become-full-stack-developer-2025"]},{"id":"9","slug":"why-mern-stack-dominates-2025","title":"Why MERN Stack is Still Dominating in 2025: Trend Analysis","image":"/images/blogs/why-mern-stack-dominates-2025.jpeg","excerpt":"Discover why the MERN stack (MongoDB, Express.js, React, Node.js) continues to dominate web development in 2025, its appeal to developers, and key trends driving its popularity.","content":"$12","date":"2025-07-08","formattedDate":"July 8, 2025","readingTime":"8 min","tags":["MERN Stack","Web Development","React","Node.js","MongoDB","AI Integration","Serverless","Trends"],"metaTitle":"Why MERN Stack Dominates Web Development in 2025","metaDescription":"Explore why the MERN stack remains a top choice in 2025, with trends like AI integration, serverless architecture, and a full JavaScript ecosystem attracting developers.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/why-mern-stack-dominates-2025","keyTakeaways":["The MERN stack dominates web development due to its unified JavaScript ecosystem","React's component-based architecture enables rapid UI development and reuse","Node.js non-blocking I/O makes it ideal for real-time and high-concurrency applications","MongoDB's flexible schema accelerates development during early project stages","The MERN stack has the largest developer community and job market demand"],"relatedSlugs":["mern-stack-guide-2025","mern-stack-vs-alternatives-2026","how-to-become-full-stack-developer-2025"]},{"id":"7","slug":"how-ai-transforms-web-development-2025","title":"How AI is changing web development, jobs, and tools in 2025.","image":"/images/blogs/how-ai-transforms-web-development-2025.png","excerpt":"Explore how AI is reshaping web development in 2025, its impact on web developer jobs, new challenges, pros and cons, and the top AI tools transforming the MERN stack workflow.","content":"$13","date":"2025-07-05","formattedDate":"July 5, 2025","readingTime":"9 min","tags":["AI","Web Development","MERN Stack","Next.js","AI Tools","SEO","Accessibility","Jobs"],"metaTitle":"AI in Web Development: 2025 Impact on Jobs & Tools","metaDescription":"Discover how AI is revolutionizing web development in 2025, its impact on web developer jobs, new challenges, pros and cons, and top AI tools like GitHub Copilot and xAI's Grok for MERN stack developers.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/how-ai-transforms-web-development-2025","keyTakeaways":["AI tools like GitHub Copilot and ChatGPT accelerate web development workflows","AI cannot replace developers but significantly boosts productivity","Prompt engineering is a critical skill for AI-assisted development","AI-generated code requires human review for security and correctness","The future of web development combines human creativity with AI efficiency"],"relatedSlugs":["mern-stack-guide-2025","react-performance-optimization-2024","nextjs-seo-best-practices"]},{"id":"5","slug":"building-scalable-micro-frontends-nextjs-2025","title":"Building Scalable Micro-Frontends with Next.js in 2025","image":"/images/blogs/mirco-frontend-nextjs.jpg","excerpt":"Discover how to build scalable micro-frontends using Next.js in 2025, with practical examples, performance optimization techniques, and SEO best practices for modern web applications.","content":"$14","date":"2025-07-05","formattedDate":"July 5, 2025","readingTime":"8 min","tags":["Micro-Frontends","Next.js","Web Development","Module Federation","SEO","Performance","Scalability"],"metaTitle":"Next.js Micro-Frontends: 2025 Scalability Guide","metaDescription":"Learn how to build scalable micro-frontends with Next.js in 2025, including Module Federation setup, server-side rendering, and SEO best practices for modern web applications.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/building-scalable-micro-frontends-nextjs-2025","keyTakeaways":["Micro-frontends enable independent deployment of frontend modules by separate teams","Next.js Module Federation allows sharing components across micro-frontend applications","Micro-frontends increase complexity and should only be used for large-scale applications","Shared design systems are critical for maintaining visual consistency across micro-frontends","Performance monitoring is essential as micro-frontends can increase bundle sizes"],"relatedSlugs":["nextjs-seo-best-practices","react-server-components-2025","mern-stack-guide-2025"]},{"id":"4","slug":"react-server-components-2025","title":"Dive into React Server Components in 2025 with this SEO-...","image":"/images/blogs/react-server-component.jpg","excerpt":"Dive into React Server Components in 2025 with this SEO-friendly guide, exploring server-side rendering, performance optimization, and practical examples for modern web applications.","content":"$15","date":"2025-02-01","formattedDate":"February 1, 2025","readingTime":"10 min","tags":["React","Server Components","Next.js","Web Development","JavaScript","SEO","Performance"],"metaTitle":"2025 React Server Components: Optimized for SEO & Speed","metaDescription":"Learn how to master React Server Components in 2025 with this comprehensive guide, covering setup, data fetching, client-server integration, and SEO-friendly best practices for modern web applications.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/react-server-components-2025","keyTakeaways":["React Server Components render on the server and send HTML to the client, reducing JavaScript bundle size","Server Components can directly access databases and file systems without API calls","Client Components are still needed for interactivity, state, and browser APIs","The 'use client' directive marks a component as a Client Component in Next.js","Server Components improve performance by moving data fetching closer to the data source"],"relatedSlugs":["server-components-nextjs-15-mern-2025","nextjs-seo-best-practices","react-performance-optimization-2024"]},{"id":"3","slug":"mern-stack-guide-2025","title":"Ultimate MERN Stack Development Guide for 2025","image":"/images/blogs/mern-stack-guide-2025.webp","excerpt":"Explore the ultimate guide to MERN stack development in 2025, covering MongoDB, Express.js, React, Node.js, best practices, and SEO-friendly techniques for modern web applications.","content":"$16","date":"2025-01-10","formattedDate":"January 10, 2025","readingTime":"12 min","tags":["MERN","MongoDB","Express.js","React","Node.js","Web Development","JavaScript"],"metaTitle":"MERN Stack Guide 2025: Ultimate Development Handbook","metaDescription":"Master MERN stack development in 2025 with this comprehensive guide covering MongoDB, Express.js, React, Node.js, and SEO-friendly best practices for building scalable web applications.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/mern-stack-guide-2025","keyTakeaways":["MERN stack uses JavaScript across the entire application stack for consistency","MongoDB stores data as flexible JSON-like documents ideal for modern applications","Express.js provides a minimal and flexible Node.js web application framework","React's virtual DOM enables efficient UI updates with minimal performance overhead","Node.js enables server-side JavaScript execution with excellent performance"],"relatedSlugs":["mern-stack-vs-alternatives-2026","mern-stack-folder-structure-best-practices-2025","mern-stack-authentication"]},{"id":"2","slug":"react-performance-optimization-2024","title":"Master React performance optimization techniques for 2024.","image":"/images/blogs/react-optimization.png","excerpt":"Master the latest React performance optimization techniques for 2024 with this comprehensive guide covering Concurrent Features, advanced memoization, and cutting-edge optimization strategies.","content":"$17","date":"2024-01-15","formattedDate":"January 15, 2024","readingTime":"15 min","tags":["React","Performance","Frontend","JavaScript","React 18","Optimization","Web Development"],"metaTitle":"React Performance Optimization: 2024 Master Guide","metaDescription":"Comprehensive 2024 guide to React performance optimization covering Concurrent Features, advanced memoization, component optimization, and practical implementation examples.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/react-performance-optimization-2024","keyTakeaways":["React.memo prevents unnecessary re-renders of functional components","useMemo and useCallback optimize expensive computations and function references","Code splitting with React.lazy reduces initial bundle size and improves load time","Virtualization libraries like react-window handle large lists efficiently","React DevTools Profiler is the essential tool for identifying performance bottlenecks"],"relatedSlugs":["react-server-components-2025","mern-stack-guide-2025","nextjs-seo-best-practices"]},{"id":"1","slug":"mern-stack-authentication","title":"Complete JWT Authentication in MERN Stack","image":"/images/blogs/Complete-JWT-Authentication-in-MERN-Stack.jpg","excerpt":"Learn how to implement complete JWT authentication in a MERN stack application, including backend and frontend integration.","content":"$18","date":"2023-10-01","formattedDate":"October 1, 2023","readingTime":"12 min","tags":["MERN","Authentication","JWT","Node.js","React"],"metaTitle":"JWT Authentication in MERN: Complete 2024 Implementation","metaDescription":"Step-by-step guide to implementing secure JWT authentication in MERN stack. Learn token handling, protected routes, and best practices for MongoDB, Express, React, and Node.js.","author":"Saroj Dangol","canonicalUrl":"https://www.sarojdangol012.com.np/blogs/mern-stack-authentication","keyTakeaways":["JWT tokens consist of three parts: header, payload, and signature","Never store sensitive data in JWT payloads as they are base64-encoded, not encrypted","Access tokens should have short expiry times (15 minutes) for security","Refresh tokens enable seamless re-authentication without requiring users to log in again","Always validate JWT signatures on the server side to prevent token forgery"],"relatedSlugs":["mern-stack-guide-2025","mern-stack-folder-structure-best-practices-2025","how-to-become-full-stack-developer-2025"]}]}]]}]}],["$L19"],"$L1a"]}],"loading":null,"isPartial":false}
+19:["$","script","script-0",{"src":"/_next/static/chunks/0242d8db028ddd76.js","async":true}]
+1a:["$","$L1b",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@1d"}]}]
+1d:null

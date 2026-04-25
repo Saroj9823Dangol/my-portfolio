@@ -169,7 +169,7 @@ export const personSchema = {
     "@type": "SpeakableSpecification",
     cssSelector: ["#about-saroj", ".hero-headline"],
   },
-  // GEO: expanded knowsAbout — 18 specific searchable topics
+  // GEO: expanded knowsAbout — 40+ specific searchable topics for IT searches
   knowsAbout: [
     "MERN Stack Development",
     "React Native Mobile App Development",
@@ -189,6 +189,18 @@ export const personSchema = {
     "Docker and Kubernetes",
     "CI/CD Pipeline Implementation",
     "E-commerce Development Nepal",
+    "Freelance Web Developer Nepal",
+    "Hire IT Developer Nepal",
+    "IT Project Cost Nepal",
+    "Web Developer Freelance Rates Nepal",
+    "Mobile App Development Cost Nepal",
+    "React Native Developer Nepal",
+    "Full Stack Developer Nepal",
+    "Best Web Developer Nepal",
+    "Software Development Nepal",
+    "SaaS Development Nepal",
+    "IT Outsourcing Nepal",
+    "Remote Developer Nepal",
   ],
   // GEO: mentions — key technologies as SoftwareApplication entities
   mentions: [
@@ -391,6 +403,70 @@ export const faqSchema = {
       acceptedAnswer: {
         "@type": "Answer",
         text: "AWS services used include EC2, Lambda (serverless), S3, RDS, DynamoDB, CloudFront, API Gateway, Elastic Beanstalk, and IAM, enabling scalable, cost-effective cloud infrastructure for web and mobile applications.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How much does a freelance web developer cost in Nepal?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Freelance web developers in Nepal charge $15-60/hour depending on experience. Junior developers charge $15-25/hour, mid-level $25-40/hour, and senior developers $40-60/hour. Fixed project pricing is also available.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How much does it cost to develop a mobile app in Nepal?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Mobile app development in Nepal costs NPR 200,000-10,000,000 ($1,500-$75,000). A simple app starts at NPR 200,000 ($1,500), medium complexity at NPR 500,000-2,000,000 ($3,700-$15,000), and complex apps at NPR 2,000,000+.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Where can I find the best web developer in Nepal?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The best web developers in Nepal can be found on Upwork, LinkedIn, GitHub, Clutch.co, and GoodFirms. Many top Nepali developers have profiles on these platforms with portfolios and client reviews.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the hourly rate for IT developers in Nepal?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "IT developer rates in Nepal: Junior $15-25/hour, Mid-level $25-40/hour, Senior $40-60/hour. For remote international work, rates range $2,500-5,000/month or $20-50/hour on freelance platforms.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How do I start freelancing in Nepal?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "To start freelancing in Nepal, create profiles on Upwork, Fiverr, or Toptal, set up a portfolio, define your niche (web dev, mobile, design), set competitive rates, and apply to jobs daily. Use PayPal, Wise, or Payoneer for international payments.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "What is the best tech stack for web development in Nepal?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The MERN stack (MongoDB, Express, React, Node.js) is the most popular in Nepal due to the single language (JavaScript) across frontend and backend, strong community support, and job market demand. React Native is also popular for mobile apps.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How long does it take to build a website in Nepal?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Website development timeline: Landing page 1-2 weeks, business website 2-4 weeks, e-commerce site 1-3 months, custom web app 2-6 months. Timeline depends on complexity, features, and design requirements.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you offer IT project quotes in Nepal?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, Saroj provides detailed project quotes after reviewing requirements. Quotes include timeline, milestones, deliverables, and pricing. Contact hello@sarojdangol012.com.np for a free consultation and quote.",
       },
     },
   ],

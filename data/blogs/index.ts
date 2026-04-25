@@ -1,7 +1,12 @@
 import { aiWebDevelopmentGuide } from "./ai-web-devs";
 import { awsServerlessArchitecture } from "./aws-serverless-architecture-guide";
+import { bestDeveloperNepal } from "./best-developer-nepal";
+import { freelanceDeveloperNepal } from "./freelance-developer-nepal";
+import { freelancingInNepal } from "./freelancing-nepal";
 import { fullStackDeveloperGuide } from "./how-to-become-fullstack";
+import { hireMernDeveloperNepal } from "./hire-mern-developer-nepal";
 import { howToHireItDeveloper } from "./how-to-hire-it-developer-nepal";
+import { itProjectCostGuide } from "./it-project-cost-nepal";
 import { jwtAuthentication } from "./jwt-authentication";
 import { mernStackFolderStructureGuide } from "./mern-folder-structure";
 import { mernStackDominanceGuide } from "./mern-stack-dominates";
@@ -20,8 +25,13 @@ import { webAssemblyGuide } from "./web-assembly";
 export const ALL_BLOG_POSTS = [
   aiWebDevelopmentGuide,
   awsServerlessArchitecture,
+  bestDeveloperNepal,
+  freelanceDeveloperNepal,
+  freelancingInNepal,
   fullStackDeveloperGuide,
+  hireMernDeveloperNepal,
   howToHireItDeveloper,
+  itProjectCostGuide,
   jwtAuthentication,
   mernStackFolderStructureGuide,
   mernStackDominanceGuide,
