@@ -24,14 +24,7 @@ export const toolsList: Tool[] = [
     tags: ["Base64", "Encode", "Decode"],
     category: "developer",
   },
-  {
-    slug: "currency-converter",
-    name: "Currency Converter",
-    description: "Convert between NPR, USD, INR, EUR and more currencies with live rates from Budget API.",
-    icon: "💱",
-    tags: ["Currency", "NPR", "USD", "Exchange Rate"],
-    category: "nepal",
-  },
+
   {
     slug: "regex-tester",
     name: "Regex Tester",
@@ -62,6 +55,14 @@ export const toolsList: Tool[] = [
     description: "Decode and inspect JWT tokens. View header, payload, and signature information.",
     icon: "🔑",
     tags: ["JWT", "Token", "Decode", "JSON Web Token"],
+    category: "developer",
+  },
+  {
+    slug: "uuid-generator",
+    name: "UUID Generator",
+    description: "Generate RFC 4122 UUIDs. v4 random and v1-like time-based. Bulk generation up to 100.",
+    icon: "🆔",
+    tags: ["UUID", "GUID", "Random", "Unique ID"],
     category: "developer",
   },
 ];

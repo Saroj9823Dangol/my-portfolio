@@ -22,5 +22,6 @@
   "/tools/json-formatter/page": "app/tools/json-formatter/page.js",
   "/tools/jwt-decoder/page": "app/tools/jwt-decoder/page.js",
   "/tools/page": "app/tools/page.js",
-  "/tools/regex-tester/page": "app/tools/regex-tester/page.js"
+  "/tools/regex-tester/page": "app/tools/regex-tester/page.js",
+  "/tools/uuid-generator/page": "app/tools/uuid-generator/page.js"
 }

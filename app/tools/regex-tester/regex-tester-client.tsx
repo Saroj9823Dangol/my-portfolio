@@ -29,13 +29,19 @@ export default function RegexTesterClient() {
       
       if (flags.includes("g")) {
         let match;
+        let lastIndex = -1;
         while ((match = regex.exec(testString)) !== null) {
+          // Guard against infinite loop on zero-length matches
+          if (regex.lastIndex === lastIndex) {
+            regex.lastIndex++;
+            continue;
+          }
+          lastIndex = regex.lastIndex;
           matches.push({
             text: match[0],
             index: match.index,
             groups: match.slice(1),
           });
-          if (!flags.includes("g")) break;
         }
       } else {
         const match = regex.exec(testString);

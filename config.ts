@@ -167,7 +167,7 @@ export const siteConfig: SiteConfig = {
   metadata: {
     title: {
       default:
-        "Saroj Dangol | IT Developer in Lalitpur, Nepal | Full Stack Expert",
+        "Best Web Developer in Nepal | Saroj Dangol — IT Developer Lalitpur",
       template: "%s | Saroj Dangol - IT Developer Nepal",
     },
     author: {
@@ -175,20 +175,27 @@ export const siteConfig: SiteConfig = {
       url: "https://www.sarojdangol012.com.np",
     },
     description:
-      "Looking for an IT Developer in Lalitpur, Nepal? Saroj Dangol is a Senior Full Stack Developer (MERN, React Native, AWS) offering premium web & mobile app development services in Kathmandu Valley.",
+      "Saroj Dangol is the best web developer in Nepal, based in Lalitpur. Senior Full Stack Developer (MERN, React Native, AWS) offering premium IT services in Kathmandu Valley. Hire a top IT developer in Nepal today.",
     applicationName: "Saroj Dangol - Premium IT Services Nepal",
     generator: "Next.js",
     referrer: "origin-when-cross-origin",
     keywords: [
       // Local SEO - Primary
+      "best web developer in Nepal",
+      "best IT company in Nepal",
+      "best programmer in Nepal",
+      "top web developer Nepal",
       "IT Developer in Lalitpur",
       "IT Developer in Nepal",
       "Web Developer Lalitpur",
       "Software Engineer Nepal",
       "Freelance Developer Lalitpur",
       "Best Programmer in Lalitpur",
-      "IT Jobs Lalitpur",
-      "Hire Developer Nepal",
+      "developer in Lalitpur",
+      "web developer Kathmandu",
+      "IT company Lalitpur",
+      "IT services Nepal",
+      "hire developer Nepal",
       "Kathmandu Valley Developer",
       "Nepal IT Services",
 
@@ -260,9 +267,9 @@ export const siteConfig: SiteConfig = {
       canonical: "https://www.sarojdangol012.com.np/",
     },
     openGraph: {
-      title: "Hire Saroj Dangol - Best IT Developer in Lalitpur, Nepal",
+      title: "Saroj Dangol — Best Web Developer in Nepal | IT Services Lalitpur",
       description:
-        "Expert Full Stack & Mobile Developer in Lalitpur, Nepal. Specializing in MERN stack, React Native, and AWS. Available for hire in Kathmandu Valley.",
+        "Top-rated Full Stack & Mobile Developer in Lalitpur, Nepal. Expert in MERN stack, React Native, and AWS. Hire the best IT developer in Nepal for your next project.",
       url: "https://www.sarojdangol012.com.np",
       siteName: "Saroj Dangol - IT Developer Nepal",
       images: {

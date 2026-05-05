@@ -22,5 +22,6 @@
   "/tools/json-formatter/page": "/tools/json-formatter",
   "/tools/jwt-decoder/page": "/tools/jwt-decoder",
   "/tools/page": "/tools",
-  "/tools/regex-tester/page": "/tools/regex-tester"
+  "/tools/regex-tester/page": "/tools/regex-tester",
+  "/tools/uuid-generator/page": "/tools/uuid-generator"
 }

@@ -77,7 +77,7 @@ export default function CurrencyConverterClient() {
 
     const converted = fromCurrency === toCurrency 
       ? numAmount 
-      : (numAmount / 100) * rate * 100;
+      : numAmount * rate;
     
     setResult(converted.toLocaleString("en-US", {
       minimumFractionDigits: 2,
@@ -189,7 +189,7 @@ export default function CurrencyConverterClient() {
         </div>
 
         <div className="mt-4 text-center text-sm text-[var(--color-fg-muted)]">
-          Rates from Budget API • {new Date().toLocaleString()}
+          Rates from open.er-api.com • {new Date().toLocaleString()}
         </div>
       </div>
     </ToolLayout>
