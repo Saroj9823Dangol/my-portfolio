@@ -90,6 +90,31 @@ export default function BlogDetailClient({ post }: BlogDetailClientProps) {
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
 
+        {/* Inline CTA Box */}
+        <div className="my-12 p-8 rounded-xl border-2 border-[var(--color-accent-border)] bg-[var(--color-accent-dim)] text-center">
+          <h2 className="heading-display text-2xl text-[var(--color-fg)]">
+            Looking for an Individual Expert?
+          </h2>
+          <p className="mt-2 text-[var(--color-fg-muted)] max-w-md mx-auto">
+            Get the same quality as an agency with the direct accountability of
+            the best freelance developer in Lalitpur.
+          </p>
+          <div className="mt-6 flex flex-wrap justify-center gap-4">
+            <Link
+              href="/contact"
+              className="bg-[var(--color-accent)] text-black font-medium rounded-lg px-6 py-3 text-sm hover:opacity-90 transition-opacity"
+            >
+              Get a Free Quote →
+            </Link>
+            <Link
+              href="/services"
+              className="border border-[var(--color-accent-border)] text-[var(--color-fg)] rounded-lg px-6 py-3 text-sm hover:bg-[var(--color-accent-dim)] transition-colors"
+            >
+              View My Services
+            </Link>
+          </div>
+        </div>
+
         {/* Author bio */}
         <div className="mt-12 pt-8 border-t border-[var(--color-border)]">
           <div className="flex items-start gap-4">

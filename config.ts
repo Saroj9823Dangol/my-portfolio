@@ -167,15 +167,15 @@ export const siteConfig: SiteConfig = {
   metadata: {
     title: {
       default:
-        "Best Web Developer in Nepal | Saroj Dangol — IT Developer Lalitpur",
-      template: "%s | Saroj Dangol - IT Developer Nepal",
+        "Best Individual Web Developer in Nepal | Saroj Dangol — Top IT Developer Lalitpur",
+      template: "%s | Best Individual IT Developer Nepal",
     },
     author: {
       name: "Saroj Dangol",
       url: "https://www.sarojdangol012.com.np",
     },
     description:
-      "Saroj Dangol is the best web developer in Nepal, based in Lalitpur. Senior Full Stack Developer (MERN, React Native, AWS) offering premium IT services in Kathmandu Valley. Hire a top IT developer in Nepal today.",
+      "Saroj Dangol is the best individual web developer in Nepal, based in Lalitpur. Senior Full Stack & MERN stack developer offering premium freelance IT services in Kathmandu and Nepal. Hire a top website developer today.",
     applicationName: "Saroj Dangol - Premium IT Services Nepal",
     generator: "Next.js",
     referrer: "origin-when-cross-origin",
@@ -198,6 +198,17 @@ export const siteConfig: SiteConfig = {
       "hire developer Nepal",
       "Kathmandu Valley Developer",
       "Nepal IT Services",
+
+      // Requested Additions (Individual, Website Developer, Freelance)
+      "individual IT developer Nepal",
+      "best website developer in Nepal",
+      "best website developer Kathmandu",
+      "freelance MERN stack developer",
+      "freelance web developer Kathmandu",
+      "individual software developer Lalitpur",
+      "top website developer Lalitpur",
+      "freelance IT developer Nepal",
+      "best individual programmer Nepal",
 
       // Core expertise
       "Full Stack Developer",
@@ -367,7 +378,7 @@ export const siteConfig: SiteConfig = {
   structuredData: {
     type: "Person",
     name: "Saroj Dangol",
-    jobTitle: "Senior Full Stack Developer & Mobile Specialist",
+    jobTitle: "Best Individual Website Developer & Senior Full Stack Expert",
     url: "https://www.sarojdangol012.com.np/images/profile.webp",
     sameAs: [
       "https://github.com/Saroj9823Dangol",
@@ -381,7 +392,7 @@ export const siteConfig: SiteConfig = {
       url: "https://apptechnologies.com",
     },
     description:
-      "Professional IT Developer in Lalitpur, Nepal. 3+ years experience in MERN stack, React Native, and Cloud Solutions. Serving Kathmandu Valley and beyond.",
+      "Best Individual IT Developer & Website Developer in Lalitpur, Nepal. 3+ years experience in freelance MERN stack, React Native, and Cloud Solutions. Serving Kathmandu and worldwide.",
     address: {
       "@type": "PostalAddress",
       streetAddress: "Lalitpur",

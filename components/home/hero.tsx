@@ -11,12 +11,15 @@ export default function Hero() {
     >
       <div className="max-w-6xl mx-auto px-6 py-24">
         {/* Availability label */}
-        <span className="label-mono">Available for projects · Lalitpur, Nepal</span>
+        <span className="label-mono">
+          Available for projects · Serving Lalitpur (Patan), Kathmandu &
+          Bhaktapur
+        </span>
 
         {/* Headline — keyword-rich for SEO */}
         <h1 className="hero-headline mt-4">
           <span className="font-display text-7xl leading-none tracking-tight block">
-            Best Web Developer
+            Best Website Developer
           </span>
           <span className="font-display italic text-7xl leading-none tracking-tight block">
             in Nepal.
@@ -25,9 +28,9 @@ export default function Hero() {
 
         {/* Sub-headline */}
         <p className="mt-6 text-lg text-[var(--color-fg-muted)] max-w-xl leading-relaxed">
-          Saroj Dangol — Senior Full Stack Developer based in Lalitpur, Nepal.
-          MERN stack, React Native, and AWS. Trusted by startups and businesses
-          across the Kathmandu Valley and worldwide.
+          Saroj Dangol — Best Individual Senior Full Stack Developer based in
+          Lalitpur, Nepal. MERN stack, React Native, and AWS. Trusted by
+          startups and businesses across the Kathmandu Valley and worldwide.
         </p>
 
         {/* CTA buttons */}

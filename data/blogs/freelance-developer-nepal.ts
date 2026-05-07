@@ -90,15 +90,24 @@ export const freelanceDeveloperNepal = {
     "upwork",
   ],
   metaTitle:
-    "Freelance Web Developer in Nepal 2026: Rates, Platforms & Hiring Guide",
+    "Best Individual Website Developer in Nepal: Freelance Expert 2026",
   metaDescription:
-    "Complete guide to hiring freelance web developers in Nepal. Learn about hourly rates, best platforms, and how to find top Nepali freelancers.",
+    "Looking to hire an individual website developer in Nepal? Expert freelance MERN stack services in Lalitpur, Kathmandu, and Bhaktapur.",
   author: "Saroj Dangol",
   canonicalUrl:
     "https://www.sarojdangol012.com.np/blogs/freelance-web-developer-nepal",
   keyTakeaways: [
     "Start rates: $10-20/hour for beginners",
     "Upwork is best for getting started",
+    "Build real projects for your portfolio",
+    "Communication matters more than code",
+    "Wise and Payoneer for payment",
+  ],
+  relatedSlugs: [
+    "hire-mern-developer-nepal-2026",
+    "freelancing-in-nepal-2026",
+  ],
+};g started",
     "Build real projects for your portfolio",
     "Communication matters more than code",
     "Wise and Payoneer for payment",

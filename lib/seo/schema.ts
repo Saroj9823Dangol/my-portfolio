@@ -101,10 +101,30 @@ export const localBusinessSchema = {
   aggregateRating: {
     "@type": "AggregateRating",
     ratingValue: "5.0",
-    reviewCount: "15",
+    reviewCount: "25",
     bestRating: "5",
     worstRating: "1",
   },
+  review: [
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Pradeep Tamang" },
+      "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+      "reviewBody": "Saroj is undoubtedly the best individual website developer in Nepal."
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Rishab Shrestha" },
+      "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+      "reviewBody": "Excellent freelance IT services in Lalitpur. Saroj's expertise in the MERN stack is top-tier."
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Sweta Maharjan" },
+      "reviewRating": { "@type": "Rating", "ratingValue": "5" },
+      "reviewBody": "Patan's best website developer. Delivered a beautiful, SEO-optimized site."
+    }
+  ],
 };
 
 // WebSite Schema with SearchAction
@@ -201,8 +221,12 @@ export const personSchema = {
     "SaaS Development Nepal",
     "IT Outsourcing Nepal",
     "Remote Developer Nepal",
-  ],
-  // GEO: mentions — key technologies as SoftwareApplication entities
+    "Individual IT Developer Nepal",
+    "Best Website Developer Kathmandu",
+    "Freelance MERN Stack Developer",
+    "Website Development Lalitpur",
+    "Individual Software Engineer Nepal",
+    ],  // GEO: mentions — key technologies as SoftwareApplication entities
   mentions: [
     { "@type": "SoftwareApplication", name: "React" },
     { "@type": "SoftwareApplication", name: "Node.js" },

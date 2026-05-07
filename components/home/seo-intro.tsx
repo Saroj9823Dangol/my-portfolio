@@ -7,20 +7,21 @@ export default function SeoIntro() {
         <div>
           <span className="label-mono">About</span>
           <h2 className="heading-display mt-2 text-3xl text-[var(--color-fg)]">
-            Top IT Developer in Nepal
+            Best Individual IT Developer in Nepal
           </h2>
           <p className="mt-4 text-[var(--color-fg-muted)] leading-relaxed">
-            Saroj Dangol is a Senior Full Stack Developer and one of the best
-            web developers in Nepal, based in Lalitpur (Patan), Kathmandu
-            Valley. With 3+ years of professional experience, he delivers
-            high-quality web applications, mobile apps, and cloud solutions for
-            startups and businesses across Nepal and internationally.
+            Saroj Dangol is a Senior Full Stack Developer and the best
+            individual website developer in Nepal, based in Lalitpur (Patan),
+            Kathmandu Valley. With 3+ years of professional experience, he
+            delivers high-quality website development, mobile apps, and cloud
+            solutions for startups and businesses across Nepal and
+            internationally.
           </p>
           <p className="mt-4 text-[var(--color-fg-muted)] leading-relaxed">
-            Whether you need a freelance developer in Lalitpur, a reliable IT
-            company partner in Nepal, or a MERN stack expert for your next
-            project — Saroj brings the technical depth and business understanding
-            to ship products that work.
+            Whether you need a freelance IT developer in Lalitpur, a reliable
+            partner in Nepal, or a MERN stack expert for your next project —
+            Saroj brings the technical depth and business understanding to ship
+            products that work.
           </p>
           <Link
             href="/about"
@@ -38,25 +39,32 @@ export default function SeoIntro() {
             <li className="flex gap-3">
               <span className="text-[var(--color-accent)] mt-0.5">→</span>
               <span>
-                <strong className="text-[var(--color-fg)]">Local expertise, global standards.</strong>{" "}
-                Deep understanding of Nepal's business landscape combined with
-                international development best practices.
+                <strong className="text-[var(--color-fg)]">
+                  Lalitpur & Kathmandu expertise.
+                </strong>{" "}
+                Deep understanding of Nepal&apos;s business landscape from
+                Jawalakhel to Durbar Marg, combined with international
+                standards.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-[var(--color-accent)] mt-0.5">→</span>
               <span>
-                <strong className="text-[var(--color-fg)]">Full-service IT solutions.</strong>{" "}
-                From web development and mobile apps to cloud infrastructure —
-                one developer, complete ownership.
+                <strong className="text-[var(--color-fg)]">
+                  Full-service Individual solutions.
+                </strong>{" "}
+                From website development and mobile apps to cloud
+                infrastructure — one dedicated developer, complete ownership.
               </span>
             </li>
             <li className="flex gap-3">
               <span className="text-[var(--color-accent)] mt-0.5">→</span>
               <span>
-                <strong className="text-[var(--color-fg)]">Trusted by Nepal businesses.</strong>{" "}
-                Projects delivered for clients in Kathmandu, Lalitpur, Bhaktapur,
-                and beyond.
+                <strong className="text-[var(--color-fg)]">
+                  Trusted by Nepal businesses.
+                </strong>{" "}
+                Successful projects delivered for clients in Kathmandu Valley,
+                Bhaktapur, and the global tech community.
               </span>
             </li>
           </ul>
