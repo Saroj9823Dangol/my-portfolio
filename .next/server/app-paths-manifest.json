@@ -17,7 +17,6 @@
   "/sitemap.xml/route": "app/sitemap.xml/route.js",
   "/tools/base64-encoder/page": "app/tools/base64-encoder/page.js",
   "/tools/color-converter/page": "app/tools/color-converter/page.js",
-  "/tools/currency-converter/page": "app/tools/currency-converter/page.js",
   "/tools/hash-generator/page": "app/tools/hash-generator/page.js",
   "/tools/json-formatter/page": "app/tools/json-formatter/page.js",
   "/tools/jwt-decoder/page": "app/tools/jwt-decoder/page.js",

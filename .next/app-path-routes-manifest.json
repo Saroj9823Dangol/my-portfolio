@@ -17,7 +17,6 @@
   "/sitemap.xml/route": "/sitemap.xml",
   "/tools/base64-encoder/page": "/tools/base64-encoder",
   "/tools/color-converter/page": "/tools/color-converter",
-  "/tools/currency-converter/page": "/tools/currency-converter",
   "/tools/hash-generator/page": "/tools/hash-generator",
   "/tools/json-formatter/page": "/tools/json-formatter",
   "/tools/jwt-decoder/page": "/tools/jwt-decoder",

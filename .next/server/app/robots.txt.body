@@ -1,0 +1,43 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+
+User-Agent: Googlebot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-Agent: Bingbot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-Agent: GPTBot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-Agent: PerplexityBot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-Agent: ClaudeBot
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-Agent: Anthropic-AI
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+User-Agent: Google-Extended
+Allow: /
+Disallow: /api/
+Disallow: /admin/
+
+Host: https://www.sarojdangol012.com.np
+Sitemap: https://www.sarojdangol012.com.np/sitemap.xml
