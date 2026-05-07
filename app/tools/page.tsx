@@ -2,15 +2,26 @@ import type { Metadata } from "next";
 import ToolsPageClient from "./tools-client";
 
 export const metadata: Metadata = {
-  title: "Free Online Developer Tools - ToolHub Nepal",
-  description: "Free online developer utilities: JSON formatter, Base64 encoder, Regex tester, Hash generator, Currency converter, and more. 100% client-side processing.",
-  keywords: ["developer tools", "json formatter", "base64 encoder", "regex tester", "hash generator", "currency converter", "nepal"],
+  title: "Best Free Online Developer Tools in Nepal | ToolHub by Saroj Dangol",
+  description: "Access the best suite of free online developer tools in Nepal. JSON formatter, Base64 encoder, JWT decoder, and more. 100% secure, individual-led, and client-side processing.",
+  keywords: [
+    "best developer tools Nepal",
+    "free online developer tools",
+    "json formatter online",
+    "base64 encoder nepal",
+    "jwt decoder free",
+    "regex tester online",
+    "hash generator tool",
+    "developer utilities Kathmandu",
+    "Saroj Dangol tools",
+  ],
   alternates: {
     canonical: "https://www.sarojdangol012.com.np/tools",
   },
   openGraph: {
-    title: "Free Online Developer Tools - ToolHub Nepal",
-    description: "Free online developer utilities: JSON formatter, Base64 encoder, Regex tester, Hash generator, Currency converter, and more.",
+    title: "Best Free Online Developer Tools in Nepal | ToolHub",
+    description:
+      "The ultimate suite of secure developer utilities. JSON formatter, Base64 encoder, Regex tester, and more. Individual-led and 100% secure.",
     url: "https://www.sarojdangol012.com.np/tools",
   },
 };

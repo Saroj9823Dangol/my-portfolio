@@ -1,18 +1,6 @@
 export const projects = [
   {
     id: 1,
-    title: "Nepal Kabaddi League (NKL)",
-    subtitle: "Official Platform for Nepal's Premier Kabaddi League",
-    description:
-      "Responsive sports platform showcasing fixtures, scores, standings with secure role-based admin panel.",
-    image: "/images/nepalkabaddi.webp",
-    technologies: ["Next.js", "Tailwind CSS", "Firebase", "MongoDB"],
-    github: "https://github.com/Saroj9823Dangol",
-    live: "https://nepalkabaddileague.com/",
-    color: "from-red-600 to-yellow-500",
-  },
-  {
-    id: 2,
     title: "Sajilo Ride Sharing",
     subtitle: "Smart Ride Booking with Real-Time Tracking",
     description:
@@ -24,7 +12,7 @@ export const projects = [
     color: "from-green-400 to-blue-600",
   },
   {
-    id: 3,
+    id: 2,
     title: "LAURE",
     subtitle: "Official Website for Singer & Rapper LAURE",
     description:
@@ -35,9 +23,8 @@ export const projects = [
     live: "https://akalaure.com/",
     color: "from-purple-700 to-pink-500",
   },
-
   {
-    id: 4,
+    id: 3,
     title: "Hamro Blood Bank (HBB)",
     subtitle: "Connecting Blood Donors and Recipients in Real-Time",
     description:
@@ -56,7 +43,31 @@ export const projects = [
     color: "from-red-500 to-pink-600",
   },
   {
+    id: 4,
+    title: "UCNCEE",
+    subtitle: "Premium Event Discovery & Ticketing Platform",
+    description:
+      "A high-performance digital marketplace for seamless event discovery and ticket management with a robust enterprise dashboard for organizers.",
+    image: "/images/ucncee.webp",
+    technologies: ["Next.js", "React", "Laravel", "Tailwind CSS"],
+    github: "https://github.com/Saroj9823Dangol",
+    live: "https://ucncee.com/",
+    color: "from-blue-600 to-purple-600",
+  },
+  {
     id: 5,
+    title: "Nepal Kabaddi League (NKL)",
+    subtitle: "Official Platform for Nepal's Premier Kabaddi League",
+    description:
+      "Responsive sports platform showcasing fixtures, scores, standings with secure role-based admin panel.",
+    image: "/images/nepalkabaddi.webp",
+    technologies: ["Next.js", "Tailwind CSS", "Firebase", "MongoDB"],
+    github: "https://github.com/Saroj9823Dangol",
+    live: "https://nepalkabaddileague.com/",
+    color: "from-red-600 to-yellow-500",
+  },
+  {
+    id: 6,
     title: "Miami Saloon",
     subtitle: "Modern Salon & Barbershop Booking Experience",
     description:
@@ -68,7 +79,7 @@ export const projects = [
     color: "from-yellow-400 to-orange-600",
   },
   {
-    id: 6,
+    id: 7,
     title: "Citygarms",
     subtitle: "Trendy E-Commerce for Fashion Enthusiasts",
     description:
@@ -80,7 +91,7 @@ export const projects = [
     color: "from-pink-500 to-indigo-500",
   },
   {
-    id: 7,
+    id: 8,
     title: "Shivalaya Holidays",
     subtitle: "Effortless Travel Booking and Tour Management",
     description:
@@ -92,7 +103,7 @@ export const projects = [
     color: "from-blue-500 to-teal-400",
   },
   {
-    id: 8,
+    id: 9,
     title: "PetsNepal",
     subtitle: "One-Stop Platform for Pet Services in Nepal",
     description:
@@ -104,7 +115,7 @@ export const projects = [
     color: "from-green-400 to-yellow-300",
   },
   {
-    id: 9,
+    id: 10,
     title: "Social Work Institute",
     subtitle: "Empowering Youth for Social Change",
     description:

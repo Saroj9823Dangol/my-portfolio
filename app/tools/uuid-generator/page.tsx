@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 import UuidGeneratorClient from "./uuid-generator-client";
 import { StructuredData } from "@/components/seo/structured-data";
-import { generateToolSchema } from "@/lib/seo/tool-schema";
+import { generateToolSchema, generateToolFaqSchema } from "@/lib/seo/tool-schema";
 import { getToolBySlug } from "@/lib/tools/tool-list";
 
 const slug = "uuid-generator";
 const tool = getToolBySlug(slug);
 
 export const metadata: Metadata = {
-  title: "UUID / GUID Generator Online - Version 4 & Version 1",
-  description: "Free online UUID and GUID generator. Generate RFC 4122 compliant UUIDs (v4 random and v1 time-based) in bulk. 100% client-side.",
-  keywords: ["uuid generator", "guid generator", "random uuid", "bulk uuid", "rfc 4122"],
+  title: "Best UUID / GUID Generator Online - Free V4 & V1 Tool Nepal",
+  description: "Ranked #1 UUID generator in Nepal. Free online tool to generate RFC 4122 compliant UUIDs (v4 and v1) in bulk. 100% secure and private.",
+  keywords: ["best uuid generator", "guid generator online", "random uuid free", "bulk uuid nepal", "rfc 4122 tool", "developer utilities kathmandu"],
   alternates: {
     canonical: `https://www.sarojdangol012.com.np/tools/${slug}`,
   },
@@ -19,7 +19,12 @@ export const metadata: Metadata = {
 export default function UuidGeneratorPage() {
   return (
     <>
-      {tool && <StructuredData data={generateToolSchema(tool)} />}
+      {tool && (
+        <>
+          <StructuredData data={generateToolSchema(tool)} />
+          <StructuredData data={generateToolFaqSchema(tool)} />
+        </>
+      )}
       <UuidGeneratorClient />
       
       <article className="max-w-6xl mx-auto px-4 py-8 prose prose-invert">

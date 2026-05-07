@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 import ColorConverterClient from "./color-converter-client";
 import { StructuredData } from "@/components/seo/structured-data";
-import { generateToolSchema } from "@/lib/seo/tool-schema";
+import { generateToolSchema, generateToolFaqSchema } from "@/lib/seo/tool-schema";
 import { getToolBySlug } from "@/lib/tools/tool-list";
 
 const slug = "color-converter";
 const tool = getToolBySlug(slug);
 
 export const metadata: Metadata = {
-  title: "Color Picker & Converter - HEX, RGB, HSL | ToolHub Nepal",
-  description: "Free online color picker with real-time conversion between HEX, RGB, HSL, and CMYK formats. Edit any format and see all others update instantly.",
-  keywords: ["color picker", "color converter", "hex to rgb", "rgb to hsl", "hex color code"],
+  title: "Best Color Picker & Converter Online - HEX, RGB, HSL Nepal",
+  description: "Ranked #1 Color converter in Nepal. Free online color picker with real-time conversion between HEX, RGB, HSL, and CMYK. Best for web designers.",
+  keywords: ["best color picker", "color converter online", "hex to rgb free", "rgb to hsl nepal", "best design tools kathmandu", "hex color code online"],
   alternates: {
     canonical: `https://www.sarojdangol012.com.np/tools/${slug}`,
   },
@@ -19,7 +19,12 @@ export const metadata: Metadata = {
 export default function ColorConverterPage() {
   return (
     <>
-      {tool && <StructuredData data={generateToolSchema(tool)} />}
+      {tool && (
+        <>
+          <StructuredData data={generateToolSchema(tool)} />
+          <StructuredData data={generateToolFaqSchema(tool)} />
+        </>
+      )}
       <ColorConverterClient />
       
       <article className="max-w-6xl mx-auto px-4 py-8 prose prose-invert">

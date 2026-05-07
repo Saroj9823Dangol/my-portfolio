@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 import RegexTesterClient from "./regex-tester-client";
 import { StructuredData } from "@/components/seo/structured-data";
-import { generateToolSchema } from "@/lib/seo/tool-schema";
+import { generateToolSchema, generateToolFaqSchema } from "@/lib/seo/tool-schema";
 import { getToolBySlug } from "@/lib/tools/tool-list";
 
 const slug = "regex-tester";
 const tool = getToolBySlug(slug);
 
 export const metadata: Metadata = {
-  title: "Regex Tester Online - Free Regular Expression Tester",
-  description: "Free online regex tester. Test regular expressions with live match highlighting, capture groups, and flags. 100% client-side.",
-  keywords: ["regex tester", "regular expression tester", "regex online", "test regex"],
+  title: "Best Regex Tester Online - Free Regular Expression Tool Nepal",
+  description: "Ranked #1 Regex tester in Nepal. Free online tool to test regular expressions with live match highlighting and capture groups. 100% secure.",
+  keywords: ["best regex tester", "regular expression tester online", "regex tool free", "test regex nepal", "regex debugger online", "Saroj Dangol utilities"],
   alternates: {
     canonical: `https://www.sarojdangol012.com.np/tools/${slug}`,
   },
@@ -19,7 +19,12 @@ export const metadata: Metadata = {
 export default function RegexTesterPage() {
   return (
     <>
-      {tool && <StructuredData data={generateToolSchema(tool)} />}
+      {tool && (
+        <>
+          <StructuredData data={generateToolSchema(tool)} />
+          <StructuredData data={generateToolFaqSchema(tool)} />
+        </>
+      )}
       <RegexTesterClient />
       
       <article className="max-w-6xl mx-auto px-4 py-8 prose prose-invert">

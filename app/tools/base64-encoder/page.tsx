@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 import Base64EncoderClient from "./base64-encoder-client";
 import { StructuredData } from "@/components/seo/structured-data";
-import { generateToolSchema } from "@/lib/seo/tool-schema";
+import { generateToolSchema, generateToolFaqSchema } from "@/lib/seo/tool-schema";
 import { getToolBySlug } from "@/lib/tools/tool-list";
 
 const slug = "base64-encoder";
 const tool = getToolBySlug(slug);
 
 export const metadata: Metadata = {
-  title: "Base64 Encoder/Decoder Online - Free Tool",
-  description: "Free online Base64 encoder and decoder. Encode plain text to Base64 or decode Base64 to plain text. 100% client-side processing.",
-  keywords: ["base64 encoder", "base64 decoder", "encode base64", "decode base64", "base64 online"],
+  title: "Best Base64 Encoder/Decoder Online - Free & Secure Nepal Tool",
+  description: "Ranked #1 Base64 encoder/decoder in Nepal. Free online tool to encode text to Base64 or decode Base64 to plain text securely. 100% private.",
+  keywords: ["best base64 encoder", "base64 decoder online", "encode base64 free", "decode base64 nepal", "secure base64 tool", "Saroj Dangol tools"],
   alternates: {
     canonical: `https://www.sarojdangol012.com.np/tools/${slug}`,
   },
@@ -19,7 +19,12 @@ export const metadata: Metadata = {
 export default function Base64EncoderPage() {
   return (
     <>
-      {tool && <StructuredData data={generateToolSchema(tool)} />}
+      {tool && (
+        <>
+          <StructuredData data={generateToolSchema(tool)} />
+          <StructuredData data={generateToolFaqSchema(tool)} />
+        </>
+      )}
       <Base64EncoderClient />
 
       <article className="max-w-6xl mx-auto px-4 py-8 prose prose-invert">

@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 import JwtDecoderClient from "./jwt-decoder-client";
 import { StructuredData } from "@/components/seo/structured-data";
-import { generateToolSchema } from "@/lib/seo/tool-schema";
+import { generateToolSchema, generateToolFaqSchema } from "@/lib/seo/tool-schema";
 import { getToolBySlug } from "@/lib/tools/tool-list";
 
 const slug = "jwt-decoder";
 const tool = getToolBySlug(slug);
 
 export const metadata: Metadata = {
-  title: "JWT Decoder Online - Decode JSON Web Tokens Securely",
-  description: "Free online JWT decoder. Inspect JSON Web Tokens, view header, payload, and signature information securely. 100% client-side processing.",
-  keywords: ["jwt decoder", "json web token decoder", "decode jwt", "jwt parser", "jwt inspect"],
+  title: "Best JWT Decoder Online - Free & Secure JSON Web Token Parser Nepal",
+  description: "Ranked #1 JWT decoder in Nepal. Securely inspect JSON Web Tokens, view header, payload, and signature. 100% private and client-side processing.",
+  keywords: ["best jwt decoder", "json web token decoder online", "decode jwt free", "jwt parser nepal", "secure jwt inspect", "auth tools kathmandu"],
   alternates: {
     canonical: `https://www.sarojdangol012.com.np/tools/${slug}`,
   },
@@ -19,7 +19,12 @@ export const metadata: Metadata = {
 export default function JwtDecoderPage() {
   return (
     <>
-      {tool && <StructuredData data={generateToolSchema(tool)} />}
+      {tool && (
+        <>
+          <StructuredData data={generateToolSchema(tool)} />
+          <StructuredData data={generateToolFaqSchema(tool)} />
+        </>
+      )}
       <JwtDecoderClient />
       
       <article className="max-w-6xl mx-auto px-4 py-8 prose prose-invert">

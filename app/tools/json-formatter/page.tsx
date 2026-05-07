@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 import JsonFormatterClient from "./json-formatter-client";
 import { StructuredData } from "@/components/seo/structured-data";
-import { generateToolSchema } from "@/lib/seo/tool-schema";
+import { generateToolSchema, generateToolFaqSchema } from "@/lib/seo/tool-schema";
 import { getToolBySlug } from "@/lib/tools/tool-list";
 
 const slug = "json-formatter";
 const tool = getToolBySlug(slug);
 
 export const metadata: Metadata = {
-  title: "JSON Formatter Online - Free JSON Beautifier & Validator",
-  description: "Free online JSON formatter, beautifier, and validator. Format, minify, and validate JSON with syntax highlighting. 100% client-side processing.",
-  keywords: ["json formatter", "json beautifier", "json validator", "json minify", "format json online"],
+  title: "Best JSON Formatter Online - Free JSON Beautifier & Validator Nepal",
+  description: "Ranked #1 JSON formatter in Nepal. Free online JSON beautifier and validator. Format, minify, and validate JSON with syntax highlighting. 100% secure.",
+  keywords: ["best json formatter", "json beautifier online", "json validator free", "json minify tool", "format json nepal", "best developer tools kathmandu"],
   alternates: {
     canonical: `https://www.sarojdangol012.com.np/tools/${slug}`,
   },
@@ -19,7 +19,12 @@ export const metadata: Metadata = {
 export default function JsonFormatterPage() {
   return (
     <>
-      {tool && <StructuredData data={generateToolSchema(tool)} />}
+      {tool && (
+        <>
+          <StructuredData data={generateToolSchema(tool)} />
+          <StructuredData data={generateToolFaqSchema(tool)} />
+        </>
+      )}
       <JsonFormatterClient />
       
       <article className="max-w-6xl mx-auto px-4 py-8 prose prose-invert">

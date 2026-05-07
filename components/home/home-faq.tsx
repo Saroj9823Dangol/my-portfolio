@@ -8,8 +8,8 @@ import Link from "next/link";
 
 const homeFaqs = [
   {
-    question: "Who is the best individual website developer in Nepal?",
-    answer: "Saroj Dangol is widely recognized as one of the best individual website developers in Nepal, specializing in MERN stack and React Native development. Based in Lalitpur, he serves clients throughout Kathmandu and internationally.",
+    question: "Why choose an individual website developer in Nepal over an agency?",
+    answer: "Choosing an individual developer like Saroj Dangol ensures direct communication, personalized attention, and a more agile development process. You get senior-level expertise in MERN stack and React Native without the overhead costs of a large agency.",
   },
   {
     question: "Do you offer freelance IT services in Kathmandu and Lalitpur?",

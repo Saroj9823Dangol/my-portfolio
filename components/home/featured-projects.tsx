@@ -3,12 +3,20 @@ import Link from "next/link";
 
 const featuredProjects = [
   {
-    title: "Nepal Kabaddi League",
+    title: "Sajilo Ride Sharing",
     description:
-      "Responsive sports platform showcasing fixtures, scores, standings with secure role-based admin panel.",
-    image: "/images/nepalkabaddi.webp",
-    technologies: ["Next.js", "Tailwind CSS", "Firebase", "MongoDB"],
-    live: "https://nepalkabaddileague.com/",
+      "Google Maps-based ride sharing platform with fare calculations, live location tracking, and real-time ride requests.",
+    image: "/images/sajilosaathi.webp",
+    technologies: ["React", "Node.js", "Google Maps API"],
+    live: "https://sajilosathi.com/",
+  },
+  {
+    title: "LAURE",
+    description:
+      "Official website of celebrity singer and rapper LAURE, featuring music releases, tour dates, merchandise, and exclusive content.",
+    image: "/images/laure.webp",
+    technologies: ["Laravel", "Node.js", "Mysql", "Tailwind CSS"],
+    live: "https://akalaure.com/",
   },
   {
     title: "Hamro Blood Bank",
@@ -17,14 +25,6 @@ const featuredProjects = [
     image: "/images/hbb.webp",
     technologies: ["React", "Next.js", "React Native", "Firebase", "MySQL"],
     live: "https://hamrobloodbank.com",
-  },
-  {
-    title: "PetsNepal",
-    description:
-      "Pet service platform for booking grooming, vet checkups, and sharing pet-related feeds.",
-    image: "/images/petsnepal.webp",
-    technologies: ["React", "NestJS", "MySQL", "TypeORM"],
-    live: "https://petsnepal.com.np/",
   },
 ];
 

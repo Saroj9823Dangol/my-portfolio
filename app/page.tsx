@@ -4,6 +4,7 @@ import SeoIntro from "@/components/home/seo-intro";
 import FeaturedProjects from "@/components/home/featured-projects";
 import Testimonials from "@/components/home/testimonials";
 import ServicesPreview from "@/components/home/services-preview";
+import ToolsPreview from "@/components/home/tools-preview";
 import BlogPreview from "@/components/home/blog-preview";
 import HomeFaq from "@/components/home/home-faq";
 import CTABand from "@/components/home/cta-band";
@@ -18,7 +19,9 @@ export default function HomePage() {
       <Stats />
       <SeoIntro />
       <FeaturedProjects />
+      <Testimonials />
       <ServicesPreview />
+      <ToolsPreview />
       <BlogPreview />
       <HomeFaq />
       <CTABand />

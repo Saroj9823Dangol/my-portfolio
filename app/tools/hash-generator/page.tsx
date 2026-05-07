@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
 import HashGeneratorClient from "./hash-generator-client";
 import { StructuredData } from "@/components/seo/structured-data";
-import { generateToolSchema } from "@/lib/seo/tool-schema";
+import { generateToolSchema, generateToolFaqSchema } from "@/lib/seo/tool-schema";
 import { getToolBySlug } from "@/lib/tools/tool-list";
 
 const slug = "hash-generator";
 const tool = getToolBySlug(slug);
 
 export const metadata: Metadata = {
-  title: "Hash Generator Online - MD5, SHA-1, SHA-256, SHA-512",
-  description: "Free online hash generator. Generate MD5, SHA-1, SHA-256, and SHA-512 hashes from any text. 100% client-side processing.",
-  keywords: ["hash generator", "md5 generator", "sha256 generator", "sha512 generator", "hash tool"],
+  title: "Best Hash Generator Online - Free MD5, SHA-256 Tool Nepal",
+  description: "Ranked #1 Hash generator in Nepal. Free online tool to generate MD5, SHA-1, SHA-256, and SHA-512 hashes securely. 100% private and client-side.",
+  keywords: ["best hash generator", "md5 generator online", "sha256 generator free", "hash tool nepal", "sha512 generator online", "security tools kathmandu"],
   alternates: {
     canonical: `https://www.sarojdangol012.com.np/tools/${slug}`,
   },
@@ -19,7 +19,12 @@ export const metadata: Metadata = {
 export default function HashGeneratorPage() {
   return (
     <>
-      {tool && <StructuredData data={generateToolSchema(tool)} />}
+      {tool && (
+        <>
+          <StructuredData data={generateToolSchema(tool)} />
+          <StructuredData data={generateToolFaqSchema(tool)} />
+        </>
+      )}
       <HashGeneratorClient />
       
       <article className="max-w-6xl mx-auto px-4 py-8 prose prose-invert">
