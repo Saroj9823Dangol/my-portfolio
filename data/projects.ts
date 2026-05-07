@@ -48,7 +48,7 @@ export const projects = [
     subtitle: "Premium Event Discovery & Ticketing Platform",
     description:
       "A high-performance digital marketplace for seamless event discovery and ticket management with a robust enterprise dashboard for organizers.",
-    image: "/images/ucncee.webp",
+    image: "/images/ucncee.png",
     technologies: ["Next.js", "React", "Laravel", "Tailwind CSS"],
     github: "https://github.com/Saroj9823Dangol",
     live: "https://ucncee.com/",
