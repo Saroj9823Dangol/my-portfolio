@@ -10,7 +10,7 @@ export const testimonials: Testimonial[] = [
   {
     name: "Pradeep Tamang",
     role: "Director, Himalayan Adventures",
-    content: "Saroj is undoubtedly the best individual website developer in Nepal. He built a high-performance booking system for us that has significantly improved our conversion rates.",
+    content: "Saroj is an exceptional individual website developer in Nepal. He built a high-performance booking system for us that has significantly improved our conversion rates.",
     rating: 5,
     location: "Kathmandu, Nepal",
   },
@@ -24,7 +24,7 @@ export const testimonials: Testimonial[] = [
   {
     name: "Hira Bhattarai",
     role: "Founder, Nepal EduTech",
-    content: "The best individual website developer we have worked with. His React Native skills for our mobile app were outstanding. Professional and highly recommended.",
+    content: "A highly skilled individual website developer — exactly what we needed. His React Native skills for our mobile app were outstanding. Professional and highly recommended.",
     rating: 5,
     location: "Kathmandu, Nepal",
   },

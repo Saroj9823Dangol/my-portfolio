@@ -7,15 +7,14 @@ export default function SeoIntro() {
         <div>
           <span className="label-mono">About</span>
           <h2 className="heading-display mt-2 text-3xl text-[var(--color-fg)]">
-            Best Individual IT Developer in Nepal
+            Senior Full Stack Developer in Nepal
           </h2>
           <p className="mt-4 text-[var(--color-fg-muted)] leading-relaxed">
-            Saroj Dangol is a Senior Full Stack Developer and the best
-            individual website developer in Nepal, based in Lalitpur (Patan),
-            Kathmandu Valley. With 3+ years of professional experience, he
-            delivers high-quality website development, mobile apps, and cloud
-            solutions for startups and businesses across Nepal and
-            internationally.
+            Saroj Dangol is a Senior Full Stack Developer based in Lalitpur
+            (Patan), Kathmandu Valley. With 3+ years of professional
+            experience, he delivers high-quality website development, mobile
+            apps, and cloud solutions for startups and businesses across Nepal
+            and internationally.
           </p>
           <p className="mt-4 text-[var(--color-fg-muted)] leading-relaxed">
             Whether you need a freelance IT developer in Lalitpur, a reliable

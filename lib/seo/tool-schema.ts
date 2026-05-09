@@ -5,7 +5,7 @@ export function generateToolSchema(tool: Tool) {
   return {
     "@context": "https://schema.org",
     "@type": "SoftwareApplication",
-    name: `${tool.name} - Best Free Online Developer Tool`,
+    name: `${tool.name} - Free Online Developer Tool`,
     description: tool.description,
     applicationCategory: "DeveloperApplication",
     operatingSystem: "Any",
