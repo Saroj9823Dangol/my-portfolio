@@ -32,19 +32,12 @@ export function SmartAppBanner() {
         if (document.hidden) {
           appOpened = true;
           document.removeEventListener("visibilitychange", onVisibilityChange);
-        }
-      };
-
-      const onTimeout = () => {
-        document.removeEventListener("visibilitychange", onVisibilityChange);
-        if (!appOpened) {
           window.location.href = storeUrl;
         }
       };
 
       document.addEventListener("visibilitychange", onVisibilityChange);
       window.location.href = intentUrl;
-      setTimeout(onTimeout, 2500);
     } else if (/iPhone|iPad|iPod/i.test(ua) && APP_STORE) {
       window.location.href = APP_STORE;
     }
