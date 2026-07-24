@@ -1,0 +1,22 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.apptechnologies.arena",
+      "sha256_cert_fingerprints": [
+        "3E:03:24:AC:33:63:F8:3D:5C:F9:FB:CD:20:8B:4F:32:B2:94:0E:C8:F6:DA:11:28:70:97:BC:70:9B:21:A6:5B"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.apptechnologies.arena",
+      "sha256_cert_fingerprints": [
+        "97:7F:24:05:25:A4:06:F3:A7:73:04:E2:76:BB:F8:46:57:E6:5D:20:80:07:ED:55:E2:DE:25:C6:7B:AD:66:02"
+      ]
+    }
+  }
+]

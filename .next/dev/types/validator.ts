@@ -137,15 +137,6 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
-// Validate ../../../app/tools/currency-converter/page.tsx
-{
-  type __IsExpected<Specific extends AppPageConfig<"/tools/currency-converter">> = Specific
-  const handler = {} as typeof import("../../../app/tools/currency-converter/page.js")
-  type __Check = __IsExpected<typeof handler>
-  // @ts-ignore
-  type __Unused = __Check
-}
-
 // Validate ../../../app/tools/hash-generator/page.tsx
 {
   type __IsExpected<Specific extends AppPageConfig<"/tools/hash-generator">> = Specific
