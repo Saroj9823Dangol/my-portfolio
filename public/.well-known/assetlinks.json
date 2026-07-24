@@ -18,5 +18,12 @@
         "97:7F:24:05:25:A4:06:F3:A7:73:04:E2:76:BB:F8:46:57:E6:5D:20:80:07:ED:55:E2:DE:25:C6:7B:AD:66:02"
       ]
     }
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "web",
+      "site": "https://www.sarojdangol012.com.np"
+    }
   }
 ]

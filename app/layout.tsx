@@ -8,6 +8,7 @@ import { StructuredData } from "@/components/seo/structured-data";
 import { combinedSchema } from "@/lib/seo/schema";
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/layout/footer";
+import { SmartAppBanner } from "@/components/layout/smart-app-banner";
 
 const instrumentSerif = Instrument_Serif({
   subsets: ["latin"],
@@ -118,6 +119,7 @@ export default function RootLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
+        <SmartAppBanner />
         <Analytics />
       </body>
     </html>
