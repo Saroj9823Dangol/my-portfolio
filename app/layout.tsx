@@ -121,6 +121,8 @@ export default function RootLayout({
         <Footer />
         <SmartAppBanner />
         <Analytics />
+
+        <script src="https://chatautomationapi.apptechnologies.co/v1/widget/embed.js" data-logo="https://www.sarojdangol012.com.np/favicon.ico" data-account-key="support-chat-3487a0" async></script>
       </body>
     </html>
   );
